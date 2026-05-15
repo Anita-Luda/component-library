@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radosna Biblioteka Komponentów (WCAG AAA)</title>
-    <!-- Lucide Icons -->
+    <title>Radosna Biblioteka Komponentów (Hybrid)</title>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="admin-panel.css">
     <link rel="stylesheet" href="styles.css">
@@ -12,19 +11,18 @@
 <body class="loading">
     <a href="#content" class="skip-link">Skocz do treści</a>
 
-    <aside id="sidebar" role="complementary" aria-label="Nawigacja boczna">
+    <aside id="sidebar" role="complementary">
         <div class="header">
             <h1>Biblioteka</h1>
             <div class="theme-picker">
-                <label for="theme-select">Wybierz temat:</label>
+                <label for="theme-select">Temat:</label>
                 <select id="theme-select"></select>
             </div>
             <div class="search-box">
-                <label for="comp-search" class="visually-hidden">Szukaj komponentu</label>
                 <input type="search" id="comp-search" placeholder="Szukaj komponentu...">
             </div>
         </div>
-        <nav id="category-nav" aria-label="Kategorie komponentów">
+        <nav id="category-nav">
             <!-- Categories will be injected here -->
         </nav>
     </aside>
@@ -32,13 +30,15 @@
     <main id="content" role="main" tabindex="-1">
         <header id="content-header">
             <h1 id="current-category-name">Witamy w Bibliotece</h1>
-            <p id="category-description">Wybierz komponent z lewego panelu, aby zobaczyć jego warianty i stany.</p>
+            <p id="category-description">Wybierz kategorię z lewego panelu.</p>
         </header>
         <div id="component-list">
             <!-- Components will be injected here -->
         </div>
     </main>
 
+    <!-- LOAD LIBRARY FIRST -->
+    <script src="library.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

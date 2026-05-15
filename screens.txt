@@ -1,0 +1,25 @@
+1. UNIVERSAL - Data Display
+1. UNIVERSAL - Feedback / State Components
+1. UNIVERSAL - Input / Form Components
+1. UNIVERSAL - Layout Components
+1. UNIVERSAL - Navigation Components
+1. UNIVERSAL - Typography & Media
+2. AI / LLM Apps - Advanced AI UX
+2. AI / LLM Apps - Core
+2. Analytics / BI
+2. CMS / Blog / Knowledge Base
+2. Developer Tools
+2. E-commerce - Growth Components
+2. E-commerce - Product Discovery
+2. E-commerce - Purchase Flow
+2. Education / LMS
+2. Fintech / Banking
+2. Healthcare
+2. SaaS / Dashboard
+2. Social Media / Community
+2. Task Management / Productivity
+3. WEB-SPECIFIC - Desktop/Web Patterns
+3. WEB-SPECIFIC - Marketing Website Components
+4. MOBILE-SPECIFIC - Mobile-first UX
+4. MOBILE-SPECIFIC - iOS / Android Native Patterns
+5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise

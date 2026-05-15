@@ -1,158 +1,145 @@
 /*
-   COMPONENT DESIGN SYSTEM - TOKENIZED SKELETON
-   Everything is defined via CSS Variables in :root.
-   No hardcoded values are allowed in .cmp classes.
+   3-TIER DESIGN TOKENS ARCHITECTURE
+   Following "Instrukcja Tokenizacji"
 */
 
 :root {
-  /* GLOBAL DEFAULTS */
-  --cmp-font-family: inherit;
-  --cmp-font-size: 1rem;
-  --cmp-line-height: 1.5;
-  --cmp-border-radius: 8px;
-  --cmp-transition-speed: 0.25s;
-  --cmp-padding-y: 12px;
-  --cmp-padding-x: 20px;
+  /* TIER 1: GLOBAL / PRIMITIVE TOKENS */
+  --primitive-blue-500: #0064d1;
+  --primitive-blue-100: rgba(0, 100, 209, 0.1);
+  --primitive-gray-900: #1c1e21;
+  --primitive-gray-500: #65676b;
+  --primitive-gray-100: #f0f2f5;
+  --primitive-white: #ffffff;
+  --primitive-red-500: #dc3545;
+  --primitive-green-500: #28a745;
 
-  /* COLORS - BASE */
-  --cmp-bg: #ffffff;
-  --cmp-text: #1c1e21;
-  --cmp-border-color: #ccd0d5;
-  --cmp-border-width: 1px;
-  --cmp-border-style: solid;
-  --cmp-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  --primitive-radius-md: 8px;
+  --primitive-radius-sm: 4px;
+  --primitive-radius-full: 9999px;
 
-  /* TYPE: PRIMARY */
-  --cmp-primary-bg: #007bff;
-  --cmp-primary-text: #ffffff;
-  --cmp-primary-border: #007bff;
+  --primitive-space-1: 4px;
+  --primitive-space-2: 8px;
+  --primitive-space-3: 12px;
+  --primitive-space-4: 16px;
+  --primitive-space-5: 20px;
+  --primitive-space-6: 24px;
 
-  /* TYPE: SECONDARY */
-  --cmp-secondary-bg: #6c757d;
-  --cmp-secondary-text: #ffffff;
-  --cmp-secondary-border: #6c757d;
+  /* TIER 2: SEMANTIC / ALIAS TOKENS */
+  --semantic-color-action-primary: var(--primitive-blue-500);
+  --semantic-color-action-secondary: var(--primitive-gray-500);
+  --semantic-color-action-tertiary: var(--primitive-gray-100);
 
-  /* TYPE: TERTIARY */
-  --cmp-tertiary-bg: #f8f9fa;
-  --cmp-tertiary-text: #212529;
-  --cmp-tertiary-border: #dee2e6;
+  --semantic-color-text-main: var(--primitive-gray-900);
+  --semantic-color-text-muted: var(--primitive-gray-500);
+  --semantic-color-text-on-action: var(--primitive-white);
 
-  /* STATE: HOVER */
-  --cmp-hover-brightness: 0.9;
-  --cmp-hover-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  --semantic-color-bg-main: var(--primitive-white);
+  --semantic-color-border-main: #ccd0d5;
 
-  /* STATE: FOCUS */
-  --cmp-focus-ring-color: rgba(0, 123, 255, 0.5);
-  --cmp-focus-ring-width: 4px;
+  --semantic-color-status-error: var(--primitive-red-500);
+  --semantic-color-status-success: var(--primitive-green-500);
 
-  /* STATE: ACTIVE */
-  --cmp-active-brightness: 0.8;
+  --semantic-shape-radius: var(--primitive-radius-md);
+  --semantic-space-gap: var(--primitive-space-2);
+  --semantic-space-padding-x: var(--primitive-space-5);
+  --semantic-space-padding-y: var(--primitive-space-3);
 
-  /* STATE: DISABLED */
-  --cmp-disabled-opacity: 0.5;
-  --cmp-disabled-grayscale: 1;
+  --semantic-focus-ring: 0 0 0 4px rgba(0, 100, 209, 0.5);
 
-  /* STATE: ERROR */
-  --cmp-error-color: #dc3545;
-  --cmp-error-bg: #fff8f8;
+  /* TIER 3: COMPONENT TOKENS */
+  --cmp-bg: var(--semantic-color-bg-main);
+  --cmp-text: var(--semantic-color-text-main);
+  --cmp-border-color: var(--semantic-color-border-main);
+  --cmp-radius: var(--semantic-shape-radius);
+  --cmp-padding-x: var(--semantic-space-padding-x);
+  --cmp-padding-y: var(--semantic-space-padding-y);
 
-  /* STATE: SUCCESS */
-  --cmp-success-color: #28a745;
-  --cmp-success-bg: #f8fff8;
+  --cmp-primary-bg: var(--semantic-color-action-primary);
+  --cmp-primary-text: var(--semantic-color-text-on-action);
 
-  /* ASSETS */
-  --cmp-icon-size: 1.25rem;
-  --cmp-image-radius: 4px;
+  --cmp-secondary-bg: var(--semantic-color-action-secondary);
+  --cmp-secondary-text: var(--semantic-color-text-on-action);
+
+  --cmp-tertiary-bg: var(--semantic-color-action-tertiary);
+  --cmp-tertiary-text: var(--semantic-color-text-main);
 }
 
-/* BASE COMPONENT CLASS */
+/* BASE COMPONENT CLASS (Strictly using Tier 3 tokens) */
 .cmp {
-  all: unset; /* Reset for buttons/links if needed, but we keep basic box props */
   box-sizing: border-box;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-family: var(--cmp-font-family);
-  font-size: var(--cmp-font-size);
-  line-height: var(--cmp-line-height);
+  gap: var(--semantic-space-gap);
   padding: var(--cmp-padding-y) var(--cmp-padding-x);
   background: var(--cmp-bg);
   color: var(--cmp-text);
-  border: var(--cmp-border-width) var(--cmp-border-style) var(--cmp-border-color);
-  border-radius: var(--cmp-border-radius);
-  box-shadow: var(--cmp-shadow);
-  transition: all var(--cmp-transition-speed) ease;
+  border: 1px solid var(--cmp-border-color);
+  border-radius: var(--cmp-radius);
+  transition: all 0.2s ease;
   cursor: pointer;
-  max-width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
-/* SEMANTIC TAG ADJUSTMENTS */
-p.cmp, h2.cmp, blockquote.cmp { display: block; cursor: text; }
-ul.cmp, ol.cmp { display: block; padding-left: 40px; }
-table.cmp { display: table; width: 100%; border-collapse: collapse; }
-img.cmp { display: block; height: auto; padding: 0; border-radius: var(--cmp-image-radius); }
-dialog.cmp { margin: 0; }
-
-/* TYPE MAPPINGS */
+/* Component Type Mappings */
 .cmp.type-primary {
   background: var(--cmp-primary-bg);
   color: var(--cmp-primary-text);
-  border-color: var(--cmp-primary-border);
+  border-color: var(--cmp-primary-bg);
 }
 .cmp.type-secondary {
   background: var(--cmp-secondary-bg);
   color: var(--cmp-secondary-text);
-  border-color: var(--cmp-secondary-border);
+  border-color: var(--cmp-secondary-bg);
 }
 .cmp.type-tertiary {
   background: var(--cmp-tertiary-bg);
   color: var(--cmp-tertiary-text);
-  border-color: var(--cmp-tertiary-border);
+  border-color: var(--semantic-color-border-main);
 }
 
-/* STATE MAPPINGS */
-.cmp.state-hover:hover {
-  filter: brightness(var(--cmp-hover-brightness));
-  box-shadow: var(--cmp-hover-shadow);
+/* State Mappings */
+.cmp.state-hover:hover, .cmp.force-hover {
+  filter: brightness(0.9);
+  background-color: var(--primitive-gray-100);
 }
-.cmp.state-focus:focus-visible {
+.cmp.state-focus:focus-visible, .cmp.force-focus {
   outline: none;
-  box-shadow: 0 0 0 var(--cmp-focus-ring-width) var(--cmp-focus-ring-color);
-}
-.cmp.state-active:active {
-  filter: brightness(var(--cmp-active-brightness));
+  box-shadow: var(--semantic-focus-ring);
 }
 .cmp.state-disabled {
-  opacity: var(--cmp-disabled-opacity);
-  filter: grayscale(var(--cmp-disabled-grayscale));
+  opacity: 0.5;
   cursor: not-allowed;
   pointer-events: none;
 }
 .cmp.state-error {
-  border-color: var(--cmp-error-color);
-  color: var(--cmp-error-color);
-  background: var(--cmp-error-bg);
+  border-color: var(--semantic-color-status-error);
+  color: var(--semantic-color-status-error);
 }
 .cmp.state-success {
-  border-color: var(--cmp-success-color);
-  color: var(--cmp-success-color);
-  background: var(--cmp-success-bg);
+  border-color: var(--semantic-color-status-success);
+  color: var(--semantic-color-status-success);
 }
 
-/* ASSET STYLING */
-.cmp-icon {
-  width: var(--cmp-icon-size);
-  height: var(--cmp-icon-size);
+/* ATOMIC DESIGN SYSTEM CLASSES */
+.is-atom { /* Unitary */ }
+.is-molecule {
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitive-space-4);
+  padding: var(--primitive-space-5);
+  border: 1px solid var(--semantic-color-border-main);
+  background: var(--primitive-white);
 }
 
-/* PROFILES - STRUCTURAL ONLY */
-.profile-group { display: flex; flex-direction: column; }
-.profile-hierarchical ul { padding-left: 20px; }
-.profile-data td, .profile-data th { border: 1px solid var(--cmp-border-color); padding: 8px; }
-.profile-data caption { font-weight: bold; padding: 10px; }
+/* PROFILE SPECIFIC (Layout only) */
+.profile-data table { width: 100%; border-collapse: collapse; }
+.profile-data td, .profile-data th { border: 1px solid var(--semantic-color-border-main); padding: var(--primitive-space-2); }
+.profile-hierarchical ul { list-style: circle; padding-left: var(--primitive-space-5); }
 
-/* WCAG: Focus ring for all interactive items */
-:focus-visible {
-  outline: 3px solid var(--cmp-primary-bg);
-  outline-offset: 2px;
-}
+/* SEMANTIC ELEMENT ADJUSTMENTS */
+p.cmp, h2.cmp, section.cmp, header.cmp, footer.cmp { display: block; cursor: text; }
+img.cmp { display: block; padding: 0; }
+caption.cmp { display: table-caption; padding: var(--primitive-space-2); font-weight: bold; }
+ul.cmp, ol.cmp { display: block; }

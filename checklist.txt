@@ -1,4201 +1,2818 @@
-CHECKLIST OF DYNAMIC COMPONENTS (SPA) - WCAG AAA COMPLIANT
-==========================================================
+CHECKLIST OF COMPONENTS - REFINEMENT STATUS (HYBRID LIBRARY)
+==============================================================
 
-ARCHITECTURE: Dynamic SPA (Single Page Application)
-SEMANTICS: Full Semantic HTML5 Tags + ARIA Roles
-ACCESSIBILITY: WCAG 2.2 / 3.0 AAA Standards Applied
-ASSETS: Integrated Lucide Icons & Picsum Images
-STYLING: 100% Design Tokens (CSS Variables)
-CONTENT: Surreal/Absurd Polish dummy text (auto-mapped by length)
-NESTING: Adequate per component profile (1-3 levels)
+ARCHITECTURE: SPA + Static Blueprint Library
+COMPOSITION: Atomic Design (Atoms mapped to HTML tags)
+STYLING: 100% Tokenized CSS Variables
+REFINEMENT: First Category Verified (Blueprints & Composition)
 
 
-### 1. UNIVERSAL - Input / Form Components
+### 1. UNIVERSAL - Input / Form Components [TODO]
 - [x] Button
-    - Semantic Tag: <button>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.button
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Icon button
-    - Semantic Tag: <button>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.button
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Text input
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.input
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Textarea
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Select
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-select
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Combobox
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Autocomplete
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Checkbox
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Radio
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Toggle / switch
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Slider
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Range slider
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Stepper
-    - Semantic Tag: <ol>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Date picker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Time picker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Color picker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] File upload
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Drag & drop upload
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] OTP input
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.input
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Search input
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.input
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tag input
-    - Semantic Tag: <span>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.tag
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 - [x] Rating input
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.input
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Signature pad
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Rich text editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Markdown editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Navigation Components
+### 1. UNIVERSAL - Navigation Components [TODO]
 - [x] Navbar
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sidebar
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Topbar
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bottom navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Breadcrumbs
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tabs
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Pills
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Pagination
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Pagination infinite scroll
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mega menu
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Hamburger menu
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Context menu
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Command palette
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tree navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Dock navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Floating nav
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Anchor navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Wizard / step navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Feedback / State Components
+### 1. UNIVERSAL - Feedback / State Components [TODO]
 - [x] Toast
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
-    - Types: primary, secondary, tertiary
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 - [x] Snackbar
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Alert
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Banner
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
-    - Types: primary, secondary, tertiary
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 - [x] Confirmation dialog
-    - Semantic Tag: <dialog>
-    - Role: Native
-    - Assets:
-    - States: default
-    - Types: primary, secondary, tertiary
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 - [x] Modal
-    - Semantic Tag: <dialog>
-    - Role: Native
-    - Assets:
-    - States: default
-    - Types: primary, secondary, tertiary
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 - [x] Drawer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sheet
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tooltip
-    - Semantic Tag: <div>
-    - Role: tooltip
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Popover
-    - Semantic Tag: <div>
-    - Role: tooltip
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Progress bar
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Skeleton loader
-    - Semantic Tag: <span>
-    - Role: status
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Spinner
-    - Semantic Tag: <span>
-    - Role: status
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Empty state
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Error state
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Success state
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance state
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Offline state
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Permission denied state
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Loading overlay
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Data Display
+### 1. UNIVERSAL - Data Display [DONE]
 - [x] Card
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Table
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data grid
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] List
-    - Semantic Tag: <ul>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.list
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Accordion
-    - Semantic Tag: <details>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.accordion
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Timeline
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.timeline
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Carousel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Gallery
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Heatmap
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Kanban board
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Calendar
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tree view
-    - Semantic Tag: <ul>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Avatar
-    - Semantic Tag: <img>
-    - Role: Native
-    - Assets:  Image
+    - Blueprint: atoms.avatar
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Badge
-    - Semantic Tag: <span>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.badge
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Chip
-    - Semantic Tag: <span>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.chip
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Tag
-    - Semantic Tag: <span>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.tag
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 - [x] Statistic block
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.statistic
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] KPI tile
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.statistic
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Activity feed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.timeline
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Log viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] JSON viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Code block
-    - Semantic Tag: <code>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.code
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Terminal block
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Layout Components
+### 1. UNIVERSAL - Layout Components [TODO]
 - [x] Container
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Section
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Grid
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Stack
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Split pane
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resizable panel
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Masonry
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bento grid
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sidebar layout
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Dashboard layout
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Centered auth layout
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sticky footer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sticky header
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Typography & Media
+### 1. UNIVERSAL - Typography & Media [TODO]
 - [x] Heading
-    - Semantic Tag: <h2>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.heading
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Paragraph
-    - Semantic Tag: <p>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.paragraph
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Caption
-    - Semantic Tag: <figcaption>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Link
-    - Semantic Tag: <a>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
-    - Types: primary, secondary, tertiary
+    - Types: default
 - [x] Blockquote
-    - Semantic Tag: <blockquote>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Code inline
-    - Semantic Tag: <code>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Image
-    - Semantic Tag: <img>
-    - Role: Native
-    - Assets:  Image
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Video player
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Audio player
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Icon
-    - Semantic Tag: <i>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Illustration
-    - Semantic Tag: <img>
-    - Role: Native
-    - Assets:  Image
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Lottie animation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. SaaS / Dashboard
+### 2. SaaS / Dashboard [TODO]
 - [x] Sidebar navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Workspace switcher
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Organization switcher
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] User/team management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Role permission matrix
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Audit logs
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Analytics cards
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Advanced filters
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Saved views
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data tables
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bulk actions
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Command palette
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Settings panel
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Billing portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Subscription management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Usage meter
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] API key manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Integration cards
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Webhook manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Feature flags
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Notification center
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Activity timeline
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.timeline
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. E-commerce - Product Discovery
+### 2. E-commerce - Product Discovery [TODO]
 - [x] Product grid
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Product card
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quick preview
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Wishlist
-    - Semantic Tag: <ul>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.list
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compare products
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Variant selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Size picker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Color swatches
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Product media gallery
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Zoom image
-    - Semantic Tag: <img>
-    - Role: Native
-    - Assets:  Image
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Recently viewed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. E-commerce - Purchase Flow
+### 2. E-commerce - Purchase Flow [TODO]
 - [x] Cart drawer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Checkout steps
-    - Semantic Tag: <ol>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Address form
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Shipping selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Payment selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Coupon input
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.input
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Order summary
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Order tracking
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Returns panel
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. E-commerce - Growth Components
+### 2. E-commerce - Growth Components [TODO]
 - [x] Upsell modal
-    - Semantic Tag: <dialog>
-    - Role: Native
-    - Assets:
-    - States: default
-    - Types: primary, secondary, tertiary
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 - [x] Cross-sell carousel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Recommended products
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Flash sale timer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Stock urgency badge
-    - Semantic Tag: <span>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.badge
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Social proof popup
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Task Management / Productivity
+### 2. Task Management / Productivity [TODO]
 - [x] Kanban
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Calendar
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Timeline
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.timeline
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Gantt chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Task card
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Nested subtasks
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Assignee selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Rich comments
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Activity history
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Time tracking
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sprint board
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Roadmap
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Whiteboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Collaboration cursors
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Presence indicators
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. CMS / Blog / Knowledge Base
+### 2. CMS / Blog / Knowledge Base [TODO]
 - [x] Rich text editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Slash command editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Media library
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Draft/publish workflow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] SEO preview
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Table of contents
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Version history
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Comments
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Inline annotations
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Reading progress
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Content blocks
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] MDX editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI writing assistant
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. AI / LLM Apps - Core
+### 2. AI / LLM Apps - Core [TODO]
 - [x] Chat window
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Prompt input
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.input
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Streaming response
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Typing indicator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Token counter
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Model selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Context window indicator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Conversation history
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI agent status
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tool execution logs
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Chain-of-thought visualizer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI citations
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-agent panel
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. AI / LLM Apps - Advanced AI UX
+### 2. AI / LLM Apps - Advanced AI UX [TODO]
 - [x] Prompt templates
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI playground
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Node workflows
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Memory manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Retrieval source viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Confidence indicator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Human handoff
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI approval flow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Social Media / Community
+### 2. Social Media / Community [TODO]
 - [x] Feed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Stories
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Reactions
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Comments
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Share sheet
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Follow button
-    - Semantic Tag: <button>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.button
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] DM/chat
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Live room
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Typing status
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Online presence
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Notification feed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Infinite scroll feed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Creator dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Fintech / Banking
+### 2. Fintech / Banking [TODO]
 - [x] Transaction table
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Balance cards
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Spending chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Portfolio chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Trading view
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Watchlist
-    - Semantic Tag: <ul>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.list
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Risk indicators
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] KYC flow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Identity verification
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Fraud alert
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Payment success flow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Transfer wizard
-    - Semantic Tag: <ol>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Healthcare
+### 2. Healthcare [TODO]
 - [x] Appointment scheduler
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Medical records viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Prescription panel
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Symptoms intake
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] HIPAA consent forms
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Video consultation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Insurance verification
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Education / LMS
+### 2. Education / LMS [TODO]
 - [x] Course player
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quiz builder
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Flashcards
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Progress tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Achievement badges
-    - Semantic Tag: <span>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.badge
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Lesson navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Code playground
-    - Semantic Tag: <code>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Assignment submission
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Developer Tools
+### 2. Developer Tools [TODO]
 - [x] API explorer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Code editor
-    - Semantic Tag: <code>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Terminal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Diff viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Logs
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Deployment status
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] CI/CD pipeline viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Environment selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] DB table explorer
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. Analytics / BI
+### 2. Analytics / BI [TODO]
 - [x] Data visualization
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Drill-down charts
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Pivot tables
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Segmentation builder
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Funnel charts
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cohort analysis
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Report builder
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Dashboard widgets
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 3. WEB-SPECIFIC - Desktop/Web Patterns
+### 3. WEB-SPECIFIC - Desktop/Web Patterns [TODO]
 - [x] Hover cards
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mega menus
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-column layouts
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resizable panels
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Right-click context menus
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-window layouts
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Keyboard shortcut overlays
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Drag-and-drop desktop style
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data-dense tables
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sticky columns
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Browser tabs UI
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Floating toolbars
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Advanced search filters
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-select with keyboard support
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 3. WEB-SPECIFIC - Marketing Website Components
+### 3. WEB-SPECIFIC - Marketing Website Components [TODO]
 - [x] Hero section
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] CTA blocks
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
-    - Types: primary, secondary, tertiary
+    - Types: default
 - [x] Testimonials
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Pricing tables
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] FAQ accordion
-    - Semantic Tag: <details>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.accordion
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Logo cloud
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Feature comparison
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Newsletter form
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cookie banner
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
-    - Types: primary, secondary, tertiary
-- [x] Announcement banner
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
-    - Types: primary, secondary, tertiary
-- [x] Sticky CTA
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
-    - Types: primary, secondary, tertiary
+    - Types: default
+- [x] Announcement banner
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
+- [x] Sticky CTA
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 - [x] Exit intent popup
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 4. MOBILE-SPECIFIC - iOS / Android Native Patterns
+### 4. MOBILE-SPECIFIC - iOS / Android Native Patterns [TODO]
 - [x] Bottom tab bar
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Floating action button
-    - Semantic Tag: <button>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.button
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Pull to refresh
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Swipe actions
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bottom sheet
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Native picker wheel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Swipeable cards
-    - Semantic Tag: <article>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.card
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Gesture navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Haptic feedback UI
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Camera capture UI
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mobile keyboard accessory bar
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Biometric auth prompt
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Native share sheet
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Deep link handoff
-    - Semantic Tag: <a>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
-    - Types: primary, secondary, tertiary
+    - Types: default
 
-### 4. MOBILE-SPECIFIC - Mobile-first UX
+### 4. MOBILE-SPECIFIC - Mobile-first UX [TODO]
 - [x] Thumb-zone navigation
-    - Semantic Tag: <nav>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Floating compose button
-    - Semantic Tag: <button>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.button
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Story/reel UI
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Vertical swipe feed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Snap carousel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tap-and-hold menus
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mobile onboarding slides
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Install app banners
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
-    - Types: primary, secondary, tertiary
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 
-### 5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise
+### 5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise [TODO]
 - [x] Permission matrix
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Org hierarchy tree
-    - Semantic Tag: <ul>
-    - Role: Native
-    - Assets: Icon
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compliance dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resource planner
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Document archive
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bulk data import
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] System audit log
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Export manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Subscription billing manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Risk assessment grid
-    - Semantic Tag: <table>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: molecules.table
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Approval workflow visualizer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-tenant switcher
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] White-label configuration
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] API rate limit monitor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data residency selector
-    - Semantic Tag: <select>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Security policy editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Custom field builder
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] User session monitor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Report scheduler
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Database backup manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] SSO configuration wizard
-    - Semantic Tag: <ol>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Directory sync status
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quota management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Provisioning logs
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] License usage chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Service health dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Incident management portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Project portfolio view
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Capital expenditure tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Enterprise search
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Legal hold manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Retention policy editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Electronic signature flow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] KYB verification status
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Customer success dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Partner portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Contract lifecycle manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Procurement request form
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Inventory forecasting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Supply chain map
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Fleet management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Manufacturing execution system
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Building automation dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Warehouse layout visualizer
-    - Semantic Tag: <section>
-    - Role: Native
-    - Assets:
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Logistics route optimizer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Field service dispatcher
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance work order
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Asset lifecycle tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Employee onboarding wizard
-    - Semantic Tag: <ol>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Payroll summary
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Benefits enrollment
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Performance review matrix
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Learning path builder
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Corporate travel booking
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Expense report flow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Internal job board
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Knowledge base editor
-    - Semantic Tag: <textarea>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Policy document viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Meeting room booker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Office floor plan
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Visitor management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Helpdesk ticket queue
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Infrastructure monitoring
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cloud cost analyzer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Vulnerability scanner
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Access request flow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Governance report
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] ESG metrics tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Investor relations portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Brand asset library
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Marketing campaign planner
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sales pipeline funnel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Deal desk review
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Customer 360 view
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Support knowledge graph
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Product roadmap timeline
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.timeline
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Feature request voting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] User feedback loop
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Release notes generator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Localization manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Accessibility auditor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Design system documentation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Developer portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] API documentation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] CLI tool playground
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] SDK generator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Webhook tester
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sandbox environment
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] App marketplace
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Partner integration directory
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Billing invoice history
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Payment method manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tax configuration
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compliance certificate vault
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Audit trail viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data anonymization tool
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Privacy request manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cookie consent manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Security incident log
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Threat intelligence feed
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Security awareness training
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Emergency alert system
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] BCDR plan viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Business process map
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Strategy execution dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Value stream map
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Operational excellence tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Lean six sigma tools
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quality control chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Failure mode effect analysis
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Root cause analysis diagram
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Decision support matrix
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Scenario planner
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Simulation model viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Digital twin interface
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Industrial IoT dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Telemetry data stream
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Predictive maintenance alert
-    - Semantic Tag: <div>
-    - Role: alert
-    - Assets: Icon
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Energy consumption monitor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Waste management tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sustainability report
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Carbon footprint calculator
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Diversity and inclusion dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Employee engagement survey
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Culture heat map
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Organizational change tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Talent pipeline view
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Skill gap analysis
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Succession planning chart
-    - Semantic Tag: <figure>
-    - Role: Native
-    - Assets:  Image
-    - States: default
+    - Blueprint: atoms.span
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compensation benchmarking
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Workforce planning tool
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Shift scheduler
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Time and attendance tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Leave management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Remote work dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Virtual office map
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Team collaboration hub
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Idea management board
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Innovation funnel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Product lifecycle management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Requirements traceability matrix
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Test case manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bug tracking dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Continuous integration status
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Deployment pipeline view
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Release orchestration
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Infrastructure as code editor
-    - Semantic Tag: <code>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Kubernetes cluster viewer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Serverless function monitor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Edge computing dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Database performance tuner
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Query execution plan
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data lineage graph
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Schema evolution tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Master data management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data quality dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Metadata catalog
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Business glossary
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Self-service BI portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Natural language query interface
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Automated insight generator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Predictive model builder
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Prescriptive analytics tool
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI model performance monitor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Model drift detector
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Explainable AI dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bias detection report
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI safety guardrails
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Synthetic data generator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Prompt engineering lab
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Vector database explorer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Semantic search interface
-    - Semantic Tag: <input>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI agent workshop
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Autonomous process orchestrator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Robotic process automation bot
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Intelligent document processor
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Computer vision workbench
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Audio processing lab
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Natural language processing toolkit
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Recommendation engine tuner
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Personalization rules engine
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Dynamic pricing dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] A/B testing manager
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Experimentation platform
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Marketing attribution model
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Customer journey map
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Churn prediction dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Lifetime value calculator
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sentiment analysis tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Social listening dashboard
-    - Semantic Tag: <ul>
-    - Role: Native
-    - Assets:
+    - Blueprint: molecules.list
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Influencer management portal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Content performance analytics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] SEO rank tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Ad spend optimizer
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Marketing automation workflow
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sales sequences
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Lead scoring engine
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Opportunity management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Territory management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sales coaching dashboard
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Revenue forecasting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sales commission tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] CPQ (Configure, Price, Quote)
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Contract negotiation room
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] E-signature tracker
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Billing and revenue recognition
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Subscription analytics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Churn management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Dunning management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tax automation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Financial consolidation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Accounts receivable
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Accounts payable
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] General ledger
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Fixed asset management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cash flow forecasting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Treasury management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Expense management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Travel management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Procurement to pay
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Order to cash
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Inventory management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Warehouse management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Transportation management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Supply chain planning
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Demand forecasting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Supplier relationship management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sourcing and tendering
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Contract management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quality management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Plant maintenance
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Project systems
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resource management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Time tracking
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Human capital management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Recruitment and onboarding
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Learning and development
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Performance and goals
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compensation and benefits
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Succession and development
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Employee central
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Payroll
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Workforce analytics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Workforce planning
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Service management
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Customer service
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Field service
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Project service automation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sales force automation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Marketing automation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Commerce
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Retail
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Manufacturing
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Financial services
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Healthcare
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Education
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Public sector
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Energy and utilities
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Media and communications
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Professional services
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] High tech
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Hospitality
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Life sciences
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Construction and engineering
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Aerospace and defense
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Automotive
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Consumer products
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Agribusiness
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Chemicals
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mining
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Forest products
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mill products
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Oil and gas
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Wholesale distribution
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Telecommunications
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Banking
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Insurance
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Travel and transportation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sports and entertainment
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Nonprofit
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Real estate
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Gaming
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Legal
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Accounting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Consulting
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Design
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Marketing and advertising
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] IT services
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Software development
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cybersecurity
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data science
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Artificial intelligence
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Space and defense
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Energy
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Environment
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Government
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Health
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Infrastructure
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resources
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Transportation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Urban planning
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Water
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Waste
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Logistics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Manufacturing
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Safety
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quality
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Innovation
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sustainability
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Ethics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compliance
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Governance
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Risk
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Security
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Privacy
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Software
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Hardware
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cloud
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Edge
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Network
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mobile
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Web
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] IoT
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Robotics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AR/VR
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Blockchain
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Quantum
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bio
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Nano
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Geo
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Atmosphere
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Space
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Ocean
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Earth
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Life
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Mind
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Society
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Culture
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Economy
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Politics
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Law
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] History
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Philosophy
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Science
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Engineering
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Technology
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Art
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Music
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Literature
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Film
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Design
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Games
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sports
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Food
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Travel
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Fashion
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Health
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Wellness
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Education
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Work
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Home
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Community
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Identity
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Values
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Beliefs
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Spirituality
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Future
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Legacy
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Everything
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Nothing
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Something
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Else
-    - Semantic Tag: <div>
-    - Role: Native
-    - Assets:
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
