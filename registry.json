@@ -4,7 +4,7 @@
     "name": "Button",
     "category": "1. UNIVERSAL - Input / Form Components",
     "blueprint": "atoms.button",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -25,7 +25,7 @@
     "name": "Icon button",
     "category": "1. UNIVERSAL - Input / Form Components",
     "blueprint": "atoms.button",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -140,8 +140,8 @@
     "id": "autocomplete",
     "name": "Autocomplete",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -217,7 +217,7 @@
     "name": "Slider",
     "category": "1. UNIVERSAL - Input / Form Components",
     "blueprint": "atoms.range_raw",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -236,7 +236,7 @@
     "name": "Range slider",
     "category": "1. UNIVERSAL - Input / Form Components",
     "blueprint": "atoms.range_raw",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -254,8 +254,8 @@
     "id": "stepper",
     "name": "Stepper",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -273,8 +273,8 @@
     "id": "date-picker",
     "name": "Date picker",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -292,8 +292,8 @@
     "id": "time-picker",
     "name": "Time picker",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -311,8 +311,8 @@
     "id": "color-picker",
     "name": "Color picker",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -330,8 +330,8 @@
     "id": "file-upload",
     "name": "File upload",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -349,8 +349,8 @@
     "id": "drag-and-drop-upload",
     "name": "Drag & drop upload",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -368,8 +368,8 @@
     "id": "otp-input",
     "name": "OTP input",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -406,8 +406,8 @@
     "id": "tag-input",
     "name": "Tag input",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.tag",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -427,8 +427,8 @@
     "id": "rating-input",
     "name": "Rating input",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.rating_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -446,8 +446,8 @@
     "id": "signature-pad",
     "name": "Signature pad",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.state_block",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -465,8 +465,8 @@
     "id": "rich-text-editor",
     "name": "Rich text editor",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -484,8 +484,8 @@
     "id": "markdown-editor",
     "name": "Markdown editor",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -504,7 +504,7 @@
     "name": "Navbar",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -523,7 +523,7 @@
     "name": "Sidebar",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -542,7 +542,7 @@
     "name": "Topbar",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -561,7 +561,7 @@
     "name": "Bottom navigation",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -580,7 +580,7 @@
     "name": "Breadcrumbs",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -599,7 +599,7 @@
     "name": "Tabs",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -618,7 +618,7 @@
     "name": "Pills",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -637,7 +637,7 @@
     "name": "Pagination",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -656,7 +656,7 @@
     "name": "Pagination infinite scroll",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -675,7 +675,7 @@
     "name": "Mega menu",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -694,7 +694,7 @@
     "name": "Hamburger menu",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -713,7 +713,7 @@
     "name": "Context menu",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -732,7 +732,7 @@
     "name": "Command palette",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -751,7 +751,7 @@
     "name": "Tree navigation",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -770,7 +770,7 @@
     "name": "Dock navigation",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -789,7 +789,7 @@
     "name": "Floating nav",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -808,7 +808,7 @@
     "name": "Anchor navigation",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -827,7 +827,7 @@
     "name": "Wizard / step navigation",
     "category": "1. UNIVERSAL - Navigation Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -984,8 +984,8 @@
     "id": "sheet",
     "name": "Sheet",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "molecules.modal",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1004,7 +1004,7 @@
     "name": "Tooltip",
     "category": "1. UNIVERSAL - Feedback / State Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1023,7 +1023,7 @@
     "name": "Popover",
     "category": "1. UNIVERSAL - Feedback / State Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1042,7 +1042,7 @@
     "name": "Progress bar",
     "category": "1. UNIVERSAL - Feedback / State Components",
     "blueprint": "atoms.progress",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1060,8 +1060,8 @@
     "id": "skeleton-loader",
     "name": "Skeleton loader",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.skeleton",
-    "profile": "atomic",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1080,7 +1080,7 @@
     "name": "Spinner",
     "category": "1. UNIVERSAL - Feedback / State Components",
     "blueprint": "atoms.spinner",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1174,8 +1174,8 @@
     "id": "offline-state",
     "name": "Offline state",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "molecules.state_block",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1213,7 +1213,7 @@
     "name": "Loading overlay",
     "category": "1. UNIVERSAL - Feedback / State Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1269,7 +1269,7 @@
     "id": "data-grid",
     "name": "Data grid",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.table",
+    "blueprint": "molecules.grid_box",
     "profile": "molecule",
     "states": [
       "default",
@@ -1346,7 +1346,7 @@
     "name": "Carousel",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1365,7 +1365,7 @@
     "name": "Gallery",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1384,7 +1384,7 @@
     "name": "Chart",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1403,7 +1403,7 @@
     "name": "Heatmap",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1422,7 +1422,7 @@
     "name": "Kanban board",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1441,7 +1441,7 @@
     "name": "Calendar",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1460,7 +1460,7 @@
     "name": "Tree view",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1479,7 +1479,7 @@
     "name": "Avatar",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.avatar",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1498,7 +1498,7 @@
     "name": "Badge",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.badge",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1519,7 +1519,7 @@
     "name": "Chip",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.chip",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1540,7 +1540,7 @@
     "name": "Tag",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.tag",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1618,7 +1618,7 @@
     "name": "Log viewer",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1637,7 +1637,7 @@
     "name": "JSON viewer",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1655,8 +1655,8 @@
     "id": "code-block",
     "name": "Code block",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "atoms.code",
-    "profile": "atomic",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1675,7 +1675,7 @@
     "name": "Terminal block",
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1693,8 +1693,8 @@
     "id": "container",
     "name": "Container",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.container",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1712,8 +1712,8 @@
     "id": "section",
     "name": "Section",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.container",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1731,7 +1731,7 @@
     "id": "grid",
     "name": "Grid",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "molecules.table",
+    "blueprint": "molecules.grid_box",
     "profile": "molecule",
     "states": [
       "default",
@@ -1750,8 +1750,8 @@
     "id": "stack",
     "name": "Stack",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.stack_box",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1769,8 +1769,8 @@
     "id": "split-pane",
     "name": "Split pane",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.split_pane",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1788,8 +1788,8 @@
     "id": "resizable-panel",
     "name": "Resizable panel",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.split_pane",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1807,8 +1807,8 @@
     "id": "masonry",
     "name": "Masonry",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.grid_box",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1826,7 +1826,7 @@
     "id": "bento-grid",
     "name": "Bento grid",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "molecules.table",
+    "blueprint": "molecules.grid_box",
     "profile": "molecule",
     "states": [
       "default",
@@ -1845,8 +1845,8 @@
     "id": "sidebar-layout",
     "name": "Sidebar layout",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "organisms.dashboard_layout",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -1864,8 +1864,8 @@
     "id": "dashboard-layout",
     "name": "Dashboard layout",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "organisms.dashboard_layout",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -1883,8 +1883,8 @@
     "id": "centered-auth-layout",
     "name": "Centered auth layout",
     "category": "1. UNIVERSAL - Layout Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -1903,7 +1903,7 @@
     "name": "Sticky footer",
     "category": "1. UNIVERSAL - Layout Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1922,7 +1922,7 @@
     "name": "Sticky header",
     "category": "1. UNIVERSAL - Layout Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1941,7 +1941,7 @@
     "name": "Heading",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.heading",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1960,7 +1960,7 @@
     "name": "Paragraph",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.paragraph",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1979,7 +1979,7 @@
     "name": "Caption",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -1998,7 +1998,7 @@
     "name": "Link",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2017,7 +2017,7 @@
     "name": "Blockquote",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2036,7 +2036,7 @@
     "name": "Code inline",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2055,7 +2055,7 @@
     "name": "Image",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2074,7 +2074,7 @@
     "name": "Video player",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2093,7 +2093,7 @@
     "name": "Audio player",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2112,7 +2112,7 @@
     "name": "Icon",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2131,7 +2131,7 @@
     "name": "Illustration",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2150,7 +2150,7 @@
     "name": "Lottie animation",
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2169,7 +2169,7 @@
     "name": "Sidebar navigation",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2187,8 +2187,8 @@
     "id": "workspace-switcher",
     "name": "Workspace switcher",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.choice_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2206,8 +2206,8 @@
     "id": "organization-switcher",
     "name": "Organization switcher",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.choice_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2226,7 +2226,7 @@
     "name": "User/team management",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2245,7 +2245,7 @@
     "name": "Role permission matrix",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2264,7 +2264,7 @@
     "name": "Audit logs",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2302,7 +2302,7 @@
     "name": "Advanced filters",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2321,7 +2321,7 @@
     "name": "Saved views",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2359,7 +2359,7 @@
     "name": "Bulk actions",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2378,7 +2378,7 @@
     "name": "Command palette",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2397,7 +2397,7 @@
     "name": "Settings panel",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2416,7 +2416,7 @@
     "name": "Billing portal",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2435,7 +2435,7 @@
     "name": "Subscription management",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2454,7 +2454,7 @@
     "name": "Usage meter",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2473,7 +2473,7 @@
     "name": "API key manager",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2511,7 +2511,7 @@
     "name": "Webhook manager",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2530,7 +2530,7 @@
     "name": "Feature flags",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2549,7 +2549,7 @@
     "name": "Notification center",
     "category": "2. SaaS / Dashboard",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2586,7 +2586,7 @@
     "id": "product-grid",
     "name": "Product grid",
     "category": "2. E-commerce - Product Discovery",
-    "blueprint": "molecules.table",
+    "blueprint": "molecules.grid_box",
     "profile": "molecule",
     "states": [
       "default",
@@ -2625,7 +2625,7 @@
     "name": "Quick preview",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2663,7 +2663,7 @@
     "name": "Compare products",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2701,7 +2701,7 @@
     "name": "Size picker",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2720,7 +2720,7 @@
     "name": "Color swatches",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2739,7 +2739,7 @@
     "name": "Product media gallery",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2758,7 +2758,7 @@
     "name": "Zoom image",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2777,7 +2777,7 @@
     "name": "Recently viewed",
     "category": "2. E-commerce - Product Discovery",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2815,7 +2815,7 @@
     "name": "Checkout steps",
     "category": "2. E-commerce - Purchase Flow",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2834,7 +2834,7 @@
     "name": "Address form",
     "category": "2. E-commerce - Purchase Flow",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2891,7 +2891,7 @@
     "name": "Coupon input",
     "category": "2. E-commerce - Purchase Flow",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2910,7 +2910,7 @@
     "name": "Order summary",
     "category": "2. E-commerce - Purchase Flow",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2929,7 +2929,7 @@
     "name": "Order tracking",
     "category": "2. E-commerce - Purchase Flow",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2948,7 +2948,7 @@
     "name": "Returns panel",
     "category": "2. E-commerce - Purchase Flow",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -2986,7 +2986,7 @@
     "name": "Cross-sell carousel",
     "category": "2. E-commerce - Growth Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3005,7 +3005,7 @@
     "name": "Recommended products",
     "category": "2. E-commerce - Growth Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3024,7 +3024,7 @@
     "name": "Flash sale timer",
     "category": "2. E-commerce - Growth Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3043,7 +3043,7 @@
     "name": "Stock urgency badge",
     "category": "2. E-commerce - Growth Components",
     "blueprint": "atoms.badge",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3064,7 +3064,7 @@
     "name": "Social proof popup",
     "category": "2. E-commerce - Growth Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3083,7 +3083,7 @@
     "name": "Kanban",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3102,7 +3102,7 @@
     "name": "Calendar",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3140,7 +3140,7 @@
     "name": "Gantt chart",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3178,7 +3178,7 @@
     "name": "Nested subtasks",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3216,7 +3216,7 @@
     "name": "Rich comments",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3234,8 +3234,8 @@
     "id": "activity-history",
     "name": "Activity history",
     "category": "2. Task Management / Productivity",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.timeline",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -3254,7 +3254,7 @@
     "name": "Time tracking",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3273,7 +3273,7 @@
     "name": "Sprint board",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3292,7 +3292,7 @@
     "name": "Roadmap",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3311,7 +3311,7 @@
     "name": "Whiteboard",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3330,7 +3330,7 @@
     "name": "Collaboration cursors",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3349,7 +3349,7 @@
     "name": "Presence indicators",
     "category": "2. Task Management / Productivity",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3367,8 +3367,8 @@
     "id": "rich-text-editor",
     "name": "Rich text editor",
     "category": "2. CMS / Blog / Knowledge Base",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3386,8 +3386,8 @@
     "id": "slash-command-editor",
     "name": "Slash command editor",
     "category": "2. CMS / Blog / Knowledge Base",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3406,7 +3406,7 @@
     "name": "Media library",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3425,7 +3425,7 @@
     "name": "Draft/publish workflow",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3444,7 +3444,7 @@
     "name": "SEO preview",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3482,7 +3482,7 @@
     "name": "Version history",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3501,7 +3501,7 @@
     "name": "Comments",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3520,7 +3520,7 @@
     "name": "Inline annotations",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3539,7 +3539,7 @@
     "name": "Reading progress",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.progress",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3558,7 +3558,7 @@
     "name": "Content blocks",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3576,8 +3576,8 @@
     "id": "mdx-editor",
     "name": "MDX editor",
     "category": "2. CMS / Blog / Knowledge Base",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3596,7 +3596,7 @@
     "name": "AI writing assistant",
     "category": "2. CMS / Blog / Knowledge Base",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3615,7 +3615,7 @@
     "name": "Chat window",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3634,7 +3634,7 @@
     "name": "Prompt input",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3653,7 +3653,7 @@
     "name": "Streaming response",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3672,7 +3672,7 @@
     "name": "Typing indicator",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3691,7 +3691,7 @@
     "name": "Token counter",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3729,7 +3729,7 @@
     "name": "Context window indicator",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3748,7 +3748,7 @@
     "name": "Conversation history",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3767,7 +3767,7 @@
     "name": "AI agent status",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3786,7 +3786,7 @@
     "name": "Tool execution logs",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3805,7 +3805,7 @@
     "name": "Chain-of-thought visualizer",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3824,7 +3824,7 @@
     "name": "AI citations",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3843,7 +3843,7 @@
     "name": "Multi-agent panel",
     "category": "2. AI / LLM Apps - Core",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3862,7 +3862,7 @@
     "name": "Prompt templates",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3881,7 +3881,7 @@
     "name": "AI playground",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3900,7 +3900,7 @@
     "name": "Node workflows",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3919,7 +3919,7 @@
     "name": "Memory manager",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3938,7 +3938,7 @@
     "name": "Retrieval source viewer",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3957,7 +3957,7 @@
     "name": "Confidence indicator",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3976,7 +3976,7 @@
     "name": "Human handoff",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -3995,7 +3995,7 @@
     "name": "AI approval flow",
     "category": "2. AI / LLM Apps - Advanced AI UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4014,7 +4014,7 @@
     "name": "Feed",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4033,7 +4033,7 @@
     "name": "Stories",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4052,7 +4052,7 @@
     "name": "Reactions",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4071,7 +4071,7 @@
     "name": "Comments",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4089,8 +4089,8 @@
     "id": "share-sheet",
     "name": "Share sheet",
     "category": "2. Social Media / Community",
-    "blueprint": "molecules.modal",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4109,7 +4109,7 @@
     "name": "Follow button",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.button",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4130,7 +4130,7 @@
     "name": "DM/chat",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4149,7 +4149,7 @@
     "name": "Live room",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4168,7 +4168,7 @@
     "name": "Typing status",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4187,7 +4187,7 @@
     "name": "Online presence",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4206,7 +4206,7 @@
     "name": "Notification feed",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4225,7 +4225,7 @@
     "name": "Infinite scroll feed",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4244,7 +4244,7 @@
     "name": "Creator dashboard",
     "category": "2. Social Media / Community",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4301,7 +4301,7 @@
     "name": "Spending chart",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4320,7 +4320,7 @@
     "name": "Portfolio chart",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4339,7 +4339,7 @@
     "name": "Trading view",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4377,7 +4377,7 @@
     "name": "Risk indicators",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4396,7 +4396,7 @@
     "name": "KYC flow",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4415,7 +4415,7 @@
     "name": "Identity verification",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4474,7 +4474,7 @@
     "name": "Transfer wizard",
     "category": "2. Fintech / Banking",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4493,7 +4493,7 @@
     "name": "Appointment scheduler",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4512,7 +4512,7 @@
     "name": "Medical records viewer",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4531,7 +4531,7 @@
     "name": "Prescription panel",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4550,7 +4550,7 @@
     "name": "Symptoms intake",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4569,7 +4569,7 @@
     "name": "HIPAA consent forms",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4588,7 +4588,7 @@
     "name": "Video consultation",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4607,7 +4607,7 @@
     "name": "Insurance verification",
     "category": "2. Healthcare",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4626,7 +4626,7 @@
     "name": "Course player",
     "category": "2. Education / LMS",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4645,7 +4645,7 @@
     "name": "Quiz builder",
     "category": "2. Education / LMS",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4683,7 +4683,7 @@
     "name": "Progress tracker",
     "category": "2. Education / LMS",
     "blueprint": "atoms.progress",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4702,7 +4702,7 @@
     "name": "Achievement badges",
     "category": "2. Education / LMS",
     "blueprint": "atoms.badge",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4723,7 +4723,7 @@
     "name": "Lesson navigation",
     "category": "2. Education / LMS",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4742,7 +4742,7 @@
     "name": "Code playground",
     "category": "2. Education / LMS",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4761,7 +4761,7 @@
     "name": "Assignment submission",
     "category": "2. Education / LMS",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4780,7 +4780,7 @@
     "name": "API explorer",
     "category": "2. Developer Tools",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4798,8 +4798,8 @@
     "id": "code-editor",
     "name": "Code editor",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4818,7 +4818,7 @@
     "name": "Terminal",
     "category": "2. Developer Tools",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4837,7 +4837,7 @@
     "name": "Diff viewer",
     "category": "2. Developer Tools",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4856,7 +4856,7 @@
     "name": "Logs",
     "category": "2. Developer Tools",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4875,7 +4875,7 @@
     "name": "Deployment status",
     "category": "2. Developer Tools",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4894,7 +4894,7 @@
     "name": "CI/CD pipeline viewer",
     "category": "2. Developer Tools",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4951,7 +4951,7 @@
     "name": "Data visualization",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -4970,7 +4970,7 @@
     "name": "Drill-down charts",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5008,7 +5008,7 @@
     "name": "Segmentation builder",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5027,7 +5027,7 @@
     "name": "Funnel charts",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5046,7 +5046,7 @@
     "name": "Cohort analysis",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5065,7 +5065,7 @@
     "name": "Report builder",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5084,7 +5084,7 @@
     "name": "Dashboard widgets",
     "category": "2. Analytics / BI",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5122,7 +5122,7 @@
     "name": "Mega menus",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5141,7 +5141,7 @@
     "name": "Multi-column layouts",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5159,8 +5159,8 @@
     "id": "resizable-panels",
     "name": "Resizable panels",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.split_pane",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5179,7 +5179,7 @@
     "name": "Right-click context menus",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5198,7 +5198,7 @@
     "name": "Multi-window layouts",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5217,7 +5217,7 @@
     "name": "Keyboard shortcut overlays",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5236,7 +5236,7 @@
     "name": "Drag-and-drop desktop style",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5274,7 +5274,7 @@
     "name": "Sticky columns",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5293,7 +5293,7 @@
     "name": "Browser tabs UI",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5312,7 +5312,7 @@
     "name": "Floating toolbars",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5331,7 +5331,7 @@
     "name": "Advanced search filters",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5368,8 +5368,8 @@
     "id": "hero-section",
     "name": "Hero section",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.container",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5388,7 +5388,7 @@
     "name": "CTA blocks",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5407,7 +5407,7 @@
     "name": "Testimonials",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5464,7 +5464,7 @@
     "name": "Logo cloud",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5483,7 +5483,7 @@
     "name": "Feature comparison",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5502,7 +5502,7 @@
     "name": "Newsletter form",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5563,7 +5563,7 @@
     "name": "Sticky CTA",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5582,7 +5582,7 @@
     "name": "Exit intent popup",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5601,7 +5601,7 @@
     "name": "Bottom tab bar",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5620,7 +5620,7 @@
     "name": "Floating action button",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.button",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5641,7 +5641,7 @@
     "name": "Pull to refresh",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5660,7 +5660,7 @@
     "name": "Swipe actions",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5678,8 +5678,8 @@
     "id": "bottom-sheet",
     "name": "Bottom sheet",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
-    "blueprint": "molecules.modal",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5698,7 +5698,7 @@
     "name": "Native picker wheel",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5736,7 +5736,7 @@
     "name": "Gesture navigation",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5755,7 +5755,7 @@
     "name": "Haptic feedback UI",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5774,7 +5774,7 @@
     "name": "Camera capture UI",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5793,7 +5793,7 @@
     "name": "Mobile keyboard accessory bar",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5812,7 +5812,7 @@
     "name": "Biometric auth prompt",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5830,8 +5830,8 @@
     "id": "native-share-sheet",
     "name": "Native share sheet",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
-    "blueprint": "molecules.modal",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5850,7 +5850,7 @@
     "name": "Deep link handoff",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5869,7 +5869,7 @@
     "name": "Thumb-zone navigation",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5888,7 +5888,7 @@
     "name": "Floating compose button",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.button",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5909,7 +5909,7 @@
     "name": "Story/reel UI",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5928,7 +5928,7 @@
     "name": "Vertical swipe feed",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5947,7 +5947,7 @@
     "name": "Snap carousel",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5966,7 +5966,7 @@
     "name": "Tap-and-hold menus",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -5985,7 +5985,7 @@
     "name": "Mobile onboarding slides",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6025,7 +6025,7 @@
     "name": "Permission matrix",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6044,7 +6044,7 @@
     "name": "Org hierarchy tree",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6063,7 +6063,7 @@
     "name": "Compliance dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6082,7 +6082,7 @@
     "name": "Resource planner",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6101,7 +6101,7 @@
     "name": "Document archive",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6120,7 +6120,7 @@
     "name": "Bulk data import",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6139,7 +6139,7 @@
     "name": "System audit log",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6158,7 +6158,7 @@
     "name": "Export manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6177,7 +6177,7 @@
     "name": "Subscription billing manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6195,7 +6195,7 @@
     "id": "risk-assessment-grid",
     "name": "Risk assessment grid",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.table",
+    "blueprint": "molecules.grid_box",
     "profile": "molecule",
     "states": [
       "default",
@@ -6215,7 +6215,7 @@
     "name": "Approval workflow visualizer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6233,8 +6233,8 @@
     "id": "multi-tenant-switcher",
     "name": "Multi-tenant switcher",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.choice_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6253,7 +6253,7 @@
     "name": "White-label configuration",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6272,7 +6272,7 @@
     "name": "API rate limit monitor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6309,8 +6309,8 @@
     "id": "security-policy-editor",
     "name": "Security policy editor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6329,7 +6329,7 @@
     "name": "Custom field builder",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6348,7 +6348,7 @@
     "name": "User session monitor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6367,7 +6367,7 @@
     "name": "Report scheduler",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6386,7 +6386,7 @@
     "name": "Database backup manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6405,7 +6405,7 @@
     "name": "SSO configuration wizard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6424,7 +6424,7 @@
     "name": "Directory sync status",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6443,7 +6443,7 @@
     "name": "Quota management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6462,7 +6462,7 @@
     "name": "Provisioning logs",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6481,7 +6481,7 @@
     "name": "License usage chart",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6500,7 +6500,7 @@
     "name": "Service health dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6519,7 +6519,7 @@
     "name": "Incident management portal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6538,7 +6538,7 @@
     "name": "Project portfolio view",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6557,7 +6557,7 @@
     "name": "Capital expenditure tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6576,7 +6576,7 @@
     "name": "Enterprise search",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6595,7 +6595,7 @@
     "name": "Legal hold manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6613,8 +6613,8 @@
     "id": "retention-policy-editor",
     "name": "Retention policy editor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6632,8 +6632,8 @@
     "id": "electronic-signature-flow",
     "name": "Electronic signature flow",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.state_block",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6652,7 +6652,7 @@
     "name": "KYB verification status",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6690,7 +6690,7 @@
     "name": "Partner portal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6709,7 +6709,7 @@
     "name": "Contract lifecycle manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6728,7 +6728,7 @@
     "name": "Procurement request form",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6747,7 +6747,7 @@
     "name": "Inventory forecasting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6766,7 +6766,7 @@
     "name": "Supply chain map",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6785,7 +6785,7 @@
     "name": "Fleet management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6804,7 +6804,7 @@
     "name": "Manufacturing execution system",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6823,7 +6823,7 @@
     "name": "Building automation dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6842,7 +6842,7 @@
     "name": "Warehouse layout visualizer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6861,7 +6861,7 @@
     "name": "Logistics route optimizer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6880,7 +6880,7 @@
     "name": "Field service dispatcher",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6918,7 +6918,7 @@
     "name": "Asset lifecycle tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6937,7 +6937,7 @@
     "name": "Employee onboarding wizard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6956,7 +6956,7 @@
     "name": "Payroll summary",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6975,7 +6975,7 @@
     "name": "Benefits enrollment",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -6994,7 +6994,7 @@
     "name": "Performance review matrix",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7013,7 +7013,7 @@
     "name": "Learning path builder",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7032,7 +7032,7 @@
     "name": "Corporate travel booking",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7051,7 +7051,7 @@
     "name": "Expense report flow",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7070,7 +7070,7 @@
     "name": "Internal job board",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7088,8 +7088,8 @@
     "id": "knowledge-base-editor",
     "name": "Knowledge base editor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7108,7 +7108,7 @@
     "name": "Policy document viewer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7127,7 +7127,7 @@
     "name": "Meeting room booker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7146,7 +7146,7 @@
     "name": "Office floor plan",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7165,7 +7165,7 @@
     "name": "Visitor management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7184,7 +7184,7 @@
     "name": "Helpdesk ticket queue",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7203,7 +7203,7 @@
     "name": "Infrastructure monitoring",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7222,7 +7222,7 @@
     "name": "Cloud cost analyzer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7241,7 +7241,7 @@
     "name": "Vulnerability scanner",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7260,7 +7260,7 @@
     "name": "Access request flow",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7279,7 +7279,7 @@
     "name": "Governance report",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7298,7 +7298,7 @@
     "name": "ESG metrics tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7317,7 +7317,7 @@
     "name": "Investor relations portal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7336,7 +7336,7 @@
     "name": "Brand asset library",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7355,7 +7355,7 @@
     "name": "Marketing campaign planner",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7374,7 +7374,7 @@
     "name": "Sales pipeline funnel",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7393,7 +7393,7 @@
     "name": "Deal desk review",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7412,7 +7412,7 @@
     "name": "Customer 360 view",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7431,7 +7431,7 @@
     "name": "Support knowledge graph",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7469,7 +7469,7 @@
     "name": "Feature request voting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7488,7 +7488,7 @@
     "name": "User feedback loop",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7507,7 +7507,7 @@
     "name": "Release notes generator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7526,7 +7526,7 @@
     "name": "Localization manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7545,7 +7545,7 @@
     "name": "Accessibility auditor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7564,7 +7564,7 @@
     "name": "Design system documentation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7583,7 +7583,7 @@
     "name": "Developer portal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7602,7 +7602,7 @@
     "name": "API documentation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7621,7 +7621,7 @@
     "name": "CLI tool playground",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7640,7 +7640,7 @@
     "name": "SDK generator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7659,7 +7659,7 @@
     "name": "Webhook tester",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7678,7 +7678,7 @@
     "name": "Sandbox environment",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7697,7 +7697,7 @@
     "name": "App marketplace",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7716,7 +7716,7 @@
     "name": "Partner integration directory",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7735,7 +7735,7 @@
     "name": "Billing invoice history",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7754,7 +7754,7 @@
     "name": "Payment method manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7773,7 +7773,7 @@
     "name": "Tax configuration",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7792,7 +7792,7 @@
     "name": "Compliance certificate vault",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7811,7 +7811,7 @@
     "name": "Audit trail viewer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7830,7 +7830,7 @@
     "name": "Data anonymization tool",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7849,7 +7849,7 @@
     "name": "Privacy request manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7868,7 +7868,7 @@
     "name": "Cookie consent manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7887,7 +7887,7 @@
     "name": "Security incident log",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7906,7 +7906,7 @@
     "name": "Threat intelligence feed",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7925,7 +7925,7 @@
     "name": "Security awareness training",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7965,7 +7965,7 @@
     "name": "BCDR plan viewer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -7984,7 +7984,7 @@
     "name": "Business process map",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8003,7 +8003,7 @@
     "name": "Strategy execution dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8022,7 +8022,7 @@
     "name": "Value stream map",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8041,7 +8041,7 @@
     "name": "Operational excellence tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8060,7 +8060,7 @@
     "name": "Lean six sigma tools",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8079,7 +8079,7 @@
     "name": "Quality control chart",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8098,7 +8098,7 @@
     "name": "Failure mode effect analysis",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8117,7 +8117,7 @@
     "name": "Root cause analysis diagram",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8136,7 +8136,7 @@
     "name": "Decision support matrix",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8155,7 +8155,7 @@
     "name": "Scenario planner",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8174,7 +8174,7 @@
     "name": "Simulation model viewer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8193,7 +8193,7 @@
     "name": "Digital twin interface",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8212,7 +8212,7 @@
     "name": "Industrial IoT dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8231,7 +8231,7 @@
     "name": "Telemetry data stream",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8271,7 +8271,7 @@
     "name": "Energy consumption monitor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8290,7 +8290,7 @@
     "name": "Waste management tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8309,7 +8309,7 @@
     "name": "Sustainability report",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8327,8 +8327,8 @@
     "id": "carbon-footprint-calculator",
     "name": "Carbon footprint calculator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8347,7 +8347,7 @@
     "name": "Diversity and inclusion dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8366,7 +8366,7 @@
     "name": "Employee engagement survey",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8385,7 +8385,7 @@
     "name": "Culture heat map",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8404,7 +8404,7 @@
     "name": "Organizational change tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8423,7 +8423,7 @@
     "name": "Talent pipeline view",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8442,7 +8442,7 @@
     "name": "Skill gap analysis",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8480,7 +8480,7 @@
     "name": "Compensation benchmarking",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8499,7 +8499,7 @@
     "name": "Workforce planning tool",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8518,7 +8518,7 @@
     "name": "Shift scheduler",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8537,7 +8537,7 @@
     "name": "Time and attendance tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8556,7 +8556,7 @@
     "name": "Leave management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8575,7 +8575,7 @@
     "name": "Remote work dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8594,7 +8594,7 @@
     "name": "Virtual office map",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8613,7 +8613,7 @@
     "name": "Team collaboration hub",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8632,7 +8632,7 @@
     "name": "Idea management board",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8651,7 +8651,7 @@
     "name": "Innovation funnel",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8670,7 +8670,7 @@
     "name": "Product lifecycle management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8689,7 +8689,7 @@
     "name": "Requirements traceability matrix",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8708,7 +8708,7 @@
     "name": "Test case manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8727,7 +8727,7 @@
     "name": "Bug tracking dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8746,7 +8746,7 @@
     "name": "Continuous integration status",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8765,7 +8765,7 @@
     "name": "Deployment pipeline view",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8784,7 +8784,7 @@
     "name": "Release orchestration",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8802,8 +8802,8 @@
     "id": "infrastructure-as-code-editor",
     "name": "Infrastructure as code editor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.form_field",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8822,7 +8822,7 @@
     "name": "Kubernetes cluster viewer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8841,7 +8841,7 @@
     "name": "Serverless function monitor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8860,7 +8860,7 @@
     "name": "Edge computing dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8879,7 +8879,7 @@
     "name": "Database performance tuner",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8898,7 +8898,7 @@
     "name": "Query execution plan",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8917,7 +8917,7 @@
     "name": "Data lineage graph",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8936,7 +8936,7 @@
     "name": "Schema evolution tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8955,7 +8955,7 @@
     "name": "Master data management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8974,7 +8974,7 @@
     "name": "Data quality dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -8993,7 +8993,7 @@
     "name": "Metadata catalog",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9012,7 +9012,7 @@
     "name": "Business glossary",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9031,7 +9031,7 @@
     "name": "Self-service BI portal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9050,7 +9050,7 @@
     "name": "Natural language query interface",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9069,7 +9069,7 @@
     "name": "Automated insight generator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9088,7 +9088,7 @@
     "name": "Predictive model builder",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9107,7 +9107,7 @@
     "name": "Prescriptive analytics tool",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9126,7 +9126,7 @@
     "name": "AI model performance monitor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9145,7 +9145,7 @@
     "name": "Model drift detector",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9164,7 +9164,7 @@
     "name": "Explainable AI dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9183,7 +9183,7 @@
     "name": "Bias detection report",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9202,7 +9202,7 @@
     "name": "AI safety guardrails",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9221,7 +9221,7 @@
     "name": "Synthetic data generator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9240,7 +9240,7 @@
     "name": "Prompt engineering lab",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9259,7 +9259,7 @@
     "name": "Vector database explorer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9278,7 +9278,7 @@
     "name": "Semantic search interface",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9297,7 +9297,7 @@
     "name": "AI agent workshop",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9316,7 +9316,7 @@
     "name": "Autonomous process orchestrator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9335,7 +9335,7 @@
     "name": "Robotic process automation bot",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9354,7 +9354,7 @@
     "name": "Intelligent document processor",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9373,7 +9373,7 @@
     "name": "Computer vision workbench",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9392,7 +9392,7 @@
     "name": "Audio processing lab",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9411,7 +9411,7 @@
     "name": "Natural language processing toolkit",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9430,7 +9430,7 @@
     "name": "Recommendation engine tuner",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9449,7 +9449,7 @@
     "name": "Personalization rules engine",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9468,7 +9468,7 @@
     "name": "Dynamic pricing dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9487,7 +9487,7 @@
     "name": "A/B testing manager",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9506,7 +9506,7 @@
     "name": "Experimentation platform",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9525,7 +9525,7 @@
     "name": "Marketing attribution model",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9544,7 +9544,7 @@
     "name": "Customer journey map",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9563,7 +9563,7 @@
     "name": "Churn prediction dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9582,7 +9582,7 @@
     "name": "Lifetime value calculator",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9601,7 +9601,7 @@
     "name": "Sentiment analysis tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9639,7 +9639,7 @@
     "name": "Influencer management portal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9658,7 +9658,7 @@
     "name": "Content performance analytics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9677,7 +9677,7 @@
     "name": "SEO rank tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9696,7 +9696,7 @@
     "name": "Ad spend optimizer",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9715,7 +9715,7 @@
     "name": "Marketing automation workflow",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9734,7 +9734,7 @@
     "name": "Sales sequences",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9753,7 +9753,7 @@
     "name": "Lead scoring engine",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9772,7 +9772,7 @@
     "name": "Opportunity management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9791,7 +9791,7 @@
     "name": "Territory management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9810,7 +9810,7 @@
     "name": "Sales coaching dashboard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9829,7 +9829,7 @@
     "name": "Revenue forecasting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9848,7 +9848,7 @@
     "name": "Sales commission tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9867,7 +9867,7 @@
     "name": "CPQ (Configure, Price, Quote)",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9886,7 +9886,7 @@
     "name": "Contract negotiation room",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9904,8 +9904,8 @@
     "id": "e-signature-tracker",
     "name": "E-signature tracker",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "molecules.state_block",
-    "profile": "molecule",
+    "blueprint": "atoms.span",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9924,7 +9924,7 @@
     "name": "Billing and revenue recognition",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9943,7 +9943,7 @@
     "name": "Subscription analytics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9962,7 +9962,7 @@
     "name": "Churn management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -9981,7 +9981,7 @@
     "name": "Dunning management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10000,7 +10000,7 @@
     "name": "Tax automation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10019,7 +10019,7 @@
     "name": "Financial consolidation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10038,7 +10038,7 @@
     "name": "Accounts receivable",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10057,7 +10057,7 @@
     "name": "Accounts payable",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10076,7 +10076,7 @@
     "name": "General ledger",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10095,7 +10095,7 @@
     "name": "Fixed asset management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10114,7 +10114,7 @@
     "name": "Cash flow forecasting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10133,7 +10133,7 @@
     "name": "Treasury management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10152,7 +10152,7 @@
     "name": "Expense management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10171,7 +10171,7 @@
     "name": "Travel management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10190,7 +10190,7 @@
     "name": "Procurement to pay",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10209,7 +10209,7 @@
     "name": "Order to cash",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10228,7 +10228,7 @@
     "name": "Inventory management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10247,7 +10247,7 @@
     "name": "Warehouse management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10266,7 +10266,7 @@
     "name": "Transportation management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10285,7 +10285,7 @@
     "name": "Supply chain planning",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10304,7 +10304,7 @@
     "name": "Demand forecasting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10323,7 +10323,7 @@
     "name": "Supplier relationship management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10342,7 +10342,7 @@
     "name": "Sourcing and tendering",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10361,7 +10361,7 @@
     "name": "Contract management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10380,7 +10380,7 @@
     "name": "Quality management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10418,7 +10418,7 @@
     "name": "Project systems",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10437,7 +10437,7 @@
     "name": "Resource management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10456,7 +10456,7 @@
     "name": "Time tracking",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10475,7 +10475,7 @@
     "name": "Human capital management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10494,7 +10494,7 @@
     "name": "Recruitment and onboarding",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10513,7 +10513,7 @@
     "name": "Learning and development",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10532,7 +10532,7 @@
     "name": "Performance and goals",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10551,7 +10551,7 @@
     "name": "Compensation and benefits",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10589,7 +10589,7 @@
     "name": "Employee central",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10608,7 +10608,7 @@
     "name": "Payroll",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10627,7 +10627,7 @@
     "name": "Workforce analytics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10646,7 +10646,7 @@
     "name": "Workforce planning",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10665,7 +10665,7 @@
     "name": "Service management",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10684,7 +10684,7 @@
     "name": "Customer service",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10703,7 +10703,7 @@
     "name": "Field service",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10722,7 +10722,7 @@
     "name": "Project service automation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10741,7 +10741,7 @@
     "name": "Sales force automation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10760,7 +10760,7 @@
     "name": "Marketing automation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10779,7 +10779,7 @@
     "name": "Commerce",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10798,7 +10798,7 @@
     "name": "Retail",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10817,7 +10817,7 @@
     "name": "Manufacturing",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10836,7 +10836,7 @@
     "name": "Financial services",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10855,7 +10855,7 @@
     "name": "Healthcare",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10874,7 +10874,7 @@
     "name": "Education",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10893,7 +10893,7 @@
     "name": "Public sector",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10912,7 +10912,7 @@
     "name": "Energy and utilities",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10931,7 +10931,7 @@
     "name": "Media and communications",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10950,7 +10950,7 @@
     "name": "Professional services",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10969,7 +10969,7 @@
     "name": "High tech",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -10988,7 +10988,7 @@
     "name": "Hospitality",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11007,7 +11007,7 @@
     "name": "Life sciences",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11026,7 +11026,7 @@
     "name": "Construction and engineering",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11045,7 +11045,7 @@
     "name": "Aerospace and defense",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11064,7 +11064,7 @@
     "name": "Automotive",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11083,7 +11083,7 @@
     "name": "Consumer products",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11102,7 +11102,7 @@
     "name": "Agribusiness",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11121,7 +11121,7 @@
     "name": "Chemicals",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11140,7 +11140,7 @@
     "name": "Mining",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11159,7 +11159,7 @@
     "name": "Forest products",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11178,7 +11178,7 @@
     "name": "Mill products",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11197,7 +11197,7 @@
     "name": "Oil and gas",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11216,7 +11216,7 @@
     "name": "Wholesale distribution",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11235,7 +11235,7 @@
     "name": "Telecommunications",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11254,7 +11254,7 @@
     "name": "Banking",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11273,7 +11273,7 @@
     "name": "Insurance",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11292,7 +11292,7 @@
     "name": "Travel and transportation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11311,7 +11311,7 @@
     "name": "Sports and entertainment",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11330,7 +11330,7 @@
     "name": "Nonprofit",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11349,7 +11349,7 @@
     "name": "Real estate",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11368,7 +11368,7 @@
     "name": "Gaming",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11387,7 +11387,7 @@
     "name": "Legal",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11406,7 +11406,7 @@
     "name": "Accounting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11425,7 +11425,7 @@
     "name": "Consulting",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11444,7 +11444,7 @@
     "name": "Design",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11463,7 +11463,7 @@
     "name": "Marketing and advertising",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11482,7 +11482,7 @@
     "name": "IT services",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11501,7 +11501,7 @@
     "name": "Software development",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11520,7 +11520,7 @@
     "name": "Cybersecurity",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11539,7 +11539,7 @@
     "name": "Data science",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11558,7 +11558,7 @@
     "name": "Artificial intelligence",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11577,7 +11577,7 @@
     "name": "Space and defense",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11596,7 +11596,7 @@
     "name": "Energy",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11615,7 +11615,7 @@
     "name": "Environment",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11634,7 +11634,7 @@
     "name": "Government",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11653,7 +11653,7 @@
     "name": "Health",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11672,7 +11672,7 @@
     "name": "Infrastructure",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11691,7 +11691,7 @@
     "name": "Resources",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11710,7 +11710,7 @@
     "name": "Transportation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11729,7 +11729,7 @@
     "name": "Urban planning",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11748,7 +11748,7 @@
     "name": "Water",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11767,7 +11767,7 @@
     "name": "Waste",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11786,7 +11786,7 @@
     "name": "Logistics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11805,7 +11805,7 @@
     "name": "Manufacturing",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11843,7 +11843,7 @@
     "name": "Safety",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11862,7 +11862,7 @@
     "name": "Quality",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11881,7 +11881,7 @@
     "name": "Innovation",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11900,7 +11900,7 @@
     "name": "Sustainability",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11919,7 +11919,7 @@
     "name": "Ethics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11938,7 +11938,7 @@
     "name": "Compliance",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11957,7 +11957,7 @@
     "name": "Governance",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11976,7 +11976,7 @@
     "name": "Risk",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -11995,7 +11995,7 @@
     "name": "Security",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12014,7 +12014,7 @@
     "name": "Privacy",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12033,7 +12033,7 @@
     "name": "Data",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12052,7 +12052,7 @@
     "name": "AI",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12071,7 +12071,7 @@
     "name": "Software",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12090,7 +12090,7 @@
     "name": "Hardware",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12109,7 +12109,7 @@
     "name": "Cloud",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12128,7 +12128,7 @@
     "name": "Edge",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12147,7 +12147,7 @@
     "name": "Network",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12166,7 +12166,7 @@
     "name": "Mobile",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12185,7 +12185,7 @@
     "name": "Web",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12204,7 +12204,7 @@
     "name": "IoT",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12223,7 +12223,7 @@
     "name": "Robotics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12242,7 +12242,7 @@
     "name": "AR/VR",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12261,7 +12261,7 @@
     "name": "Blockchain",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12280,7 +12280,7 @@
     "name": "Quantum",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12299,7 +12299,7 @@
     "name": "Bio",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12318,7 +12318,7 @@
     "name": "Nano",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12337,7 +12337,7 @@
     "name": "Geo",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12356,7 +12356,7 @@
     "name": "Atmosphere",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12375,7 +12375,7 @@
     "name": "Space",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12394,7 +12394,7 @@
     "name": "Ocean",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12413,7 +12413,7 @@
     "name": "Earth",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12432,7 +12432,7 @@
     "name": "Life",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12451,7 +12451,7 @@
     "name": "Mind",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12470,7 +12470,7 @@
     "name": "Society",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12489,7 +12489,7 @@
     "name": "Culture",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12508,7 +12508,7 @@
     "name": "Economy",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12527,7 +12527,7 @@
     "name": "Politics",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12546,7 +12546,7 @@
     "name": "Law",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12565,7 +12565,7 @@
     "name": "History",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12584,7 +12584,7 @@
     "name": "Philosophy",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12603,7 +12603,7 @@
     "name": "Science",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12622,7 +12622,7 @@
     "name": "Engineering",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12641,7 +12641,7 @@
     "name": "Technology",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12660,7 +12660,7 @@
     "name": "Art",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12679,7 +12679,7 @@
     "name": "Music",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12698,7 +12698,7 @@
     "name": "Literature",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12717,7 +12717,7 @@
     "name": "Film",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12736,7 +12736,7 @@
     "name": "Design",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12755,7 +12755,7 @@
     "name": "Games",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12774,7 +12774,7 @@
     "name": "Sports",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12793,7 +12793,7 @@
     "name": "Food",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12812,7 +12812,7 @@
     "name": "Travel",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12831,7 +12831,7 @@
     "name": "Fashion",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12850,7 +12850,7 @@
     "name": "Health",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12869,7 +12869,7 @@
     "name": "Wellness",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12888,7 +12888,7 @@
     "name": "Education",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12907,7 +12907,7 @@
     "name": "Work",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12926,7 +12926,7 @@
     "name": "Home",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12945,7 +12945,7 @@
     "name": "Community",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12964,7 +12964,7 @@
     "name": "Identity",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -12983,7 +12983,7 @@
     "name": "Values",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13002,7 +13002,7 @@
     "name": "Beliefs",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13021,7 +13021,7 @@
     "name": "Spirituality",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13040,7 +13040,7 @@
     "name": "Future",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13059,7 +13059,7 @@
     "name": "Legacy",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13078,7 +13078,7 @@
     "name": "Everything",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13097,7 +13097,7 @@
     "name": "Nothing",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13116,7 +13116,7 @@
     "name": "Something",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",
@@ -13135,7 +13135,7 @@
     "name": "Else",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
     "blueprint": "atoms.span",
-    "profile": "atomic",
+    "profile": "atom",
     "states": [
       "default",
       "hover",

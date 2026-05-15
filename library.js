@@ -1,42 +1,46 @@
 /**
  * ATOMIC COMPONENT LIBRARY
- * Precise HTML blueprints for reusable components.
+ * Precise HTML blueprints for Atoms, Molecules, and Organisms.
  */
 
 const Library = {
     atoms: {
         // --- TEXT ---
-        heading: (p) => `<h${p.level||2} class="cmp heading type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</h${p.level||2}>`,
-        paragraph: (p) => `<p class="cmp paragraph type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</p>`,
-        span: (p) => `<span class="cmp span type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
-        code: (p) => `<code class="cmp code type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</code>`,
+        heading: (p) => `<h${p.level||2} class="cmp heading type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</h${p.level||2}>`,
+        paragraph: (p) => `<p class="cmp paragraph type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</p>`,
+        span: (p) => `<span class="cmp span type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</span>`,
+        code: (p) => `<code class="cmp code type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</code>`,
 
         // --- DATA DISPLAY ---
-        badge: (p) => `<span class="cmp badge type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
-        chip: (p) => `<span class="cmp chip type-${p.type||'secondary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
-        tag: (p) => `<span class="cmp tag type-${p.type||'tertiary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
-        avatar: (p) => `<img src="${p.src}" alt="${p.alt}" class="cmp avatar type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">`,
-        icon: (p) => `<i data-lucide="${p.name||'sparkles'}" class="cmp-icon icon type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}"></i>`,
+        badge: (p) => `<span class="cmp badge type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</span>`,
+        chip: (p) => `<span class="cmp chip type-${p.type||'secondary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</span>`,
+        tag: (p) => `<span class="cmp tag type-${p.type||'tertiary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">${p.content}</span>`,
+        avatar: (p) => `<img src="${p.src}" alt="${p.alt}" class="cmp avatar type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom">`,
+        icon: (p) => `<i data-lucide="${p.name||'sparkles'}" class="cmp-icon icon type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom"></i>`,
 
         // --- FEEDBACK ---
-        spinner: (p) => `<span class="cmp spinner type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" role="status"></span>`,
-        progress: (p) => `<progress class="cmp progress type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" value="${p.value||50}" max="100"></progress>`,
-        skeleton: (p) => `<div class="cmp skeleton type-${p.type||'default'} ${p.classes||''}" aria-hidden="true" style="width:${p.width||'100%'}; height:${p.height||'20px'}"></div>`,
+        spinner: (p) => `<span class="cmp spinner type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''} is-atom" role="status"></span>`,
+        progress: (p) => `<progress class="cmp progress type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''} is-atom" value="${p.value||50}" max="100"></progress>`,
+        skeleton: (p) => `<div class="cmp skeleton type-${p.type||'default'} ${p.classes||''} is-atom" aria-hidden="true" style="width:${p.width||'100%'}; height:${p.height||'20px'}"></div>`,
 
         // --- FORM ATOMS ---
-        label: (p) => `<label class="cmp label type-${p.type||'default'} ${p.classes||''}" for="${p.for||''}">${p.content}</label>`,
-        input_raw: (p) => `<input type="${p.inputType||'text'}" id="${p.id||''}" placeholder="${p.placeholder||''}" class="cmp input type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.required?'required':''} ${p.value?`value="${p.value}"`:''}>`,
-        textarea_raw: (p) => `<textarea id="${p.id||''}" placeholder="${p.placeholder||''}" class="cmp textarea type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}></textarea>`,
-        select_raw: (p) => `<select id="${p.id||''}" class="cmp select type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${(p.options||[]).map(o=>`<option>${o}</option>`).join('')}</select>`,
-        choice_raw: (p) => `<input type="${p.inputType||'checkbox'}" id="${p.id||''}" class="cmp choice type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.checked?'checked':''}>`,
-        range_raw: (p) => `<input type="range" class="cmp range type-${p.type||'default'} state-${p.state||'default'} ${p.classes||''}" min="0" max="100" value="${p.value||50}">`,
-        button: (p) => `<button class="cmp button type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${p.content}</button>`,
+        label: (p) => `<label class="cmp label type-${p.type||'default'} ${p.classes||''} is-atom" for="${p.for||''}">${p.content}</label>`,
+        input_raw: (p) => `<input type="${p.inputType||'text'}" id="${p.id||''}" placeholder="${p.placeholder||''}" class="cmp input type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.required?'required':''} ${p.value?`value="${p.value}"`:''}>`,
+        textarea_raw: (p) => `<textarea id="${p.id||''}" placeholder="${p.placeholder||''}" class="cmp textarea type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}></textarea>`,
+        select_raw: (p) => `<select id="${p.id||''}" class="cmp select type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${(p.options||[]).map(o=>`<option>${o}</option>`).join('')}</select>`,
+        choice_raw: (p) => `<input type="${p.inputType||'checkbox'}" id="${p.id||''}" class="cmp choice type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.checked?'checked':''}>`,
+        range_raw: (p) => `<input type="range" class="cmp range type-${p.type||'default'} state-${p.state||'default'} ${p.classes||''} is-atom" min="0" max="100" value="${p.value||50}">`,
+        button: (p) => `<button class="cmp button type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${p.content}</button>`,
+
+        // --- LAYOUT ATOMS ---
+        divider: (p) => `<hr class="cmp divider type-${p.type||'default'} ${p.classes||''} is-atom">`,
+        spacer: (p) => `<div class="cmp spacer ${p.classes||''} is-atom" style="height:${p.size||'20px'}"></div>`,
 
         // --- STRUCTURAL ---
-        th: (p) => `<th scope="col" class="cmp th type-${p.type||'default'} ${p.classes||''}">${p.content}</th>`,
-        td: (p) => `<td class="cmp td type-${p.type||'default'} ${p.classes||''}">${p.content}</td>`,
-        caption: (p) => `<caption class="cmp caption type-${p.type||'default'} ${p.classes||''}">${p.content}</caption>`,
-        summary: (p) => `<summary class="cmp summary type-${p.type||'default'} ${p.classes||''}">${p.content}</summary>`
+        th: (p) => `<th scope="col" class="cmp th type-${p.type||'default'} ${p.classes||''} is-atom">${p.content}</th>`,
+        td: (p) => `<td class="cmp td type-${p.type||'default'} ${p.classes||''} is-atom">${p.content}</td>`,
+        caption: (p) => `<caption class="cmp caption type-${p.type||'default'} ${p.classes||''} is-atom">${p.content}</caption>`,
+        summary: (p) => `<summary class="cmp summary type-${p.type||'default'} ${p.classes||''} is-atom">${p.content}</summary>`
     },
 
     molecules: {
@@ -117,10 +121,35 @@ const Library = {
             const btn = Library.atoms.button({ content: 'Szukaj', type: 'primary', classes: 'search-btn' });
             return `<div class="cmp search-field type-${p.type||'default'} is-molecule">${icon}${input}${btn}</div>`;
         },
-        rating_field: (p) => {
-            const label = Library.atoms.label({ content: p.label });
-            const stars = `<div class="stars">${[1,2,3,4,5].map(i=>Library.atoms.icon({name:'star', classes:i<=3?'active':''})).join('')}</div>`;
-            return `<div class="cmp rating-field type-${p.type||'default'} is-molecule">${label}${stars}</div>`;
+
+        // --- LAYOUT MOLECULES ---
+        container: (p) => `<section class="cmp container type-${p.type||'default'} is-molecule profile-layout">${p.content||''}</section>`,
+        grid_box: (p) => `<div class="cmp grid type-${p.type||'default'} is-molecule">${p.content||''}</div>`,
+        stack_box: (p) => `<div class="cmp stack type-${p.type||'default'} is-molecule">${p.content||''}</div>`,
+        split_pane: (p) => `<div class="cmp split type-${p.type||'default'} is-molecule">
+            <div class="left">${p.left||''}</div>
+            <div class="right">${p.right||''}</div>
+        </div>`
+    },
+
+    organisms: {
+        // Higher-level compositions
+        dashboard_layout: (p) => {
+            const sidebar = `<aside class="cmp sidebar type-default is-molecule">
+                ${Library.atoms.heading({level:4, content: 'Menu'})}
+                ${Library.molecules.list({items:['Opcja 1', 'Opcja 2']})}
+            </aside>`;
+            const header = `<header class="cmp header type-default is-molecule">${Library.atoms.heading({content: p.title})}</header>`;
+            const main = `<main class="cmp content type-default is-molecule">${p.content||''}</main>`;
+            return `<section class="cmp dashboard-organism is-organism">${sidebar}${header}${main}</section>`;
+        },
+        centered_auth: (p) => {
+            const form = `<form class="cmp auth-form is-molecule">
+                ${Library.molecules.form_field({label: 'Login', placeholder: 'Twój e-mail'})}
+                ${Library.molecules.form_field({label: 'Hasło', placeholder: '******'})}
+                ${Library.atoms.button({content: 'Zaloguj'})}
+            </form>`;
+            return `<section class="cmp auth-organism is-organism">${Library.atoms.icon({name:'lock', size:48})}${form}</section>`;
         }
     }
 };

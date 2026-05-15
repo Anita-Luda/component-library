@@ -8,15 +8,16 @@ def main():
     checklist += "=" * 62 + "\n\n"
 
     checklist += "ARCHITECTURE: SPA + Static Blueprint Library\n"
-    checklist += "COMPOSITION: Atomic Design (Atoms mapped to HTML tags)\n"
+    checklist += "COMPOSITION: Atomic Design (Atoms -> Molecules -> Organisms)\n"
     checklist += "STYLING: 100% Tokenized CSS Variables\n"
-    checklist += "REFINEMENT: Data Display, Feedback & Input Screens Verified\n\n"
+    checklist += "REFINEMENT: Data Display, Feedback, Input & Layout Screens Verified\n\n"
 
     current_cat = None
     done_categories = [
         "1. UNIVERSAL - Data Display",
         "1. UNIVERSAL - Feedback / State Components",
-        "1. UNIVERSAL - Input / Form Components"
+        "1. UNIVERSAL - Input / Form Components",
+        "1. UNIVERSAL - Layout Components"
     ]
 
     for comp in registry:
@@ -27,6 +28,7 @@ def main():
 
         checklist += f"- [x] {comp['name']}\n"
         checklist += f"    - Blueprint: {comp['blueprint']}\n"
+        checklist += f"    - Profile: {comp['profile'].capitalize()}\n"
         checklist += f"    - States: {', '.join(comp['states'])}\n"
         checklist += f"    - Types: {', '.join(comp['types'])}\n"
 

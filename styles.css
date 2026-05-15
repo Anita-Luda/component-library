@@ -1,10 +1,9 @@
 /*
-   3-TIER DESIGN TOKENS ARCHITECTURE
-   Following "Instrukcja Tokenizacji"
+   3-TIER DESIGN TOKENS ARCHITECTURE - REFINED
 */
 
 :root {
-  /* TIER 1: GLOBAL / PRIMITIVE TOKENS */
+  /* --- TIER 1: PRIMITIVES --- */
   --primitive-blue-500: #0064d1;
   --primitive-blue-100: rgba(0, 100, 209, 0.1);
   --primitive-gray-900: #1c1e21;
@@ -16,7 +15,7 @@
 
   --primitive-radius-md: 8px;
   --primitive-radius-sm: 4px;
-  --primitive-radius-full: 9999px;
+  --primitive-radius-lg: 16px;
 
   --primitive-space-1: 4px;
   --primitive-space-2: 8px;
@@ -24,8 +23,10 @@
   --primitive-space-4: 16px;
   --primitive-space-5: 20px;
   --primitive-space-6: 24px;
+  --primitive-space-8: 32px;
+  --primitive-space-12: 48px;
 
-  /* TIER 2: SEMANTIC / ALIAS TOKENS */
+  /* --- TIER 2: SEMANTIC --- */
   --semantic-color-action-primary: var(--primitive-blue-500);
   --semantic-color-action-secondary: var(--primitive-gray-500);
   --semantic-color-action-tertiary: var(--primitive-gray-100);
@@ -35,111 +36,92 @@
   --semantic-color-text-on-action: var(--primitive-white);
 
   --semantic-color-bg-main: var(--primitive-white);
+  --semantic-color-bg-layout: var(--primitive-gray-100);
   --semantic-color-border-main: #ccd0d5;
 
   --semantic-color-status-error: var(--primitive-red-500);
   --semantic-color-status-success: var(--primitive-green-500);
 
   --semantic-shape-radius: var(--primitive-radius-md);
-  --semantic-space-gap: var(--primitive-space-2);
-  --semantic-space-padding-x: var(--primitive-space-5);
-  --semantic-space-padding-y: var(--primitive-space-3);
+  --semantic-shape-radius-large: var(--primitive-radius-lg);
+
+  --semantic-layout-gap-grid: var(--primitive-space-6);
+  --semantic-layout-gap-stack: var(--primitive-space-4);
+  --semantic-layout-padding: var(--primitive-space-8);
 
   --semantic-focus-ring: 0 0 0 4px rgba(0, 100, 209, 0.5);
 
-  /* TIER 3: COMPONENT TOKENS */
+  /* --- TIER 3: COMPONENT / ORGANISM --- */
   --cmp-bg: var(--semantic-color-bg-main);
   --cmp-text: var(--semantic-color-text-main);
   --cmp-border-color: var(--semantic-color-border-main);
   --cmp-radius: var(--semantic-shape-radius);
-  --cmp-padding-x: var(--semantic-space-padding-x);
-  --cmp-padding-y: var(--semantic-space-padding-y);
 
   --cmp-primary-bg: var(--semantic-color-action-primary);
-  --cmp-primary-text: var(--semantic-color-text-on-action);
-
   --cmp-secondary-bg: var(--semantic-color-action-secondary);
-  --cmp-secondary-text: var(--semantic-color-text-on-action);
-
   --cmp-tertiary-bg: var(--semantic-color-action-tertiary);
-  --cmp-tertiary-text: var(--semantic-color-text-main);
+
+  /* Layout Specifics */
+  --layout-sidebar-width: 280px;
+  --layout-header-height: 72px;
+  --layout-content-max-width: 1200px;
+  --layout-card-gap: var(--semantic-layout-gap-grid);
 }
 
-/* BASE COMPONENT CLASS (Strictly using Tier 3 tokens) */
+/* BASE RESET */
 .cmp {
   box-sizing: border-box;
   display: inline-flex;
   align-items: center;
-  gap: var(--semantic-space-gap);
-  padding: var(--cmp-padding-y) var(--cmp-padding-x);
+  gap: var(--primitive-space-2);
+  padding: var(--primitive-space-3) var(--primitive-space-5);
   background: var(--cmp-bg);
   color: var(--cmp-text);
   border: 1px solid var(--cmp-border-color);
   border-radius: var(--cmp-radius);
   transition: all 0.2s ease;
-  cursor: pointer;
   font-family: inherit;
   font-size: 1rem;
 }
 
-/* Component Type Mappings */
-.cmp.type-primary {
-  background: var(--cmp-primary-bg);
-  color: var(--cmp-primary-text);
-  border-color: var(--cmp-primary-bg);
-}
-.cmp.type-secondary {
-  background: var(--cmp-secondary-bg);
-  color: var(--cmp-secondary-text);
-  border-color: var(--cmp-secondary-bg);
-}
-.cmp.type-tertiary {
-  background: var(--cmp-tertiary-bg);
-  color: var(--cmp-tertiary-text);
-  border-color: var(--semantic-color-border-main);
-}
+/* --- ATOMIC DESIGN HIERARCHY --- */
 
-/* State Mappings */
-.cmp.state-hover:hover, .cmp.force-hover {
-  filter: brightness(0.9);
-  background-color: var(--primitive-gray-100);
-}
-.cmp.state-focus:focus-visible, .cmp.force-focus {
-  outline: none;
-  box-shadow: var(--semantic-focus-ring);
-}
-.cmp.state-disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  pointer-events: none;
-}
-.cmp.state-error {
-  border-color: var(--semantic-color-status-error);
-  color: var(--semantic-color-status-error);
-}
-.cmp.state-success {
-  border-color: var(--semantic-color-status-success);
-  color: var(--semantic-color-status-success);
-}
+.is-atom { border-width: 1px; }
 
-/* ATOMIC DESIGN SYSTEM CLASSES */
-.is-atom { /* Unitary */ }
 .is-molecule {
   display: flex;
   flex-direction: column;
-  gap: var(--primitive-space-4);
+  gap: var(--semantic-layout-gap-stack);
   padding: var(--primitive-space-5);
-  border: 1px solid var(--semantic-color-border-main);
-  background: var(--primitive-white);
+  border: 1px solid var(--cmp-border-color);
 }
 
-/* PROFILE SPECIFIC (Layout only) */
-.profile-data table { width: 100%; border-collapse: collapse; }
-.profile-data td, .profile-data th { border: 1px solid var(--semantic-color-border-main); padding: var(--primitive-space-2); }
-.profile-hierarchical ul { list-style: circle; padding-left: var(--primitive-space-5); }
+.is-organism {
+  display: grid;
+  background: var(--semantic-color-bg-layout);
+  padding: var(--semantic-layout-padding);
+  border: 1px solid var(--cmp-border-color);
+  border-radius: var(--semantic-shape-radius-large);
+  gap: var(--semantic-layout-gap-grid);
+}
 
-/* SEMANTIC ELEMENT ADJUSTMENTS */
-p.cmp, h2.cmp, section.cmp, header.cmp, footer.cmp { display: block; cursor: text; }
-img.cmp { display: block; padding: 0; }
-caption.cmp { display: table-caption; padding: var(--primitive-space-2); font-weight: bold; }
-ul.cmp, ol.cmp { display: block; }
+/* --- STATE FORCING (TOKENIZED) --- */
+.cmp.force-hover { background-color: var(--primitive-gray-100); filter: brightness(0.95); }
+.cmp.force-focus { box-shadow: var(--semantic-focus-ring); outline: none; }
+.cmp.force-active { filter: contrast(1.2); transform: scale(0.98); }
+
+/* --- SEMANTIC TAG REFINEMENTS --- */
+section.cmp, header.cmp, footer.cmp, main.cmp, nav.cmp { display: flex; }
+aside.cmp { width: var(--layout-sidebar-width); }
+div.cmp.stack { flex-direction: column; gap: var(--semantic-layout-gap-stack); }
+div.cmp.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--semantic-layout-gap-grid); }
+
+/* Feedback specific atoms */
+.cmp.spinner {
+  width: var(--primitive-space-6);
+  height: var(--primitive-space-6);
+  border-radius: 50%;
+  border-top-color: var(--cmp-primary-bg);
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
