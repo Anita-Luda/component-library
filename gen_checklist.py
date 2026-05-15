@@ -10,10 +10,14 @@ def main():
     checklist += "ARCHITECTURE: SPA + Static Blueprint Library\n"
     checklist += "COMPOSITION: Atomic Design (Atoms mapped to HTML tags)\n"
     checklist += "STYLING: 100% Tokenized CSS Variables\n"
-    checklist += "REFINEMENT: Data Display & Feedback Screens Verified\n\n"
+    checklist += "REFINEMENT: Data Display, Feedback & Input Screens Verified\n\n"
 
     current_cat = None
-    done_categories = ["1. UNIVERSAL - Data Display", "1. UNIVERSAL - Feedback / State Components"]
+    done_categories = [
+        "1. UNIVERSAL - Data Display",
+        "1. UNIVERSAL - Feedback / State Components",
+        "1. UNIVERSAL - Input / Form Components"
+    ]
 
     for comp in registry:
         if comp['category'] != current_cat:

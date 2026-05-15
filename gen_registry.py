@@ -6,18 +6,36 @@ def slugify(text):
 
 def get_blueprint(name):
     n = name.lower()
-    # 1. Feedback / State Refinement
-    if "toast" in n: return "molecules.toast"
-    if "snackbar" in n: return "molecules.toast"
-    if "alert" in n: return "molecules.alert"
-    if "banner" in n: return "molecules.alert"
-    if "confirmation-dialog" in n or "modal" in n: return "molecules.modal"
+    # 1. Input / Form Refinement
+    if "button" in n: return "atoms.button"
+    if "icon button" in n: return "atoms.button"
+    if "search input" in n or "search-input" in n: return "molecules.search_field"
+    if "text input" in n: return "molecules.form_field"
+    if "textarea" in n: return "molecules.form_field"
+    if "select" in n or "combobox" in n or "autocomplete" in n: return "molecules.form_field"
+    if "checkbox" in n: return "molecules.choice_field"
+    if "radio" in n: return "molecules.choice_field"
+    if "toggle" in n or "switch" in n: return "molecules.choice_field"
+    if "slider" in n or "range" in n: return "atoms.range_raw"
+    if "rating" in n: return "molecules.rating_field"
+    if "otp" in n: return "molecules.form_field"
+    if "date picker" in n or "time picker" in n or "color picker" in n: return "molecules.form_field"
+    if "upload" in n: return "molecules.form_field"
+    if "editor" in n: return "molecules.form_field"
+    if "signature" in n: return "molecules.state_block"
+    if "tag input" in n: return "molecules.form_field"
+    if "stepper" in n: return "molecules.form_field"
+
+    # Feedback / State
+    if "toast" in n or "snackbar" in n: return "molecules.toast"
+    if "alert" in n or "banner" in n: return "molecules.alert"
+    if "dialog" in n or "modal" in n: return "molecules.modal"
     if "drawer" in n or "sheet" in n: return "molecules.modal"
     if "tooltip" in n or "popover" in n: return "atoms.span"
     if "progress" in n: return "atoms.progress"
     if "skeleton" in n: return "atoms.skeleton"
     if "spinner" in n: return "atoms.spinner"
-    if any(x in n for x in ["empty-state", "error-state", "success-state", "maintenance", "offline", "denied", "loading-overlay"]):
+    if any(x in n for x in ["empty", "error", "success", "maintenance", "offline", "denied", "loading-overlay"]):
         return "molecules.state_block"
 
     # Data Display
@@ -33,12 +51,9 @@ def get_blueprint(name):
     if "tag" in n: return "atoms.tag"
     if "code block" in n: return "atoms.code"
 
-    # Forms
-    if "button" in n: return "atoms.button"
-    if "input" in n: return "atoms.input"
+    # Defaults
     if "heading" in n: return "atoms.heading"
     if "paragraph" in n: return "atoms.paragraph"
-
     return "atoms.span"
 
 def main():
@@ -47,15 +62,12 @@ def main():
 
     registry = []
     current_category = "Unknown"
-
     for line in lines:
         if re.match(r'^\d+\.', line):
             current_category = line
             continue
-
         blueprint = get_blueprint(line)
         profile = "atomic" if "atoms" in blueprint else "molecule"
-
         registry.append({
             "id": slugify(line),
             "name": line,
@@ -65,7 +77,6 @@ def main():
             "states": ["default", "hover", "focus", "active", "disabled", "error", "success"],
             "types": ["primary", "secondary", "tertiary"] if any(x in line.lower() for x in ["button", "badge", "chip", "alert", "tag", "toast", "banner"]) else ["default"]
         })
-
     with open("registry.json", "w", encoding="utf-8") as f:
         json.dump(registry, f, indent=2, ensure_ascii=False)
 

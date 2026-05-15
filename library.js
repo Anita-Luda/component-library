@@ -18,14 +18,19 @@ const Library = {
         avatar: (p) => `<img src="${p.src}" alt="${p.alt}" class="cmp avatar type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">`,
         icon: (p) => `<i data-lucide="${p.name||'sparkles'}" class="cmp-icon icon type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}"></i>`,
 
-        // --- FEEDBACK ATOMS ---
-        spinner: (p) => `<span class="cmp spinner type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" role="status" aria-label="Ładowanie"></span>`,
+        // --- FEEDBACK ---
+        spinner: (p) => `<span class="cmp spinner type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" role="status"></span>`,
         progress: (p) => `<progress class="cmp progress type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" value="${p.value||50}" max="100"></progress>`,
         skeleton: (p) => `<div class="cmp skeleton type-${p.type||'default'} ${p.classes||''}" aria-hidden="true" style="width:${p.width||'100%'}; height:${p.height||'20px'}"></div>`,
 
-        // --- FORM ELEMENTS ---
+        // --- FORM ATOMS ---
+        label: (p) => `<label class="cmp label type-${p.type||'default'} ${p.classes||''}" for="${p.for||''}">${p.content}</label>`,
+        input_raw: (p) => `<input type="${p.inputType||'text'}" id="${p.id||''}" placeholder="${p.placeholder||''}" class="cmp input type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.required?'required':''} ${p.value?`value="${p.value}"`:''}>`,
+        textarea_raw: (p) => `<textarea id="${p.id||''}" placeholder="${p.placeholder||''}" class="cmp textarea type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}></textarea>`,
+        select_raw: (p) => `<select id="${p.id||''}" class="cmp select type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${(p.options||[]).map(o=>`<option>${o}</option>`).join('')}</select>`,
+        choice_raw: (p) => `<input type="${p.inputType||'checkbox'}" id="${p.id||''}" class="cmp choice type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.checked?'checked':''}>`,
+        range_raw: (p) => `<input type="range" class="cmp range type-${p.type||'default'} state-${p.state||'default'} ${p.classes||''}" min="0" max="100" value="${p.value||50}">`,
         button: (p) => `<button class="cmp button type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${p.content}</button>`,
-        input: (p) => `<input type="text" placeholder="${p.placeholder}" class="cmp input type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>`,
 
         // --- STRUCTURAL ---
         th: (p) => `<th scope="col" class="cmp th type-${p.type||'default'} ${p.classes||''}">${p.content}</th>`,
@@ -67,7 +72,7 @@ const Library = {
             return `<div class="cmp statistic type-${p.type||'default'} state-${p.state||'default'} is-molecule">${label}${value}</div>`;
         },
 
-        // --- FEEDBACK MOLECULES ---
+        // --- FEEDBACK ---
         alert: (p) => {
             const icon = Library.atoms.icon({ name: p.icon || 'alert-circle', classes: 'alert-icon' });
             const text = Library.atoms.span({ content: p.content, classes: 'alert-content' });
@@ -89,6 +94,33 @@ const Library = {
             const h = Library.atoms.heading({ level: 3, content: p.title });
             const b = Library.atoms.paragraph({ content: p.body });
             return `<section class="cmp state-block type-${p.type||'default'} state-${p.state||'default'} is-molecule">${icon}${h}${b}</section>`;
+        },
+
+        // --- FORM MOLECULES ---
+        form_field: (p) => {
+            const id = `field-${Math.random().toString(36).substr(2, 5)}`;
+            const label = Library.atoms.label({ content: p.label, for: id });
+            const input = p.multiline
+                ? Library.atoms.textarea_raw({ id, ...p })
+                : (p.options ? Library.atoms.select_raw({ id, ...p }) : Library.atoms.input_raw({ id, ...p }));
+            return `<div class="cmp form-field type-${p.type||'default'} is-molecule">${label}${input}</div>`;
+        },
+        choice_field: (p) => {
+            const id = `choice-${Math.random().toString(36).substr(2, 5)}`;
+            const input = Library.atoms.choice_raw({ id, ...p });
+            const label = Library.atoms.label({ content: p.label, for: id });
+            return `<div class="cmp choice-field type-${p.type||'default'} is-molecule">${input}${label}</div>`;
+        },
+        search_field: (p) => {
+            const input = Library.atoms.input_raw({ placeholder: p.placeholder, classes: 'search-input', state: p.state });
+            const icon = Library.atoms.icon({ name: 'search', classes: 'search-icon' });
+            const btn = Library.atoms.button({ content: 'Szukaj', type: 'primary', classes: 'search-btn' });
+            return `<div class="cmp search-field type-${p.type||'default'} is-molecule">${icon}${input}${btn}</div>`;
+        },
+        rating_field: (p) => {
+            const label = Library.atoms.label({ content: p.label });
+            const stars = `<div class="stars">${[1,2,3,4,5].map(i=>Library.atoms.icon({name:'star', classes:i<=3?'active':''})).join('')}</div>`;
+            return `<div class="cmp rating-field type-${p.type||'default'} is-molecule">${label}${stars}</div>`;
         }
     }
 };

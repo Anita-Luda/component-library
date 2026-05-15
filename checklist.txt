@@ -4,10 +4,10 @@ CHECKLIST OF COMPONENTS - REFINEMENT STATUS (HYBRID LIBRARY)
 ARCHITECTURE: SPA + Static Blueprint Library
 COMPOSITION: Atomic Design (Atoms mapped to HTML tags)
 STYLING: 100% Tokenized CSS Variables
-REFINEMENT: Data Display & Feedback Screens Verified
+REFINEMENT: Data Display, Feedback & Input Screens Verified
 
 
-### 1. UNIVERSAL - Input / Form Components [TODO]
+### 1. UNIVERSAL - Input / Form Components [DONE]
 - [x] Button
     - Blueprint: atoms.button
     - States: default, hover, focus, active, disabled, error, success
@@ -17,99 +17,99 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Text input
-    - Blueprint: atoms.input
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Textarea
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Select
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-select
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Combobox
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Autocomplete
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Checkbox
-    - Blueprint: atoms.span
+    - Blueprint: molecules.choice_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Radio
-    - Blueprint: atoms.span
+    - Blueprint: molecules.choice_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Toggle / switch
-    - Blueprint: atoms.span
+    - Blueprint: molecules.choice_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Slider
-    - Blueprint: atoms.span
+    - Blueprint: atoms.range_raw
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Range slider
-    - Blueprint: atoms.span
+    - Blueprint: atoms.range_raw
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Stepper
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Date picker
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Time picker
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Color picker
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] File upload
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Drag & drop upload
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] OTP input
-    - Blueprint: atoms.input
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Search input
-    - Blueprint: atoms.input
+    - Blueprint: molecules.search_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tag input
-    - Blueprint: atoms.tag
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Rating input
-    - Blueprint: atoms.input
+    - Blueprint: molecules.rating_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Signature pad
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Rich text editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Markdown editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
@@ -205,7 +205,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Confirmation dialog
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Modal
@@ -229,7 +229,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Progress bar
-    - Blueprint: atoms.span
+    - Blueprint: atoms.progress
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Skeleton loader
@@ -241,15 +241,15 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Empty state
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Error state
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Success state
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance state
@@ -477,11 +477,11 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Workspace switcher
-    - Blueprint: atoms.span
+    - Blueprint: molecules.choice_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Organization switcher
-    - Blueprint: atoms.span
+    - Blueprint: molecules.choice_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] User/team management
@@ -583,7 +583,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Variant selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Size picker
@@ -621,15 +621,15 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Shipping selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Payment selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Coupon input
-    - Blueprint: atoms.input
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Order summary
@@ -697,7 +697,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Assignee selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Rich comments
@@ -735,11 +735,11 @@ REFINEMENT: Data Display & Feedback Screens Verified
 
 ### 2. CMS / Blog / Knowledge Base [TODO]
 - [x] Rich text editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Slash command editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Media library
@@ -771,7 +771,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Reading progress
-    - Blueprint: atoms.span
+    - Blueprint: atoms.progress
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Content blocks
@@ -779,7 +779,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] MDX editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI writing assistant
@@ -793,7 +793,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Prompt input
-    - Blueprint: atoms.input
+    - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Streaming response
@@ -809,7 +809,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Model selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Context window indicator
@@ -971,7 +971,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Payment success flow
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Transfer wizard
@@ -1023,7 +1023,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Progress tracker
-    - Blueprint: atoms.span
+    - Blueprint: atoms.progress
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Achievement badges
@@ -1049,7 +1049,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Code editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Terminal
@@ -1073,7 +1073,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Environment selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] DB table explorer
@@ -1169,7 +1169,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-select with keyboard support
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
@@ -1361,7 +1361,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-tenant switcher
-    - Blueprint: atoms.span
+    - Blueprint: molecules.choice_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] White-label configuration
@@ -1373,11 +1373,11 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Data residency selector
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Security policy editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Custom field builder
@@ -1441,11 +1441,11 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Retention policy editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Electronic signature flow
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] KYB verification status
@@ -1453,7 +1453,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Customer success dashboard
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Partner portal
@@ -1541,7 +1541,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Knowledge base editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Policy document viewer
@@ -1801,7 +1801,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Carbon footprint calculator
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Diversity and inclusion dashboard
@@ -1829,7 +1829,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Succession planning chart
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compensation benchmarking
@@ -1901,7 +1901,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Infrastructure as code editor
-    - Blueprint: atoms.span
+    - Blueprint: molecules.form_field
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Kubernetes cluster viewer
@@ -2133,7 +2133,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] E-signature tracker
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Billing and revenue recognition
@@ -2273,7 +2273,7 @@ REFINEMENT: Data Display & Feedback Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Succession and development
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Employee central
