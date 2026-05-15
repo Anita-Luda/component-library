@@ -1,0 +1,68 @@
+{
+  "themes": [
+    {
+      "id": "surreal_a",
+      "name": "Sen Elektrody",
+      "content": {
+        "tiny": ["👁️", "🌀", "🗿", "🍄", "🗝️", "🐡", "🪐"],
+        "short": [
+            "Zjedz czas",
+            "Mrucz do chmury",
+            "Lewitujący kalafior",
+            "Betonowy szept",
+            "Kwadratowy deszcz",
+            "Płynna logika",
+            "Echa masła"
+        ],
+        "medium": [
+            "Pancerniki śnią o wełnianych galaktykach",
+            "Dlaczego Twoja cień pije herbatę bez pozwolenia?",
+            "Instrukcja obsługi niewidzialnego grzebienia",
+            "Fioletowe wibracje podziemnego koperku",
+            "Kolekcja zapachów zapomnianych kolorów",
+            "Manifest cyfrowego mchu"
+        ],
+        "long": [
+            "Kiedy ostatni raz widziałeś jak lodówka próbuje napisać wiersz o termodynamice? To nie jest pytanie, to stan skupienia Twojej wyobraźni. Każda pikselowa krowa wie, że trawa jest tylko sugestią napisaną w języku, którego nikt nie pamięta, a gwiazdy to tylko dziury w serze wszechświata.",
+            "W krainie, gdzie grawitacja jest opcjonalna, a podatki płaci się w uśmiechach ślimaków, każda transakcja wymaga certyfikatu autentyczności od lokalnego jednorożca. Nie zapomnij o tym, gdy będziesz próbował wymienić swoje sny na bilet do biblioteki ciszy.",
+            "System wykrył nadmiar sensu w Twoim otoczeniu. Proszę natychmiast spojrzeć na najbliższy ziemniak i pomyśleć o geometrii euklidesowej w sosie własnym. Tylko tak przywrócisz równowagę między absurdem a rzeczywistością."
+        ],
+        "xl": [
+            "Esej o wpływie metalowych chmur na migrację plastikowych widelców. Rozdział pierwszy: Dlaczego widelce nie mają skrzydeł? Odpowiedź jest prosta, choć bolesna dla każdego, kto kiedykolwiek próbował ubić pianę z oceanu przy pomocy widelca. Chmury, będąc z natury magnetyczne, przyciągają wszelkie próby buntu, zamieniając je w deszcz spinaczy biurowych. W tym kontekście, jedynym logicznym wyjściem jest budowa tratwy z nieużywanych haseł do wi-fi i odpłynięcie w stronę horyzontu, który i tak jest tylko namalowaną linią na krawędzi Twojego monitora."
+        ]
+      }
+    },
+    {
+      "id": "surreal_b",
+      "name": "Kuchnia Kwantowa",
+      "content": {
+        "tiny": ["🍤", "🥣", "🧊", "🧅", "🧄", "🧂", "🥢"],
+        "short": [
+            "Smaż próżnię",
+            "Solona nicość",
+            "Pieczone echo",
+            "Gotowany błąd",
+            "Duszony strach",
+            "Surowy kod",
+            "Mielony czas"
+        ],
+        "medium": [
+            "Przepis na omlet z jajek feniksa i logiki rozmytej",
+            "Degustacja win z rocznika 'Nigdy nie było'",
+            "Sztućce, które same decydują o smaku Twojej zupy",
+            "Festiwal zapomnianych smaków z wnętrza dysku twardego",
+            "Karta dań napisana w Braille'u dla daltonistów",
+            "Kulinarna podróż do jądra cebuli"
+        ],
+        "long": [
+            "Weź trzy kwarty milczenia, dodaj szczyptę statycznej elektryczności i mieszaj aż do uzyskania konsystencji wczorajszego popołudnia. Jeśli masa zacznie świecić na neonowy róż, oznacza to, że Twoja kuchnia została nawiedzona przez ducha spalonego tostera. Nie panikuj, to tylko fizyka kwantowa próbująca zrobić sobie przerwę obiadową.",
+            "W menu dzisiaj: tatar z jednorożca w sosie z własnych marzeń, podawany na talerzu z antymaterii. Proszę uważać, aby nie dotknąć krawędzi naczynia, gdyż grozi to natychmiastowym przeniesieniem do wymiaru, w którym wszystkie drogi prowadzą do lokalnego urzędu pocztowego.",
+            "Twoja patelnia przestała Cię kochać. Twierdzi, że spędzasz zbyt dużo czasu z mikrofalówką i że Twoje omlety są zbyt płaskie emocjonalnie. Aby naprawić ten związek, musisz zaśpiewać jej arię operową w języku binarnym podczas smażenia boczku."
+        ],
+        "xl": [
+            "Traktat o metafizyce przypalonego mleka. Czy mleko, kipiąc, próbuje uciec z tego świata, czy po prostu szuka kontaktu z absolutem na dnie Twojego garnka? Wielu filozofów spędziło lata na obserwowaniu kożucha, widząc w nim mapę nieodkrytych lądów i zapis przyszłych testów jednostkowych. Jedno jest pewne: zapach spalonego mleka jest uniwersalnym sygnałem alarmowym dla wszystkich bytów w promieniu trzech kilometrów, informującym o tym, że kolejna próba zrozumienia wszechświata zakończyła się widowiskową katastrofą kulinarną."
+        ]
+      }
+    }
+  ]
+}

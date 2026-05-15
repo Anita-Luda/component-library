@@ -1,0 +1,64 @@
+/* ARCHITECTURAL SKELETON - NO VISUAL STYLING */
+/* ALL PROPERTIES USE CSS VARIABLES (TOKENS) */
+
+:root {
+    /* Component Default Tokens */
+    --cmp-padding: 10px;
+    --cmp-margin: 0;
+    --cmp-bg: transparent;
+    --cmp-color: inherit;
+    --cmp-border: 1px solid transparent;
+    --cmp-radius: 0;
+    --cmp-shadow: none;
+    --cmp-font-size: 1rem;
+    --cmp-transition: all 0.2s;
+
+    /* Component Type Tokens */
+    --cmp-primary-bg: #000;
+    --cmp-primary-color: #fff;
+    --cmp-secondary-bg: #666;
+    --cmp-secondary-color: #fff;
+    --cmp-tertiary-bg: #eee;
+    --cmp-tertiary-color: #000;
+
+    /* Component State Tokens */
+    --cmp-hover-bg: rgba(0,0,0,0.1);
+    --cmp-focus-outline: 2px solid blue;
+    --cmp-active-bg: rgba(0,0,0,0.2);
+    --cmp-disabled-opacity: 0.5;
+    --cmp-error-border: 1px solid red;
+    --cmp-success-border: 1px solid green;
+}
+
+/* Base library structure */
+.cmp {
+    padding: var(--cmp-padding);
+    margin: var(--cmp-margin);
+    background: var(--cmp-bg);
+    color: var(--cmp-color);
+    border: var(--cmp-border);
+    border-radius: var(--cmp-radius);
+    box-shadow: var(--cmp-shadow);
+    font-size: var(--cmp-font-size);
+    transition: var(--cmp-transition);
+    box-sizing: border-box;
+}
+
+/* State Mappings */
+.cmp.state-hover { background: var(--cmp-hover-bg); }
+.cmp.state-focus { outline: var(--cmp-focus-outline); }
+.cmp.state-active { background: var(--cmp-active-bg); }
+.cmp.state-disabled { opacity: var(--cmp-disabled-opacity); pointer-events: none; }
+.cmp.state-error { border: var(--cmp-error-border); }
+.cmp.state-success { border: var(--cmp-success-border); }
+
+/* Type Mappings */
+.cmp.type-primary { background: var(--cmp-primary-bg); color: var(--cmp-primary-color); }
+.cmp.type-secondary { background: var(--cmp-secondary-bg); color: var(--cmp-secondary-color); }
+.cmp.type-tertiary { background: var(--cmp-tertiary-bg); color: var(--cmp-tertiary-color); }
+
+/* Specific Profile adjustments (layout only) */
+.profile-group { display: flex; flex-direction: column; gap: 10px; }
+.profile-data table { width: 100%; border-collapse: collapse; }
+.profile-data td { border: 1px solid #ddd; padding: 5px; }
+.profile-hierarchical ul { list-style: circle; padding-left: 20px; }
