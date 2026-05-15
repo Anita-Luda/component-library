@@ -6,82 +6,41 @@
 const Library = {
     atoms: {
         // --- TEXT ---
-        heading: (props) => {
-            const { level = 2, content = '', type = 'default', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<h${level} class="cmp heading type-${type} state-${state} ${force} ${classes}">${content}</h${level}>`;
-        },
-        paragraph: (props) => {
-            const { content = '', type = 'default', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<p class="cmp paragraph type-${type} state-${state} ${force} ${classes}">${content}</p>`;
-        },
-        span: (props) => {
-            const { content = '', type = 'default', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<span class="cmp span type-${type} state-${state} ${force} ${classes}">${content}</span>`;
-        },
-        code: (props) => {
-            const { content = '', type = 'default', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<code class="cmp code type-${type} state-${state} ${force} ${classes}">${content}</code>`;
-        },
+        heading: (p) => `<h${p.level||2} class="cmp heading type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</h${p.level||2}>`,
+        paragraph: (p) => `<p class="cmp paragraph type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</p>`,
+        span: (p) => `<span class="cmp span type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
+        code: (p) => `<code class="cmp code type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</code>`,
 
         // --- DATA DISPLAY ---
-        badge: (props) => {
-            const { content = '', type = 'primary', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<span class="cmp badge type-${type} state-${state} ${force} ${classes}">${content}</span>`;
-        },
-        chip: (props) => {
-            const { content = '', type = 'secondary', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<span class="cmp chip type-${type} state-${state} ${force} ${classes}">${content}</span>`;
-        },
-        tag: (props) => {
-            const { content = '', type = 'tertiary', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<span class="cmp tag type-${type} state-${state} ${force} ${classes}">${content}</span>`;
-        },
-        avatar: (props) => {
-            const { src = '', alt = '', type = 'default', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<img src="${src}" alt="${alt}" class="cmp avatar type-${type} state-${state} ${force} ${classes}">`;
-        },
-        icon: (props) => {
-            const { name = 'sparkles', type = 'default', state = 'default', classes = '' } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            return `<i data-lucide="${name}" class="cmp-icon icon type-${type} state-${state} ${force} ${classes}"></i>`;
-        },
+        badge: (p) => `<span class="cmp badge type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
+        chip: (p) => `<span class="cmp chip type-${p.type||'secondary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
+        tag: (p) => `<span class="cmp tag type-${p.type||'tertiary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">${p.content}</span>`,
+        avatar: (p) => `<img src="${p.src}" alt="${p.alt}" class="cmp avatar type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}">`,
+        icon: (p) => `<i data-lucide="${p.name||'sparkles'}" class="cmp-icon icon type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}"></i>`,
 
-        // --- TABLE ELEMENTS ---
+        // --- FEEDBACK ATOMS ---
+        spinner: (p) => `<span class="cmp spinner type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" role="status" aria-label="Ładowanie"></span>`,
+        progress: (p) => `<progress class="cmp progress type-${p.type||'primary'} state-${p.state||'default'} ${p.classes||''}" value="${p.value||50}" max="100"></progress>`,
+        skeleton: (p) => `<div class="cmp skeleton type-${p.type||'default'} ${p.classes||''}" aria-hidden="true" style="width:${p.width||'100%'}; height:${p.height||'20px'}"></div>`,
+
+        // --- FORM ELEMENTS ---
+        button: (p) => `<button class="cmp button type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${p.content}</button>`,
+        input: (p) => `<input type="text" placeholder="${p.placeholder}" class="cmp input type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''}" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>`,
+
+        // --- STRUCTURAL ---
         th: (p) => `<th scope="col" class="cmp th type-${p.type||'default'} ${p.classes||''}">${p.content}</th>`,
         td: (p) => `<td class="cmp td type-${p.type||'default'} ${p.classes||''}">${p.content}</td>`,
         caption: (p) => `<caption class="cmp caption type-${p.type||'default'} ${p.classes||''}">${p.content}</caption>`,
-
-        // --- FORM ELEMENTS ---
-        button: (props) => {
-            const { content = '', type = 'primary', state = 'default', classes = '', disabled = false } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            const dis = disabled || state === 'disabled' ? 'disabled aria-disabled="true"' : '';
-            return `<button class="cmp button type-${type} state-${state} ${force} ${classes}" ${dis}>${content}</button>`;
-        },
-        input: (props) => {
-            const { placeholder = '', type = 'default', state = 'default', classes = '', disabled = false } = props;
-            const force = state !== 'default' ? `force-${state}` : '';
-            const dis = disabled || state === 'disabled' ? 'disabled aria-disabled="true"' : '';
-            return `<input type="text" placeholder="${placeholder}" class="cmp input type-${type} state-${state} ${force} ${classes}" ${dis}>`;
-        },
         summary: (p) => `<summary class="cmp summary type-${p.type||'default'} ${p.classes||''}">${p.content}</summary>`
     },
 
     molecules: {
+        // --- DATA DISPLAY ---
         card: (p) => {
             const h = Library.atoms.heading({ level: 3, content: p.title, classes: 'card-header', state: p.state });
             const b = Library.atoms.paragraph({ content: p.body, classes: 'card-body', state: p.state });
             const f = p.footer ? `<footer class="card-footer">${p.footer}</footer>` : '';
-            const force = p.state !== 'default' ? `force-${p.state}` : '';
-            return `<article class="cmp card type-${p.type||'default'} state-${p.state||'default'} ${force} is-molecule">${h}${b}${f}</article>`;
+            return `<article class="cmp card type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} is-molecule">${h}${b}${f}</article>`;
         },
         table: (p) => {
             const cap = p.caption ? Library.atoms.caption({ content: p.caption }) : '';
@@ -106,6 +65,30 @@ const Library = {
             const label = Library.atoms.span({ content: p.label, classes: 'stat-label' });
             const value = Library.atoms.span({ content: p.value, classes: 'stat-value', type: 'primary' });
             return `<div class="cmp statistic type-${p.type||'default'} state-${p.state||'default'} is-molecule">${label}${value}</div>`;
+        },
+
+        // --- FEEDBACK MOLECULES ---
+        alert: (p) => {
+            const icon = Library.atoms.icon({ name: p.icon || 'alert-circle', classes: 'alert-icon' });
+            const text = Library.atoms.span({ content: p.content, classes: 'alert-content' });
+            return `<div class="cmp alert type-${p.type||'primary'} state-${p.state||'default'} is-molecule" role="alert">${icon}${text}</div>`;
+        },
+        toast: (p) => {
+            const body = Library.atoms.span({ content: p.content });
+            const close = Library.atoms.button({ content: '×', type: 'tertiary', classes: 'toast-close' });
+            return `<div class="cmp toast type-${p.type||'default'} state-${p.state||'default'} is-molecule">${body}${close}</div>`;
+        },
+        modal: (p) => {
+            const h = Library.atoms.heading({ level: 3, content: p.title });
+            const b = Library.atoms.paragraph({ content: p.body });
+            const f = `<footer class="modal-footer">${Library.atoms.button({content:'OK'})}</footer>`;
+            return `<dialog class="cmp modal type-${p.type||'default'} state-${p.state||'default'} is-molecule" open>${h}${b}${f}</dialog>`;
+        },
+        state_block: (p) => {
+            const icon = Library.atoms.icon({ name: p.icon || 'info', classes: 'state-icon' });
+            const h = Library.atoms.heading({ level: 3, content: p.title });
+            const b = Library.atoms.paragraph({ content: p.body });
+            return `<section class="cmp state-block type-${p.type||'default'} state-${p.state||'default'} is-molecule">${icon}${h}${b}</section>`;
         }
     }
 };

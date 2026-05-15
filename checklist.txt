@@ -4,7 +4,7 @@ CHECKLIST OF COMPONENTS - REFINEMENT STATUS (HYBRID LIBRARY)
 ARCHITECTURE: SPA + Static Blueprint Library
 COMPOSITION: Atomic Design (Atoms mapped to HTML tags)
 STYLING: 100% Tokenized CSS Variables
-REFINEMENT: First Category Verified (Blueprints & Composition)
+REFINEMENT: Data Display & Feedback Screens Verified
 
 
 ### 1. UNIVERSAL - Input / Form Components [TODO]
@@ -187,37 +187,37 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Feedback / State Components [TODO]
+### 1. UNIVERSAL - Feedback / State Components [DONE]
 - [x] Toast
-    - Blueprint: atoms.span
+    - Blueprint: molecules.toast
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 - [x] Snackbar
-    - Blueprint: atoms.span
+    - Blueprint: molecules.toast
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Alert
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Banner
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 - [x] Confirmation dialog
     - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Modal
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Drawer
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sheet
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tooltip
@@ -233,11 +233,11 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Skeleton loader
-    - Blueprint: atoms.span
+    - Blueprint: atoms.skeleton
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Spinner
-    - Blueprint: atoms.span
+    - Blueprint: atoms.spinner
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Empty state
@@ -253,15 +253,15 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance state
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Offline state
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Permission denied state
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Loading overlay
@@ -609,7 +609,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
 
 ### 2. E-commerce - Purchase Flow [TODO]
 - [x] Cart drawer
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Checkout steps
@@ -647,7 +647,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
 
 ### 2. E-commerce - Growth Components [TODO]
 - [x] Upsell modal
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cross-sell carousel
@@ -893,7 +893,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Share sheet
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Follow button
@@ -967,7 +967,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Fraud alert
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Payment success flow
@@ -1207,13 +1207,13 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Cookie banner
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 - [x] Announcement banner
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 - [x] Sticky CTA
     - Blueprint: atoms.span
     - States: default, hover, focus, active, disabled, error, success
@@ -1241,7 +1241,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bottom sheet
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Native picker wheel
@@ -1273,7 +1273,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Native share sheet
-    - Blueprint: atoms.span
+    - Blueprint: molecules.modal
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Deep link handoff
@@ -1311,9 +1311,9 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Install app banners
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
-    - Types: default
+    - Types: primary, secondary, tertiary
 
 ### 5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise [TODO]
 - [x] Permission matrix
@@ -1501,7 +1501,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance work order
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Asset lifecycle tracker
@@ -1721,7 +1721,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Emergency alert system
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] BCDR plan viewer
@@ -1785,7 +1785,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Predictive maintenance alert
-    - Blueprint: atoms.span
+    - Blueprint: molecules.alert
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Energy consumption monitor
@@ -2237,7 +2237,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Plant maintenance
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Project systems
@@ -2537,7 +2537,7 @@ REFINEMENT: First Category Verified (Blueprints & Composition)
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Maintenance
-    - Blueprint: atoms.span
+    - Blueprint: molecules.state_block
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Safety

@@ -122,9 +122,10 @@ function renderComponent(comp) {
                 items: [getContent('medium'), getContent('medium'), getContent('medium')],
                 title: getContent('medium'),
                 label: getContent('short'),
-                value: getContent('tiny'),
+                value: 42 + Math.floor(Math.random() * 20), // Numeric for progress
                 body: getContent('long'),
-                footer: Library.atoms.badge({ content: getContent('tiny'), type: 'primary' })
+                footer: Library.atoms.badge({ content: getContent('tiny'), type: 'primary' }),
+                icon: 'zap'
             };
 
             variantBox.innerHTML += blueprintFn(props);

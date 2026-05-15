@@ -845,8 +845,8 @@
     "id": "toast",
     "name": "Toast",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.toast",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -857,15 +857,17 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "snackbar",
     "name": "Snackbar",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.toast",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -883,8 +885,8 @@
     "id": "alert",
     "name": "Alert",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -904,8 +906,8 @@
     "id": "banner",
     "name": "Banner",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -916,7 +918,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -942,8 +946,8 @@
     "id": "modal",
     "name": "Modal",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -961,8 +965,8 @@
     "id": "drawer",
     "name": "Drawer",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -980,8 +984,8 @@
     "id": "sheet",
     "name": "Sheet",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1037,7 +1041,7 @@
     "id": "progress-bar",
     "name": "Progress bar",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.progress",
     "profile": "atomic",
     "states": [
       "default",
@@ -1056,7 +1060,7 @@
     "id": "skeleton-loader",
     "name": "Skeleton loader",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.skeleton",
     "profile": "atomic",
     "states": [
       "default",
@@ -1075,7 +1079,7 @@
     "id": "spinner",
     "name": "Spinner",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.spinner",
     "profile": "atomic",
     "states": [
       "default",
@@ -1151,8 +1155,8 @@
     "id": "maintenance-state",
     "name": "Maintenance state",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.state_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1170,8 +1174,8 @@
     "id": "offline-state",
     "name": "Offline state",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.state_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1189,8 +1193,8 @@
     "id": "permission-denied-state",
     "name": "Permission denied state",
     "category": "1. UNIVERSAL - Feedback / State Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.state_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -2791,8 +2795,8 @@
     "id": "cart-drawer",
     "name": "Cart drawer",
     "category": "2. E-commerce - Purchase Flow",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -2962,8 +2966,8 @@
     "id": "upsell-modal",
     "name": "Upsell modal",
     "category": "2. E-commerce - Growth Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -3534,7 +3538,7 @@
     "id": "reading-progress",
     "name": "Reading progress",
     "category": "2. CMS / Blog / Knowledge Base",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.progress",
     "profile": "atomic",
     "states": [
       "default",
@@ -4085,8 +4089,8 @@
     "id": "share-sheet",
     "name": "Share sheet",
     "category": "2. Social Media / Community",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -4429,8 +4433,8 @@
     "id": "fraud-alert",
     "name": "Fraud alert",
     "category": "2. Fintech / Banking",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -4678,7 +4682,7 @@
     "id": "progress-tracker",
     "name": "Progress tracker",
     "category": "2. Education / LMS",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.progress",
     "profile": "atomic",
     "states": [
       "default",
@@ -5516,8 +5520,8 @@
     "id": "cookie-banner",
     "name": "Cookie banner",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5528,15 +5532,17 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "announcement-banner",
     "name": "Announcement banner",
     "category": "3. WEB-SPECIFIC - Marketing Website Components",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5547,7 +5553,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -5670,8 +5678,8 @@
     "id": "bottom-sheet",
     "name": "Bottom sheet",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5822,8 +5830,8 @@
     "id": "native-share-sheet",
     "name": "Native share sheet",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.modal",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5995,8 +6003,8 @@
     "id": "install-app-banners",
     "name": "Install app banners",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -6007,7 +6015,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -6888,8 +6898,8 @@
     "id": "maintenance-work-order",
     "name": "Maintenance work order",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.state_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -7933,8 +7943,8 @@
     "id": "emergency-alert-system",
     "name": "Emergency alert system",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -8239,8 +8249,8 @@
     "id": "predictive-maintenance-alert",
     "name": "Predictive maintenance alert",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.alert",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -10388,8 +10398,8 @@
     "id": "plant-maintenance",
     "name": "Plant maintenance",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.state_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -11813,8 +11823,8 @@
     "id": "maintenance",
     "name": "Maintenance",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atomic",
+    "blueprint": "molecules.state_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
