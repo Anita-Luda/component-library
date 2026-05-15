@@ -1,0 +1,2285 @@
+CHECKLIST OF COMPONENTS, TYPES AND STATES
+========================================
+
+### 1. UNIVERSAL - Input / Form Components
+- [x] Button
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Icon button
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Text input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Textarea
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Select
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Multi-select
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Combobox
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Autocomplete
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Checkbox
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Radio
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Toggle / switch
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Slider
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Range slider
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Stepper
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Date picker
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Time picker
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Color picker
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] File upload
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Drag & drop upload
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] OTP input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Search input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Tag input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Rating input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Signature pad
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Rich text editor
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Markdown editor
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 1. UNIVERSAL - Navigation Components
+- [x] Navbar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sidebar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Topbar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Bottom navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Breadcrumbs
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Tabs
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Pills
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Pagination
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Pagination infinite scroll
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Mega menu
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Hamburger menu
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Context menu
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Command palette
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Tree navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Dock navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Floating nav
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Anchor navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Wizard / step navigation
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 1. UNIVERSAL - Feedback / State Components
+- [x] Toast
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Snackbar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Alert
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Banner
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Confirmation dialog
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Modal
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Drawer
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sheet
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Tooltip
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Popover
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Progress bar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Skeleton loader
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Spinner
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Empty state
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Error state
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Success state
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Maintenance state
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Offline state
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Permission denied state
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Loading overlay
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 1. UNIVERSAL - Data Display
+- [x] Card
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Table
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Data grid
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] List
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Accordion
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Timeline
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Carousel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Gallery
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Chart
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Heatmap
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Kanban board
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Calendar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Tree view
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Avatar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Badge
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Chip
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Tag
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Statistic block
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] KPI tile
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Activity feed
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Log viewer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] JSON viewer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Code block
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Terminal block
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 1. UNIVERSAL - Layout Components
+- [x] Container
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Section
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Grid
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Stack
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Split pane
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Resizable panel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Masonry
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Bento grid
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sidebar layout
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Dashboard layout
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Centered auth layout
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sticky footer
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sticky header
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 1. UNIVERSAL - Typography & Media
+- [x] Heading
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Paragraph
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Caption
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Link
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Blockquote
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Code inline
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Image
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Video player
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Audio player
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Icon
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Illustration
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Lottie animation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. SaaS / Dashboard
+- [x] Sidebar navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Workspace switcher
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Organization switcher
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] User/team management
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Role permission matrix
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Audit logs
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Analytics cards
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Advanced filters
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Saved views
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Data tables
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Bulk actions
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Command palette
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Settings panel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Billing portal
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Subscription management
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Usage meter
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] API key manager
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Integration cards
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Webhook manager
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Feature flags
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Notification center
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Activity timeline
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. E-commerce - Product Discovery
+- [x] Product grid
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Product card
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Quick preview
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Wishlist
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Compare products
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Variant selector
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Size picker
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Color swatches
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Product media gallery
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Zoom image
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Recently viewed
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 2. E-commerce - Purchase Flow
+- [x] Cart drawer
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Checkout steps
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Address form
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Shipping selector
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Payment selector
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Coupon input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Order summary
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Order tracking
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Returns panel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. E-commerce - Growth Components
+- [x] Upsell modal
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Cross-sell carousel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Recommended products
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Flash sale timer
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Stock urgency badge
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Social proof popup
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. Task Management / Productivity
+- [x] Kanban
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Calendar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Timeline
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Gantt chart
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Task card
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Nested subtasks
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Assignee selector
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Rich comments
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Activity history
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Time tracking
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sprint board
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Roadmap
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Whiteboard
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Collaboration cursors
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Presence indicators
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. CMS / Blog / Knowledge Base
+- [x] Rich text editor
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Slash command editor
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Media library
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Draft/publish workflow
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] SEO preview
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Table of contents
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Version history
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Comments
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Inline annotations
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Reading progress
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Content blocks
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] MDX editor
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] AI writing assistant
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. AI / LLM Apps - Core
+- [x] Chat window
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Prompt input
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Streaming response
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Typing indicator
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Token counter
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Model selector
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Context window indicator
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Conversation history
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] AI agent status
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Tool execution logs
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Chain-of-thought visualizer
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] AI citations
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Multi-agent panel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. AI / LLM Apps - Advanced AI UX
+- [x] Prompt templates
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] AI playground
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Node workflows
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Memory manager
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Retrieval source viewer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Confidence indicator
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Human handoff
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] AI approval flow
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. Social Media / Community
+- [x] Feed
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Stories
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Reactions
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Comments
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Share sheet
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Follow button
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] DM/chat
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Live room
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Typing status
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Online presence
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Notification feed
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Infinite scroll feed
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Creator dashboard
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. Fintech / Banking
+- [x] Transaction table
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Balance cards
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Spending chart
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Portfolio chart
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Trading view
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Watchlist
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Risk indicators
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] KYC flow
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Identity verification
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Fraud alert
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Payment success flow
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Transfer wizard
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 2. Healthcare
+- [x] Appointment scheduler
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Medical records viewer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Prescription panel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Symptoms intake
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] HIPAA consent forms
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Video consultation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Insurance verification
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. Education / LMS
+- [x] Course player
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Quiz builder
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Flashcards
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Progress tracker
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Achievement badges
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Lesson navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Code playground
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Assignment submission
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 2. Developer Tools
+- [x] API explorer
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Code editor
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Terminal
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Diff viewer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Logs
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Deployment status
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] CI/CD pipeline viewer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Environment selector
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] DB table explorer
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 2. Analytics / BI
+- [x] Data visualization
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Drill-down charts
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Pivot tables
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Segmentation builder
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Funnel charts
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Cohort analysis
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Report builder
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Dashboard widgets
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 3. WEB-SPECIFIC - Desktop/Web Patterns
+- [x] Hover cards
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Mega menus
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Multi-column layouts
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Resizable panels
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Right-click context menus
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Multi-window layouts
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Keyboard shortcut overlays
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Drag-and-drop desktop style
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Data-dense tables
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Sticky columns
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Browser tabs UI
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Floating toolbars
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Advanced search filters
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Multi-select with keyboard support
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 3. WEB-SPECIFIC - Marketing Website Components
+- [x] Hero section
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] CTA blocks
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Testimonials
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Pricing tables
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] FAQ accordion
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Logo cloud
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Feature comparison
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Newsletter form
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Cookie banner
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Announcement banner
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Sticky CTA
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Exit intent popup
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 4. MOBILE-SPECIFIC - iOS / Android Native Patterns
+- [x] Bottom tab bar
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Floating action button
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Pull to refresh
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Swipe actions
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Bottom sheet
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Native picker wheel
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Swipeable cards
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Gesture navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Haptic feedback UI
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Camera capture UI
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Mobile keyboard accessory bar
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Biometric auth prompt
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Native share sheet
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Deep link handoff
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+### 4. MOBILE-SPECIFIC - Mobile-first UX
+- [x] Thumb-zone navigation
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Floating compose button
+  - Type: primary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: secondary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+  - Type: tertiary
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Story/reel UI
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Vertical swipe feed
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Snap carousel
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Tap-and-hold menus
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Mobile onboarding slides
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Install app banners
+  - Type: primary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: secondary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+  - Type: tertiary
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+### 5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise
+- [x] Permission matrix
+  - Type: default
+    - [x] State: default
+    - [x] State: hover
+    - [x] State: focus
+    - [x] State: active
+    - [x] State: disabled
+    - [x] State: error
+    - [x] State: success
+
+- [x] Org hierarchy tree
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.
+
+- [x] Compliance dashboard
+  - Type: default
+    - [x] State: default
+    - Justification for missing states (hover, focus, active, disabled, error, success): Component is primarily a structural, layout, or static informational element and does not have standard interaction states.

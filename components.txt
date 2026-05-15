@@ -1,0 +1,367 @@
+1. UNIVERSAL - Input / Form Components
+Button
+Icon button
+Text input
+Textarea
+Select
+Multi-select
+Combobox
+Autocomplete
+Checkbox
+Radio
+Toggle / switch
+Slider
+Range slider
+Stepper
+Date picker
+Time picker
+Color picker
+File upload
+Drag & drop upload
+OTP input
+Search input
+Tag input
+Rating input
+Signature pad
+Rich text editor
+Markdown editor
+
+1. UNIVERSAL - Navigation Components
+Navbar
+Sidebar
+Topbar
+Bottom navigation
+Breadcrumbs
+Tabs
+Pills
+Pagination
+Pagination infinite scroll
+Mega menu
+Hamburger menu
+Context menu
+Command palette
+Tree navigation
+Dock navigation
+Floating nav
+Anchor navigation
+Wizard / step navigation
+
+1. UNIVERSAL - Feedback / State Components
+Toast
+Snackbar
+Alert
+Banner
+Confirmation dialog
+Modal
+Drawer
+Sheet
+Tooltip
+Popover
+Progress bar
+Skeleton loader
+Spinner
+Empty state
+Error state
+Success state
+Maintenance state
+Offline state
+Permission denied state
+Loading overlay
+
+1. UNIVERSAL - Data Display
+Card
+Table
+Data grid
+List
+Accordion
+Timeline
+Carousel
+Gallery
+Chart
+Heatmap
+Kanban board
+Calendar
+Tree view
+Avatar
+Badge
+Chip
+Tag
+Statistic block
+KPI tile
+Activity feed
+Log viewer
+JSON viewer
+Code block
+Terminal block
+
+1. UNIVERSAL - Layout Components
+Container
+Section
+Grid
+Stack
+Split pane
+Resizable panel
+Masonry
+Bento grid
+Sidebar layout
+Dashboard layout
+Centered auth layout
+Sticky footer
+Sticky header
+
+1. UNIVERSAL - Typography & Media
+Heading
+Paragraph
+Caption
+Link
+Blockquote
+Code inline
+Image
+Video player
+Audio player
+Icon
+Illustration
+Lottie animation
+
+2. SaaS / Dashboard
+Sidebar navigation
+Workspace switcher
+Organization switcher
+User/team management
+Role permission matrix
+Audit logs
+Analytics cards
+Advanced filters
+Saved views
+Data tables
+Bulk actions
+Command palette
+Settings panel
+Billing portal
+Subscription management
+Usage meter
+API key manager
+Integration cards
+Webhook manager
+Feature flags
+Notification center
+Activity timeline
+
+2. E-commerce - Product Discovery
+Product grid
+Product card
+Quick preview
+Wishlist
+Compare products
+Variant selector
+Size picker
+Color swatches
+Product media gallery
+Zoom image
+Recently viewed
+
+2. E-commerce - Purchase Flow
+Cart drawer
+Checkout steps
+Address form
+Shipping selector
+Payment selector
+Coupon input
+Order summary
+Order tracking
+Returns panel
+
+2. E-commerce - Growth Components
+Upsell modal
+Cross-sell carousel
+Recommended products
+Flash sale timer
+Stock urgency badge
+Social proof popup
+
+2. Task Management / Productivity
+Kanban
+Calendar
+Timeline
+Gantt chart
+Task card
+Nested subtasks
+Assignee selector
+Rich comments
+Activity history
+Time tracking
+Sprint board
+Roadmap
+Whiteboard
+Collaboration cursors
+Presence indicators
+
+2. CMS / Blog / Knowledge Base
+Rich text editor
+Slash command editor
+Media library
+Draft/publish workflow
+SEO preview
+Table of contents
+Version history
+Comments
+Inline annotations
+Reading progress
+Content blocks
+MDX editor
+AI writing assistant
+
+2. AI / LLM Apps - Core
+Chat window
+Prompt input
+Streaming response
+Typing indicator
+Token counter
+Model selector
+Context window indicator
+Conversation history
+AI agent status
+Tool execution logs
+Chain-of-thought visualizer
+AI citations
+Multi-agent panel
+
+2. AI / LLM Apps - Advanced AI UX
+Prompt templates
+AI playground
+Node workflows
+Memory manager
+Retrieval source viewer
+Confidence indicator
+Human handoff
+AI approval flow
+
+2. Social Media / Community
+Feed
+Stories
+Reactions
+Comments
+Share sheet
+Follow button
+DM/chat
+Live room
+Typing status
+Online presence
+Notification feed
+Infinite scroll feed
+Creator dashboard
+
+2. Fintech / Banking
+Transaction table
+Balance cards
+Spending chart
+Portfolio chart
+Trading view
+Watchlist
+Risk indicators
+KYC flow
+Identity verification
+Fraud alert
+Payment success flow
+Transfer wizard
+
+2. Healthcare
+Appointment scheduler
+Medical records viewer
+Prescription panel
+Symptoms intake
+HIPAA consent forms
+Video consultation
+Insurance verification
+
+2. Education / LMS
+Course player
+Quiz builder
+Flashcards
+Progress tracker
+Achievement badges
+Lesson navigation
+Code playground
+Assignment submission
+
+2. Developer Tools
+API explorer
+Code editor
+Terminal
+Diff viewer
+Logs
+Deployment status
+CI/CD pipeline viewer
+Environment selector
+DB table explorer
+
+2. Analytics / BI
+Data visualization
+Drill-down charts
+Pivot tables
+Segmentation builder
+Funnel charts
+Cohort analysis
+Report builder
+Dashboard widgets
+
+3. WEB-SPECIFIC - Desktop/Web Patterns
+Hover cards
+Mega menus
+Multi-column layouts
+Resizable panels
+Right-click context menus
+Multi-window layouts
+Keyboard shortcut overlays
+Drag-and-drop desktop style
+Data-dense tables
+Sticky columns
+Browser tabs UI
+Floating toolbars
+Advanced search filters
+Multi-select with keyboard support
+
+3. WEB-SPECIFIC - Marketing Website Components
+Hero section
+CTA blocks
+Testimonials
+Pricing tables
+FAQ accordion
+Logo cloud
+Feature comparison
+Newsletter form
+Cookie banner
+Announcement banner
+Sticky CTA
+Exit intent popup
+
+4. MOBILE-SPECIFIC - iOS / Android Native Patterns
+Bottom tab bar
+Floating action button
+Pull to refresh
+Swipe actions
+Bottom sheet
+Native picker wheel
+Swipeable cards
+Gesture navigation
+Haptic feedback UI
+Camera capture UI
+Mobile keyboard accessory bar
+Biometric auth prompt
+Native share sheet
+Deep link handoff
+
+4. MOBILE-SPECIFIC - Mobile-first UX
+Thumb-zone navigation
+Floating compose button
+Story/reel UI
+Vertical swipe feed
+Snap carousel
+Tap-and-hold menus
+Mobile onboarding slides
+Install app banners
+
+5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise
+Permission matrix
+Org hierarchy tree
+Compliance dashboard
