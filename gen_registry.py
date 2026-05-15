@@ -6,7 +6,18 @@ def slugify(text):
 
 def get_blueprint(name):
     n = name.lower()
-    # 1. Layout Refinement
+    # 1. Navigation Refinement
+    if "navbar" in n or "topbar" in n: return "organisms.navbar"
+    if "sidebar" in n or "dock" in n: return "organisms.dashboard_layout"
+    if "mega menu" in n: return "organisms.mega_menu"
+    if "breadcrumbs" in n: return "molecules.breadcrumb"
+    if "tabs" in n or "pills" in n: return "molecules.tabs"
+    if "pagination" in n: return "molecules.pagination"
+    if "wizard" in n or "step" in n: return "organisms.centered_auth"
+    if "tree" in n: return "molecules.list"
+    if any(x in n for x in ["nav", "link", "anchor"]): return "atoms.nav_link"
+
+    # Layout
     if "sidebar layout" in n or "dashboard layout" in n: return "organisms.dashboard_layout"
     if "centered auth" in n: return "organisms.centered_auth"
     if "container" in n or "section" in n: return "molecules.container"
@@ -66,7 +77,7 @@ def main():
             "blueprint": blueprint,
             "profile": profile,
             "states": ["default", "hover", "focus", "active", "disabled", "error", "success"],
-            "types": ["primary", "secondary", "tertiary"] if any(x in line.lower() for x in ["button", "badge", "chip", "alert", "tag", "toast", "banner"]) else ["default"]
+            "types": ["primary", "secondary", "tertiary"] if any(x in line.lower() for x in ["button", "badge", "chip", "alert", "tag", "toast", "banner", "nav"]) else ["default"]
         })
     with open("registry.json", "w", encoding="utf-8") as f:
         json.dump(registry, f, indent=2, ensure_ascii=False)

@@ -1,12 +1,14 @@
 /*
-   3-TIER DESIGN TOKENS ARCHITECTURE - REFINED
+   3-TIER DESIGN TOKENS ARCHITECTURE - NAVIGATION REFINED
 */
 
 :root {
   /* --- TIER 1: PRIMITIVES --- */
   --primitive-blue-500: #0064d1;
+  --primitive-blue-700: #004a99;
   --primitive-blue-100: rgba(0, 100, 209, 0.1);
   --primitive-gray-900: #1c1e21;
+  --primitive-gray-700: #3a3a3a;
   --primitive-gray-500: #65676b;
   --primitive-gray-100: #f0f2f5;
   --primitive-white: #ffffff;
@@ -34,6 +36,8 @@
   --semantic-color-text-main: var(--primitive-gray-900);
   --semantic-color-text-muted: var(--primitive-gray-500);
   --semantic-color-text-on-action: var(--primitive-white);
+  --semantic-color-text-link: var(--primitive-blue-500);
+  --semantic-color-text-link-hover: var(--primitive-blue-700);
 
   --semantic-color-bg-main: var(--primitive-white);
   --semantic-color-bg-layout: var(--primitive-gray-100);
@@ -49,6 +53,9 @@
   --semantic-layout-gap-stack: var(--primitive-space-4);
   --semantic-layout-padding: var(--primitive-space-8);
 
+  --semantic-nav-item-padding: var(--primitive-space-2) var(--primitive-space-4);
+  --semantic-nav-gap: var(--primitive-space-4);
+
   --semantic-focus-ring: 0 0 0 4px rgba(0, 100, 209, 0.5);
 
   /* --- TIER 3: COMPONENT / ORGANISM --- */
@@ -61,11 +68,8 @@
   --cmp-secondary-bg: var(--semantic-color-action-secondary);
   --cmp-tertiary-bg: var(--semantic-color-action-tertiary);
 
-  /* Layout Specifics */
-  --layout-sidebar-width: 280px;
-  --layout-header-height: 72px;
-  --layout-content-max-width: 1200px;
-  --layout-card-gap: var(--semantic-layout-gap-grid);
+  --nav-link-color: var(--semantic-color-text-link);
+  --nav-link-hover-color: var(--semantic-color-text-link-hover);
 }
 
 /* BASE RESET */
@@ -105,6 +109,28 @@
   gap: var(--semantic-layout-gap-grid);
 }
 
+/* --- NAVIGATION SPECIFICS --- */
+.cmp.nav-link {
+    all: unset;
+    cursor: pointer;
+    color: var(--nav-link-color);
+    padding: var(--semantic-nav-item-padding);
+    border: none;
+    background: transparent;
+}
+.cmp.nav-link:hover { color: var(--nav-link-hover-color); text-decoration: underline; }
+.cmp.nav-link[aria-current="page"] { font-weight: bold; color: var(--primitive-gray-900); }
+
+.cmp.breadcrumb ul { display: flex; list-style: none; padding: 0; margin: 0; gap: var(--primitive-space-2); }
+.cmp.breadcrumb .sep { color: var(--semantic-color-text-muted); }
+
+.cmp.navbar-organism { display: flex; align-items: center; justify-content: space-between; gap: var(--semantic-nav-gap); }
+.cmp.navbar-organism nav { display: flex; gap: var(--primitive-space-4); }
+
+.cmp.tabs-nav { flex-direction: row; gap: 0; padding: 0; border-bottom: 2px solid var(--semantic-color-border-main); }
+.cmp.tabs-nav .tab-item { border-radius: 0; border: none; border-bottom: 2px solid transparent; }
+.cmp.tabs-nav .tab-item.type-primary { border-bottom-color: var(--cmp-primary-bg); background: transparent; color: var(--cmp-primary-bg); }
+
 /* --- STATE FORCING (TOKENIZED) --- */
 .cmp.force-hover { background-color: var(--primitive-gray-100); filter: brightness(0.95); }
 .cmp.force-focus { box-shadow: var(--semantic-focus-ring); outline: none; }
@@ -112,16 +138,12 @@
 
 /* --- SEMANTIC TAG REFINEMENTS --- */
 section.cmp, header.cmp, footer.cmp, main.cmp, nav.cmp { display: flex; }
-aside.cmp { width: var(--layout-sidebar-width); }
 div.cmp.stack { flex-direction: column; gap: var(--semantic-layout-gap-stack); }
 div.cmp.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--semantic-layout-gap-grid); }
 
-/* Feedback specific atoms */
 .cmp.spinner {
-  width: var(--primitive-space-6);
-  height: var(--primitive-space-6);
-  border-radius: 50%;
-  border-top-color: var(--cmp-primary-bg);
+  width: var(--primitive-space-6); height: var(--primitive-space-6);
+  border-radius: 50%; border-top-color: var(--cmp-primary-bg);
   animation: spin 1s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }

@@ -254,8 +254,8 @@
     "id": "stepper",
     "name": "Stepper",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -503,8 +503,8 @@
     "id": "navbar",
     "name": "Navbar",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.navbar",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -515,15 +515,17 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "sidebar",
     "name": "Sidebar",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.dashboard_layout",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -541,8 +543,8 @@
     "id": "topbar",
     "name": "Topbar",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.navbar",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -560,7 +562,7 @@
     "id": "bottom-navigation",
     "name": "Bottom navigation",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -572,15 +574,17 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "breadcrumbs",
     "name": "Breadcrumbs",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.breadcrumb",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -598,8 +602,8 @@
     "id": "tabs",
     "name": "Tabs",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.tabs",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -617,8 +621,8 @@
     "id": "pills",
     "name": "Pills",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.tabs",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -636,8 +640,8 @@
     "id": "pagination",
     "name": "Pagination",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.pagination",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -655,8 +659,8 @@
     "id": "pagination-infinite-scroll",
     "name": "Pagination infinite scroll",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.pagination",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -674,8 +678,8 @@
     "id": "mega-menu",
     "name": "Mega menu",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.mega_menu",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -750,8 +754,8 @@
     "id": "tree-navigation",
     "name": "Tree navigation",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.list",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -762,15 +766,17 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "dock-navigation",
     "name": "Dock navigation",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.dashboard_layout",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -781,14 +787,16 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "floating-nav",
     "name": "Floating nav",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -800,14 +808,16 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "anchor-navigation",
     "name": "Anchor navigation",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -819,15 +829,17 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
     "id": "wizard-step-navigation",
     "name": "Wizard / step navigation",
     "category": "1. UNIVERSAL - Navigation Components",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -838,7 +850,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -1459,8 +1473,8 @@
     "id": "tree-view",
     "name": "Tree view",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.list",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -1997,7 +2011,7 @@
     "id": "link",
     "name": "Link",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -2168,8 +2182,8 @@
     "id": "sidebar-navigation",
     "name": "Sidebar navigation",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.dashboard_layout",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -2180,7 +2194,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -2814,8 +2830,8 @@
     "id": "checkout-steps",
     "name": "Checkout steps",
     "category": "2. E-commerce - Purchase Flow",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -4473,8 +4489,8 @@
     "id": "transfer-wizard",
     "name": "Transfer wizard",
     "category": "2. Fintech / Banking",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -4722,7 +4738,7 @@
     "id": "lesson-navigation",
     "name": "Lesson navigation",
     "category": "2. Education / LMS",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -4734,7 +4750,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -5121,8 +5139,8 @@
     "id": "mega-menus",
     "name": "Mega menus",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.mega_menu",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -5292,8 +5310,8 @@
     "id": "browser-tabs-ui",
     "name": "Browser tabs UI",
     "category": "3. WEB-SPECIFIC - Desktop/Web Patterns",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.tabs",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -5735,7 +5753,7 @@
     "id": "gesture-navigation",
     "name": "Gesture navigation",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -5747,7 +5765,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -5849,7 +5869,7 @@
     "id": "deep-link-handoff",
     "name": "Deep link handoff",
     "category": "4. MOBILE-SPECIFIC - iOS / Android Native Patterns",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -5868,7 +5888,7 @@
     "id": "thumb-zone-navigation",
     "name": "Thumb-zone navigation",
     "category": "4. MOBILE-SPECIFIC - Mobile-first UX",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.nav_link",
     "profile": "atom",
     "states": [
       "default",
@@ -5880,7 +5900,9 @@
       "success"
     ],
     "types": [
-      "default"
+      "primary",
+      "secondary",
+      "tertiary"
     ]
   },
   {
@@ -6043,8 +6065,8 @@
     "id": "org-hierarchy-tree",
     "name": "Org hierarchy tree",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.list",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -6404,8 +6426,8 @@
     "id": "sso-configuration-wizard",
     "name": "SSO configuration wizard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",
@@ -6936,8 +6958,8 @@
     "id": "employee-onboarding-wizard",
     "name": "Employee onboarding wizard",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "organisms.centered_auth",
+    "profile": "organism",
     "states": [
       "default",
       "hover",

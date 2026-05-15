@@ -1,6 +1,6 @@
 /**
  * ATOMIC COMPONENT LIBRARY
- * Precise HTML blueprints for Atoms, Molecules, and Organisms.
+ * Precise HTML blueprints for Atoms, Molecules, Organisms, and Templates.
  */
 
 const Library = {
@@ -31,6 +31,9 @@ const Library = {
         choice_raw: (p) => `<input type="${p.inputType||'checkbox'}" id="${p.id||''}" class="cmp choice type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''} ${p.checked?'checked':''}>`,
         range_raw: (p) => `<input type="range" class="cmp range type-${p.type||'default'} state-${p.state||'default'} ${p.classes||''} is-atom" min="0" max="100" value="${p.value||50}">`,
         button: (p) => `<button class="cmp button type-${p.type||'primary'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.disabled||p.state==='disabled'?'disabled aria-disabled="true"':''}>${p.content}</button>`,
+
+        // --- NAVIGATION ATOMS ---
+        nav_link: (p) => `<a href="${p.href||'#'}" class="cmp nav-link type-${p.type||'default'} state-${p.state||'default'} ${p.state!=='default'?'force-'+p.state:''} ${p.classes||''} is-atom" ${p.active?'aria-current="page"':''}>${p.content}</a>`,
 
         // --- LAYOUT ATOMS ---
         divider: (p) => `<hr class="cmp divider type-${p.type||'default'} ${p.classes||''} is-atom">`,
@@ -122,6 +125,26 @@ const Library = {
             return `<div class="cmp search-field type-${p.type||'default'} is-molecule">${icon}${input}${btn}</div>`;
         },
 
+        // --- NAVIGATION MOLECULES ---
+        breadcrumb: (p) => {
+            const items = (p.items||[]).map((it, i, arr) => {
+                const link = Library.atoms.nav_link({ content: it, active: i === arr.length - 1 });
+                const sep = i < arr.length - 1 ? `<span class="sep">/</span>` : '';
+                return `<li>${link}${sep}</li>`;
+            }).join('');
+            return `<nav aria-label="Breadcrumb" class="cmp breadcrumb is-molecule"><ul>${items}</ul></nav>`;
+        },
+        pagination: (p) => {
+            const prev = Library.atoms.button({ content: 'Poprzednia', type: 'tertiary' });
+            const next = Library.atoms.button({ content: 'Następna', type: 'tertiary' });
+            const pages = [1, 2, 3].map(n => Library.atoms.button({ content: n, type: n===1?'primary':'tertiary' })).join('');
+            return `<nav aria-label="Pagination" class="cmp pagination is-molecule">${prev}${pages}${next}</nav>`;
+        },
+        tabs: (p) => {
+            const tabs = (p.items||[]).map((it, i) => Library.atoms.button({ content: it, type: i===0?'primary':'tertiary', classes: 'tab-item' })).join('');
+            return `<nav class="cmp tabs-nav is-molecule" role="tablist">${tabs}</nav>`;
+        },
+
         // --- LAYOUT MOLECULES ---
         container: (p) => `<section class="cmp container type-${p.type||'default'} is-molecule profile-layout">${p.content||''}</section>`,
         grid_box: (p) => `<div class="cmp grid type-${p.type||'default'} is-molecule">${p.content||''}</div>`,
@@ -133,7 +156,7 @@ const Library = {
     },
 
     organisms: {
-        // Higher-level compositions
+        // --- LAYOUT ORGANISMS ---
         dashboard_layout: (p) => {
             const sidebar = `<aside class="cmp sidebar type-default is-molecule">
                 ${Library.atoms.heading({level:4, content: 'Menu'})}
@@ -150,6 +173,22 @@ const Library = {
                 ${Library.atoms.button({content: 'Zaloguj'})}
             </form>`;
             return `<section class="cmp auth-organism is-organism">${Library.atoms.icon({name:'lock', size:48})}${form}</section>`;
+        },
+
+        // --- NAVIGATION ORGANISMS ---
+        navbar: (p) => {
+            const brand = Library.atoms.heading({ level: 1, content: 'Logo', classes: 'brand' });
+            const nav = `<nav class="nav-links">${(p.items||[]).map(it => Library.atoms.nav_link({content: it})).join('')}</nav>`;
+            const actions = Library.atoms.button({ content: 'Wyloguj', type: 'secondary' });
+            return `<header class="cmp navbar-organism is-organism">${brand}${nav}${actions}</header>`;
+        },
+        mega_menu: (p) => {
+            const trigger = Library.atoms.button({ content: 'Produkty', type: 'primary' });
+            const panel = `<div class="mega-panel is-molecule">
+                <div class="column">${Library.atoms.heading({level:4, content:'Kategoria 1'})}${Library.molecules.list({items:['Link A', 'Link B']})}</div>
+                <div class="column">${Library.atoms.heading({level:4, content:'Kategoria 2'})}${Library.molecules.list({items:['Link C', 'Link D']})}</div>
+            </div>`;
+            return `<div class="cmp mega-menu-organism is-organism">${trigger}${panel}</div>`;
         }
     }
 };
