@@ -30,45 +30,42 @@ def get_component_html(category, name, comp_type, state):
     if state == "disabled": aria_attr += ' aria-disabled="true"'
     if state == "error": aria_attr += ' aria-invalid="true"'
 
-    # Components that support nesting/items
-    if any(x in name_lower for x in ["menu", "navigation", "sidebar", "tree", "pills", "tabs", "breadcrumb", "list", "feed", "timeline", "activity", "accordion", "carousel", "slider", "gallery", "table", "grid", "kanban", "board", "dock"]):
+    if any(x in name_lower for x in ["table", "grid"]):
+        html = f'<table id="{id_name}" class="{classes}" role="grid"><caption>{full_label}</caption>'
+        html += '<thead><tr><th>L1 Col</th><th>L2 Col</th><th>L3 Col</th><th>L4 Col</th><th>L5 Col</th></tr></thead><tbody>'
+        for i in range(1, 6):
+            html += f'<tr><td><span data-joy="nesting.level1">Row</span> {i}</td><td colspan="4">'
+            html += f'<table role="grid"><tr><td><span data-joy="nesting.level2">SubRow</span> {i}.1</td><td colspan="3">'
+            html += f'<table role="grid"><tr><td><span data-joy="nesting.level3">SubRow</span> {i}.1.1</td><td colspan="2">'
+            html += f'<table role="grid"><tr><td><span data-joy="nesting.level4">SubRow</span> {i}.1.1.1</td><td>5 items: '
+            html += ", ".join([f"Item {j}" for j in range(1,6)])
+            html += '</td></tr></table></td></tr></table></td></tr></table></td></tr>'
+        html += '</tbody></table>'
+        return html
 
-        if any(x in name_lower for x in ["table", "grid"]):
-            html = f'<table id="{id_name}" class="{classes}" role="grid"><caption>{full_label}</caption>'
-            html += '<thead><tr><th>L1 Col</th><th>L2 Col</th><th>L3 Col</th><th>L4 Col</th><th>L5 Col</th></tr></thead><tbody>'
-            for i in range(1, 6):
-                html += f'<tr><td><span data-joy="nesting.level1">Row</span> {i}</td><td colspan="4">'
-                html += f'<table role="grid"><tr><td><span data-joy="nesting.level2">SubRow</span> {i}.1</td><td colspan="3">'
-                html += f'<table role="grid"><tr><td><span data-joy="nesting.level3">SubRow</span> {i}.1.1</td><td colspan="2">'
-                html += f'<table role="grid"><tr><td><span data-joy="nesting.level4">SubRow</span> {i}.1.1.1</td><td>5 items: '
-                html += ", ".join([f"Item {j}" for j in range(1,6)])
-                html += '</td></tr></table></td></tr></table></td></tr></table></td></tr>'
-            html += '</tbody></table>'
-            return html
-
-        if "accordion" in name_lower:
-            html = f'<div id="{id_name}" class="{classes}">'
-            for i in range(1, 6):
-                html += f'<details class="acc-l1"><summary><span data-joy="components.{name}">{name}</span> {i} (L1)</summary>'
-                for j in range(1, 6):
-                    html += f'<details class="acc-l2" style="margin-left:20px;"><summary><span data-joy="nesting.level2">Nested</span> {i}.{j}</summary>'
-                    for k in range(1, 6):
-                        html += f'<details class="acc-l3" style="margin-left:20px;"><summary><span data-joy="nesting.level3">Deep</span> {i}.{j}.{k}</summary>'
-                        html += f'<ul class="acc-l4" style="margin-left:20px;">'
-                        for l in range(1, 6): html += f'<li><span data-joy="nesting.level4">Leaf</span> {l}</li>'
-                        html += '</ul></details>'
-                    html += '</details>'
+    if "accordion" in name_lower:
+        html = f'<div id="{id_name}" class="{classes}">'
+        for i in range(1, 6):
+            html += f'<details class="acc-l1"><summary><span data-joy="components.{name}">{name}</span> {i} (L1)</summary>'
+            for j in range(1, 6):
+                html += f'<details class="acc-l2" style="margin-left:20px;"><summary><span data-joy="nesting.level2">Nested</span> {i}.{j}</summary>'
+                for k in range(1, 6):
+                    html += f'<details class="acc-l3" style="margin-left:20px;"><summary><span data-joy="nesting.level3">Deep</span> {i}.{j}.{k}</summary>'
+                    html += f'<ul class="acc-l4" style="margin-left:20px;">'
+                    for l in range(1, 6): html += f'<li><span data-joy="nesting.level4">Leaf</span> {l}</li>'
+                    html += '</ul></details>'
                 html += '</details>'
-            html += '</div>'
-            return html
+            html += '</details>'
+        html += '</div>'
+        return html
 
+    if any(x in name_lower for x in ["menu", "navigation", "sidebar", "tree", "pills", "tabs", "breadcrumb", "list", "feed", "timeline", "activity", "carousel", "slider", "gallery", "kanban", "board", "dock"]):
         role = "tree" if "tree" in name_lower else "menu" if "menu" in name_lower else "list"
         html = f'<div id="{id_name}" class="{classes}" role="region"><strong>{full_label}</strong>'
         html += gen_nest(1, name, items=5, role=role)
         html += '</div>'
         return html
 
-    # Choice components with nesting
     if any(x in name_lower for x in ["checkbox", "radio", "toggle", "switch", "select", "combobox", "autocomplete"]):
         html = f'<div class="{classes}-group"><strong>{full_label}</strong>'
         for i in range(1, 6):
@@ -108,15 +105,20 @@ def get_component_html(category, name, comp_type, state):
 
     return f'<div id="{id_name}" class="{classes}" role="region"><strong>{full_label}</strong> <span data-joy="default_text">...</span></div>'
 
-def get_header_html(title, nav_items):
+def get_header_html(title, nav_items, extra_css=None):
     nav_links = "".join([f'<li><a href="{href}">{text}</a></li>' for text, href in nav_items])
+    css_links = f'<link rel="stylesheet" href="admin-panel.css">'
+    if extra_css:
+        for css in extra_css:
+            css_links += f'\n    <link rel="stylesheet" href="{css}">'
+
     return f"""<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} - Radosna Biblioteka</title>
-    <link rel="stylesheet" href="shared.css">
+    {css_links}
 </head>
 <body>
 <aside>
@@ -147,75 +149,6 @@ def get_footer_html():
 </body></html>"""
 
 def main():
-    if not os.path.exists("shared.css"):
-        with open("shared.css", "w") as f:
-            f.write("""
-body { font-family: system-ui, sans-serif; display: flex; margin: 0; }
-aside { width: 320px; height: 100vh; overflow-y: auto; background: #f8f9fa; border-right: 1px solid #dee2e6; padding: 1rem; position: sticky; top: 0; }
-main { flex: 1; padding: 2rem; overflow-y: auto; height: 100vh; scroll-behavior: smooth; }
-.comp-group { margin-bottom: 3rem; padding: 1rem; border: 1px solid #eee; background: #fafafa; }
-.variant { border: 1px dashed #ccc; padding: 1rem; background: #fff; margin-bottom: 2rem; overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; margin: 5px 0; }
-th, td { border: 1px solid #ddd; padding: 4px; font-size: 0.8rem; }
-summary { cursor: pointer; font-weight: bold; }
-.nest-l1, .nest-l2, .nest-l3, .nest-l4 { list-style: none; padding-left: 20px; border-left: 1px solid #ddd; }
-.content-switcher { margin-bottom: 2rem; padding: 1rem; background: #e9ecef; border-radius: 8px; }
-.state-tag { background: #333; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; margin-right: 10px; }
-[data-joy] { transition: opacity 0.2s; }
-.loading [data-joy] { opacity: 0.3; }
-.category-card { border: 1px solid #ddd; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; background: #fff; text-decoration: none; color: inherit; display: block; }
-.category-card:hover { border-color: #007bff; background: #f0f7ff; }
-""")
-
-    if not os.path.exists("shared.js"):
-        with open("shared.js", "w") as f:
-            f.write("""
-const sourceSelect = document.getElementById('joy-source');
-const themeInfo = document.getElementById('theme-info');
-
-async function loadJoyContent(url) {
-    document.body.classList.add('loading');
-    localStorage.setItem('joy-source-url', url);
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-        if (themeInfo) themeInfo.textContent = `Temat: ${data.metadata.theme} (${data.metadata.name})`;
-
-        const elements = document.querySelectorAll('[data-joy]');
-        elements.forEach(el => {
-            const path = el.getAttribute('data-joy').split('.');
-            let value = data;
-            for (const key of path) {
-                if (value && value[key]) {
-                    value = value[key];
-                } else {
-                    value = null;
-                    break;
-                }
-            }
-            if (value && typeof value === 'string') {
-                el.textContent = value;
-            } else if (path[0] === 'components' && data.default_text) {
-                if (el.tagName !== 'SPAN') el.textContent = data.default_text;
-            }
-        });
-    } catch (e) {
-        console.error("Failed to load joy:", e);
-    } finally {
-        document.body.classList.remove('loading');
-    }
-}
-
-if (sourceSelect) {
-    sourceSelect.addEventListener('change', (e) => loadJoyContent(e.target.value));
-    const saved = localStorage.getItem('joy-source-url');
-    if (saved) {
-        sourceSelect.value = saved;
-    }
-    loadJoyContent(sourceSelect.value);
-}
-""")
-
     with open("components.txt", "r") as f:
         lines = [l.strip() for l in f if l.strip()]
 
@@ -233,49 +166,57 @@ if (sourceSelect) {
 
     nav_items = [(cat, f"cat-{slugify(cat)}.html") for cat in categories_list]
 
+    category_files_map = {
+        "1. UNIVERSAL": "universal.css",
+        "2. SaaS / Dashboard": "saas.css",
+        "2. E-commerce": "ecommerce.css",
+        "2. Task Management": "productivity.css",
+        "2. CMS": "cms.css",
+        "2. AI / LLM Apps": "ai.css",
+        "2. Social Media": "social.css",
+        "2. Fintech": "fintech.css",
+        "2. Healthcare": "healthcare.css",
+        "2. Education": "education.css",
+        "2. Developer Tools": "dev-tools.css",
+        "2. Analytics": "analytics.css",
+        "3. WEB-SPECIFIC": "web-specific.css",
+        "4. MOBILE-SPECIFIC": "mobile-specific.css",
+        "5. TEMATYCZNE": "enterprise.css"
+    }
+
     # Generate index.html
-    index_html = get_header_html("Witamy w Radosnej Bibliotece", nav_items)
-    index_html += "<p>Wybierz kategorię z menu bocznego, aby zobaczyć radosne komponenty. DOM jest teraz podzielony na mniejsze części dla lepszej wydajności!</p>"
+    index_html = get_header_html("Witamy w Radosnej Biblioteka", nav_items)
+    index_html += "<p>Wybierz kategorię z menu bocznego, aby zobaczyć radosne komponenty.</p>"
     for cat in categories_list:
         index_html += f'<a href="cat-{slugify(cat)}.html" class="category-card"><h3>{cat}</h3><p>{len(category_map[cat])} radosnych komponentów</p></a>'
     index_html += get_footer_html()
     with open("index.html", "w") as f: f.write(index_html)
 
     # Generate category pages
-    checklist = "CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING WITH JOYFUL CONTENT (MULTI-PAGE)\n===================================================================================\n\n"
-    checklist += "JUSTIFICATION FOR STATE/TYPE COMBINATIONS:\n"
-    checklist += "- Interactive elements use full state set.\n- Layout elements use only default.\n- Semantic elements use types (primary/secondary/tertiary).\n\n"
-
     for cat in categories_list:
         cat_file = f"cat-{slugify(cat)}.html"
-        cat_html = get_header_html(cat, nav_items)
-        checklist += f"### {cat}\n"
+
+        extra_css = ["universal.css"]
+        for prefix, css in category_files_map.items():
+            if cat.startswith(prefix):
+                if css not in extra_css: extra_css.append(css)
+
+        cat_html = get_header_html(cat, nav_items, extra_css=extra_css)
 
         for comp in category_map[cat]:
             cat_html += f'<div class="comp-group"><h3>{comp}</h3>'
-            checklist += f"- [x] {comp}\n"
             comp_lower = comp.lower()
-
-            is_nested = any(x in comp_lower for x in ["menu", "navigation", "sidebar", "tree", "pills", "tabs", "breadcrumb", "list", "feed", "timeline", "activity", "accordion", "carousel", "slider", "gallery", "table", "grid", "kanban", "board", "dock", "checkbox", "radio", "toggle", "switch", "select", "combobox", "autocomplete"])
-            if is_nested:
-                checklist += "    - [x] NESTING: 4 levels deep, 5 items per level implemented.\n"
-
-            checklist += "    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.\n"
-
             comp_types = types if any(x in comp_lower for x in ["button", "link", "badge", "chip", "alert", "toast", "banner", "dialog", "modal", "compose", "call-to-action", "cta"]) else ["default"]
             for t in comp_types:
                 cat_html += '<div class="comp-variants">'
                 comp_states = states if any(x in comp_lower for x in ["button", "input", "select", "choice", "link", "tab", "pill", "switch", "toggle", "slider", "stepper", "picker", "upload", "editor", "menu", "textarea", "autocomplete", "combobox", "search", "field", "radio", "checkbox", "chip", "tag", "rating", "pad", "stepper", "switcher", "matrix", "filter", "view", "portal", "manager", "wizard", "accordion", "planner", "archive", "manager", "monitor", "scheduler", "wizard", "status", "queue", "scanner", "tracker"]) else ["default"]
                 for s in comp_states:
                     cat_html += f'<div class="variant"><span class="state-tag">{s} (Typ: {t})</span>{get_component_html(cat, comp, t, s)}</div>'
-                    checklist += f"    - [x] State: {s} (Type: {t})\n"
                 cat_html += '</div>'
             cat_html += '</div>'
 
         cat_html += get_footer_html()
         with open(cat_file, "w") as f: f.write(cat_html)
-
-    with open("checklist.txt", "w") as f: f.write(checklist)
 
 if __name__ == "__main__":
     main()

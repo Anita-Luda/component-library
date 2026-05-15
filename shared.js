@@ -22,11 +22,16 @@ async function loadJoyContent(url) {
                     break;
                 }
             }
+
             if (value && typeof value === 'string') {
                 el.textContent = value;
             } else if (path[0] === 'components' && data.default_text) {
-                if (el.tagName !== 'SPAN') el.textContent = data.default_text;
+                // Use generic fallback only if specific component text is missing
+                el.textContent = data.default_text;
+            } else if (path[0] === 'default_text' && data.default_text) {
+                el.textContent = data.default_text;
             }
+            // If no value and no fallback, the original HTML text remains as a last resort.
         });
     } catch (e) {
         console.error("Failed to load joy:", e);

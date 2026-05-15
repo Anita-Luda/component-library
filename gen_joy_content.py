@@ -1,6 +1,9 @@
 import json
 import os
 
+def slugify(text):
+    return text.lower().strip().replace(" ", "-").replace("/", "-").replace("&", "and").replace(".", "").replace(":", "")
+
 def generate_joy_content(source_name, theme):
     content = {
         "metadata": {
@@ -25,43 +28,38 @@ def generate_joy_content(source_name, theme):
             "level3": "Trzecie Piętro Absurdu",
             "level4": "Piwnica z Jednorożcami"
         },
-        "components": {
-            "Button": "Naciśnij i zostań milionerem (emocjonalnym)",
-            "Icon button": "🔘✨",
-            "Text input": "Wpisz tutaj swoje najskrytsze marzenie o parówkach",
-            "Textarea": "Opisz jak bardzo lubisz drapanie za uchem...",
-            "Select": "Wybierz swój przeznaczenie (albo smaczka)",
-            "Checkbox": "Zgadzam się na darmowe łaskotki",
-            "Radio": "Wybieram: Ciasto czy Śmierć? (Wybierz ciasto)",
-            "Toggle / switch": "Włącz radosne wibracje",
-            "Slider": "Poziom Szczęścia (Maksimum!)",
-            "Date picker": "Kiedy idziemy na lody?",
-            "Search input": "Szukaj zaginionego skarbu (albo skarpetki)",
-            "Paragraph": "Wesołe miasteczko w Twoim kodzie. Każdy div to karuzela, każdy span to wata cukrowa.",
-            "Heading": "Królestwo Radości i Porządku",
-            "Table": "Tabela Prawd Dziwnych i Zabawnych",
-            "Accordion": "Rozwiń, aby zobaczyć magię!",
-            "Alert": "Uwaga! Nadchodzi fala pozytywnej energii!",
-            "Modal": "Niespodzianka! Ktoś Cię lubi!",
-            "Card": "Karta Członkowska Klubu Optymistów",
-            "Sidebar": "Pasek Boczny Pełen Przygód",
-            "Navbar": "Menu Gwiezdnej Floty Radości"
-        },
+        "components": {},
         "default_text": "To jest bardzo radosny komponent, który cieszy się, że go widzisz! ✨"
     }
 
+    # Custom theme adjustments
     if theme == "space":
         content["metadata"]["name"] = "Galaktyczny Heheszek"
         content["general"]["error"] = "Czarna dziura pożarła Twoje dane, ale zostawiła brokat!"
-        content["components"]["Button"] = "Odpal Hipernapęd Śmiechu!"
         content["nesting"]["level1"] = "Orbita Chwały"
         content["nesting"]["level4"] = "Czeluście Międzygalaktycznego Żartu"
     elif theme == "kitchen":
         content["metadata"]["name"] = "Kuchenne Rewolucje Śmiechu"
         content["general"]["success"] = "Upieczone idealnie! Mniam!"
-        content["components"]["Button"] = "Wrzuć do Gara!"
         content["nesting"]["level1"] = "Dno Patelni"
         content["nesting"]["level4"] = "Kraina Przypalonego Karmelu"
+
+    # Read components to ensure we have unique text for EACH
+    if os.path.exists("components.txt"):
+        with open("components.txt", "r") as f:
+            lines = [l.strip() for l in f if l.strip()]
+
+            for line in lines:
+                if any(line.startswith(str(i)+".") for i in range(1,10)):
+                    continue # Skip category headers
+
+                # Generate unique content based on name and theme
+                if theme == "space":
+                    content["components"][line] = f"Gwiezdny {line} gotowy do startu w kosmos śmiechu!"
+                elif theme == "kitchen":
+                    content["components"][line] = f"Pyszny {line} prosto z radosnego piekarnika!"
+                else:
+                    content["components"][line] = f"Radosny {line} wita Cię z otwartymi ramionami!"
 
     return content
 

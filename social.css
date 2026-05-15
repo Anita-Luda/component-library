@@ -1,0 +1,2380 @@
+/* CSS for social.css */
+
+.cmp.feed {
+  padding: var(--cmp-feed-padding);
+  margin: var(--cmp-feed-margin);
+  background: var(--cmp-feed-bg);
+  color: var(--cmp-feed-color);
+  border: var(--cmp-feed-border);
+  border-radius: var(--cmp-feed-border-radius);
+  font-size: var(--cmp-feed-font-size);
+  font-weight: var(--cmp-feed-font-weight);
+  line-height: var(--cmp-feed-line-height);
+  box-shadow: var(--cmp-feed-shadow);
+  transition: var(--cmp-feed-transition);
+  width: var(--cmp-feed-width);
+  height: var(--cmp-feed-height);
+  opacity: var(--cmp-feed-opacity);
+  cursor: var(--cmp-feed-cursor);
+  outline: var(--cmp-feed-outline);
+  display: var(--cmp-feed-display);
+  gap: var(--cmp-feed-gap);
+}
+
+.cmp.feed.state-hover {
+  background: var(--cmp-feed-hover-bg);
+  color: var(--cmp-feed-hover-color);
+  border-color: var(--cmp-feed-hover-border-color);
+  box-shadow: var(--cmp-feed-hover-shadow);
+  opacity: var(--cmp-feed-hover-opacity);
+  outline: var(--cmp-feed-hover-outline);
+}
+
+.cmp.feed.state-focus {
+  background: var(--cmp-feed-focus-bg);
+  color: var(--cmp-feed-focus-color);
+  border-color: var(--cmp-feed-focus-border-color);
+  box-shadow: var(--cmp-feed-focus-shadow);
+  opacity: var(--cmp-feed-focus-opacity);
+  outline: var(--cmp-feed-focus-outline);
+}
+
+.cmp.feed.state-active {
+  background: var(--cmp-feed-active-bg);
+  color: var(--cmp-feed-active-color);
+  border-color: var(--cmp-feed-active-border-color);
+  box-shadow: var(--cmp-feed-active-shadow);
+  opacity: var(--cmp-feed-active-opacity);
+  outline: var(--cmp-feed-active-outline);
+}
+
+.cmp.feed.state-disabled {
+  background: var(--cmp-feed-disabled-bg);
+  color: var(--cmp-feed-disabled-color);
+  border-color: var(--cmp-feed-disabled-border-color);
+  box-shadow: var(--cmp-feed-disabled-shadow);
+  opacity: var(--cmp-feed-disabled-opacity);
+  outline: var(--cmp-feed-disabled-outline);
+}
+
+.cmp.feed.state-error {
+  background: var(--cmp-feed-error-bg);
+  color: var(--cmp-feed-error-color);
+  border-color: var(--cmp-feed-error-border-color);
+  box-shadow: var(--cmp-feed-error-shadow);
+  opacity: var(--cmp-feed-error-opacity);
+  outline: var(--cmp-feed-error-outline);
+}
+
+.cmp.feed.state-success {
+  background: var(--cmp-feed-success-bg);
+  color: var(--cmp-feed-success-color);
+  border-color: var(--cmp-feed-success-border-color);
+  box-shadow: var(--cmp-feed-success-shadow);
+  opacity: var(--cmp-feed-success-opacity);
+  outline: var(--cmp-feed-success-outline);
+}
+
+.cmp.feed.type-primary {
+  background: var(--cmp-feed-primary-bg);
+  color: var(--cmp-feed-primary-color);
+  border-color: var(--cmp-feed-primary-border-color);
+}
+
+.cmp.feed.type-primary.state-hover {
+  background: var(--cmp-feed-primary-hover-bg);
+  color: var(--cmp-feed-primary-hover-color);
+}
+
+.cmp.feed.type-primary.state-focus {
+  background: var(--cmp-feed-primary-focus-bg);
+  color: var(--cmp-feed-primary-focus-color);
+}
+
+.cmp.feed.type-primary.state-active {
+  background: var(--cmp-feed-primary-active-bg);
+  color: var(--cmp-feed-primary-active-color);
+}
+
+.cmp.feed.type-primary.state-disabled {
+  background: var(--cmp-feed-primary-disabled-bg);
+  color: var(--cmp-feed-primary-disabled-color);
+}
+
+.cmp.feed.type-primary.state-error {
+  background: var(--cmp-feed-primary-error-bg);
+  color: var(--cmp-feed-primary-error-color);
+}
+
+.cmp.feed.type-primary.state-success {
+  background: var(--cmp-feed-primary-success-bg);
+  color: var(--cmp-feed-primary-success-color);
+}
+
+.cmp.feed.type-secondary {
+  background: var(--cmp-feed-secondary-bg);
+  color: var(--cmp-feed-secondary-color);
+  border-color: var(--cmp-feed-secondary-border-color);
+}
+
+.cmp.feed.type-secondary.state-hover {
+  background: var(--cmp-feed-secondary-hover-bg);
+  color: var(--cmp-feed-secondary-hover-color);
+}
+
+.cmp.feed.type-secondary.state-focus {
+  background: var(--cmp-feed-secondary-focus-bg);
+  color: var(--cmp-feed-secondary-focus-color);
+}
+
+.cmp.feed.type-secondary.state-active {
+  background: var(--cmp-feed-secondary-active-bg);
+  color: var(--cmp-feed-secondary-active-color);
+}
+
+.cmp.feed.type-secondary.state-disabled {
+  background: var(--cmp-feed-secondary-disabled-bg);
+  color: var(--cmp-feed-secondary-disabled-color);
+}
+
+.cmp.feed.type-secondary.state-error {
+  background: var(--cmp-feed-secondary-error-bg);
+  color: var(--cmp-feed-secondary-error-color);
+}
+
+.cmp.feed.type-secondary.state-success {
+  background: var(--cmp-feed-secondary-success-bg);
+  color: var(--cmp-feed-secondary-success-color);
+}
+
+.cmp.feed.type-tertiary {
+  background: var(--cmp-feed-tertiary-bg);
+  color: var(--cmp-feed-tertiary-color);
+  border-color: var(--cmp-feed-tertiary-border-color);
+}
+
+.cmp.feed.type-tertiary.state-hover {
+  background: var(--cmp-feed-tertiary-hover-bg);
+  color: var(--cmp-feed-tertiary-hover-color);
+}
+
+.cmp.feed.type-tertiary.state-focus {
+  background: var(--cmp-feed-tertiary-focus-bg);
+  color: var(--cmp-feed-tertiary-focus-color);
+}
+
+.cmp.feed.type-tertiary.state-active {
+  background: var(--cmp-feed-tertiary-active-bg);
+  color: var(--cmp-feed-tertiary-active-color);
+}
+
+.cmp.feed.type-tertiary.state-disabled {
+  background: var(--cmp-feed-tertiary-disabled-bg);
+  color: var(--cmp-feed-tertiary-disabled-color);
+}
+
+.cmp.feed.type-tertiary.state-error {
+  background: var(--cmp-feed-tertiary-error-bg);
+  color: var(--cmp-feed-tertiary-error-color);
+}
+
+.cmp.feed.type-tertiary.state-success {
+  background: var(--cmp-feed-tertiary-success-bg);
+  color: var(--cmp-feed-tertiary-success-color);
+}
+
+.cmp.stories {
+  padding: var(--cmp-stories-padding);
+  margin: var(--cmp-stories-margin);
+  background: var(--cmp-stories-bg);
+  color: var(--cmp-stories-color);
+  border: var(--cmp-stories-border);
+  border-radius: var(--cmp-stories-border-radius);
+  font-size: var(--cmp-stories-font-size);
+  font-weight: var(--cmp-stories-font-weight);
+  line-height: var(--cmp-stories-line-height);
+  box-shadow: var(--cmp-stories-shadow);
+  transition: var(--cmp-stories-transition);
+  width: var(--cmp-stories-width);
+  height: var(--cmp-stories-height);
+  opacity: var(--cmp-stories-opacity);
+  cursor: var(--cmp-stories-cursor);
+  outline: var(--cmp-stories-outline);
+  display: var(--cmp-stories-display);
+  gap: var(--cmp-stories-gap);
+}
+
+.cmp.stories.state-hover {
+  background: var(--cmp-stories-hover-bg);
+  color: var(--cmp-stories-hover-color);
+  border-color: var(--cmp-stories-hover-border-color);
+  box-shadow: var(--cmp-stories-hover-shadow);
+  opacity: var(--cmp-stories-hover-opacity);
+  outline: var(--cmp-stories-hover-outline);
+}
+
+.cmp.stories.state-focus {
+  background: var(--cmp-stories-focus-bg);
+  color: var(--cmp-stories-focus-color);
+  border-color: var(--cmp-stories-focus-border-color);
+  box-shadow: var(--cmp-stories-focus-shadow);
+  opacity: var(--cmp-stories-focus-opacity);
+  outline: var(--cmp-stories-focus-outline);
+}
+
+.cmp.stories.state-active {
+  background: var(--cmp-stories-active-bg);
+  color: var(--cmp-stories-active-color);
+  border-color: var(--cmp-stories-active-border-color);
+  box-shadow: var(--cmp-stories-active-shadow);
+  opacity: var(--cmp-stories-active-opacity);
+  outline: var(--cmp-stories-active-outline);
+}
+
+.cmp.stories.state-disabled {
+  background: var(--cmp-stories-disabled-bg);
+  color: var(--cmp-stories-disabled-color);
+  border-color: var(--cmp-stories-disabled-border-color);
+  box-shadow: var(--cmp-stories-disabled-shadow);
+  opacity: var(--cmp-stories-disabled-opacity);
+  outline: var(--cmp-stories-disabled-outline);
+}
+
+.cmp.stories.state-error {
+  background: var(--cmp-stories-error-bg);
+  color: var(--cmp-stories-error-color);
+  border-color: var(--cmp-stories-error-border-color);
+  box-shadow: var(--cmp-stories-error-shadow);
+  opacity: var(--cmp-stories-error-opacity);
+  outline: var(--cmp-stories-error-outline);
+}
+
+.cmp.stories.state-success {
+  background: var(--cmp-stories-success-bg);
+  color: var(--cmp-stories-success-color);
+  border-color: var(--cmp-stories-success-border-color);
+  box-shadow: var(--cmp-stories-success-shadow);
+  opacity: var(--cmp-stories-success-opacity);
+  outline: var(--cmp-stories-success-outline);
+}
+
+.cmp.stories.type-primary {
+  background: var(--cmp-stories-primary-bg);
+  color: var(--cmp-stories-primary-color);
+  border-color: var(--cmp-stories-primary-border-color);
+}
+
+.cmp.stories.type-primary.state-hover {
+  background: var(--cmp-stories-primary-hover-bg);
+  color: var(--cmp-stories-primary-hover-color);
+}
+
+.cmp.stories.type-primary.state-focus {
+  background: var(--cmp-stories-primary-focus-bg);
+  color: var(--cmp-stories-primary-focus-color);
+}
+
+.cmp.stories.type-primary.state-active {
+  background: var(--cmp-stories-primary-active-bg);
+  color: var(--cmp-stories-primary-active-color);
+}
+
+.cmp.stories.type-primary.state-disabled {
+  background: var(--cmp-stories-primary-disabled-bg);
+  color: var(--cmp-stories-primary-disabled-color);
+}
+
+.cmp.stories.type-primary.state-error {
+  background: var(--cmp-stories-primary-error-bg);
+  color: var(--cmp-stories-primary-error-color);
+}
+
+.cmp.stories.type-primary.state-success {
+  background: var(--cmp-stories-primary-success-bg);
+  color: var(--cmp-stories-primary-success-color);
+}
+
+.cmp.stories.type-secondary {
+  background: var(--cmp-stories-secondary-bg);
+  color: var(--cmp-stories-secondary-color);
+  border-color: var(--cmp-stories-secondary-border-color);
+}
+
+.cmp.stories.type-secondary.state-hover {
+  background: var(--cmp-stories-secondary-hover-bg);
+  color: var(--cmp-stories-secondary-hover-color);
+}
+
+.cmp.stories.type-secondary.state-focus {
+  background: var(--cmp-stories-secondary-focus-bg);
+  color: var(--cmp-stories-secondary-focus-color);
+}
+
+.cmp.stories.type-secondary.state-active {
+  background: var(--cmp-stories-secondary-active-bg);
+  color: var(--cmp-stories-secondary-active-color);
+}
+
+.cmp.stories.type-secondary.state-disabled {
+  background: var(--cmp-stories-secondary-disabled-bg);
+  color: var(--cmp-stories-secondary-disabled-color);
+}
+
+.cmp.stories.type-secondary.state-error {
+  background: var(--cmp-stories-secondary-error-bg);
+  color: var(--cmp-stories-secondary-error-color);
+}
+
+.cmp.stories.type-secondary.state-success {
+  background: var(--cmp-stories-secondary-success-bg);
+  color: var(--cmp-stories-secondary-success-color);
+}
+
+.cmp.stories.type-tertiary {
+  background: var(--cmp-stories-tertiary-bg);
+  color: var(--cmp-stories-tertiary-color);
+  border-color: var(--cmp-stories-tertiary-border-color);
+}
+
+.cmp.stories.type-tertiary.state-hover {
+  background: var(--cmp-stories-tertiary-hover-bg);
+  color: var(--cmp-stories-tertiary-hover-color);
+}
+
+.cmp.stories.type-tertiary.state-focus {
+  background: var(--cmp-stories-tertiary-focus-bg);
+  color: var(--cmp-stories-tertiary-focus-color);
+}
+
+.cmp.stories.type-tertiary.state-active {
+  background: var(--cmp-stories-tertiary-active-bg);
+  color: var(--cmp-stories-tertiary-active-color);
+}
+
+.cmp.stories.type-tertiary.state-disabled {
+  background: var(--cmp-stories-tertiary-disabled-bg);
+  color: var(--cmp-stories-tertiary-disabled-color);
+}
+
+.cmp.stories.type-tertiary.state-error {
+  background: var(--cmp-stories-tertiary-error-bg);
+  color: var(--cmp-stories-tertiary-error-color);
+}
+
+.cmp.stories.type-tertiary.state-success {
+  background: var(--cmp-stories-tertiary-success-bg);
+  color: var(--cmp-stories-tertiary-success-color);
+}
+
+.cmp.reactions {
+  padding: var(--cmp-reactions-padding);
+  margin: var(--cmp-reactions-margin);
+  background: var(--cmp-reactions-bg);
+  color: var(--cmp-reactions-color);
+  border: var(--cmp-reactions-border);
+  border-radius: var(--cmp-reactions-border-radius);
+  font-size: var(--cmp-reactions-font-size);
+  font-weight: var(--cmp-reactions-font-weight);
+  line-height: var(--cmp-reactions-line-height);
+  box-shadow: var(--cmp-reactions-shadow);
+  transition: var(--cmp-reactions-transition);
+  width: var(--cmp-reactions-width);
+  height: var(--cmp-reactions-height);
+  opacity: var(--cmp-reactions-opacity);
+  cursor: var(--cmp-reactions-cursor);
+  outline: var(--cmp-reactions-outline);
+  display: var(--cmp-reactions-display);
+  gap: var(--cmp-reactions-gap);
+}
+
+.cmp.reactions.state-hover {
+  background: var(--cmp-reactions-hover-bg);
+  color: var(--cmp-reactions-hover-color);
+  border-color: var(--cmp-reactions-hover-border-color);
+  box-shadow: var(--cmp-reactions-hover-shadow);
+  opacity: var(--cmp-reactions-hover-opacity);
+  outline: var(--cmp-reactions-hover-outline);
+}
+
+.cmp.reactions.state-focus {
+  background: var(--cmp-reactions-focus-bg);
+  color: var(--cmp-reactions-focus-color);
+  border-color: var(--cmp-reactions-focus-border-color);
+  box-shadow: var(--cmp-reactions-focus-shadow);
+  opacity: var(--cmp-reactions-focus-opacity);
+  outline: var(--cmp-reactions-focus-outline);
+}
+
+.cmp.reactions.state-active {
+  background: var(--cmp-reactions-active-bg);
+  color: var(--cmp-reactions-active-color);
+  border-color: var(--cmp-reactions-active-border-color);
+  box-shadow: var(--cmp-reactions-active-shadow);
+  opacity: var(--cmp-reactions-active-opacity);
+  outline: var(--cmp-reactions-active-outline);
+}
+
+.cmp.reactions.state-disabled {
+  background: var(--cmp-reactions-disabled-bg);
+  color: var(--cmp-reactions-disabled-color);
+  border-color: var(--cmp-reactions-disabled-border-color);
+  box-shadow: var(--cmp-reactions-disabled-shadow);
+  opacity: var(--cmp-reactions-disabled-opacity);
+  outline: var(--cmp-reactions-disabled-outline);
+}
+
+.cmp.reactions.state-error {
+  background: var(--cmp-reactions-error-bg);
+  color: var(--cmp-reactions-error-color);
+  border-color: var(--cmp-reactions-error-border-color);
+  box-shadow: var(--cmp-reactions-error-shadow);
+  opacity: var(--cmp-reactions-error-opacity);
+  outline: var(--cmp-reactions-error-outline);
+}
+
+.cmp.reactions.state-success {
+  background: var(--cmp-reactions-success-bg);
+  color: var(--cmp-reactions-success-color);
+  border-color: var(--cmp-reactions-success-border-color);
+  box-shadow: var(--cmp-reactions-success-shadow);
+  opacity: var(--cmp-reactions-success-opacity);
+  outline: var(--cmp-reactions-success-outline);
+}
+
+.cmp.reactions.type-primary {
+  background: var(--cmp-reactions-primary-bg);
+  color: var(--cmp-reactions-primary-color);
+  border-color: var(--cmp-reactions-primary-border-color);
+}
+
+.cmp.reactions.type-primary.state-hover {
+  background: var(--cmp-reactions-primary-hover-bg);
+  color: var(--cmp-reactions-primary-hover-color);
+}
+
+.cmp.reactions.type-primary.state-focus {
+  background: var(--cmp-reactions-primary-focus-bg);
+  color: var(--cmp-reactions-primary-focus-color);
+}
+
+.cmp.reactions.type-primary.state-active {
+  background: var(--cmp-reactions-primary-active-bg);
+  color: var(--cmp-reactions-primary-active-color);
+}
+
+.cmp.reactions.type-primary.state-disabled {
+  background: var(--cmp-reactions-primary-disabled-bg);
+  color: var(--cmp-reactions-primary-disabled-color);
+}
+
+.cmp.reactions.type-primary.state-error {
+  background: var(--cmp-reactions-primary-error-bg);
+  color: var(--cmp-reactions-primary-error-color);
+}
+
+.cmp.reactions.type-primary.state-success {
+  background: var(--cmp-reactions-primary-success-bg);
+  color: var(--cmp-reactions-primary-success-color);
+}
+
+.cmp.reactions.type-secondary {
+  background: var(--cmp-reactions-secondary-bg);
+  color: var(--cmp-reactions-secondary-color);
+  border-color: var(--cmp-reactions-secondary-border-color);
+}
+
+.cmp.reactions.type-secondary.state-hover {
+  background: var(--cmp-reactions-secondary-hover-bg);
+  color: var(--cmp-reactions-secondary-hover-color);
+}
+
+.cmp.reactions.type-secondary.state-focus {
+  background: var(--cmp-reactions-secondary-focus-bg);
+  color: var(--cmp-reactions-secondary-focus-color);
+}
+
+.cmp.reactions.type-secondary.state-active {
+  background: var(--cmp-reactions-secondary-active-bg);
+  color: var(--cmp-reactions-secondary-active-color);
+}
+
+.cmp.reactions.type-secondary.state-disabled {
+  background: var(--cmp-reactions-secondary-disabled-bg);
+  color: var(--cmp-reactions-secondary-disabled-color);
+}
+
+.cmp.reactions.type-secondary.state-error {
+  background: var(--cmp-reactions-secondary-error-bg);
+  color: var(--cmp-reactions-secondary-error-color);
+}
+
+.cmp.reactions.type-secondary.state-success {
+  background: var(--cmp-reactions-secondary-success-bg);
+  color: var(--cmp-reactions-secondary-success-color);
+}
+
+.cmp.reactions.type-tertiary {
+  background: var(--cmp-reactions-tertiary-bg);
+  color: var(--cmp-reactions-tertiary-color);
+  border-color: var(--cmp-reactions-tertiary-border-color);
+}
+
+.cmp.reactions.type-tertiary.state-hover {
+  background: var(--cmp-reactions-tertiary-hover-bg);
+  color: var(--cmp-reactions-tertiary-hover-color);
+}
+
+.cmp.reactions.type-tertiary.state-focus {
+  background: var(--cmp-reactions-tertiary-focus-bg);
+  color: var(--cmp-reactions-tertiary-focus-color);
+}
+
+.cmp.reactions.type-tertiary.state-active {
+  background: var(--cmp-reactions-tertiary-active-bg);
+  color: var(--cmp-reactions-tertiary-active-color);
+}
+
+.cmp.reactions.type-tertiary.state-disabled {
+  background: var(--cmp-reactions-tertiary-disabled-bg);
+  color: var(--cmp-reactions-tertiary-disabled-color);
+}
+
+.cmp.reactions.type-tertiary.state-error {
+  background: var(--cmp-reactions-tertiary-error-bg);
+  color: var(--cmp-reactions-tertiary-error-color);
+}
+
+.cmp.reactions.type-tertiary.state-success {
+  background: var(--cmp-reactions-tertiary-success-bg);
+  color: var(--cmp-reactions-tertiary-success-color);
+}
+
+.cmp.comments {
+  padding: var(--cmp-comments-padding);
+  margin: var(--cmp-comments-margin);
+  background: var(--cmp-comments-bg);
+  color: var(--cmp-comments-color);
+  border: var(--cmp-comments-border);
+  border-radius: var(--cmp-comments-border-radius);
+  font-size: var(--cmp-comments-font-size);
+  font-weight: var(--cmp-comments-font-weight);
+  line-height: var(--cmp-comments-line-height);
+  box-shadow: var(--cmp-comments-shadow);
+  transition: var(--cmp-comments-transition);
+  width: var(--cmp-comments-width);
+  height: var(--cmp-comments-height);
+  opacity: var(--cmp-comments-opacity);
+  cursor: var(--cmp-comments-cursor);
+  outline: var(--cmp-comments-outline);
+  display: var(--cmp-comments-display);
+  gap: var(--cmp-comments-gap);
+}
+
+.cmp.comments.state-hover {
+  background: var(--cmp-comments-hover-bg);
+  color: var(--cmp-comments-hover-color);
+  border-color: var(--cmp-comments-hover-border-color);
+  box-shadow: var(--cmp-comments-hover-shadow);
+  opacity: var(--cmp-comments-hover-opacity);
+  outline: var(--cmp-comments-hover-outline);
+}
+
+.cmp.comments.state-focus {
+  background: var(--cmp-comments-focus-bg);
+  color: var(--cmp-comments-focus-color);
+  border-color: var(--cmp-comments-focus-border-color);
+  box-shadow: var(--cmp-comments-focus-shadow);
+  opacity: var(--cmp-comments-focus-opacity);
+  outline: var(--cmp-comments-focus-outline);
+}
+
+.cmp.comments.state-active {
+  background: var(--cmp-comments-active-bg);
+  color: var(--cmp-comments-active-color);
+  border-color: var(--cmp-comments-active-border-color);
+  box-shadow: var(--cmp-comments-active-shadow);
+  opacity: var(--cmp-comments-active-opacity);
+  outline: var(--cmp-comments-active-outline);
+}
+
+.cmp.comments.state-disabled {
+  background: var(--cmp-comments-disabled-bg);
+  color: var(--cmp-comments-disabled-color);
+  border-color: var(--cmp-comments-disabled-border-color);
+  box-shadow: var(--cmp-comments-disabled-shadow);
+  opacity: var(--cmp-comments-disabled-opacity);
+  outline: var(--cmp-comments-disabled-outline);
+}
+
+.cmp.comments.state-error {
+  background: var(--cmp-comments-error-bg);
+  color: var(--cmp-comments-error-color);
+  border-color: var(--cmp-comments-error-border-color);
+  box-shadow: var(--cmp-comments-error-shadow);
+  opacity: var(--cmp-comments-error-opacity);
+  outline: var(--cmp-comments-error-outline);
+}
+
+.cmp.comments.state-success {
+  background: var(--cmp-comments-success-bg);
+  color: var(--cmp-comments-success-color);
+  border-color: var(--cmp-comments-success-border-color);
+  box-shadow: var(--cmp-comments-success-shadow);
+  opacity: var(--cmp-comments-success-opacity);
+  outline: var(--cmp-comments-success-outline);
+}
+
+.cmp.comments.type-primary {
+  background: var(--cmp-comments-primary-bg);
+  color: var(--cmp-comments-primary-color);
+  border-color: var(--cmp-comments-primary-border-color);
+}
+
+.cmp.comments.type-primary.state-hover {
+  background: var(--cmp-comments-primary-hover-bg);
+  color: var(--cmp-comments-primary-hover-color);
+}
+
+.cmp.comments.type-primary.state-focus {
+  background: var(--cmp-comments-primary-focus-bg);
+  color: var(--cmp-comments-primary-focus-color);
+}
+
+.cmp.comments.type-primary.state-active {
+  background: var(--cmp-comments-primary-active-bg);
+  color: var(--cmp-comments-primary-active-color);
+}
+
+.cmp.comments.type-primary.state-disabled {
+  background: var(--cmp-comments-primary-disabled-bg);
+  color: var(--cmp-comments-primary-disabled-color);
+}
+
+.cmp.comments.type-primary.state-error {
+  background: var(--cmp-comments-primary-error-bg);
+  color: var(--cmp-comments-primary-error-color);
+}
+
+.cmp.comments.type-primary.state-success {
+  background: var(--cmp-comments-primary-success-bg);
+  color: var(--cmp-comments-primary-success-color);
+}
+
+.cmp.comments.type-secondary {
+  background: var(--cmp-comments-secondary-bg);
+  color: var(--cmp-comments-secondary-color);
+  border-color: var(--cmp-comments-secondary-border-color);
+}
+
+.cmp.comments.type-secondary.state-hover {
+  background: var(--cmp-comments-secondary-hover-bg);
+  color: var(--cmp-comments-secondary-hover-color);
+}
+
+.cmp.comments.type-secondary.state-focus {
+  background: var(--cmp-comments-secondary-focus-bg);
+  color: var(--cmp-comments-secondary-focus-color);
+}
+
+.cmp.comments.type-secondary.state-active {
+  background: var(--cmp-comments-secondary-active-bg);
+  color: var(--cmp-comments-secondary-active-color);
+}
+
+.cmp.comments.type-secondary.state-disabled {
+  background: var(--cmp-comments-secondary-disabled-bg);
+  color: var(--cmp-comments-secondary-disabled-color);
+}
+
+.cmp.comments.type-secondary.state-error {
+  background: var(--cmp-comments-secondary-error-bg);
+  color: var(--cmp-comments-secondary-error-color);
+}
+
+.cmp.comments.type-secondary.state-success {
+  background: var(--cmp-comments-secondary-success-bg);
+  color: var(--cmp-comments-secondary-success-color);
+}
+
+.cmp.comments.type-tertiary {
+  background: var(--cmp-comments-tertiary-bg);
+  color: var(--cmp-comments-tertiary-color);
+  border-color: var(--cmp-comments-tertiary-border-color);
+}
+
+.cmp.comments.type-tertiary.state-hover {
+  background: var(--cmp-comments-tertiary-hover-bg);
+  color: var(--cmp-comments-tertiary-hover-color);
+}
+
+.cmp.comments.type-tertiary.state-focus {
+  background: var(--cmp-comments-tertiary-focus-bg);
+  color: var(--cmp-comments-tertiary-focus-color);
+}
+
+.cmp.comments.type-tertiary.state-active {
+  background: var(--cmp-comments-tertiary-active-bg);
+  color: var(--cmp-comments-tertiary-active-color);
+}
+
+.cmp.comments.type-tertiary.state-disabled {
+  background: var(--cmp-comments-tertiary-disabled-bg);
+  color: var(--cmp-comments-tertiary-disabled-color);
+}
+
+.cmp.comments.type-tertiary.state-error {
+  background: var(--cmp-comments-tertiary-error-bg);
+  color: var(--cmp-comments-tertiary-error-color);
+}
+
+.cmp.comments.type-tertiary.state-success {
+  background: var(--cmp-comments-tertiary-success-bg);
+  color: var(--cmp-comments-tertiary-success-color);
+}
+
+.cmp.share-sheet {
+  padding: var(--cmp-share-sheet-padding);
+  margin: var(--cmp-share-sheet-margin);
+  background: var(--cmp-share-sheet-bg);
+  color: var(--cmp-share-sheet-color);
+  border: var(--cmp-share-sheet-border);
+  border-radius: var(--cmp-share-sheet-border-radius);
+  font-size: var(--cmp-share-sheet-font-size);
+  font-weight: var(--cmp-share-sheet-font-weight);
+  line-height: var(--cmp-share-sheet-line-height);
+  box-shadow: var(--cmp-share-sheet-shadow);
+  transition: var(--cmp-share-sheet-transition);
+  width: var(--cmp-share-sheet-width);
+  height: var(--cmp-share-sheet-height);
+  opacity: var(--cmp-share-sheet-opacity);
+  cursor: var(--cmp-share-sheet-cursor);
+  outline: var(--cmp-share-sheet-outline);
+  display: var(--cmp-share-sheet-display);
+  gap: var(--cmp-share-sheet-gap);
+}
+
+.cmp.share-sheet.state-hover {
+  background: var(--cmp-share-sheet-hover-bg);
+  color: var(--cmp-share-sheet-hover-color);
+  border-color: var(--cmp-share-sheet-hover-border-color);
+  box-shadow: var(--cmp-share-sheet-hover-shadow);
+  opacity: var(--cmp-share-sheet-hover-opacity);
+  outline: var(--cmp-share-sheet-hover-outline);
+}
+
+.cmp.share-sheet.state-focus {
+  background: var(--cmp-share-sheet-focus-bg);
+  color: var(--cmp-share-sheet-focus-color);
+  border-color: var(--cmp-share-sheet-focus-border-color);
+  box-shadow: var(--cmp-share-sheet-focus-shadow);
+  opacity: var(--cmp-share-sheet-focus-opacity);
+  outline: var(--cmp-share-sheet-focus-outline);
+}
+
+.cmp.share-sheet.state-active {
+  background: var(--cmp-share-sheet-active-bg);
+  color: var(--cmp-share-sheet-active-color);
+  border-color: var(--cmp-share-sheet-active-border-color);
+  box-shadow: var(--cmp-share-sheet-active-shadow);
+  opacity: var(--cmp-share-sheet-active-opacity);
+  outline: var(--cmp-share-sheet-active-outline);
+}
+
+.cmp.share-sheet.state-disabled {
+  background: var(--cmp-share-sheet-disabled-bg);
+  color: var(--cmp-share-sheet-disabled-color);
+  border-color: var(--cmp-share-sheet-disabled-border-color);
+  box-shadow: var(--cmp-share-sheet-disabled-shadow);
+  opacity: var(--cmp-share-sheet-disabled-opacity);
+  outline: var(--cmp-share-sheet-disabled-outline);
+}
+
+.cmp.share-sheet.state-error {
+  background: var(--cmp-share-sheet-error-bg);
+  color: var(--cmp-share-sheet-error-color);
+  border-color: var(--cmp-share-sheet-error-border-color);
+  box-shadow: var(--cmp-share-sheet-error-shadow);
+  opacity: var(--cmp-share-sheet-error-opacity);
+  outline: var(--cmp-share-sheet-error-outline);
+}
+
+.cmp.share-sheet.state-success {
+  background: var(--cmp-share-sheet-success-bg);
+  color: var(--cmp-share-sheet-success-color);
+  border-color: var(--cmp-share-sheet-success-border-color);
+  box-shadow: var(--cmp-share-sheet-success-shadow);
+  opacity: var(--cmp-share-sheet-success-opacity);
+  outline: var(--cmp-share-sheet-success-outline);
+}
+
+.cmp.share-sheet.type-primary {
+  background: var(--cmp-share-sheet-primary-bg);
+  color: var(--cmp-share-sheet-primary-color);
+  border-color: var(--cmp-share-sheet-primary-border-color);
+}
+
+.cmp.share-sheet.type-primary.state-hover {
+  background: var(--cmp-share-sheet-primary-hover-bg);
+  color: var(--cmp-share-sheet-primary-hover-color);
+}
+
+.cmp.share-sheet.type-primary.state-focus {
+  background: var(--cmp-share-sheet-primary-focus-bg);
+  color: var(--cmp-share-sheet-primary-focus-color);
+}
+
+.cmp.share-sheet.type-primary.state-active {
+  background: var(--cmp-share-sheet-primary-active-bg);
+  color: var(--cmp-share-sheet-primary-active-color);
+}
+
+.cmp.share-sheet.type-primary.state-disabled {
+  background: var(--cmp-share-sheet-primary-disabled-bg);
+  color: var(--cmp-share-sheet-primary-disabled-color);
+}
+
+.cmp.share-sheet.type-primary.state-error {
+  background: var(--cmp-share-sheet-primary-error-bg);
+  color: var(--cmp-share-sheet-primary-error-color);
+}
+
+.cmp.share-sheet.type-primary.state-success {
+  background: var(--cmp-share-sheet-primary-success-bg);
+  color: var(--cmp-share-sheet-primary-success-color);
+}
+
+.cmp.share-sheet.type-secondary {
+  background: var(--cmp-share-sheet-secondary-bg);
+  color: var(--cmp-share-sheet-secondary-color);
+  border-color: var(--cmp-share-sheet-secondary-border-color);
+}
+
+.cmp.share-sheet.type-secondary.state-hover {
+  background: var(--cmp-share-sheet-secondary-hover-bg);
+  color: var(--cmp-share-sheet-secondary-hover-color);
+}
+
+.cmp.share-sheet.type-secondary.state-focus {
+  background: var(--cmp-share-sheet-secondary-focus-bg);
+  color: var(--cmp-share-sheet-secondary-focus-color);
+}
+
+.cmp.share-sheet.type-secondary.state-active {
+  background: var(--cmp-share-sheet-secondary-active-bg);
+  color: var(--cmp-share-sheet-secondary-active-color);
+}
+
+.cmp.share-sheet.type-secondary.state-disabled {
+  background: var(--cmp-share-sheet-secondary-disabled-bg);
+  color: var(--cmp-share-sheet-secondary-disabled-color);
+}
+
+.cmp.share-sheet.type-secondary.state-error {
+  background: var(--cmp-share-sheet-secondary-error-bg);
+  color: var(--cmp-share-sheet-secondary-error-color);
+}
+
+.cmp.share-sheet.type-secondary.state-success {
+  background: var(--cmp-share-sheet-secondary-success-bg);
+  color: var(--cmp-share-sheet-secondary-success-color);
+}
+
+.cmp.share-sheet.type-tertiary {
+  background: var(--cmp-share-sheet-tertiary-bg);
+  color: var(--cmp-share-sheet-tertiary-color);
+  border-color: var(--cmp-share-sheet-tertiary-border-color);
+}
+
+.cmp.share-sheet.type-tertiary.state-hover {
+  background: var(--cmp-share-sheet-tertiary-hover-bg);
+  color: var(--cmp-share-sheet-tertiary-hover-color);
+}
+
+.cmp.share-sheet.type-tertiary.state-focus {
+  background: var(--cmp-share-sheet-tertiary-focus-bg);
+  color: var(--cmp-share-sheet-tertiary-focus-color);
+}
+
+.cmp.share-sheet.type-tertiary.state-active {
+  background: var(--cmp-share-sheet-tertiary-active-bg);
+  color: var(--cmp-share-sheet-tertiary-active-color);
+}
+
+.cmp.share-sheet.type-tertiary.state-disabled {
+  background: var(--cmp-share-sheet-tertiary-disabled-bg);
+  color: var(--cmp-share-sheet-tertiary-disabled-color);
+}
+
+.cmp.share-sheet.type-tertiary.state-error {
+  background: var(--cmp-share-sheet-tertiary-error-bg);
+  color: var(--cmp-share-sheet-tertiary-error-color);
+}
+
+.cmp.share-sheet.type-tertiary.state-success {
+  background: var(--cmp-share-sheet-tertiary-success-bg);
+  color: var(--cmp-share-sheet-tertiary-success-color);
+}
+
+.cmp.follow-button {
+  padding: var(--cmp-follow-button-padding);
+  margin: var(--cmp-follow-button-margin);
+  background: var(--cmp-follow-button-bg);
+  color: var(--cmp-follow-button-color);
+  border: var(--cmp-follow-button-border);
+  border-radius: var(--cmp-follow-button-border-radius);
+  font-size: var(--cmp-follow-button-font-size);
+  font-weight: var(--cmp-follow-button-font-weight);
+  line-height: var(--cmp-follow-button-line-height);
+  box-shadow: var(--cmp-follow-button-shadow);
+  transition: var(--cmp-follow-button-transition);
+  width: var(--cmp-follow-button-width);
+  height: var(--cmp-follow-button-height);
+  opacity: var(--cmp-follow-button-opacity);
+  cursor: var(--cmp-follow-button-cursor);
+  outline: var(--cmp-follow-button-outline);
+  display: var(--cmp-follow-button-display);
+  gap: var(--cmp-follow-button-gap);
+}
+
+.cmp.follow-button.state-hover {
+  background: var(--cmp-follow-button-hover-bg);
+  color: var(--cmp-follow-button-hover-color);
+  border-color: var(--cmp-follow-button-hover-border-color);
+  box-shadow: var(--cmp-follow-button-hover-shadow);
+  opacity: var(--cmp-follow-button-hover-opacity);
+  outline: var(--cmp-follow-button-hover-outline);
+}
+
+.cmp.follow-button.state-focus {
+  background: var(--cmp-follow-button-focus-bg);
+  color: var(--cmp-follow-button-focus-color);
+  border-color: var(--cmp-follow-button-focus-border-color);
+  box-shadow: var(--cmp-follow-button-focus-shadow);
+  opacity: var(--cmp-follow-button-focus-opacity);
+  outline: var(--cmp-follow-button-focus-outline);
+}
+
+.cmp.follow-button.state-active {
+  background: var(--cmp-follow-button-active-bg);
+  color: var(--cmp-follow-button-active-color);
+  border-color: var(--cmp-follow-button-active-border-color);
+  box-shadow: var(--cmp-follow-button-active-shadow);
+  opacity: var(--cmp-follow-button-active-opacity);
+  outline: var(--cmp-follow-button-active-outline);
+}
+
+.cmp.follow-button.state-disabled {
+  background: var(--cmp-follow-button-disabled-bg);
+  color: var(--cmp-follow-button-disabled-color);
+  border-color: var(--cmp-follow-button-disabled-border-color);
+  box-shadow: var(--cmp-follow-button-disabled-shadow);
+  opacity: var(--cmp-follow-button-disabled-opacity);
+  outline: var(--cmp-follow-button-disabled-outline);
+}
+
+.cmp.follow-button.state-error {
+  background: var(--cmp-follow-button-error-bg);
+  color: var(--cmp-follow-button-error-color);
+  border-color: var(--cmp-follow-button-error-border-color);
+  box-shadow: var(--cmp-follow-button-error-shadow);
+  opacity: var(--cmp-follow-button-error-opacity);
+  outline: var(--cmp-follow-button-error-outline);
+}
+
+.cmp.follow-button.state-success {
+  background: var(--cmp-follow-button-success-bg);
+  color: var(--cmp-follow-button-success-color);
+  border-color: var(--cmp-follow-button-success-border-color);
+  box-shadow: var(--cmp-follow-button-success-shadow);
+  opacity: var(--cmp-follow-button-success-opacity);
+  outline: var(--cmp-follow-button-success-outline);
+}
+
+.cmp.follow-button.type-primary {
+  background: var(--cmp-follow-button-primary-bg);
+  color: var(--cmp-follow-button-primary-color);
+  border-color: var(--cmp-follow-button-primary-border-color);
+}
+
+.cmp.follow-button.type-primary.state-hover {
+  background: var(--cmp-follow-button-primary-hover-bg);
+  color: var(--cmp-follow-button-primary-hover-color);
+}
+
+.cmp.follow-button.type-primary.state-focus {
+  background: var(--cmp-follow-button-primary-focus-bg);
+  color: var(--cmp-follow-button-primary-focus-color);
+}
+
+.cmp.follow-button.type-primary.state-active {
+  background: var(--cmp-follow-button-primary-active-bg);
+  color: var(--cmp-follow-button-primary-active-color);
+}
+
+.cmp.follow-button.type-primary.state-disabled {
+  background: var(--cmp-follow-button-primary-disabled-bg);
+  color: var(--cmp-follow-button-primary-disabled-color);
+}
+
+.cmp.follow-button.type-primary.state-error {
+  background: var(--cmp-follow-button-primary-error-bg);
+  color: var(--cmp-follow-button-primary-error-color);
+}
+
+.cmp.follow-button.type-primary.state-success {
+  background: var(--cmp-follow-button-primary-success-bg);
+  color: var(--cmp-follow-button-primary-success-color);
+}
+
+.cmp.follow-button.type-secondary {
+  background: var(--cmp-follow-button-secondary-bg);
+  color: var(--cmp-follow-button-secondary-color);
+  border-color: var(--cmp-follow-button-secondary-border-color);
+}
+
+.cmp.follow-button.type-secondary.state-hover {
+  background: var(--cmp-follow-button-secondary-hover-bg);
+  color: var(--cmp-follow-button-secondary-hover-color);
+}
+
+.cmp.follow-button.type-secondary.state-focus {
+  background: var(--cmp-follow-button-secondary-focus-bg);
+  color: var(--cmp-follow-button-secondary-focus-color);
+}
+
+.cmp.follow-button.type-secondary.state-active {
+  background: var(--cmp-follow-button-secondary-active-bg);
+  color: var(--cmp-follow-button-secondary-active-color);
+}
+
+.cmp.follow-button.type-secondary.state-disabled {
+  background: var(--cmp-follow-button-secondary-disabled-bg);
+  color: var(--cmp-follow-button-secondary-disabled-color);
+}
+
+.cmp.follow-button.type-secondary.state-error {
+  background: var(--cmp-follow-button-secondary-error-bg);
+  color: var(--cmp-follow-button-secondary-error-color);
+}
+
+.cmp.follow-button.type-secondary.state-success {
+  background: var(--cmp-follow-button-secondary-success-bg);
+  color: var(--cmp-follow-button-secondary-success-color);
+}
+
+.cmp.follow-button.type-tertiary {
+  background: var(--cmp-follow-button-tertiary-bg);
+  color: var(--cmp-follow-button-tertiary-color);
+  border-color: var(--cmp-follow-button-tertiary-border-color);
+}
+
+.cmp.follow-button.type-tertiary.state-hover {
+  background: var(--cmp-follow-button-tertiary-hover-bg);
+  color: var(--cmp-follow-button-tertiary-hover-color);
+}
+
+.cmp.follow-button.type-tertiary.state-focus {
+  background: var(--cmp-follow-button-tertiary-focus-bg);
+  color: var(--cmp-follow-button-tertiary-focus-color);
+}
+
+.cmp.follow-button.type-tertiary.state-active {
+  background: var(--cmp-follow-button-tertiary-active-bg);
+  color: var(--cmp-follow-button-tertiary-active-color);
+}
+
+.cmp.follow-button.type-tertiary.state-disabled {
+  background: var(--cmp-follow-button-tertiary-disabled-bg);
+  color: var(--cmp-follow-button-tertiary-disabled-color);
+}
+
+.cmp.follow-button.type-tertiary.state-error {
+  background: var(--cmp-follow-button-tertiary-error-bg);
+  color: var(--cmp-follow-button-tertiary-error-color);
+}
+
+.cmp.follow-button.type-tertiary.state-success {
+  background: var(--cmp-follow-button-tertiary-success-bg);
+  color: var(--cmp-follow-button-tertiary-success-color);
+}
+
+.cmp.dm-chat {
+  padding: var(--cmp-dm-chat-padding);
+  margin: var(--cmp-dm-chat-margin);
+  background: var(--cmp-dm-chat-bg);
+  color: var(--cmp-dm-chat-color);
+  border: var(--cmp-dm-chat-border);
+  border-radius: var(--cmp-dm-chat-border-radius);
+  font-size: var(--cmp-dm-chat-font-size);
+  font-weight: var(--cmp-dm-chat-font-weight);
+  line-height: var(--cmp-dm-chat-line-height);
+  box-shadow: var(--cmp-dm-chat-shadow);
+  transition: var(--cmp-dm-chat-transition);
+  width: var(--cmp-dm-chat-width);
+  height: var(--cmp-dm-chat-height);
+  opacity: var(--cmp-dm-chat-opacity);
+  cursor: var(--cmp-dm-chat-cursor);
+  outline: var(--cmp-dm-chat-outline);
+  display: var(--cmp-dm-chat-display);
+  gap: var(--cmp-dm-chat-gap);
+}
+
+.cmp.dm-chat.state-hover {
+  background: var(--cmp-dm-chat-hover-bg);
+  color: var(--cmp-dm-chat-hover-color);
+  border-color: var(--cmp-dm-chat-hover-border-color);
+  box-shadow: var(--cmp-dm-chat-hover-shadow);
+  opacity: var(--cmp-dm-chat-hover-opacity);
+  outline: var(--cmp-dm-chat-hover-outline);
+}
+
+.cmp.dm-chat.state-focus {
+  background: var(--cmp-dm-chat-focus-bg);
+  color: var(--cmp-dm-chat-focus-color);
+  border-color: var(--cmp-dm-chat-focus-border-color);
+  box-shadow: var(--cmp-dm-chat-focus-shadow);
+  opacity: var(--cmp-dm-chat-focus-opacity);
+  outline: var(--cmp-dm-chat-focus-outline);
+}
+
+.cmp.dm-chat.state-active {
+  background: var(--cmp-dm-chat-active-bg);
+  color: var(--cmp-dm-chat-active-color);
+  border-color: var(--cmp-dm-chat-active-border-color);
+  box-shadow: var(--cmp-dm-chat-active-shadow);
+  opacity: var(--cmp-dm-chat-active-opacity);
+  outline: var(--cmp-dm-chat-active-outline);
+}
+
+.cmp.dm-chat.state-disabled {
+  background: var(--cmp-dm-chat-disabled-bg);
+  color: var(--cmp-dm-chat-disabled-color);
+  border-color: var(--cmp-dm-chat-disabled-border-color);
+  box-shadow: var(--cmp-dm-chat-disabled-shadow);
+  opacity: var(--cmp-dm-chat-disabled-opacity);
+  outline: var(--cmp-dm-chat-disabled-outline);
+}
+
+.cmp.dm-chat.state-error {
+  background: var(--cmp-dm-chat-error-bg);
+  color: var(--cmp-dm-chat-error-color);
+  border-color: var(--cmp-dm-chat-error-border-color);
+  box-shadow: var(--cmp-dm-chat-error-shadow);
+  opacity: var(--cmp-dm-chat-error-opacity);
+  outline: var(--cmp-dm-chat-error-outline);
+}
+
+.cmp.dm-chat.state-success {
+  background: var(--cmp-dm-chat-success-bg);
+  color: var(--cmp-dm-chat-success-color);
+  border-color: var(--cmp-dm-chat-success-border-color);
+  box-shadow: var(--cmp-dm-chat-success-shadow);
+  opacity: var(--cmp-dm-chat-success-opacity);
+  outline: var(--cmp-dm-chat-success-outline);
+}
+
+.cmp.dm-chat.type-primary {
+  background: var(--cmp-dm-chat-primary-bg);
+  color: var(--cmp-dm-chat-primary-color);
+  border-color: var(--cmp-dm-chat-primary-border-color);
+}
+
+.cmp.dm-chat.type-primary.state-hover {
+  background: var(--cmp-dm-chat-primary-hover-bg);
+  color: var(--cmp-dm-chat-primary-hover-color);
+}
+
+.cmp.dm-chat.type-primary.state-focus {
+  background: var(--cmp-dm-chat-primary-focus-bg);
+  color: var(--cmp-dm-chat-primary-focus-color);
+}
+
+.cmp.dm-chat.type-primary.state-active {
+  background: var(--cmp-dm-chat-primary-active-bg);
+  color: var(--cmp-dm-chat-primary-active-color);
+}
+
+.cmp.dm-chat.type-primary.state-disabled {
+  background: var(--cmp-dm-chat-primary-disabled-bg);
+  color: var(--cmp-dm-chat-primary-disabled-color);
+}
+
+.cmp.dm-chat.type-primary.state-error {
+  background: var(--cmp-dm-chat-primary-error-bg);
+  color: var(--cmp-dm-chat-primary-error-color);
+}
+
+.cmp.dm-chat.type-primary.state-success {
+  background: var(--cmp-dm-chat-primary-success-bg);
+  color: var(--cmp-dm-chat-primary-success-color);
+}
+
+.cmp.dm-chat.type-secondary {
+  background: var(--cmp-dm-chat-secondary-bg);
+  color: var(--cmp-dm-chat-secondary-color);
+  border-color: var(--cmp-dm-chat-secondary-border-color);
+}
+
+.cmp.dm-chat.type-secondary.state-hover {
+  background: var(--cmp-dm-chat-secondary-hover-bg);
+  color: var(--cmp-dm-chat-secondary-hover-color);
+}
+
+.cmp.dm-chat.type-secondary.state-focus {
+  background: var(--cmp-dm-chat-secondary-focus-bg);
+  color: var(--cmp-dm-chat-secondary-focus-color);
+}
+
+.cmp.dm-chat.type-secondary.state-active {
+  background: var(--cmp-dm-chat-secondary-active-bg);
+  color: var(--cmp-dm-chat-secondary-active-color);
+}
+
+.cmp.dm-chat.type-secondary.state-disabled {
+  background: var(--cmp-dm-chat-secondary-disabled-bg);
+  color: var(--cmp-dm-chat-secondary-disabled-color);
+}
+
+.cmp.dm-chat.type-secondary.state-error {
+  background: var(--cmp-dm-chat-secondary-error-bg);
+  color: var(--cmp-dm-chat-secondary-error-color);
+}
+
+.cmp.dm-chat.type-secondary.state-success {
+  background: var(--cmp-dm-chat-secondary-success-bg);
+  color: var(--cmp-dm-chat-secondary-success-color);
+}
+
+.cmp.dm-chat.type-tertiary {
+  background: var(--cmp-dm-chat-tertiary-bg);
+  color: var(--cmp-dm-chat-tertiary-color);
+  border-color: var(--cmp-dm-chat-tertiary-border-color);
+}
+
+.cmp.dm-chat.type-tertiary.state-hover {
+  background: var(--cmp-dm-chat-tertiary-hover-bg);
+  color: var(--cmp-dm-chat-tertiary-hover-color);
+}
+
+.cmp.dm-chat.type-tertiary.state-focus {
+  background: var(--cmp-dm-chat-tertiary-focus-bg);
+  color: var(--cmp-dm-chat-tertiary-focus-color);
+}
+
+.cmp.dm-chat.type-tertiary.state-active {
+  background: var(--cmp-dm-chat-tertiary-active-bg);
+  color: var(--cmp-dm-chat-tertiary-active-color);
+}
+
+.cmp.dm-chat.type-tertiary.state-disabled {
+  background: var(--cmp-dm-chat-tertiary-disabled-bg);
+  color: var(--cmp-dm-chat-tertiary-disabled-color);
+}
+
+.cmp.dm-chat.type-tertiary.state-error {
+  background: var(--cmp-dm-chat-tertiary-error-bg);
+  color: var(--cmp-dm-chat-tertiary-error-color);
+}
+
+.cmp.dm-chat.type-tertiary.state-success {
+  background: var(--cmp-dm-chat-tertiary-success-bg);
+  color: var(--cmp-dm-chat-tertiary-success-color);
+}
+
+.cmp.live-room {
+  padding: var(--cmp-live-room-padding);
+  margin: var(--cmp-live-room-margin);
+  background: var(--cmp-live-room-bg);
+  color: var(--cmp-live-room-color);
+  border: var(--cmp-live-room-border);
+  border-radius: var(--cmp-live-room-border-radius);
+  font-size: var(--cmp-live-room-font-size);
+  font-weight: var(--cmp-live-room-font-weight);
+  line-height: var(--cmp-live-room-line-height);
+  box-shadow: var(--cmp-live-room-shadow);
+  transition: var(--cmp-live-room-transition);
+  width: var(--cmp-live-room-width);
+  height: var(--cmp-live-room-height);
+  opacity: var(--cmp-live-room-opacity);
+  cursor: var(--cmp-live-room-cursor);
+  outline: var(--cmp-live-room-outline);
+  display: var(--cmp-live-room-display);
+  gap: var(--cmp-live-room-gap);
+}
+
+.cmp.live-room.state-hover {
+  background: var(--cmp-live-room-hover-bg);
+  color: var(--cmp-live-room-hover-color);
+  border-color: var(--cmp-live-room-hover-border-color);
+  box-shadow: var(--cmp-live-room-hover-shadow);
+  opacity: var(--cmp-live-room-hover-opacity);
+  outline: var(--cmp-live-room-hover-outline);
+}
+
+.cmp.live-room.state-focus {
+  background: var(--cmp-live-room-focus-bg);
+  color: var(--cmp-live-room-focus-color);
+  border-color: var(--cmp-live-room-focus-border-color);
+  box-shadow: var(--cmp-live-room-focus-shadow);
+  opacity: var(--cmp-live-room-focus-opacity);
+  outline: var(--cmp-live-room-focus-outline);
+}
+
+.cmp.live-room.state-active {
+  background: var(--cmp-live-room-active-bg);
+  color: var(--cmp-live-room-active-color);
+  border-color: var(--cmp-live-room-active-border-color);
+  box-shadow: var(--cmp-live-room-active-shadow);
+  opacity: var(--cmp-live-room-active-opacity);
+  outline: var(--cmp-live-room-active-outline);
+}
+
+.cmp.live-room.state-disabled {
+  background: var(--cmp-live-room-disabled-bg);
+  color: var(--cmp-live-room-disabled-color);
+  border-color: var(--cmp-live-room-disabled-border-color);
+  box-shadow: var(--cmp-live-room-disabled-shadow);
+  opacity: var(--cmp-live-room-disabled-opacity);
+  outline: var(--cmp-live-room-disabled-outline);
+}
+
+.cmp.live-room.state-error {
+  background: var(--cmp-live-room-error-bg);
+  color: var(--cmp-live-room-error-color);
+  border-color: var(--cmp-live-room-error-border-color);
+  box-shadow: var(--cmp-live-room-error-shadow);
+  opacity: var(--cmp-live-room-error-opacity);
+  outline: var(--cmp-live-room-error-outline);
+}
+
+.cmp.live-room.state-success {
+  background: var(--cmp-live-room-success-bg);
+  color: var(--cmp-live-room-success-color);
+  border-color: var(--cmp-live-room-success-border-color);
+  box-shadow: var(--cmp-live-room-success-shadow);
+  opacity: var(--cmp-live-room-success-opacity);
+  outline: var(--cmp-live-room-success-outline);
+}
+
+.cmp.live-room.type-primary {
+  background: var(--cmp-live-room-primary-bg);
+  color: var(--cmp-live-room-primary-color);
+  border-color: var(--cmp-live-room-primary-border-color);
+}
+
+.cmp.live-room.type-primary.state-hover {
+  background: var(--cmp-live-room-primary-hover-bg);
+  color: var(--cmp-live-room-primary-hover-color);
+}
+
+.cmp.live-room.type-primary.state-focus {
+  background: var(--cmp-live-room-primary-focus-bg);
+  color: var(--cmp-live-room-primary-focus-color);
+}
+
+.cmp.live-room.type-primary.state-active {
+  background: var(--cmp-live-room-primary-active-bg);
+  color: var(--cmp-live-room-primary-active-color);
+}
+
+.cmp.live-room.type-primary.state-disabled {
+  background: var(--cmp-live-room-primary-disabled-bg);
+  color: var(--cmp-live-room-primary-disabled-color);
+}
+
+.cmp.live-room.type-primary.state-error {
+  background: var(--cmp-live-room-primary-error-bg);
+  color: var(--cmp-live-room-primary-error-color);
+}
+
+.cmp.live-room.type-primary.state-success {
+  background: var(--cmp-live-room-primary-success-bg);
+  color: var(--cmp-live-room-primary-success-color);
+}
+
+.cmp.live-room.type-secondary {
+  background: var(--cmp-live-room-secondary-bg);
+  color: var(--cmp-live-room-secondary-color);
+  border-color: var(--cmp-live-room-secondary-border-color);
+}
+
+.cmp.live-room.type-secondary.state-hover {
+  background: var(--cmp-live-room-secondary-hover-bg);
+  color: var(--cmp-live-room-secondary-hover-color);
+}
+
+.cmp.live-room.type-secondary.state-focus {
+  background: var(--cmp-live-room-secondary-focus-bg);
+  color: var(--cmp-live-room-secondary-focus-color);
+}
+
+.cmp.live-room.type-secondary.state-active {
+  background: var(--cmp-live-room-secondary-active-bg);
+  color: var(--cmp-live-room-secondary-active-color);
+}
+
+.cmp.live-room.type-secondary.state-disabled {
+  background: var(--cmp-live-room-secondary-disabled-bg);
+  color: var(--cmp-live-room-secondary-disabled-color);
+}
+
+.cmp.live-room.type-secondary.state-error {
+  background: var(--cmp-live-room-secondary-error-bg);
+  color: var(--cmp-live-room-secondary-error-color);
+}
+
+.cmp.live-room.type-secondary.state-success {
+  background: var(--cmp-live-room-secondary-success-bg);
+  color: var(--cmp-live-room-secondary-success-color);
+}
+
+.cmp.live-room.type-tertiary {
+  background: var(--cmp-live-room-tertiary-bg);
+  color: var(--cmp-live-room-tertiary-color);
+  border-color: var(--cmp-live-room-tertiary-border-color);
+}
+
+.cmp.live-room.type-tertiary.state-hover {
+  background: var(--cmp-live-room-tertiary-hover-bg);
+  color: var(--cmp-live-room-tertiary-hover-color);
+}
+
+.cmp.live-room.type-tertiary.state-focus {
+  background: var(--cmp-live-room-tertiary-focus-bg);
+  color: var(--cmp-live-room-tertiary-focus-color);
+}
+
+.cmp.live-room.type-tertiary.state-active {
+  background: var(--cmp-live-room-tertiary-active-bg);
+  color: var(--cmp-live-room-tertiary-active-color);
+}
+
+.cmp.live-room.type-tertiary.state-disabled {
+  background: var(--cmp-live-room-tertiary-disabled-bg);
+  color: var(--cmp-live-room-tertiary-disabled-color);
+}
+
+.cmp.live-room.type-tertiary.state-error {
+  background: var(--cmp-live-room-tertiary-error-bg);
+  color: var(--cmp-live-room-tertiary-error-color);
+}
+
+.cmp.live-room.type-tertiary.state-success {
+  background: var(--cmp-live-room-tertiary-success-bg);
+  color: var(--cmp-live-room-tertiary-success-color);
+}
+
+.cmp.typing-status {
+  padding: var(--cmp-typing-status-padding);
+  margin: var(--cmp-typing-status-margin);
+  background: var(--cmp-typing-status-bg);
+  color: var(--cmp-typing-status-color);
+  border: var(--cmp-typing-status-border);
+  border-radius: var(--cmp-typing-status-border-radius);
+  font-size: var(--cmp-typing-status-font-size);
+  font-weight: var(--cmp-typing-status-font-weight);
+  line-height: var(--cmp-typing-status-line-height);
+  box-shadow: var(--cmp-typing-status-shadow);
+  transition: var(--cmp-typing-status-transition);
+  width: var(--cmp-typing-status-width);
+  height: var(--cmp-typing-status-height);
+  opacity: var(--cmp-typing-status-opacity);
+  cursor: var(--cmp-typing-status-cursor);
+  outline: var(--cmp-typing-status-outline);
+  display: var(--cmp-typing-status-display);
+  gap: var(--cmp-typing-status-gap);
+}
+
+.cmp.typing-status.state-hover {
+  background: var(--cmp-typing-status-hover-bg);
+  color: var(--cmp-typing-status-hover-color);
+  border-color: var(--cmp-typing-status-hover-border-color);
+  box-shadow: var(--cmp-typing-status-hover-shadow);
+  opacity: var(--cmp-typing-status-hover-opacity);
+  outline: var(--cmp-typing-status-hover-outline);
+}
+
+.cmp.typing-status.state-focus {
+  background: var(--cmp-typing-status-focus-bg);
+  color: var(--cmp-typing-status-focus-color);
+  border-color: var(--cmp-typing-status-focus-border-color);
+  box-shadow: var(--cmp-typing-status-focus-shadow);
+  opacity: var(--cmp-typing-status-focus-opacity);
+  outline: var(--cmp-typing-status-focus-outline);
+}
+
+.cmp.typing-status.state-active {
+  background: var(--cmp-typing-status-active-bg);
+  color: var(--cmp-typing-status-active-color);
+  border-color: var(--cmp-typing-status-active-border-color);
+  box-shadow: var(--cmp-typing-status-active-shadow);
+  opacity: var(--cmp-typing-status-active-opacity);
+  outline: var(--cmp-typing-status-active-outline);
+}
+
+.cmp.typing-status.state-disabled {
+  background: var(--cmp-typing-status-disabled-bg);
+  color: var(--cmp-typing-status-disabled-color);
+  border-color: var(--cmp-typing-status-disabled-border-color);
+  box-shadow: var(--cmp-typing-status-disabled-shadow);
+  opacity: var(--cmp-typing-status-disabled-opacity);
+  outline: var(--cmp-typing-status-disabled-outline);
+}
+
+.cmp.typing-status.state-error {
+  background: var(--cmp-typing-status-error-bg);
+  color: var(--cmp-typing-status-error-color);
+  border-color: var(--cmp-typing-status-error-border-color);
+  box-shadow: var(--cmp-typing-status-error-shadow);
+  opacity: var(--cmp-typing-status-error-opacity);
+  outline: var(--cmp-typing-status-error-outline);
+}
+
+.cmp.typing-status.state-success {
+  background: var(--cmp-typing-status-success-bg);
+  color: var(--cmp-typing-status-success-color);
+  border-color: var(--cmp-typing-status-success-border-color);
+  box-shadow: var(--cmp-typing-status-success-shadow);
+  opacity: var(--cmp-typing-status-success-opacity);
+  outline: var(--cmp-typing-status-success-outline);
+}
+
+.cmp.typing-status.type-primary {
+  background: var(--cmp-typing-status-primary-bg);
+  color: var(--cmp-typing-status-primary-color);
+  border-color: var(--cmp-typing-status-primary-border-color);
+}
+
+.cmp.typing-status.type-primary.state-hover {
+  background: var(--cmp-typing-status-primary-hover-bg);
+  color: var(--cmp-typing-status-primary-hover-color);
+}
+
+.cmp.typing-status.type-primary.state-focus {
+  background: var(--cmp-typing-status-primary-focus-bg);
+  color: var(--cmp-typing-status-primary-focus-color);
+}
+
+.cmp.typing-status.type-primary.state-active {
+  background: var(--cmp-typing-status-primary-active-bg);
+  color: var(--cmp-typing-status-primary-active-color);
+}
+
+.cmp.typing-status.type-primary.state-disabled {
+  background: var(--cmp-typing-status-primary-disabled-bg);
+  color: var(--cmp-typing-status-primary-disabled-color);
+}
+
+.cmp.typing-status.type-primary.state-error {
+  background: var(--cmp-typing-status-primary-error-bg);
+  color: var(--cmp-typing-status-primary-error-color);
+}
+
+.cmp.typing-status.type-primary.state-success {
+  background: var(--cmp-typing-status-primary-success-bg);
+  color: var(--cmp-typing-status-primary-success-color);
+}
+
+.cmp.typing-status.type-secondary {
+  background: var(--cmp-typing-status-secondary-bg);
+  color: var(--cmp-typing-status-secondary-color);
+  border-color: var(--cmp-typing-status-secondary-border-color);
+}
+
+.cmp.typing-status.type-secondary.state-hover {
+  background: var(--cmp-typing-status-secondary-hover-bg);
+  color: var(--cmp-typing-status-secondary-hover-color);
+}
+
+.cmp.typing-status.type-secondary.state-focus {
+  background: var(--cmp-typing-status-secondary-focus-bg);
+  color: var(--cmp-typing-status-secondary-focus-color);
+}
+
+.cmp.typing-status.type-secondary.state-active {
+  background: var(--cmp-typing-status-secondary-active-bg);
+  color: var(--cmp-typing-status-secondary-active-color);
+}
+
+.cmp.typing-status.type-secondary.state-disabled {
+  background: var(--cmp-typing-status-secondary-disabled-bg);
+  color: var(--cmp-typing-status-secondary-disabled-color);
+}
+
+.cmp.typing-status.type-secondary.state-error {
+  background: var(--cmp-typing-status-secondary-error-bg);
+  color: var(--cmp-typing-status-secondary-error-color);
+}
+
+.cmp.typing-status.type-secondary.state-success {
+  background: var(--cmp-typing-status-secondary-success-bg);
+  color: var(--cmp-typing-status-secondary-success-color);
+}
+
+.cmp.typing-status.type-tertiary {
+  background: var(--cmp-typing-status-tertiary-bg);
+  color: var(--cmp-typing-status-tertiary-color);
+  border-color: var(--cmp-typing-status-tertiary-border-color);
+}
+
+.cmp.typing-status.type-tertiary.state-hover {
+  background: var(--cmp-typing-status-tertiary-hover-bg);
+  color: var(--cmp-typing-status-tertiary-hover-color);
+}
+
+.cmp.typing-status.type-tertiary.state-focus {
+  background: var(--cmp-typing-status-tertiary-focus-bg);
+  color: var(--cmp-typing-status-tertiary-focus-color);
+}
+
+.cmp.typing-status.type-tertiary.state-active {
+  background: var(--cmp-typing-status-tertiary-active-bg);
+  color: var(--cmp-typing-status-tertiary-active-color);
+}
+
+.cmp.typing-status.type-tertiary.state-disabled {
+  background: var(--cmp-typing-status-tertiary-disabled-bg);
+  color: var(--cmp-typing-status-tertiary-disabled-color);
+}
+
+.cmp.typing-status.type-tertiary.state-error {
+  background: var(--cmp-typing-status-tertiary-error-bg);
+  color: var(--cmp-typing-status-tertiary-error-color);
+}
+
+.cmp.typing-status.type-tertiary.state-success {
+  background: var(--cmp-typing-status-tertiary-success-bg);
+  color: var(--cmp-typing-status-tertiary-success-color);
+}
+
+.cmp.online-presence {
+  padding: var(--cmp-online-presence-padding);
+  margin: var(--cmp-online-presence-margin);
+  background: var(--cmp-online-presence-bg);
+  color: var(--cmp-online-presence-color);
+  border: var(--cmp-online-presence-border);
+  border-radius: var(--cmp-online-presence-border-radius);
+  font-size: var(--cmp-online-presence-font-size);
+  font-weight: var(--cmp-online-presence-font-weight);
+  line-height: var(--cmp-online-presence-line-height);
+  box-shadow: var(--cmp-online-presence-shadow);
+  transition: var(--cmp-online-presence-transition);
+  width: var(--cmp-online-presence-width);
+  height: var(--cmp-online-presence-height);
+  opacity: var(--cmp-online-presence-opacity);
+  cursor: var(--cmp-online-presence-cursor);
+  outline: var(--cmp-online-presence-outline);
+  display: var(--cmp-online-presence-display);
+  gap: var(--cmp-online-presence-gap);
+}
+
+.cmp.online-presence.state-hover {
+  background: var(--cmp-online-presence-hover-bg);
+  color: var(--cmp-online-presence-hover-color);
+  border-color: var(--cmp-online-presence-hover-border-color);
+  box-shadow: var(--cmp-online-presence-hover-shadow);
+  opacity: var(--cmp-online-presence-hover-opacity);
+  outline: var(--cmp-online-presence-hover-outline);
+}
+
+.cmp.online-presence.state-focus {
+  background: var(--cmp-online-presence-focus-bg);
+  color: var(--cmp-online-presence-focus-color);
+  border-color: var(--cmp-online-presence-focus-border-color);
+  box-shadow: var(--cmp-online-presence-focus-shadow);
+  opacity: var(--cmp-online-presence-focus-opacity);
+  outline: var(--cmp-online-presence-focus-outline);
+}
+
+.cmp.online-presence.state-active {
+  background: var(--cmp-online-presence-active-bg);
+  color: var(--cmp-online-presence-active-color);
+  border-color: var(--cmp-online-presence-active-border-color);
+  box-shadow: var(--cmp-online-presence-active-shadow);
+  opacity: var(--cmp-online-presence-active-opacity);
+  outline: var(--cmp-online-presence-active-outline);
+}
+
+.cmp.online-presence.state-disabled {
+  background: var(--cmp-online-presence-disabled-bg);
+  color: var(--cmp-online-presence-disabled-color);
+  border-color: var(--cmp-online-presence-disabled-border-color);
+  box-shadow: var(--cmp-online-presence-disabled-shadow);
+  opacity: var(--cmp-online-presence-disabled-opacity);
+  outline: var(--cmp-online-presence-disabled-outline);
+}
+
+.cmp.online-presence.state-error {
+  background: var(--cmp-online-presence-error-bg);
+  color: var(--cmp-online-presence-error-color);
+  border-color: var(--cmp-online-presence-error-border-color);
+  box-shadow: var(--cmp-online-presence-error-shadow);
+  opacity: var(--cmp-online-presence-error-opacity);
+  outline: var(--cmp-online-presence-error-outline);
+}
+
+.cmp.online-presence.state-success {
+  background: var(--cmp-online-presence-success-bg);
+  color: var(--cmp-online-presence-success-color);
+  border-color: var(--cmp-online-presence-success-border-color);
+  box-shadow: var(--cmp-online-presence-success-shadow);
+  opacity: var(--cmp-online-presence-success-opacity);
+  outline: var(--cmp-online-presence-success-outline);
+}
+
+.cmp.online-presence.type-primary {
+  background: var(--cmp-online-presence-primary-bg);
+  color: var(--cmp-online-presence-primary-color);
+  border-color: var(--cmp-online-presence-primary-border-color);
+}
+
+.cmp.online-presence.type-primary.state-hover {
+  background: var(--cmp-online-presence-primary-hover-bg);
+  color: var(--cmp-online-presence-primary-hover-color);
+}
+
+.cmp.online-presence.type-primary.state-focus {
+  background: var(--cmp-online-presence-primary-focus-bg);
+  color: var(--cmp-online-presence-primary-focus-color);
+}
+
+.cmp.online-presence.type-primary.state-active {
+  background: var(--cmp-online-presence-primary-active-bg);
+  color: var(--cmp-online-presence-primary-active-color);
+}
+
+.cmp.online-presence.type-primary.state-disabled {
+  background: var(--cmp-online-presence-primary-disabled-bg);
+  color: var(--cmp-online-presence-primary-disabled-color);
+}
+
+.cmp.online-presence.type-primary.state-error {
+  background: var(--cmp-online-presence-primary-error-bg);
+  color: var(--cmp-online-presence-primary-error-color);
+}
+
+.cmp.online-presence.type-primary.state-success {
+  background: var(--cmp-online-presence-primary-success-bg);
+  color: var(--cmp-online-presence-primary-success-color);
+}
+
+.cmp.online-presence.type-secondary {
+  background: var(--cmp-online-presence-secondary-bg);
+  color: var(--cmp-online-presence-secondary-color);
+  border-color: var(--cmp-online-presence-secondary-border-color);
+}
+
+.cmp.online-presence.type-secondary.state-hover {
+  background: var(--cmp-online-presence-secondary-hover-bg);
+  color: var(--cmp-online-presence-secondary-hover-color);
+}
+
+.cmp.online-presence.type-secondary.state-focus {
+  background: var(--cmp-online-presence-secondary-focus-bg);
+  color: var(--cmp-online-presence-secondary-focus-color);
+}
+
+.cmp.online-presence.type-secondary.state-active {
+  background: var(--cmp-online-presence-secondary-active-bg);
+  color: var(--cmp-online-presence-secondary-active-color);
+}
+
+.cmp.online-presence.type-secondary.state-disabled {
+  background: var(--cmp-online-presence-secondary-disabled-bg);
+  color: var(--cmp-online-presence-secondary-disabled-color);
+}
+
+.cmp.online-presence.type-secondary.state-error {
+  background: var(--cmp-online-presence-secondary-error-bg);
+  color: var(--cmp-online-presence-secondary-error-color);
+}
+
+.cmp.online-presence.type-secondary.state-success {
+  background: var(--cmp-online-presence-secondary-success-bg);
+  color: var(--cmp-online-presence-secondary-success-color);
+}
+
+.cmp.online-presence.type-tertiary {
+  background: var(--cmp-online-presence-tertiary-bg);
+  color: var(--cmp-online-presence-tertiary-color);
+  border-color: var(--cmp-online-presence-tertiary-border-color);
+}
+
+.cmp.online-presence.type-tertiary.state-hover {
+  background: var(--cmp-online-presence-tertiary-hover-bg);
+  color: var(--cmp-online-presence-tertiary-hover-color);
+}
+
+.cmp.online-presence.type-tertiary.state-focus {
+  background: var(--cmp-online-presence-tertiary-focus-bg);
+  color: var(--cmp-online-presence-tertiary-focus-color);
+}
+
+.cmp.online-presence.type-tertiary.state-active {
+  background: var(--cmp-online-presence-tertiary-active-bg);
+  color: var(--cmp-online-presence-tertiary-active-color);
+}
+
+.cmp.online-presence.type-tertiary.state-disabled {
+  background: var(--cmp-online-presence-tertiary-disabled-bg);
+  color: var(--cmp-online-presence-tertiary-disabled-color);
+}
+
+.cmp.online-presence.type-tertiary.state-error {
+  background: var(--cmp-online-presence-tertiary-error-bg);
+  color: var(--cmp-online-presence-tertiary-error-color);
+}
+
+.cmp.online-presence.type-tertiary.state-success {
+  background: var(--cmp-online-presence-tertiary-success-bg);
+  color: var(--cmp-online-presence-tertiary-success-color);
+}
+
+.cmp.notification-feed {
+  padding: var(--cmp-notification-feed-padding);
+  margin: var(--cmp-notification-feed-margin);
+  background: var(--cmp-notification-feed-bg);
+  color: var(--cmp-notification-feed-color);
+  border: var(--cmp-notification-feed-border);
+  border-radius: var(--cmp-notification-feed-border-radius);
+  font-size: var(--cmp-notification-feed-font-size);
+  font-weight: var(--cmp-notification-feed-font-weight);
+  line-height: var(--cmp-notification-feed-line-height);
+  box-shadow: var(--cmp-notification-feed-shadow);
+  transition: var(--cmp-notification-feed-transition);
+  width: var(--cmp-notification-feed-width);
+  height: var(--cmp-notification-feed-height);
+  opacity: var(--cmp-notification-feed-opacity);
+  cursor: var(--cmp-notification-feed-cursor);
+  outline: var(--cmp-notification-feed-outline);
+  display: var(--cmp-notification-feed-display);
+  gap: var(--cmp-notification-feed-gap);
+}
+
+.cmp.notification-feed.state-hover {
+  background: var(--cmp-notification-feed-hover-bg);
+  color: var(--cmp-notification-feed-hover-color);
+  border-color: var(--cmp-notification-feed-hover-border-color);
+  box-shadow: var(--cmp-notification-feed-hover-shadow);
+  opacity: var(--cmp-notification-feed-hover-opacity);
+  outline: var(--cmp-notification-feed-hover-outline);
+}
+
+.cmp.notification-feed.state-focus {
+  background: var(--cmp-notification-feed-focus-bg);
+  color: var(--cmp-notification-feed-focus-color);
+  border-color: var(--cmp-notification-feed-focus-border-color);
+  box-shadow: var(--cmp-notification-feed-focus-shadow);
+  opacity: var(--cmp-notification-feed-focus-opacity);
+  outline: var(--cmp-notification-feed-focus-outline);
+}
+
+.cmp.notification-feed.state-active {
+  background: var(--cmp-notification-feed-active-bg);
+  color: var(--cmp-notification-feed-active-color);
+  border-color: var(--cmp-notification-feed-active-border-color);
+  box-shadow: var(--cmp-notification-feed-active-shadow);
+  opacity: var(--cmp-notification-feed-active-opacity);
+  outline: var(--cmp-notification-feed-active-outline);
+}
+
+.cmp.notification-feed.state-disabled {
+  background: var(--cmp-notification-feed-disabled-bg);
+  color: var(--cmp-notification-feed-disabled-color);
+  border-color: var(--cmp-notification-feed-disabled-border-color);
+  box-shadow: var(--cmp-notification-feed-disabled-shadow);
+  opacity: var(--cmp-notification-feed-disabled-opacity);
+  outline: var(--cmp-notification-feed-disabled-outline);
+}
+
+.cmp.notification-feed.state-error {
+  background: var(--cmp-notification-feed-error-bg);
+  color: var(--cmp-notification-feed-error-color);
+  border-color: var(--cmp-notification-feed-error-border-color);
+  box-shadow: var(--cmp-notification-feed-error-shadow);
+  opacity: var(--cmp-notification-feed-error-opacity);
+  outline: var(--cmp-notification-feed-error-outline);
+}
+
+.cmp.notification-feed.state-success {
+  background: var(--cmp-notification-feed-success-bg);
+  color: var(--cmp-notification-feed-success-color);
+  border-color: var(--cmp-notification-feed-success-border-color);
+  box-shadow: var(--cmp-notification-feed-success-shadow);
+  opacity: var(--cmp-notification-feed-success-opacity);
+  outline: var(--cmp-notification-feed-success-outline);
+}
+
+.cmp.notification-feed.type-primary {
+  background: var(--cmp-notification-feed-primary-bg);
+  color: var(--cmp-notification-feed-primary-color);
+  border-color: var(--cmp-notification-feed-primary-border-color);
+}
+
+.cmp.notification-feed.type-primary.state-hover {
+  background: var(--cmp-notification-feed-primary-hover-bg);
+  color: var(--cmp-notification-feed-primary-hover-color);
+}
+
+.cmp.notification-feed.type-primary.state-focus {
+  background: var(--cmp-notification-feed-primary-focus-bg);
+  color: var(--cmp-notification-feed-primary-focus-color);
+}
+
+.cmp.notification-feed.type-primary.state-active {
+  background: var(--cmp-notification-feed-primary-active-bg);
+  color: var(--cmp-notification-feed-primary-active-color);
+}
+
+.cmp.notification-feed.type-primary.state-disabled {
+  background: var(--cmp-notification-feed-primary-disabled-bg);
+  color: var(--cmp-notification-feed-primary-disabled-color);
+}
+
+.cmp.notification-feed.type-primary.state-error {
+  background: var(--cmp-notification-feed-primary-error-bg);
+  color: var(--cmp-notification-feed-primary-error-color);
+}
+
+.cmp.notification-feed.type-primary.state-success {
+  background: var(--cmp-notification-feed-primary-success-bg);
+  color: var(--cmp-notification-feed-primary-success-color);
+}
+
+.cmp.notification-feed.type-secondary {
+  background: var(--cmp-notification-feed-secondary-bg);
+  color: var(--cmp-notification-feed-secondary-color);
+  border-color: var(--cmp-notification-feed-secondary-border-color);
+}
+
+.cmp.notification-feed.type-secondary.state-hover {
+  background: var(--cmp-notification-feed-secondary-hover-bg);
+  color: var(--cmp-notification-feed-secondary-hover-color);
+}
+
+.cmp.notification-feed.type-secondary.state-focus {
+  background: var(--cmp-notification-feed-secondary-focus-bg);
+  color: var(--cmp-notification-feed-secondary-focus-color);
+}
+
+.cmp.notification-feed.type-secondary.state-active {
+  background: var(--cmp-notification-feed-secondary-active-bg);
+  color: var(--cmp-notification-feed-secondary-active-color);
+}
+
+.cmp.notification-feed.type-secondary.state-disabled {
+  background: var(--cmp-notification-feed-secondary-disabled-bg);
+  color: var(--cmp-notification-feed-secondary-disabled-color);
+}
+
+.cmp.notification-feed.type-secondary.state-error {
+  background: var(--cmp-notification-feed-secondary-error-bg);
+  color: var(--cmp-notification-feed-secondary-error-color);
+}
+
+.cmp.notification-feed.type-secondary.state-success {
+  background: var(--cmp-notification-feed-secondary-success-bg);
+  color: var(--cmp-notification-feed-secondary-success-color);
+}
+
+.cmp.notification-feed.type-tertiary {
+  background: var(--cmp-notification-feed-tertiary-bg);
+  color: var(--cmp-notification-feed-tertiary-color);
+  border-color: var(--cmp-notification-feed-tertiary-border-color);
+}
+
+.cmp.notification-feed.type-tertiary.state-hover {
+  background: var(--cmp-notification-feed-tertiary-hover-bg);
+  color: var(--cmp-notification-feed-tertiary-hover-color);
+}
+
+.cmp.notification-feed.type-tertiary.state-focus {
+  background: var(--cmp-notification-feed-tertiary-focus-bg);
+  color: var(--cmp-notification-feed-tertiary-focus-color);
+}
+
+.cmp.notification-feed.type-tertiary.state-active {
+  background: var(--cmp-notification-feed-tertiary-active-bg);
+  color: var(--cmp-notification-feed-tertiary-active-color);
+}
+
+.cmp.notification-feed.type-tertiary.state-disabled {
+  background: var(--cmp-notification-feed-tertiary-disabled-bg);
+  color: var(--cmp-notification-feed-tertiary-disabled-color);
+}
+
+.cmp.notification-feed.type-tertiary.state-error {
+  background: var(--cmp-notification-feed-tertiary-error-bg);
+  color: var(--cmp-notification-feed-tertiary-error-color);
+}
+
+.cmp.notification-feed.type-tertiary.state-success {
+  background: var(--cmp-notification-feed-tertiary-success-bg);
+  color: var(--cmp-notification-feed-tertiary-success-color);
+}
+
+.cmp.infinite-scroll-feed {
+  padding: var(--cmp-infinite-scroll-feed-padding);
+  margin: var(--cmp-infinite-scroll-feed-margin);
+  background: var(--cmp-infinite-scroll-feed-bg);
+  color: var(--cmp-infinite-scroll-feed-color);
+  border: var(--cmp-infinite-scroll-feed-border);
+  border-radius: var(--cmp-infinite-scroll-feed-border-radius);
+  font-size: var(--cmp-infinite-scroll-feed-font-size);
+  font-weight: var(--cmp-infinite-scroll-feed-font-weight);
+  line-height: var(--cmp-infinite-scroll-feed-line-height);
+  box-shadow: var(--cmp-infinite-scroll-feed-shadow);
+  transition: var(--cmp-infinite-scroll-feed-transition);
+  width: var(--cmp-infinite-scroll-feed-width);
+  height: var(--cmp-infinite-scroll-feed-height);
+  opacity: var(--cmp-infinite-scroll-feed-opacity);
+  cursor: var(--cmp-infinite-scroll-feed-cursor);
+  outline: var(--cmp-infinite-scroll-feed-outline);
+  display: var(--cmp-infinite-scroll-feed-display);
+  gap: var(--cmp-infinite-scroll-feed-gap);
+}
+
+.cmp.infinite-scroll-feed.state-hover {
+  background: var(--cmp-infinite-scroll-feed-hover-bg);
+  color: var(--cmp-infinite-scroll-feed-hover-color);
+  border-color: var(--cmp-infinite-scroll-feed-hover-border-color);
+  box-shadow: var(--cmp-infinite-scroll-feed-hover-shadow);
+  opacity: var(--cmp-infinite-scroll-feed-hover-opacity);
+  outline: var(--cmp-infinite-scroll-feed-hover-outline);
+}
+
+.cmp.infinite-scroll-feed.state-focus {
+  background: var(--cmp-infinite-scroll-feed-focus-bg);
+  color: var(--cmp-infinite-scroll-feed-focus-color);
+  border-color: var(--cmp-infinite-scroll-feed-focus-border-color);
+  box-shadow: var(--cmp-infinite-scroll-feed-focus-shadow);
+  opacity: var(--cmp-infinite-scroll-feed-focus-opacity);
+  outline: var(--cmp-infinite-scroll-feed-focus-outline);
+}
+
+.cmp.infinite-scroll-feed.state-active {
+  background: var(--cmp-infinite-scroll-feed-active-bg);
+  color: var(--cmp-infinite-scroll-feed-active-color);
+  border-color: var(--cmp-infinite-scroll-feed-active-border-color);
+  box-shadow: var(--cmp-infinite-scroll-feed-active-shadow);
+  opacity: var(--cmp-infinite-scroll-feed-active-opacity);
+  outline: var(--cmp-infinite-scroll-feed-active-outline);
+}
+
+.cmp.infinite-scroll-feed.state-disabled {
+  background: var(--cmp-infinite-scroll-feed-disabled-bg);
+  color: var(--cmp-infinite-scroll-feed-disabled-color);
+  border-color: var(--cmp-infinite-scroll-feed-disabled-border-color);
+  box-shadow: var(--cmp-infinite-scroll-feed-disabled-shadow);
+  opacity: var(--cmp-infinite-scroll-feed-disabled-opacity);
+  outline: var(--cmp-infinite-scroll-feed-disabled-outline);
+}
+
+.cmp.infinite-scroll-feed.state-error {
+  background: var(--cmp-infinite-scroll-feed-error-bg);
+  color: var(--cmp-infinite-scroll-feed-error-color);
+  border-color: var(--cmp-infinite-scroll-feed-error-border-color);
+  box-shadow: var(--cmp-infinite-scroll-feed-error-shadow);
+  opacity: var(--cmp-infinite-scroll-feed-error-opacity);
+  outline: var(--cmp-infinite-scroll-feed-error-outline);
+}
+
+.cmp.infinite-scroll-feed.state-success {
+  background: var(--cmp-infinite-scroll-feed-success-bg);
+  color: var(--cmp-infinite-scroll-feed-success-color);
+  border-color: var(--cmp-infinite-scroll-feed-success-border-color);
+  box-shadow: var(--cmp-infinite-scroll-feed-success-shadow);
+  opacity: var(--cmp-infinite-scroll-feed-success-opacity);
+  outline: var(--cmp-infinite-scroll-feed-success-outline);
+}
+
+.cmp.infinite-scroll-feed.type-primary {
+  background: var(--cmp-infinite-scroll-feed-primary-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-color);
+  border-color: var(--cmp-infinite-scroll-feed-primary-border-color);
+}
+
+.cmp.infinite-scroll-feed.type-primary.state-hover {
+  background: var(--cmp-infinite-scroll-feed-primary-hover-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-hover-color);
+}
+
+.cmp.infinite-scroll-feed.type-primary.state-focus {
+  background: var(--cmp-infinite-scroll-feed-primary-focus-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-focus-color);
+}
+
+.cmp.infinite-scroll-feed.type-primary.state-active {
+  background: var(--cmp-infinite-scroll-feed-primary-active-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-active-color);
+}
+
+.cmp.infinite-scroll-feed.type-primary.state-disabled {
+  background: var(--cmp-infinite-scroll-feed-primary-disabled-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-disabled-color);
+}
+
+.cmp.infinite-scroll-feed.type-primary.state-error {
+  background: var(--cmp-infinite-scroll-feed-primary-error-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-error-color);
+}
+
+.cmp.infinite-scroll-feed.type-primary.state-success {
+  background: var(--cmp-infinite-scroll-feed-primary-success-bg);
+  color: var(--cmp-infinite-scroll-feed-primary-success-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary {
+  background: var(--cmp-infinite-scroll-feed-secondary-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-color);
+  border-color: var(--cmp-infinite-scroll-feed-secondary-border-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary.state-hover {
+  background: var(--cmp-infinite-scroll-feed-secondary-hover-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-hover-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary.state-focus {
+  background: var(--cmp-infinite-scroll-feed-secondary-focus-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-focus-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary.state-active {
+  background: var(--cmp-infinite-scroll-feed-secondary-active-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-active-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary.state-disabled {
+  background: var(--cmp-infinite-scroll-feed-secondary-disabled-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-disabled-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary.state-error {
+  background: var(--cmp-infinite-scroll-feed-secondary-error-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-error-color);
+}
+
+.cmp.infinite-scroll-feed.type-secondary.state-success {
+  background: var(--cmp-infinite-scroll-feed-secondary-success-bg);
+  color: var(--cmp-infinite-scroll-feed-secondary-success-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary {
+  background: var(--cmp-infinite-scroll-feed-tertiary-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-color);
+  border-color: var(--cmp-infinite-scroll-feed-tertiary-border-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary.state-hover {
+  background: var(--cmp-infinite-scroll-feed-tertiary-hover-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-hover-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary.state-focus {
+  background: var(--cmp-infinite-scroll-feed-tertiary-focus-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-focus-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary.state-active {
+  background: var(--cmp-infinite-scroll-feed-tertiary-active-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-active-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary.state-disabled {
+  background: var(--cmp-infinite-scroll-feed-tertiary-disabled-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-disabled-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary.state-error {
+  background: var(--cmp-infinite-scroll-feed-tertiary-error-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-error-color);
+}
+
+.cmp.infinite-scroll-feed.type-tertiary.state-success {
+  background: var(--cmp-infinite-scroll-feed-tertiary-success-bg);
+  color: var(--cmp-infinite-scroll-feed-tertiary-success-color);
+}
+
+.cmp.creator-dashboard {
+  padding: var(--cmp-creator-dashboard-padding);
+  margin: var(--cmp-creator-dashboard-margin);
+  background: var(--cmp-creator-dashboard-bg);
+  color: var(--cmp-creator-dashboard-color);
+  border: var(--cmp-creator-dashboard-border);
+  border-radius: var(--cmp-creator-dashboard-border-radius);
+  font-size: var(--cmp-creator-dashboard-font-size);
+  font-weight: var(--cmp-creator-dashboard-font-weight);
+  line-height: var(--cmp-creator-dashboard-line-height);
+  box-shadow: var(--cmp-creator-dashboard-shadow);
+  transition: var(--cmp-creator-dashboard-transition);
+  width: var(--cmp-creator-dashboard-width);
+  height: var(--cmp-creator-dashboard-height);
+  opacity: var(--cmp-creator-dashboard-opacity);
+  cursor: var(--cmp-creator-dashboard-cursor);
+  outline: var(--cmp-creator-dashboard-outline);
+  display: var(--cmp-creator-dashboard-display);
+  gap: var(--cmp-creator-dashboard-gap);
+}
+
+.cmp.creator-dashboard.state-hover {
+  background: var(--cmp-creator-dashboard-hover-bg);
+  color: var(--cmp-creator-dashboard-hover-color);
+  border-color: var(--cmp-creator-dashboard-hover-border-color);
+  box-shadow: var(--cmp-creator-dashboard-hover-shadow);
+  opacity: var(--cmp-creator-dashboard-hover-opacity);
+  outline: var(--cmp-creator-dashboard-hover-outline);
+}
+
+.cmp.creator-dashboard.state-focus {
+  background: var(--cmp-creator-dashboard-focus-bg);
+  color: var(--cmp-creator-dashboard-focus-color);
+  border-color: var(--cmp-creator-dashboard-focus-border-color);
+  box-shadow: var(--cmp-creator-dashboard-focus-shadow);
+  opacity: var(--cmp-creator-dashboard-focus-opacity);
+  outline: var(--cmp-creator-dashboard-focus-outline);
+}
+
+.cmp.creator-dashboard.state-active {
+  background: var(--cmp-creator-dashboard-active-bg);
+  color: var(--cmp-creator-dashboard-active-color);
+  border-color: var(--cmp-creator-dashboard-active-border-color);
+  box-shadow: var(--cmp-creator-dashboard-active-shadow);
+  opacity: var(--cmp-creator-dashboard-active-opacity);
+  outline: var(--cmp-creator-dashboard-active-outline);
+}
+
+.cmp.creator-dashboard.state-disabled {
+  background: var(--cmp-creator-dashboard-disabled-bg);
+  color: var(--cmp-creator-dashboard-disabled-color);
+  border-color: var(--cmp-creator-dashboard-disabled-border-color);
+  box-shadow: var(--cmp-creator-dashboard-disabled-shadow);
+  opacity: var(--cmp-creator-dashboard-disabled-opacity);
+  outline: var(--cmp-creator-dashboard-disabled-outline);
+}
+
+.cmp.creator-dashboard.state-error {
+  background: var(--cmp-creator-dashboard-error-bg);
+  color: var(--cmp-creator-dashboard-error-color);
+  border-color: var(--cmp-creator-dashboard-error-border-color);
+  box-shadow: var(--cmp-creator-dashboard-error-shadow);
+  opacity: var(--cmp-creator-dashboard-error-opacity);
+  outline: var(--cmp-creator-dashboard-error-outline);
+}
+
+.cmp.creator-dashboard.state-success {
+  background: var(--cmp-creator-dashboard-success-bg);
+  color: var(--cmp-creator-dashboard-success-color);
+  border-color: var(--cmp-creator-dashboard-success-border-color);
+  box-shadow: var(--cmp-creator-dashboard-success-shadow);
+  opacity: var(--cmp-creator-dashboard-success-opacity);
+  outline: var(--cmp-creator-dashboard-success-outline);
+}
+
+.cmp.creator-dashboard.type-primary {
+  background: var(--cmp-creator-dashboard-primary-bg);
+  color: var(--cmp-creator-dashboard-primary-color);
+  border-color: var(--cmp-creator-dashboard-primary-border-color);
+}
+
+.cmp.creator-dashboard.type-primary.state-hover {
+  background: var(--cmp-creator-dashboard-primary-hover-bg);
+  color: var(--cmp-creator-dashboard-primary-hover-color);
+}
+
+.cmp.creator-dashboard.type-primary.state-focus {
+  background: var(--cmp-creator-dashboard-primary-focus-bg);
+  color: var(--cmp-creator-dashboard-primary-focus-color);
+}
+
+.cmp.creator-dashboard.type-primary.state-active {
+  background: var(--cmp-creator-dashboard-primary-active-bg);
+  color: var(--cmp-creator-dashboard-primary-active-color);
+}
+
+.cmp.creator-dashboard.type-primary.state-disabled {
+  background: var(--cmp-creator-dashboard-primary-disabled-bg);
+  color: var(--cmp-creator-dashboard-primary-disabled-color);
+}
+
+.cmp.creator-dashboard.type-primary.state-error {
+  background: var(--cmp-creator-dashboard-primary-error-bg);
+  color: var(--cmp-creator-dashboard-primary-error-color);
+}
+
+.cmp.creator-dashboard.type-primary.state-success {
+  background: var(--cmp-creator-dashboard-primary-success-bg);
+  color: var(--cmp-creator-dashboard-primary-success-color);
+}
+
+.cmp.creator-dashboard.type-secondary {
+  background: var(--cmp-creator-dashboard-secondary-bg);
+  color: var(--cmp-creator-dashboard-secondary-color);
+  border-color: var(--cmp-creator-dashboard-secondary-border-color);
+}
+
+.cmp.creator-dashboard.type-secondary.state-hover {
+  background: var(--cmp-creator-dashboard-secondary-hover-bg);
+  color: var(--cmp-creator-dashboard-secondary-hover-color);
+}
+
+.cmp.creator-dashboard.type-secondary.state-focus {
+  background: var(--cmp-creator-dashboard-secondary-focus-bg);
+  color: var(--cmp-creator-dashboard-secondary-focus-color);
+}
+
+.cmp.creator-dashboard.type-secondary.state-active {
+  background: var(--cmp-creator-dashboard-secondary-active-bg);
+  color: var(--cmp-creator-dashboard-secondary-active-color);
+}
+
+.cmp.creator-dashboard.type-secondary.state-disabled {
+  background: var(--cmp-creator-dashboard-secondary-disabled-bg);
+  color: var(--cmp-creator-dashboard-secondary-disabled-color);
+}
+
+.cmp.creator-dashboard.type-secondary.state-error {
+  background: var(--cmp-creator-dashboard-secondary-error-bg);
+  color: var(--cmp-creator-dashboard-secondary-error-color);
+}
+
+.cmp.creator-dashboard.type-secondary.state-success {
+  background: var(--cmp-creator-dashboard-secondary-success-bg);
+  color: var(--cmp-creator-dashboard-secondary-success-color);
+}
+
+.cmp.creator-dashboard.type-tertiary {
+  background: var(--cmp-creator-dashboard-tertiary-bg);
+  color: var(--cmp-creator-dashboard-tertiary-color);
+  border-color: var(--cmp-creator-dashboard-tertiary-border-color);
+}
+
+.cmp.creator-dashboard.type-tertiary.state-hover {
+  background: var(--cmp-creator-dashboard-tertiary-hover-bg);
+  color: var(--cmp-creator-dashboard-tertiary-hover-color);
+}
+
+.cmp.creator-dashboard.type-tertiary.state-focus {
+  background: var(--cmp-creator-dashboard-tertiary-focus-bg);
+  color: var(--cmp-creator-dashboard-tertiary-focus-color);
+}
+
+.cmp.creator-dashboard.type-tertiary.state-active {
+  background: var(--cmp-creator-dashboard-tertiary-active-bg);
+  color: var(--cmp-creator-dashboard-tertiary-active-color);
+}
+
+.cmp.creator-dashboard.type-tertiary.state-disabled {
+  background: var(--cmp-creator-dashboard-tertiary-disabled-bg);
+  color: var(--cmp-creator-dashboard-tertiary-disabled-color);
+}
+
+.cmp.creator-dashboard.type-tertiary.state-error {
+  background: var(--cmp-creator-dashboard-tertiary-error-bg);
+  color: var(--cmp-creator-dashboard-tertiary-error-color);
+}
+
+.cmp.creator-dashboard.type-tertiary.state-success {
+  background: var(--cmp-creator-dashboard-tertiary-success-bg);
+  color: var(--cmp-creator-dashboard-tertiary-success-color);
+}
