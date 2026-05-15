@@ -10,7 +10,7 @@ def main():
     checklist += "ARCHITECTURE: Multi-file Atomic Design Library (lib/)\n"
     checklist += "COMPOSITION: Atoms -> Molecules -> Organisms -> Templates\n"
     checklist += "STYLING: 100% Tokenized CSS Variables\n"
-    checklist += "REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Verified\n\n"
+    checklist += "REFINEMENT: Data Display, Feedback, Input, Layout, Nav, Typography & AI Core Screens Verified\n\n"
 
     current_cat = None
     done_categories = [
@@ -19,7 +19,8 @@ def main():
         "1. UNIVERSAL - Input / Form Components",
         "1. UNIVERSAL - Layout Components",
         "1. UNIVERSAL - Navigation Components",
-        "1. UNIVERSAL - Typography & Media"
+        "1. UNIVERSAL - Typography & Media",
+        "2. AI / LLM Apps - Core"
     ]
 
     for comp in registry:

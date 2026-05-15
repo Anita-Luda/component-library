@@ -4,7 +4,7 @@ CHECKLIST OF COMPONENTS - REFINEMENT STATUS (HYBRID LIBRARY)
 ARCHITECTURE: Multi-file Atomic Design Library (lib/)
 COMPOSITION: Atoms -> Molecules -> Organisms -> Templates
 STYLING: 100% Tokenized CSS Variables
-REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Verified
+REFINEMENT: Data Display, Feedback, Input, Layout, Nav, Typography & AI Core Screens Verified
 
 
 ### 1. UNIVERSAL - Input / Form Components [DONE]
@@ -74,8 +74,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Stepper
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Date picker
@@ -109,8 +109,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Search input
-    - Blueprint: molecules.search_field
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tag input
@@ -156,7 +156,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Bottom navigation
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
@@ -206,8 +206,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tree navigation
-    - Blueprint: molecules.list
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Dock navigation
@@ -216,18 +216,18 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Floating nav
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Anchor navigation
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Wizard / step navigation
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 
@@ -360,8 +360,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Timeline
-    - Blueprint: molecules.timeline
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Carousel
@@ -395,8 +395,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tree view
-    - Blueprint: molecules.list
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Avatar
@@ -430,8 +430,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Activity feed
-    - Blueprint: molecules.timeline
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Log viewer
@@ -477,13 +477,13 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Split pane
-    - Blueprint: molecules.split_pane
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resizable panel
-    - Blueprint: molecules.split_pane
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Masonry
@@ -507,8 +507,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Centered auth layout
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Sticky footer
@@ -539,7 +539,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Link
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
@@ -691,8 +691,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Activity timeline
-    - Blueprint: molecules.timeline
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
@@ -760,8 +760,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Checkout steps
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Address form
@@ -844,8 +844,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Timeline
-    - Blueprint: molecules.timeline
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Gantt chart
@@ -874,8 +874,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Activity history
-    - Blueprint: molecules.timeline
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Time tracking
@@ -976,30 +976,30 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 2. AI / LLM Apps - Core [TODO]
+### 2. AI / LLM Apps - Core [DONE]
 - [x] Chat window
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: organisms.chat_window
+    - Profile: Organism
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Prompt input
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.form_field
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Streaming response
-    - Blueprint: atoms.span
+    - Blueprint: atoms.streaming_dots
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Typing indicator
-    - Blueprint: atoms.span
+    - Blueprint: atoms.streaming_dots
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Token counter
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.token_display
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Model selector
@@ -1008,38 +1008,38 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Context window indicator
-    - Blueprint: atoms.span
+    - Blueprint: atoms.progress
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Conversation history
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.list
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI agent status
-    - Blueprint: atoms.span
+    - Blueprint: atoms.status_dot
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Tool execution logs
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: organisms.tool_logs
+    - Profile: Organism
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Chain-of-thought visualizer
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.accordion
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] AI citations
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.ai_citation
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Multi-agent panel
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: organisms.chat_window
+    - Profile: Organism
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
@@ -1209,8 +1209,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Transfer wizard
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
@@ -1278,7 +1278,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Lesson navigation
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
@@ -1399,8 +1399,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Resizable panels
-    - Blueprint: molecules.split_pane
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Right-click context menus
@@ -1553,7 +1553,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Gesture navigation
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
@@ -1583,14 +1583,14 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Deep link handoff
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
 ### 4. MOBILE-SPECIFIC - Mobile-first UX [TODO]
 - [x] Thumb-zone navigation
-    - Blueprint: atoms.nav_link
+    - Blueprint: atoms.span
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
@@ -1637,8 +1637,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Org hierarchy tree
-    - Blueprint: molecules.list
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Compliance dashboard
@@ -1732,8 +1732,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] SSO configuration wizard
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Directory sync status
@@ -1872,8 +1872,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Employee onboarding wizard
-    - Blueprint: organisms.centered_auth
-    - Profile: Organism
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Payroll summary
@@ -2007,8 +2007,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Veri
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Product roadmap timeline
-    - Blueprint: molecules.timeline
-    - Profile: Molecule
+    - Blueprint: atoms.span
+    - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Feature request voting

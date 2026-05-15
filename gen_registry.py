@@ -6,15 +6,29 @@ def slugify(text):
 
 def get_blueprint(name):
     n = name.lower()
+    # 1. AI Refinement
+    if "chat window" in n: return "organisms.chat_window"
+    if "prompt input" in n: return "molecules.form_field"
+    if "streaming" in n: return "atoms.streaming_dots"
+    if "typing indicator" in n: return "atoms.streaming_dots"
+    if "token counter" in n: return "molecules.token_display"
+    if "ai agent status" in n: return "atoms.status_dot"
+    if "tool execution logs" in n: return "organisms.tool_logs"
+    if "ai citations" in n: return "molecules.ai_citation"
+    if "multi-agent panel" in n: return "organisms.chat_window"
+    if "conversation history" in n: return "molecules.list"
+    if "model selector" in n: return "molecules.form_field"
+    if "context window" in n: return "atoms.progress"
+    if "chain-of-thought" in n: return "molecules.accordion"
 
-    # 1. Typography & Media Refinement
+    # Typography & Media
     if "heading" in n: return "atoms.heading"
     if "paragraph" in n: return "atoms.paragraph"
     if "blockquote" in n: return "atoms.blockquote"
     if "code inline" in n: return "atoms.code"
     if "image" in n: return "atoms.image"
-    if "video" in n: return "molecules.media_block" # Refined to molecule
-    if "audio" in n: return "molecules.media_block" # Refined to molecule
+    if "video" in n: return "molecules.media_block"
+    if "audio" in n: return "molecules.media_block"
     if "icon" in n: return "atoms.icon"
     if "illustration" in n: return "atoms.image"
     if "lottie" in n: return "atoms.icon"
@@ -27,22 +41,15 @@ def get_blueprint(name):
     if "breadcrumbs" in n: return "molecules.breadcrumb"
     if "tabs" in n or "pills" in n: return "molecules.tabs"
     if "pagination" in n: return "molecules.pagination"
-    if "wizard" in n or "step" in n: return "organisms.centered_auth"
-    if "tree" in n: return "molecules.list"
-    if any(x in n for x in ["nav", "link", "anchor"]): return "atoms.nav_link"
 
     # Layout
     if "sidebar layout" in n or "dashboard layout" in n: return "organisms.dashboard_layout"
-    if "centered auth" in n: return "organisms.centered_auth"
     if "container" in n or "section" in n: return "molecules.container"
     if "grid" in n or "bento" in n or "masonry" in n: return "molecules.grid_box"
     if "stack" in n: return "molecules.stack_box"
-    if "split" in n or "resizable" in n: return "molecules.split_pane"
-    if "divider" in n or "spacer" in n: return "atoms.divider"
 
     # Input / Form
     if "button" in n or "icon button" in n: return "atoms.button"
-    if "search input" in n: return "molecules.search_field"
     if "text input" in n or "textarea" in n or "select" in n or "combobox" in n: return "molecules.form_field"
     if "checkbox" in n or "radio" in n or "toggle" in n: return "molecules.choice_field"
     if "slider" in n or "range" in n: return "atoms.range_raw"
@@ -60,7 +67,6 @@ def get_blueprint(name):
     if "table" in n or "grid" in n: return "molecules.table"
     if "list" in n: return "molecules.list"
     if "accordion" in n: return "molecules.accordion"
-    if "timeline" in n or "activity" in n: return "molecules.timeline"
     if "statistic" in n or "kpi" in n: return "molecules.statistic"
     if "avatar" in n: return "atoms.avatar"
     if "badge" in n: return "atoms.badge"
@@ -80,7 +86,7 @@ def main():
             current_category = line
             continue
         blueprint = get_blueprint(line)
-        profile = blueprint.split('.')[0][:-1] # atom/molecule/organism
+        profile = blueprint.split('.')[0][:-1]
         registry.append({
             "id": slugify(line),
             "name": line,
