@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "name": "Magiczna Kuchnia",
+    "theme": "kitchen"
+  },
+  "general": {
+    "primary": "Główny",
+    "secondary": "Poboczny",
+    "tertiary": "Trzeciorzędny",
+    "default": "Zwykły",
+    "hover": "Najechany",
+    "focus": "Skupiony",
+    "active": "Kliknięty",
+    "disabled": "Zmęczony",
+    "error": "Ojej!",
+    "success": "Hura!"
+  },
+  "nesting": {
+    "level1": "Dno Garnka",
+    "level2": "Warstwa Pierogów",
+    "level3": "Para Wodna",
+    "level4": "Kraina Smaku"
+  },
+  "components": {
+    "Button": "Zatwierdź przepis!",
+    "Icon button": "🍲",
+    "Text input": "Sekretny składnik mamy",
+    "Textarea": "Twoja recenzja naleśników...",
+    "Select": "Wybierz nadzienie",
+    "Checkbox": "Dodaj podwójną dawkę miłości",
+    "Radio": "Stopień wysmażenia: Chrupiący jak nieszczęście",
+    "Toggle / switch": "Piekarnik rozgrzany",
+    "Slider": "Poziom pikantności (Piekło!)",
+    "Date picker": "Data ważności marzeń",
+    "Search input": "Szukaj zaginionej chochli...",
+    "Navbar": "Karta Menu Magicznego",
+    "Sidebar": "Spiżarnia Niespodzianek",
+    "Alert": "Ostrożnie! Gorąca czekolada atakuje!",
+    "Modal": "Księga Zaklęć Kuchennych",
+    "Card": "Certyfikat Zjadacza Pizzy",
+    "Table": "Tabela Kalorii z Nibylandii",
+    "Accordion": "Jak oszukać dietę?",
+    "Heading": "Arcymag Patelni",
+    "Paragraph": "Jeśli dodasz wystarczająco dużo czarów, nawet brokuły będą smakować jak żelki.",
+    "Badge": "Szef Kuchni",
+    "Avatar": "👨‍🍳",
+    "Calendar": "Harmonogram Wielkiego Żarcia"
+  },
+  "default_text": "Szczypta soli..."
+}

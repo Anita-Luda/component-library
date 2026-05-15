@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "name": "Kosmiczna Przygoda",
+    "theme": "space"
+  },
+  "general": {
+    "primary": "Główny",
+    "secondary": "Poboczny",
+    "tertiary": "Trzeciorzędny",
+    "default": "Zwykły",
+    "hover": "Najechany",
+    "focus": "Skupiony",
+    "active": "Kliknięty",
+    "disabled": "Zmęczony",
+    "error": "Ojej!",
+    "success": "Hura!"
+  },
+  "nesting": {
+    "level1": "Orbita Ziemska",
+    "level2": "Pas Asteroid",
+    "level3": "Supernowa",
+    "level4": "Horyzont Zdarzeń"
+  },
+  "components": {
+    "Button": "Odpal rakietę!",
+    "Icon button": "🚀",
+    "Text input": "Twoja ksywka na Marsie",
+    "Textarea": "List do ufoludków...",
+    "Select": "Wybierz planetę na wakacje",
+    "Checkbox": "Zabieram ręcznik w kosmos",
+    "Radio": "Preferowany typ napędu: Antymateria",
+    "Toggle / switch": "Grawitacja włączona",
+    "Slider": "Prędkość światła",
+    "Date picker": "Kiedy lądujemy na Wenus?",
+    "Search input": "Szukaj czarnych dziur...",
+    "Navbar": "Nawigacja Galaktyczna",
+    "Sidebar": "Panel Kontrolny Statku",
+    "Alert": "Uwaga! Deszcz meteorytów z lukru!",
+    "Modal": "Wiadomość z odległej galaktyki",
+    "Card": "Paszport Kosmonauty",
+    "Table": "Spis Inwentarza Gwiezdnego",
+    "Accordion": "Sekrety Wszechświata",
+    "Heading": "Imperator Wszystkich Galaktyk",
+    "Paragraph": "W próżni nikt nie usłyszy Twojego chrupania ciasteczek, ale my wiemy, że tam są.",
+    "Badge": "Kapitan",
+    "Avatar": "👽",
+    "Calendar": "Grafik Lotów Międzygwiezdnych"
+  },
+  "default_text": "Kosmiczny pył..."
+}

@@ -1,8 +1,14 @@
-CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
-====================================================
+CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING WITH JOYFUL CONTENT
+========================================================================
+
+JUSTIFICATION FOR STATE/TYPE COMBINATIONS:
+- States 'hover', 'focus', 'active', 'disabled', 'error', 'success' are applied only to interactive elements (inputs, buttons, links, etc.) or feedback elements.
+- Types 'primary', 'secondary', 'tertiary' are applied only to semantic action elements (buttons, chips, alerts) to reflect different importance levels.
+- Purely structural/layout components (Grid, Section, Masonry) use only the 'default' state and type because they are non-interactive containers.
 
 ### 1. UNIVERSAL - Input / Form Components
 - [x] Button
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -25,6 +31,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] Icon button
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -47,6 +54,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] Text input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -55,6 +63,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Textarea
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -64,6 +73,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Select
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -73,6 +83,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Multi-select
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -82,6 +93,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Combobox
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -91,6 +103,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Autocomplete
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -100,6 +113,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Checkbox
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -109,6 +123,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Radio
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -118,6 +133,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Toggle / switch
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -127,6 +143,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Slider
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -136,6 +153,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Range slider
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -144,6 +162,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Stepper
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -152,6 +171,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Date picker
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -160,6 +180,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Time picker
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -168,6 +189,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Color picker
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -176,6 +198,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] File upload
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -184,6 +207,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Drag & drop upload
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -192,6 +216,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] OTP input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -200,6 +225,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Search input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -208,6 +234,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Tag input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -216,6 +243,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Rating input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -224,6 +252,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Signature pad
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -232,6 +261,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Rich text editor
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -240,6 +270,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Markdown editor
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -249,20 +280,26 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 ### 1. UNIVERSAL - Navigation Components
 - [x] Navbar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Sidebar
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Topbar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Bottom navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Breadcrumbs
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Tabs
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -272,6 +309,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Pills
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -280,11 +318,14 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Pagination
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Pagination infinite scroll
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Mega menu
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -294,6 +335,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Hamburger menu
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -303,6 +345,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Context menu
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -311,20 +354,26 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Command palette
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Tree navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Dock navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Floating nav
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Anchor navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Wizard / step navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -334,60 +383,82 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 ### 1. UNIVERSAL - Feedback / State Components
 - [x] Toast
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Snackbar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Alert
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Banner
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Confirmation dialog
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Modal
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Drawer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Sheet
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Tooltip
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Popover
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Progress bar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Skeleton loader
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Spinner
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Empty state
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Error state
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Success state
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Maintenance state
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Offline state
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Permission denied state
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Loading overlay
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 1. UNIVERSAL - Data Display
 - [x] Card
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Table
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -397,12 +468,15 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Data grid
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] List
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Accordion
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -412,24 +486,32 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Timeline
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Carousel
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Gallery
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Chart
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Heatmap
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Kanban board
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Calendar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Tree view
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -438,12 +520,15 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Avatar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Badge
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Chip
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -466,6 +551,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] Tag
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -474,13 +560,17 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Statistic block
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] KPI tile
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Activity feed
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Log viewer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -489,6 +579,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] JSON viewer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -497,48 +588,67 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Code block
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Terminal block
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 1. UNIVERSAL - Layout Components
 - [x] Container
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Section
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Grid
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Stack
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Split pane
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Resizable panel
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Masonry
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Bento grid
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Sidebar layout
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Dashboard layout
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Centered auth layout
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Sticky footer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Sticky header
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 1. UNIVERSAL - Typography & Media
 - [x] Heading
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Paragraph
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Caption
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Link
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -561,27 +671,37 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] Blockquote
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Code inline
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Image
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Video player
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Audio player
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Icon
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Illustration
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Lottie animation
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. SaaS / Dashboard
 - [x] Sidebar navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Workspace switcher
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -591,6 +711,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Organization switcher
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -599,8 +720,10 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] User/team management
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Role permission matrix
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -609,10 +732,13 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Audit logs
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Analytics cards
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Advanced filters
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -621,6 +747,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Saved views
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -630,6 +757,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Data tables
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -638,12 +766,16 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Bulk actions
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Command palette
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Settings panel
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Billing portal
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -652,10 +784,13 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Subscription management
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Usage meter
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] API key manager
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -664,8 +799,10 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Integration cards
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Webhook manager
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -674,19 +811,25 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Feature flags
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Notification center
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Activity timeline
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. E-commerce - Product Discovery
 - [x] Product grid
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Product card
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Quick preview
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -696,11 +839,14 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Wishlist
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Compare products
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Variant selector
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -709,6 +855,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Size picker
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -717,13 +864,17 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Color swatches
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Product media gallery
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Zoom image
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Recently viewed
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -733,13 +884,17 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 ### 2. E-commerce - Purchase Flow
 - [x] Cart drawer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Checkout steps
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Address form
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Shipping selector
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -749,6 +904,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Payment selector
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -757,6 +913,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Coupon input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -765,46 +922,62 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Order summary
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Order tracking
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Returns panel
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. E-commerce - Growth Components
 - [x] Upsell modal
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Cross-sell carousel
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Recommended products
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Flash sale timer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Stock urgency badge
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Social proof popup
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. Task Management / Productivity
 - [x] Kanban
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Calendar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Timeline
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Gantt chart
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Task card
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Nested subtasks
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Assignee selector
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -813,26 +986,35 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Rich comments
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Activity history
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Time tracking
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Sprint board
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Roadmap
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Whiteboard
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Collaboration cursors
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Presence indicators
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. CMS / Blog / Knowledge Base
 - [x] Rich text editor
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -841,6 +1023,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Slash command editor
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -849,10 +1032,13 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Media library
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Draft/publish workflow
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] SEO preview
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -862,6 +1048,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Table of contents
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -870,16 +1057,22 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Version history
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Comments
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Inline annotations
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Reading progress
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Content blocks
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] MDX editor
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -888,11 +1081,14 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] AI writing assistant
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. AI / LLM Apps - Core
 - [x] Chat window
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Prompt input
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -901,13 +1097,17 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Streaming response
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Typing indicator
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Token counter
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Model selector
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -916,27 +1116,38 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Context window indicator
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Conversation history
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] AI agent status
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Tool execution logs
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Chain-of-thought visualizer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] AI citations
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Multi-agent panel
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. AI / LLM Apps - Advanced AI UX
 - [x] Prompt templates
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] AI playground
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Node workflows
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Memory manager
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -945,6 +1156,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Retrieval source viewer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -953,24 +1165,33 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Confidence indicator
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Human handoff
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] AI approval flow
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. Social Media / Community
 - [x] Feed
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Stories
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Reactions
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Comments
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Share sheet
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Follow button
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -993,25 +1214,33 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] DM/chat
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Live room
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Typing status
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Online presence
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Notification feed
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Infinite scroll feed
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Creator dashboard
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. Fintech / Banking
 - [x] Transaction table
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1020,12 +1249,16 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Balance cards
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Spending chart
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Portfolio chart
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Trading view
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1035,20 +1268,27 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Watchlist
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Risk indicators
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] KYC flow
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Identity verification
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Fraud alert
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Payment success flow
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Transfer wizard
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1058,8 +1298,10 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 ### 2. Healthcare
 - [x] Appointment scheduler
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Medical records viewer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1068,39 +1310,54 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Prescription panel
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Symptoms intake
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] HIPAA consent forms
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Video consultation
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Insurance verification
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. Education / LMS
 - [x] Course player
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Quiz builder
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Flashcards
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Progress tracker
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Achievement badges
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Lesson navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Code playground
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Assignment submission
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 2. Developer Tools
 - [x] API explorer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Code editor
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1109,8 +1366,10 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Terminal
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Diff viewer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1119,10 +1378,13 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Logs
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Deployment status
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] CI/CD pipeline viewer
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1132,6 +1394,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Environment selector
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1141,6 +1404,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] DB table explorer
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1150,11 +1414,14 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 ### 2. Analytics / BI
 - [x] Data visualization
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Drill-down charts
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Pivot tables
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1163,21 +1430,28 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Segmentation builder
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Funnel charts
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Cohort analysis
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Report builder
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Dashboard widgets
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 3. WEB-SPECIFIC - Desktop/Web Patterns
 - [x] Hover cards
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Mega menus
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1186,11 +1460,14 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Multi-column layouts
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Resizable panels
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Right-click context menus
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1199,14 +1476,18 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Multi-window layouts
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Keyboard shortcut overlays
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Drag-and-drop desktop style
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Data-dense tables
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1215,9 +1496,11 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Sticky columns
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Browser tabs UI
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1226,8 +1509,10 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Floating toolbars
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Advanced search filters
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1237,6 +1522,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Multi-select with keyboard support
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1246,15 +1532,19 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 ### 3. WEB-SPECIFIC - Marketing Website Components
 - [x] Hero section
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] CTA blocks
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Testimonials
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Pricing tables
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1264,6 +1554,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] FAQ accordion
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1272,27 +1563,35 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Logo cloud
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Feature comparison
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Newsletter form
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Cookie banner
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Announcement banner
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Sticky CTA
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 - [x] Exit intent popup
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 ### 4. MOBILE-SPECIFIC - iOS / Android Native Patterns
 - [x] Bottom tab bar
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1301,6 +1600,7 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Floating action button
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -1323,12 +1623,16 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] Pull to refresh
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Swipe actions
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Bottom sheet
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Native picker wheel
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1337,23 +1641,31 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: default)
     - [x] State: success (Type: default)
 - [x] Swipeable cards
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Gesture navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Haptic feedback UI
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Camera capture UI
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Mobile keyboard accessory bar
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Biometric auth prompt
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Native share sheet
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Deep link handoff
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -1378,8 +1690,10 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
 ### 4. MOBILE-SPECIFIC - Mobile-first UX
 - [x] Thumb-zone navigation
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Floating compose button
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: hover (Type: primary)
     - [x] State: focus (Type: primary)
@@ -1402,15 +1716,19 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: error (Type: tertiary)
     - [x] State: success (Type: tertiary)
 - [x] Story/reel UI
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Vertical swipe feed
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Snap carousel
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Tap-and-hold menus
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1420,13 +1738,16 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Mobile onboarding slides
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Install app banners
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: primary)
     - [x] State: default (Type: secondary)
     - [x] State: default (Type: tertiary)
 ### 5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise
 - [x] Permission matrix
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
     - [x] State: hover (Type: default)
     - [x] State: focus (Type: default)
@@ -1436,7 +1757,9 @@ CHECKLIST OF COMPONENTS, TYPES, STATES, AND NESTING
     - [x] State: success (Type: default)
 - [x] Org hierarchy tree
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
 - [x] Compliance dashboard
     - [x] NESTING: 4 levels deep, 5 items per level implemented.
+    - [x] JOYFUL CONTENT: Dynamic source support implemented via data-joy attributes.
     - [x] State: default (Type: default)
