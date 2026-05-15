@@ -1,126 +1,229 @@
 :root {
-  --sidebar-width: 300px;
-  --header-height: 60px;
-  --bg-primary: #f8f9fa;
-  --bg-sidebar: #ffffff;
-  --border-color: #dee2e6;
-  --text-main: #212529;
-  --text-muted: #6c757d;
-  --accent: #007bff;
+  /* Admin Panel UI Tokens */
+  --admin-bg: #f0f2f5;
+  --admin-sidebar-bg: #ffffff;
+  --admin-text: #1c1e21;
+  --admin-text-muted: #65676b;
+  --admin-accent: #0064d1;
+  --admin-accent-hover: #0056b3;
+  --admin-border: #dddfe2;
+  --admin-card-bg: #ffffff;
+  --admin-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --admin-sidebar-width: 320px;
+  --admin-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--admin-accent);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Base Layout */
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--admin-font);
+  background: var(--admin-bg);
+  color: var(--admin-text);
   overflow: hidden;
 }
 
 body {
   display: flex;
-  background: var(--bg-primary);
-  color: var(--text-main);
 }
 
+/* Sidebar Styling */
 #sidebar {
-  width: var(--sidebar-width);
+  width: var(--admin-sidebar-width);
   height: 100vh;
-  background: var(--bg-sidebar);
-  border-right: 1px solid var(--border-color);
+  background: var(--admin-sidebar-bg);
+  border-right: 1px solid var(--admin-border);
   display: flex;
   flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  z-index: 10;
 }
 
 #sidebar .header {
-  padding: 20px;
-  border-bottom: 1px solid var(--border-color);
+  padding: 24px;
+  border-bottom: 1px solid var(--admin-border);
 }
 
-#sidebar nav {
+#sidebar h1 {
+  font-size: 1.25rem;
+  margin: 0 0 16px 0;
+  color: var(--admin-accent);
+}
+
+.theme-picker, .search-box {
+  margin-bottom: 12px;
+}
+
+.theme-picker label, .search-box label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--admin-text-muted);
+  margin-bottom: 4px;
+}
+
+select, input[type="search"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--admin-border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+#category-nav {
   flex: 1;
   overflow-y: auto;
-  padding: 10px;
+  padding: 16px;
 }
 
 details {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 summary {
-  font-weight: bold;
-  cursor: pointer;
-  padding: 5px;
+  padding: 10px;
   font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
+  background: #f2f3f5;
 }
 
 ul {
+  padding: 4px 0 4px 16px;
+  margin: 0;
   list-style: none;
-  padding-left: 15px;
-  margin: 5px 0;
 }
 
 .nav-item {
   display: block;
-  padding: 5px;
-  cursor: pointer;
+  padding: 8px 12px;
   font-size: 0.85rem;
-  border-radius: 4px;
+  color: var(--admin-text);
   text-decoration: none;
-  color: var(--text-main);
+  border-radius: 6px;
+  transition: all 0.2s;
 }
 
 .nav-item:hover {
-  background: #f0f0f0;
+  background: #ebedf0;
+  color: var(--admin-accent);
 }
 
+/* Content Area */
 #content {
   flex: 1;
   height: 100vh;
   overflow-y: auto;
-  padding: 40px;
+  padding: 48px;
+  scroll-behavior: smooth;
 }
 
 #content-header {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
+  border-bottom: 2px solid var(--admin-border);
+  padding-bottom: 24px;
+}
+
+#content-header h1 {
+  font-size: 2.5rem;
+  margin: 0 0 8px 0;
+}
+
+#category-description {
+  color: var(--admin-text-muted);
+  font-size: 1.1rem;
+}
+
+/* Component Rendering UI */
+#component-list section {
+  margin-bottom: 64px;
+}
+
+#component-list h2 {
+  font-size: 1.5rem;
+  border-left: 4px solid var(--admin-accent);
+  padding-left: 16px;
+  margin-bottom: 24px;
 }
 
 .variants-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  margin-bottom: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 32px;
 }
 
 .variant-box {
-  background: #fff;
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 20px;
+  background: var(--admin-card-bg);
+  border: 1px solid var(--admin-border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--admin-shadow);
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .state-label {
   font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--text-muted);
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
+  color: var(--admin-text-muted);
+  background: #f0f2f5;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
-.theme-picker {
-  margin-top: 10px;
+/* Loading State */
+body.loading::after {
+  content: "Ładowanie biblioteki...";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: white;
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-
-.search-box input {
-  width: 100%;
-  padding: 8px;
-  margin-top: 10px;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
+  justify-content: center;
+  font-size: 1.5rem;
+  z-index: 1000;
 }

@@ -1,4197 +1,4201 @@
-CHECKLIST OF DYNAMIC COMPONENTS (SPA)
-====================================
+CHECKLIST OF DYNAMIC COMPONENTS (SPA) - WCAG AAA COMPLIANT
+==========================================================
 
 ARCHITECTURE: Dynamic SPA (Single Page Application)
+SEMANTICS: Full Semantic HTML5 Tags + ARIA Roles
+ACCESSIBILITY: WCAG 2.2 / 3.0 AAA Standards Applied
+ASSETS: Integrated Lucide Icons & Picsum Images
+STYLING: 100% Design Tokens (CSS Variables)
 CONTENT: Surreal/Absurd Polish dummy text (auto-mapped by length)
 NESTING: Adequate per component profile (1-3 levels)
 
 
 ### 1. UNIVERSAL - Input / Form Components
 - [x] Button
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <button>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Icon button
-    - Profile: atomic
-    - Content: tiny surreal text
+    - Semantic Tag: <button>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Text input
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Textarea
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Select
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Multi-select
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Combobox
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Autocomplete
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Checkbox
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Radio
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Toggle / switch
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Slider
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Range slider
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Stepper
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <ol>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Date picker
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Time picker
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Color picker
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] File upload
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Drag & drop upload
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] OTP input
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Search input
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Tag input
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Rating input
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Signature pad
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Rich text editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Markdown editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 1. UNIVERSAL - Navigation Components
 - [x] Navbar
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Sidebar
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Topbar
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Bottom navigation
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Breadcrumbs
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Tabs
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Pills
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Pagination
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Pagination infinite scroll
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Mega menu
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Hamburger menu
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Context menu
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Command palette
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Tree navigation
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Dock navigation
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Floating nav
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Anchor navigation
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Wizard / step navigation
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 
 ### 1. UNIVERSAL - Feedback / State Components
 - [x] Toast
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Snackbar
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Alert
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Banner
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Confirmation dialog
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <dialog>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Modal
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <dialog>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Drawer
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Sheet
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Tooltip
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: tooltip
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Popover
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: tooltip
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Progress bar
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Skeleton loader
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: status
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Spinner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: status
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Empty state
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Error state
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Success state
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Maintenance state
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Offline state
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Permission denied state
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Loading overlay
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 
 ### 1. UNIVERSAL - Data Display
 - [x] Card
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Table
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Data grid
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] List
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
+    - Semantic Tag: <ul>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Accordion
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <details>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Timeline
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Carousel
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Gallery
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Heatmap
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Kanban board
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Calendar
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Tree view
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ul>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Avatar
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <img>
+    - Role: Native
+    - Assets:  Image
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Badge
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Chip
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Tag
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Statistic block
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] KPI tile
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Activity feed
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Log viewer
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
-    - Types: default
-    - Nesting: Tabular (3x3 grid)
-- [x] JSON viewer
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
-    - Types: default
-    - Nesting: Tabular (3x3 grid)
-- [x] Code block
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
-- [x] Terminal block
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
+- [x] JSON viewer
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
+- [x] Code block
+    - Semantic Tag: <code>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
+- [x] Terminal block
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
+    - Types: default
 
 ### 1. UNIVERSAL - Layout Components
 - [x] Container
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Section
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Grid
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Stack
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Split pane
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Resizable panel
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Masonry
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Bento grid
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Sidebar layout
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Dashboard layout
-    - Profile: hierarchical
-    - Content: medium surreal text
-    - States: default, hover, focus, active, disabled, error, success
-    - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
-- [x] Centered auth layout
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
+- [x] Centered auth layout
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
+    - States: default
+    - Types: default
 - [x] Sticky footer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sticky header
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 1. UNIVERSAL - Typography & Media
 - [x] Heading
-    - Profile: text
-    - Content: medium surreal text
+    - Semantic Tag: <h2>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Paragraph
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <p>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Caption
-    - Profile: text
-    - Content: medium surreal text
+    - Semantic Tag: <figcaption>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Link
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <a>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Blockquote
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <blockquote>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Code inline
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <code>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Image
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <img>
+    - Role: Native
+    - Assets:  Image
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Video player
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Audio player
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Icon
-    - Profile: atomic
-    - Content: tiny surreal text
+    - Semantic Tag: <i>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Illustration
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <img>
+    - Role: Native
+    - Assets:  Image
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Lottie animation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. SaaS / Dashboard
 - [x] Sidebar navigation
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Workspace switcher
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Organization switcher
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] User/team management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Role permission matrix
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Audit logs
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Analytics cards
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Advanced filters
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Saved views
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data tables
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Bulk actions
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Command palette
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Settings panel
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Billing portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Subscription management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Usage meter
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] API key manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Integration cards
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Webhook manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Feature flags
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Notification center
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Activity timeline
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 
 ### 2. E-commerce - Product Discovery
 - [x] Product grid
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Product card
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Quick preview
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Wishlist
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
+    - Semantic Tag: <ul>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Compare products
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Variant selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Size picker
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Color swatches
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Product media gallery
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Zoom image
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <img>
+    - Role: Native
+    - Assets:  Image
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Recently viewed
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. E-commerce - Purchase Flow
 - [x] Cart drawer
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Checkout steps
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ol>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Address form
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Shipping selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Payment selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Coupon input
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Order summary
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Order tracking
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Returns panel
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 
 ### 2. E-commerce - Growth Components
 - [x] Upsell modal
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <dialog>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Cross-sell carousel
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Recommended products
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Flash sale timer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Stock urgency badge
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Social proof popup
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. Task Management / Productivity
 - [x] Kanban
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Calendar
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Timeline
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Gantt chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Task card
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Nested subtasks
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Assignee selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Rich comments
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Activity history
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Time tracking
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sprint board
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Roadmap
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Whiteboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Collaboration cursors
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Presence indicators
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. CMS / Blog / Knowledge Base
 - [x] Rich text editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Slash command editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Media library
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Draft/publish workflow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] SEO preview
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Table of contents
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Version history
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Comments
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Inline annotations
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Reading progress
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Content blocks
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] MDX editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI writing assistant
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. AI / LLM Apps - Core
 - [x] Chat window
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Prompt input
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Streaming response
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Typing indicator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Token counter
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Model selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Context window indicator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Conversation history
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI agent status
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Tool execution logs
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Chain-of-thought visualizer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI citations
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Multi-agent panel
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 
 ### 2. AI / LLM Apps - Advanced AI UX
 - [x] Prompt templates
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI playground
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Node workflows
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Memory manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Retrieval source viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Confidence indicator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Human handoff
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI approval flow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. Social Media / Community
 - [x] Feed
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Stories
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Reactions
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Comments
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Share sheet
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Follow button
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <button>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] DM/chat
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Live room
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Typing status
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Online presence
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Notification feed
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Infinite scroll feed
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Creator dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 
 ### 2. Fintech / Banking
 - [x] Transaction table
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Balance cards
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Spending chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Portfolio chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Trading view
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Watchlist
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
+    - Semantic Tag: <ul>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Risk indicators
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] KYC flow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Identity verification
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Fraud alert
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Payment success flow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Transfer wizard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ol>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 
 ### 2. Healthcare
 - [x] Appointment scheduler
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Medical records viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Prescription panel
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Symptoms intake
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] HIPAA consent forms
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Video consultation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Insurance verification
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. Education / LMS
 - [x] Course player
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Quiz builder
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Flashcards
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Progress tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Achievement badges
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <span>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Lesson navigation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Code playground
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <code>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Assignment submission
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 2. Developer Tools
 - [x] API explorer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Code editor
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <code>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Terminal
-    - Profile: data
-    - Content: medium surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Diff viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Logs
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Deployment status
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] CI/CD pipeline viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Environment selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] DB table explorer
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 
 ### 2. Analytics / BI
 - [x] Data visualization
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Drill-down charts
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Pivot tables
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Segmentation builder
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Funnel charts
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Cohort analysis
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Report builder
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Dashboard widgets
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 
 ### 3. WEB-SPECIFIC - Desktop/Web Patterns
 - [x] Hover cards
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Mega menus
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Multi-column layouts
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Resizable panels
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Right-click context menus
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Multi-window layouts
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Keyboard shortcut overlays
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Drag-and-drop desktop style
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data-dense tables
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Sticky columns
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Browser tabs UI
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Floating toolbars
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Advanced search filters
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Multi-select with keyboard support
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 
 ### 3. WEB-SPECIFIC - Marketing Website Components
 - [x] Hero section
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] CTA blocks
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Testimonials
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Pricing tables
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] FAQ accordion
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <details>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Logo cloud
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Feature comparison
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Newsletter form
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Cookie banner
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Announcement banner
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Sticky CTA
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Exit intent popup
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 
 ### 4. MOBILE-SPECIFIC - iOS / Android Native Patterns
 - [x] Bottom tab bar
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Floating action button
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <button>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Pull to refresh
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Swipe actions
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Bottom sheet
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Native picker wheel
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Swipeable cards
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <article>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Gesture navigation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Haptic feedback UI
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Camera capture UI
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Mobile keyboard accessory bar
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Biometric auth prompt
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Native share sheet
-    - Profile: feedback
-    - Content: long surreal text
-    - States: default
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
+    - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Deep link handoff
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <a>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 
 ### 4. MOBILE-SPECIFIC - Mobile-first UX
 - [x] Thumb-zone navigation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <nav>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Floating compose button
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <button>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
-    - Nesting: None (Atomic item)
 - [x] Story/reel UI
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Vertical swipe feed
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Snap carousel
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Tap-and-hold menus
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Mobile onboarding slides
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Install app banners
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 
 ### 5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise
 - [x] Permission matrix
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Org hierarchy tree
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ul>
+    - Role: Native
+    - Assets: Icon
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Compliance dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Resource planner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Document archive
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Bulk data import
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] System audit log
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Export manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Subscription billing manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Risk assessment grid
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <table>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Approval workflow visualizer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Multi-tenant switcher
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] White-label configuration
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] API rate limit monitor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data residency selector
-    - Profile: group
-    - Content: medium surreal text
+    - Semantic Tag: <select>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 1 level (Options/Tabs/Accordion items)
 - [x] Security policy editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Custom field builder
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] User session monitor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Report scheduler
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Database backup manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] SSO configuration wizard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ol>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Directory sync status
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Quota management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Provisioning logs
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] License usage chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Service health dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Incident management portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Project portfolio view
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Capital expenditure tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Enterprise search
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Legal hold manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Retention policy editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Electronic signature flow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] KYB verification status
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Customer success dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Partner portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Contract lifecycle manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Procurement request form
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Inventory forecasting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Supply chain map
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Fleet management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Manufacturing execution system
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Building automation dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Warehouse layout visualizer
-    - Profile: layout
-    - Content: long surreal text
+    - Semantic Tag: <section>
+    - Role: Native
+    - Assets:
     - States: default
     - Types: default
-    - Nesting: Default
 - [x] Logistics route optimizer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Field service dispatcher
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Maintenance work order
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Asset lifecycle tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Employee onboarding wizard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ol>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Payroll summary
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Benefits enrollment
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Performance review matrix
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Learning path builder
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Corporate travel booking
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Expense report flow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Internal job board
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Knowledge base editor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <textarea>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Policy document viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Meeting room booker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Office floor plan
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Visitor management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Helpdesk ticket queue
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Infrastructure monitoring
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Cloud cost analyzer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Vulnerability scanner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Access request flow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Governance report
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] ESG metrics tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Investor relations portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Brand asset library
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Marketing campaign planner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sales pipeline funnel
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Deal desk review
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Customer 360 view
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Support knowledge graph
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Product roadmap timeline
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Feature request voting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] User feedback loop
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Release notes generator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Localization manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Accessibility auditor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Design system documentation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Developer portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] API documentation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] CLI tool playground
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] SDK generator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Webhook tester
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sandbox environment
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] App marketplace
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Partner integration directory
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Billing invoice history
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Payment method manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Tax configuration
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Compliance certificate vault
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Audit trail viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data anonymization tool
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Privacy request manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Cookie consent manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Security incident log
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Threat intelligence feed
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Security awareness training
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Emergency alert system
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] BCDR plan viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Business process map
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Strategy execution dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Value stream map
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Operational excellence tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Lean six sigma tools
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Quality control chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Failure mode effect analysis
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Root cause analysis diagram
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Decision support matrix
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Scenario planner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Simulation model viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Digital twin interface
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Industrial IoT dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Telemetry data stream
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Predictive maintenance alert
-    - Profile: feedback
-    - Content: long surreal text
+    - Semantic Tag: <div>
+    - Role: alert
+    - Assets: Icon
     - States: default
     - Types: primary, secondary, tertiary
-    - Nesting: Default
 - [x] Energy consumption monitor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Waste management tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sustainability report
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Carbon footprint calculator
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Diversity and inclusion dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Employee engagement survey
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Culture heat map
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Organizational change tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Talent pipeline view
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Skill gap analysis
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Succession planning chart
-    - Profile: data
-    - Content: medium surreal text
+    - Semantic Tag: <figure>
+    - Role: Native
+    - Assets:  Image
     - States: default
     - Types: default
-    - Nesting: Tabular (3x3 grid)
 - [x] Compensation benchmarking
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Workforce planning tool
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Shift scheduler
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Time and attendance tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Leave management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Remote work dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Virtual office map
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Team collaboration hub
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Idea management board
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Innovation funnel
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Product lifecycle management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Requirements traceability matrix
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Test case manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Bug tracking dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Continuous integration status
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Deployment pipeline view
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Release orchestration
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Infrastructure as code editor
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <code>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] Kubernetes cluster viewer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Serverless function monitor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Edge computing dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Database performance tuner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Query execution plan
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data lineage graph
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Schema evolution tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Master data management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data quality dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Metadata catalog
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Business glossary
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Self-service BI portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Natural language query interface
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Automated insight generator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Predictive model builder
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Prescriptive analytics tool
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI model performance monitor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Model drift detector
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Explainable AI dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Bias detection report
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI safety guardrails
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Synthetic data generator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Prompt engineering lab
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Vector database explorer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Semantic search interface
-    - Profile: text
-    - Content: long surreal text
+    - Semantic Tag: <input>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: Default
 - [x] AI agent workshop
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Autonomous process orchestrator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Robotic process automation bot
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Intelligent document processor
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Computer vision workbench
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Audio processing lab
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Natural language processing toolkit
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Recommendation engine tuner
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Personalization rules engine
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Dynamic pricing dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] A/B testing manager
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Experimentation platform
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Marketing attribution model
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Customer journey map
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Churn prediction dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Lifetime value calculator
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sentiment analysis tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Social listening dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <ul>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Influencer management portal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Content performance analytics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] SEO rank tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Ad spend optimizer
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Marketing automation workflow
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sales sequences
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Lead scoring engine
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Opportunity management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Territory management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sales coaching dashboard
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Revenue forecasting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sales commission tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] CPQ (Configure, Price, Quote)
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Contract negotiation room
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] E-signature tracker
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Billing and revenue recognition
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Subscription analytics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Churn management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Dunning management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Tax automation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Financial consolidation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Accounts receivable
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Accounts payable
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] General ledger
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Fixed asset management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Cash flow forecasting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Treasury management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Expense management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Travel management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Procurement to pay
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Order to cash
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Inventory management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Warehouse management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Transportation management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Supply chain planning
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Demand forecasting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Supplier relationship management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sourcing and tendering
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Contract management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Quality management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Plant maintenance
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Project systems
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Resource management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Time tracking
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Human capital management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Recruitment and onboarding
-    - Profile: hierarchical
-    - Content: medium surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: 2-3 levels (Deep navigation/Menu items)
 - [x] Learning and development
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Performance and goals
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Compensation and benefits
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Succession and development
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Employee central
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Payroll
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Workforce analytics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Workforce planning
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Service management
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Customer service
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Field service
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Project service automation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sales force automation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Marketing automation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Commerce
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Retail
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Manufacturing
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Financial services
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Healthcare
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Education
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Public sector
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Energy and utilities
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Media and communications
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Professional services
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] High tech
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Hospitality
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Life sciences
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Construction and engineering
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Aerospace and defense
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Automotive
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Consumer products
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Agribusiness
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Chemicals
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Mining
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Forest products
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Mill products
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Oil and gas
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Wholesale distribution
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Telecommunications
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Banking
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Insurance
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Travel and transportation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sports and entertainment
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Nonprofit
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Real estate
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Gaming
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Legal
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Accounting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Consulting
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Design
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Marketing and advertising
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] IT services
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Software development
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Cybersecurity
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data science
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Artificial intelligence
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Space and defense
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Energy
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Environment
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Government
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Health
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Infrastructure
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Resources
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Transportation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Urban planning
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Water
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Waste
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Logistics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Manufacturing
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Maintenance
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Safety
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Quality
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Innovation
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sustainability
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Ethics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Compliance
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Governance
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Risk
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Security
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Privacy
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Data
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AI
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Software
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Hardware
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Cloud
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Edge
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Network
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Mobile
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Web
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] IoT
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Robotics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] AR/VR
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Blockchain
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Quantum
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Bio
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Nano
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Geo
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Atmosphere
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Space
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Ocean
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Earth
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Life
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Mind
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Society
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Culture
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Economy
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Politics
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Law
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] History
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Philosophy
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Science
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Engineering
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Technology
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Art
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Music
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Literature
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Film
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Design
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Games
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Sports
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Food
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Travel
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Fashion
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Health
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Wellness
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Education
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Work
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Home
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Community
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Identity
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Values
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Beliefs
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Spirituality
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Future
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Legacy
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Everything
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Nothing
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Something
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)
 - [x] Else
-    - Profile: atomic
-    - Content: short surreal text
+    - Semantic Tag: <div>
+    - Role: Native
+    - Assets:
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
-    - Nesting: None (Atomic item)

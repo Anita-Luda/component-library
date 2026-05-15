@@ -1,64 +1,158 @@
-/* ARCHITECTURAL SKELETON - NO VISUAL STYLING */
-/* ALL PROPERTIES USE CSS VARIABLES (TOKENS) */
+/*
+   COMPONENT DESIGN SYSTEM - TOKENIZED SKELETON
+   Everything is defined via CSS Variables in :root.
+   No hardcoded values are allowed in .cmp classes.
+*/
 
 :root {
-    /* Component Default Tokens */
-    --cmp-padding: 10px;
-    --cmp-margin: 0;
-    --cmp-bg: transparent;
-    --cmp-color: inherit;
-    --cmp-border: 1px solid transparent;
-    --cmp-radius: 0;
-    --cmp-shadow: none;
-    --cmp-font-size: 1rem;
-    --cmp-transition: all 0.2s;
+  /* GLOBAL DEFAULTS */
+  --cmp-font-family: inherit;
+  --cmp-font-size: 1rem;
+  --cmp-line-height: 1.5;
+  --cmp-border-radius: 8px;
+  --cmp-transition-speed: 0.25s;
+  --cmp-padding-y: 12px;
+  --cmp-padding-x: 20px;
 
-    /* Component Type Tokens */
-    --cmp-primary-bg: #000;
-    --cmp-primary-color: #fff;
-    --cmp-secondary-bg: #666;
-    --cmp-secondary-color: #fff;
-    --cmp-tertiary-bg: #eee;
-    --cmp-tertiary-color: #000;
+  /* COLORS - BASE */
+  --cmp-bg: #ffffff;
+  --cmp-text: #1c1e21;
+  --cmp-border-color: #ccd0d5;
+  --cmp-border-width: 1px;
+  --cmp-border-style: solid;
+  --cmp-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
-    /* Component State Tokens */
-    --cmp-hover-bg: rgba(0,0,0,0.1);
-    --cmp-focus-outline: 2px solid blue;
-    --cmp-active-bg: rgba(0,0,0,0.2);
-    --cmp-disabled-opacity: 0.5;
-    --cmp-error-border: 1px solid red;
-    --cmp-success-border: 1px solid green;
+  /* TYPE: PRIMARY */
+  --cmp-primary-bg: #007bff;
+  --cmp-primary-text: #ffffff;
+  --cmp-primary-border: #007bff;
+
+  /* TYPE: SECONDARY */
+  --cmp-secondary-bg: #6c757d;
+  --cmp-secondary-text: #ffffff;
+  --cmp-secondary-border: #6c757d;
+
+  /* TYPE: TERTIARY */
+  --cmp-tertiary-bg: #f8f9fa;
+  --cmp-tertiary-text: #212529;
+  --cmp-tertiary-border: #dee2e6;
+
+  /* STATE: HOVER */
+  --cmp-hover-brightness: 0.9;
+  --cmp-hover-shadow: 0 4px 8px rgba(0,0,0,0.15);
+
+  /* STATE: FOCUS */
+  --cmp-focus-ring-color: rgba(0, 123, 255, 0.5);
+  --cmp-focus-ring-width: 4px;
+
+  /* STATE: ACTIVE */
+  --cmp-active-brightness: 0.8;
+
+  /* STATE: DISABLED */
+  --cmp-disabled-opacity: 0.5;
+  --cmp-disabled-grayscale: 1;
+
+  /* STATE: ERROR */
+  --cmp-error-color: #dc3545;
+  --cmp-error-bg: #fff8f8;
+
+  /* STATE: SUCCESS */
+  --cmp-success-color: #28a745;
+  --cmp-success-bg: #f8fff8;
+
+  /* ASSETS */
+  --cmp-icon-size: 1.25rem;
+  --cmp-image-radius: 4px;
 }
 
-/* Base library structure */
+/* BASE COMPONENT CLASS */
 .cmp {
-    padding: var(--cmp-padding);
-    margin: var(--cmp-margin);
-    background: var(--cmp-bg);
-    color: var(--cmp-color);
-    border: var(--cmp-border);
-    border-radius: var(--cmp-radius);
-    box-shadow: var(--cmp-shadow);
-    font-size: var(--cmp-font-size);
-    transition: var(--cmp-transition);
-    box-sizing: border-box;
+  all: unset; /* Reset for buttons/links if needed, but we keep basic box props */
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--cmp-font-family);
+  font-size: var(--cmp-font-size);
+  line-height: var(--cmp-line-height);
+  padding: var(--cmp-padding-y) var(--cmp-padding-x);
+  background: var(--cmp-bg);
+  color: var(--cmp-text);
+  border: var(--cmp-border-width) var(--cmp-border-style) var(--cmp-border-color);
+  border-radius: var(--cmp-border-radius);
+  box-shadow: var(--cmp-shadow);
+  transition: all var(--cmp-transition-speed) ease;
+  cursor: pointer;
+  max-width: 100%;
 }
 
-/* State Mappings */
-.cmp.state-hover { background: var(--cmp-hover-bg); }
-.cmp.state-focus { outline: var(--cmp-focus-outline); }
-.cmp.state-active { background: var(--cmp-active-bg); }
-.cmp.state-disabled { opacity: var(--cmp-disabled-opacity); pointer-events: none; }
-.cmp.state-error { border: var(--cmp-error-border); }
-.cmp.state-success { border: var(--cmp-success-border); }
+/* SEMANTIC TAG ADJUSTMENTS */
+p.cmp, h2.cmp, blockquote.cmp { display: block; cursor: text; }
+ul.cmp, ol.cmp { display: block; padding-left: 40px; }
+table.cmp { display: table; width: 100%; border-collapse: collapse; }
+img.cmp { display: block; height: auto; padding: 0; border-radius: var(--cmp-image-radius); }
+dialog.cmp { margin: 0; }
 
-/* Type Mappings */
-.cmp.type-primary { background: var(--cmp-primary-bg); color: var(--cmp-primary-color); }
-.cmp.type-secondary { background: var(--cmp-secondary-bg); color: var(--cmp-secondary-color); }
-.cmp.type-tertiary { background: var(--cmp-tertiary-bg); color: var(--cmp-tertiary-color); }
+/* TYPE MAPPINGS */
+.cmp.type-primary {
+  background: var(--cmp-primary-bg);
+  color: var(--cmp-primary-text);
+  border-color: var(--cmp-primary-border);
+}
+.cmp.type-secondary {
+  background: var(--cmp-secondary-bg);
+  color: var(--cmp-secondary-text);
+  border-color: var(--cmp-secondary-border);
+}
+.cmp.type-tertiary {
+  background: var(--cmp-tertiary-bg);
+  color: var(--cmp-tertiary-text);
+  border-color: var(--cmp-tertiary-border);
+}
 
-/* Specific Profile adjustments (layout only) */
-.profile-group { display: flex; flex-direction: column; gap: 10px; }
-.profile-data table { width: 100%; border-collapse: collapse; }
-.profile-data td { border: 1px solid #ddd; padding: 5px; }
-.profile-hierarchical ul { list-style: circle; padding-left: 20px; }
+/* STATE MAPPINGS */
+.cmp.state-hover:hover {
+  filter: brightness(var(--cmp-hover-brightness));
+  box-shadow: var(--cmp-hover-shadow);
+}
+.cmp.state-focus:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 var(--cmp-focus-ring-width) var(--cmp-focus-ring-color);
+}
+.cmp.state-active:active {
+  filter: brightness(var(--cmp-active-brightness));
+}
+.cmp.state-disabled {
+  opacity: var(--cmp-disabled-opacity);
+  filter: grayscale(var(--cmp-disabled-grayscale));
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.cmp.state-error {
+  border-color: var(--cmp-error-color);
+  color: var(--cmp-error-color);
+  background: var(--cmp-error-bg);
+}
+.cmp.state-success {
+  border-color: var(--cmp-success-color);
+  color: var(--cmp-success-color);
+  background: var(--cmp-success-bg);
+}
+
+/* ASSET STYLING */
+.cmp-icon {
+  width: var(--cmp-icon-size);
+  height: var(--cmp-icon-size);
+}
+
+/* PROFILES - STRUCTURAL ONLY */
+.profile-group { display: flex; flex-direction: column; }
+.profile-hierarchical ul { padding-left: 20px; }
+.profile-data td, .profile-data th { border: 1px solid var(--cmp-border-color); padding: 8px; }
+.profile-data caption { font-weight: bold; padding: 10px; }
+
+/* WCAG: Focus ring for all interactive items */
+:focus-visible {
+  outline: 3px solid var(--cmp-primary-bg);
+  outline-offset: 2px;
+}
