@@ -6,7 +6,21 @@ def slugify(text):
 
 def get_blueprint(name):
     n = name.lower()
-    # 1. Navigation Refinement
+
+    # 1. Typography & Media Refinement
+    if "heading" in n: return "atoms.heading"
+    if "paragraph" in n: return "atoms.paragraph"
+    if "blockquote" in n: return "atoms.blockquote"
+    if "code inline" in n: return "atoms.code"
+    if "image" in n: return "atoms.image"
+    if "video" in n: return "molecules.media_block" # Refined to molecule
+    if "audio" in n: return "molecules.media_block" # Refined to molecule
+    if "icon" in n: return "atoms.icon"
+    if "illustration" in n: return "atoms.image"
+    if "lottie" in n: return "atoms.icon"
+    if "caption" in n: return "atoms.span"
+
+    # Navigation
     if "navbar" in n or "topbar" in n: return "organisms.navbar"
     if "sidebar" in n or "dock" in n: return "organisms.dashboard_layout"
     if "mega menu" in n: return "organisms.mega_menu"
@@ -53,9 +67,6 @@ def get_blueprint(name):
     if "chip" in n: return "atoms.chip"
     if "tag" in n: return "atoms.tag"
 
-    # Defaults
-    if "heading" in n: return "atoms.heading"
-    if "paragraph" in n: return "atoms.paragraph"
     return "atoms.span"
 
 def main():

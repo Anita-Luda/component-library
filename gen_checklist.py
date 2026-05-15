@@ -7,10 +7,10 @@ def main():
     checklist = "CHECKLIST OF COMPONENTS - REFINEMENT STATUS (HYBRID LIBRARY)\n"
     checklist += "=" * 62 + "\n\n"
 
-    checklist += "ARCHITECTURE: SPA + Static Blueprint Library\n"
-    checklist += "COMPOSITION: Atomic Design (Atoms -> Molecules -> Organisms)\n"
+    checklist += "ARCHITECTURE: Multi-file Atomic Design Library (lib/)\n"
+    checklist += "COMPOSITION: Atoms -> Molecules -> Organisms -> Templates\n"
     checklist += "STYLING: 100% Tokenized CSS Variables\n"
-    checklist += "REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified\n\n"
+    checklist += "REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Verified\n\n"
 
     current_cat = None
     done_categories = [
@@ -18,7 +18,8 @@ def main():
         "1. UNIVERSAL - Feedback / State Components",
         "1. UNIVERSAL - Input / Form Components",
         "1. UNIVERSAL - Layout Components",
-        "1. UNIVERSAL - Navigation Components"
+        "1. UNIVERSAL - Navigation Components",
+        "1. UNIVERSAL - Typography & Media"
     ]
 
     for comp in registry:

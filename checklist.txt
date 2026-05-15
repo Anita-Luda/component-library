@@ -1,10 +1,10 @@
 CHECKLIST OF COMPONENTS - REFINEMENT STATUS (HYBRID LIBRARY)
 ==============================================================
 
-ARCHITECTURE: SPA + Static Blueprint Library
-COMPOSITION: Atomic Design (Atoms -> Molecules -> Organisms)
+ARCHITECTURE: Multi-file Atomic Design Library (lib/)
+COMPOSITION: Atoms -> Molecules -> Organisms -> Templates
 STYLING: 100% Tokenized CSS Variables
-REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
+REFINEMENT: Data Display, Feedback, Input, Layout, Nav & Typography Screens Verified
 
 
 ### 1. UNIVERSAL - Input / Form Components [DONE]
@@ -14,7 +14,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
 - [x] Icon button
-    - Blueprint: atoms.button
+    - Blueprint: atoms.icon
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: primary, secondary, tertiary
@@ -522,7 +522,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 
-### 1. UNIVERSAL - Typography & Media [TODO]
+### 1. UNIVERSAL - Typography & Media [DONE]
 - [x] Heading
     - Blueprint: atoms.heading
     - Profile: Atom
@@ -544,42 +544,42 @@ REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Blockquote
-    - Blueprint: atoms.span
+    - Blueprint: atoms.blockquote
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Code inline
-    - Blueprint: atoms.span
+    - Blueprint: atoms.code
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Image
-    - Blueprint: atoms.span
+    - Blueprint: atoms.image
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Video player
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.media_block
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Audio player
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.media_block
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Icon
-    - Blueprint: atoms.span
+    - Blueprint: atoms.icon
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Illustration
-    - Blueprint: atoms.span
+    - Blueprint: atoms.image
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Lottie animation
-    - Blueprint: atoms.span
+    - Blueprint: atoms.icon
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
@@ -743,7 +743,7 @@ REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Zoom image
-    - Blueprint: atoms.span
+    - Blueprint: atoms.image
     - Profile: Atom
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
@@ -1241,8 +1241,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Video consultation
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.media_block
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Insurance verification
@@ -2517,8 +2517,8 @@ REFINEMENT: Data Display, Feedback, Input, Layout & Nav Screens Verified
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Audio processing lab
-    - Blueprint: atoms.span
-    - Profile: Atom
+    - Blueprint: molecules.media_block
+    - Profile: Molecule
     - States: default, hover, focus, active, disabled, error, success
     - Types: default
 - [x] Natural language processing toolkit

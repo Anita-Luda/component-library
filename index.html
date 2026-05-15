@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radosna Biblioteka Komponentów (Hybrid)</title>
+    <title>Radosna Biblioteka Komponentów (Atomic Design)</title>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="admin-panel.css">
     <link rel="stylesheet" href="styles.css">
@@ -37,7 +37,11 @@
         </div>
     </main>
 
-    <!-- LOAD LIBRARY FIRST -->
+    <!-- ATOMIC DESIGN LAYERS -->
+    <script src="lib/atoms.js"></script>
+    <script src="lib/molecules.js"></script>
+    <script src="lib/organisms.js"></script>
+    <script src="lib/templates.js"></script>
     <script src="library.js"></script>
     <script src="app.js"></script>
 </body>

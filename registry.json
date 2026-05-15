@@ -24,7 +24,7 @@
     "id": "icon-button",
     "name": "Icon button",
     "category": "1. UNIVERSAL - Input / Form Components",
-    "blueprint": "atoms.button",
+    "blueprint": "atoms.icon",
     "profile": "atom",
     "states": [
       "default",
@@ -2030,7 +2030,7 @@
     "id": "blockquote",
     "name": "Blockquote",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.blockquote",
     "profile": "atom",
     "states": [
       "default",
@@ -2049,7 +2049,7 @@
     "id": "code-inline",
     "name": "Code inline",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.code",
     "profile": "atom",
     "states": [
       "default",
@@ -2068,7 +2068,7 @@
     "id": "image",
     "name": "Image",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.image",
     "profile": "atom",
     "states": [
       "default",
@@ -2087,8 +2087,8 @@
     "id": "video-player",
     "name": "Video player",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.media_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -2106,8 +2106,8 @@
     "id": "audio-player",
     "name": "Audio player",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.media_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -2125,7 +2125,7 @@
     "id": "icon",
     "name": "Icon",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.icon",
     "profile": "atom",
     "states": [
       "default",
@@ -2144,7 +2144,7 @@
     "id": "illustration",
     "name": "Illustration",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.image",
     "profile": "atom",
     "states": [
       "default",
@@ -2163,7 +2163,7 @@
     "id": "lottie-animation",
     "name": "Lottie animation",
     "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.icon",
     "profile": "atom",
     "states": [
       "default",
@@ -2773,7 +2773,7 @@
     "id": "zoom-image",
     "name": "Zoom image",
     "category": "2. E-commerce - Product Discovery",
-    "blueprint": "atoms.span",
+    "blueprint": "atoms.image",
     "profile": "atom",
     "states": [
       "default",
@@ -4603,8 +4603,8 @@
     "id": "video-consultation",
     "name": "Video consultation",
     "category": "2. Healthcare",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.media_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",
@@ -9413,8 +9413,8 @@
     "id": "audio-processing-lab",
     "name": "Audio processing lab",
     "category": "5. TEMATYCZNE / SPECJALISTYCZNE - Enterprise",
-    "blueprint": "atoms.span",
-    "profile": "atom",
+    "blueprint": "molecules.media_block",
+    "profile": "molecule",
     "states": [
       "default",
       "hover",

@@ -107,25 +107,26 @@ function renderComponent(comp) {
             variantBox.className = 'variant-box';
             variantBox.innerHTML = `<header><span class="state-label">${state}</span></header>`;
 
+            const isVideo = comp.id.includes('video');
+            const isAudio = comp.id.includes('audio');
+
             const props = {
                 type, state,
-                content: getContent(comp.profile === 'atomic' ? 'short' : 'medium'),
+                content: getContent(comp.profile === 'atom' ? 'short' : 'medium'),
                 level: 2,
                 src: `https://picsum.photos/seed/${comp.id}/100/100`,
                 alt: 'Asset',
                 placeholder: getContent('short'),
-                headers: ['Faza', 'Składnik', 'Efekt'],
-                rows: [
-                    [getContent('tiny'), getContent('short'), getContent('short')],
-                    [getContent('tiny'), getContent('short'), getContent('short')]
-                ],
-                items: [getContent('medium'), getContent('medium'), getContent('medium')],
+                headers: ['Kolumna 1', 'Kolumna 2'],
+                rows: [[getContent('tiny'), getContent('short')]],
+                items: [getContent('short'), getContent('short')],
                 title: getContent('medium'),
                 label: getContent('short'),
-                value: 42 + Math.floor(Math.random() * 20), // Numeric for progress
+                value: 42,
                 body: getContent('long'),
-                footer: Library.atoms.badge({ content: getContent('tiny'), type: 'primary' }),
-                icon: 'zap'
+                caption: getContent('medium'),
+                isVideo, isAudio,
+                footer: Atoms.badge({ content: getContent('tiny'), type: 'primary' })
             };
 
             variantBox.innerHTML += blueprintFn(props);
