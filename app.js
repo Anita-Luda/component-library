@@ -118,7 +118,7 @@ function renderComponent(comp) {
             title: getContent('medium'),
             body: getContent('long')
         };
-        section.innerHTML = blueprintFn(props);
+        section.innerHTML = blueprintFn(props) || '';
         list.appendChild(section);
     } else {
         comp.types.forEach(type => {
@@ -161,13 +161,13 @@ function renderComponent(comp) {
                     const temp = document.createElement('div');
                     temp.innerHTML = html;
                     const el = temp.firstElementChild;
-                    if (el && !['INPUT', 'SELECT', 'PROGRESS', 'IMG'].includes(el.tagName)) {
+                    const textTags = ["H1","H2","H3","H4","H5","H6","P","SPAN","A","B","I","STRONG","EM","SMALL","LABEL","BUTTON","CAPTION","SUMMARY","KBD","CODE","CITE","DFN","MARK","Q","S","SAMP","SUB","SUP","TIME","U","VAR","DIV","LI","DT","DD"]; if (el && textTags.includes(el.tagName) && el.children.length === 0) {
                         el.textContent = props.content;
                     }
                     html = temp.innerHTML;
                 }
 
-                variantBox.innerHTML += html;
+                variantBox.innerHTML += (html || '');
                 grid.appendChild(variantBox);
             });
 
