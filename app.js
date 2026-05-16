@@ -4,6 +4,9 @@ let currentTheme = null;
 
 async function init() {
     try {
+        // Load catalog first
+        await Atoms.loadCatalog();
+
         const [regAtoms, regMols, regOrgs, regTemps, themeRes] = await Promise.all([
             fetch('lib/registry/atoms.json'),
             fetch('lib/registry/molecules.json'),
@@ -151,7 +154,20 @@ function renderComponent(comp) {
                     footer: Atoms.badge({ content: getContent('tiny'), type: 'primary' })
                 };
 
-                variantBox.innerHTML += blueprintFn(props);
+                let html = blueprintFn(props);
+
+                // Content injection for hardcoded snippets
+                if (comp.profile === 'atom') {
+                    const temp = document.createElement('div');
+                    temp.innerHTML = html;
+                    const el = temp.firstElementChild;
+                    if (el && !['INPUT', 'SELECT', 'PROGRESS', 'IMG'].includes(el.tagName)) {
+                        el.textContent = props.content;
+                    }
+                    html = temp.innerHTML;
+                }
+
+                variantBox.innerHTML += html;
                 grid.appendChild(variantBox);
             });
 

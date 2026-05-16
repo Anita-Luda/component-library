@@ -16,132 +16,132 @@ KATEGORIA: 1. UNIVERSAL - Typography & Media
 - [x] Paragraf (Paragraph)
     - Typy: default, lead (Larger font-size and muted color)
     - Stany: Default (Static)
-- [x] Overline (Tekst nadnagłówkowy)
+- [x] Overline (Tekst nadnagłówkowy) (States: Default only)
     - Typy: default (All-caps, letter-spacing, semi-bold)
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Span / Tekst inline
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Blockquote / Cytat
     - Typy: default
-    - Stany: Wszystkie 7
-- [x] Image / Obraz
+    - Stany: Default (Static)
+- [x] Image / Obraz (States: Default only)
     - Typy: default
-    - Stany: Wszystkie 7
-- [x] Icon / Ikona (Lucide)
+    - Stany: Default (Static)
+- [x] Icon / Ikona (Lucide) (States: Default only)
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Audio/Video Player
     - Typy: default
-    - Stany: Wszystkie 7
-- [x] Illustration / Lottie
+    - Stany: Default (Static)
+- [x] Illustration / Lottie (States: Default only)
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 KATEGORIA: 1. UNIVERSAL - Input / Form
 --------------------------------------
 - [x] Button / Icon Button
     - Typy: default, primary, secondary, tertiary
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Text Input / Textarea / OTP / Search / Tag / Rating Input
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Select (Native HTML5)/ Multi-select / Combobox / Autocomplete
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Checkbox / Radio / Toggle
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Slider / Range / Stepper
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Date/Time/Color Picker
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] File Upload / Drag & Drop
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Signature Pad
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 KATEGORIA: 1. UNIVERSAL - Navigation
 ------------------------------------
 - [x] Navbar / Topbar
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Sidebar
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Breadcrumbs / Tabs / Pills
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Pagination / Infinite Scroll
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Mega Menu
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Tree Navigation
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Dock / Floating Nav / Anchor Nav / Wizard
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 KATEGORIA: 1. UNIVERSAL - Feedback / State
 ------------------------------------------
 - [x] Toast / Snackbar / Alert / Banner
     - Typy: default, primary, secondary, tertiary
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Modal / Drawer / Sheet / Dialog
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Progress Bar / Skeleton / Spinner
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Empty / Error / Success / Maintenance / Offline / Permission Denied State
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Loading Overlay
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 KATEGORIA: 1. UNIVERSAL - Data Display
 --------------------------------------
 - [x] Card / Data Grid / List / Accordion
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Table / Timeline / Kanban Board / Calendar
     - Typy: default
-    - Stany: Wszystkie 7
-- [x] Badge / Chip / Tag
+    - Stany: Default (Static)
+- [x] Badge / Chip / Tag (States: Default only)
     - Typy: default, primary, secondary, tertiary
-    - Stany: Wszystkie 7
-- [x] Statistic Block / KPI Tile
+    - Stany: Default (Static)
+- [x] Statistic Block / KPI Tile (States: Default only)
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Log / JSON / Code / Terminal Viewer
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 KATEGORIA: 2. SaaS / Dashboard (High-Fidelity Refined)
 ------------------------------------------------------
 - [x] User management (saas_user_management)
     - Composition: Organism using Table + saas_user_row Molecules + saas_bulk_actions
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Billing portal (saas_billing_portal)
     - Composition: Organism using Cards + Pricing Tables
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] API key manager (saas_api_key_manager)
     - Composition: Organism using Code Atoms + Tables
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Integration cards (saas_integration_grid)
     - Composition: Organism using integration_tile Molecules
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Activity timeline (saas_activity_timeline)
     - Composition: Organism using saas_timeline_item Molecules
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Notification center (saas_notification_item)
     - Composition: Molecule using icon + time atoms
 - [x] Advanced filters (saas_filter_bar)
@@ -152,21 +152,21 @@ KATEGORIA: 2. SaaS / Dashboard (High-Fidelity Refined)
     - Composition: Molecule using checkbox + text atoms
 - [x] Pozostałe SaaS (Audit logs, Role matrix itp.)
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 KATEGORIA: 2. E-commerce / Task Mgmt / CMS / Social / AI / Fintech / Healthcare / Education / DevTools / Analytics
 ------------------------------------------------------------------------------------------------------------------
 - [x] Task Management (Refined: Sprint Board, Kanban, Task Card)
 - [x] Wszystkie komponenty branżowe (Product grid, Chat window itp.)
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
     - Uwaga: Komponenty rekurencyjne (Tree, Mega Menu) wspierają głębokość do 4 poziomów.
 
 KATEGORIA: 3. WEB-SPECIFIC / Marketing / 4. MOBILE / Mobile-first / 5. Enterprise
 -------------------------------------------------------------------------------
 - [x] Wszystkie komponenty (Mega menus, Hero section, Bottom sheets itp.)
     - Typy: default
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 
 SZABLONY (Templates)
 --------------------
@@ -181,7 +181,7 @@ SZABLONY (Templates)
 
 ---
 PODSUMOWANIE AUDYTU:
-Całkowita liczba komponentów: 332
+Całkowita liczba komponentów: 338
 SaaS / Dashboard: Zrefaktoryzowany na dedykowane, złożone organizmy i molekuły.
 Typografia: Pełne wsparcie dla H1-H6, Lead, Overline.
 Tokenizacja: 100% (styles.css).
@@ -197,3 +197,9 @@ DODATKOWY AUDIT - ATOMY (16.05.2024):
 - [x] Toggle Switch (Semantic checkbox + CSS)
 - [x] Range/Slider (Native HTML5)
 - [x] Code/Kbd/Time (Semantic inline tags)
+
+---
+DODATKOWY AUDIT - HARDCODED COMPONENTS (16.05.2024):
+- [x] Wszystkie Atomy Universal (Typography, Forms, Data) są pobierane z fizycznych plików .html
+- [x] Usunięto niepotrzebne stany interaktywne dla komponentów statycznych w registry.json
+- [x] Zweryfikowano poprawność semantyczną tagów <button>, <input>, <select>, <textarea>

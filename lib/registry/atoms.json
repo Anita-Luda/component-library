@@ -25,7 +25,7 @@
     "id": "1.-universal---input---form-icon-button",
     "name": "Icon button",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.button",
+    "blueprint": "atoms.icon_button",
     "states": [
       "default",
       "hover",
@@ -36,7 +36,6 @@
       "success"
     ],
     "types": [
-      "default",
       "primary",
       "secondary",
       "tertiary"
@@ -73,10 +72,7 @@
       "default",
       "hover",
       "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "disabled"
     ],
     "types": [
       "default"
@@ -481,13 +477,7 @@
     "category": "2. AI / LLM Apps",
     "blueprint": "atoms.status_dot",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -541,13 +531,7 @@
     "category": "2. Social Media",
     "blueprint": "atoms.status_dot",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -601,13 +585,7 @@
     "category": "2. Developer Tools",
     "blueprint": "atoms.status_dot",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -665,12 +643,7 @@
     "blueprint": "atoms.select_raw",
     "states": [
       "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "disabled"
     ],
     "types": [
       "default"
@@ -684,12 +657,7 @@
     "blueprint": "atoms.toggle_raw",
     "states": [
       "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "disabled"
     ],
     "types": [
       "default"
@@ -703,12 +671,7 @@
     "blueprint": "atoms.range_raw",
     "states": [
       "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "disabled"
     ],
     "types": [
       "default"
