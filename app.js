@@ -123,7 +123,7 @@ function renderComponent(comp) {
                 const props = {
                     type, state,
                     content: getContent(comp.profile === 'atom' ? 'short' : 'medium'),
-                    level: 2,
+                    level: type.startsWith('h') ? parseInt(type.substring(1)) : 2,
                     src: `https://picsum.photos/seed/${comp.id}/100/100`,
                     alt: 'Asset',
                     placeholder: getContent('short'),

@@ -58,7 +58,12 @@
       "success"
     ],
     "types": [
-      "default"
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6"
     ],
     "profile": "atom"
   },
@@ -67,6 +72,26 @@
     "name": "Textarea",
     "category": "1. UNIVERSAL - Input / Form",
     "blueprint": "atoms.textarea_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "lead"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-overline",
+    "name": "Overline",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.overline",
     "states": [
       "default",
       "hover",

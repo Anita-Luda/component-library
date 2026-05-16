@@ -30,6 +30,16 @@
   --primitive-space-6: 24px;
   --primitive-space-8: 32px;
 
+  /* Typography Primitives */
+  --primitive-font-size-h1: 3rem;
+  --primitive-font-size-h2: 2.25rem;
+  --primitive-font-size-h3: 1.75rem;
+  --primitive-font-size-h4: 1.5rem;
+  --primitive-font-size-h5: 1.25rem;
+  --primitive-font-size-h6: 1rem;
+  --primitive-font-size-lead: 1.25rem;
+  --primitive-font-size-overline: 0.75rem;
+
   /* --- TIER 2: SEMANTIC --- */
   --semantic-color-action-primary-bg: var(--primitive-blue-500);
   --semantic-color-action-primary-text: var(--primitive-white);
@@ -67,7 +77,16 @@
 
   --semantic-focus-ring: 0 0 0 4px rgba(0, 100, 209, 0.5);
 
-  /* --- TIER 3: AI SPECIFIC TOKENS --- */
+  /* --- TIER 3: COMPONENT / TYPO SPECIFIC --- */
+  --typo-h1-size: var(--primitive-font-size-h1);
+  --typo-h2-size: var(--primitive-font-size-h2);
+  --typo-h3-size: var(--primitive-font-size-h3);
+  --typo-h4-size: var(--primitive-font-size-h4);
+  --typo-h5-size: var(--primitive-font-size-h5);
+  --typo-h6-size: var(--primitive-font-size-h6);
+  --typo-lead-size: var(--primitive-font-size-lead);
+  --typo-overline-size: var(--primitive-font-size-overline);
+
   --ai-bubble-user-bg: var(--primitive-blue-500);
   --ai-bubble-user-text: var(--primitive-white);
   --ai-bubble-bot-bg: var(--primitive-gray-100);
@@ -90,6 +109,35 @@
   transition: all 0.2s ease;
   font-family: inherit;
   font-size: 1rem;
+}
+
+/* TYPOGRAPHY OVERRIDES */
+.cmp.heading, .cmp.paragraph, .cmp.overline {
+    display: block;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.cmp.heading.h1 { font-size: var(--typo-h1-size); font-weight: 800; }
+.cmp.heading.h2 { font-size: var(--typo-h2-size); font-weight: 700; }
+.cmp.heading.h3 { font-size: var(--typo-h3-size); font-weight: 700; }
+.cmp.heading.h4 { font-size: var(--typo-h4-size); font-weight: 600; }
+.cmp.heading.h5 { font-size: var(--typo-h5-size); font-weight: 600; }
+.cmp.heading.h6 { font-size: var(--typo-h6-size); font-weight: 600; }
+
+.cmp.paragraph.type-lead {
+    font-size: var(--typo-lead-size);
+    line-height: 1.6;
+    color: var(--semantic-color-text-muted);
+}
+
+.cmp.overline {
+    font-size: var(--typo-overline-size);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: var(--semantic-color-text-muted);
 }
 
 /* TYPES */
