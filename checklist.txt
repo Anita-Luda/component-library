@@ -1,5 +1,5 @@
-KOMPLETNA CHECKLISTA BIBLIOTEKI KOMPONENTÓW - RĘCZNY AUDIT (Wersja Finalna)
-========================================================================
+KOMPLETNA CHECKLISTA BIBLIOTEKI KOMPONENTÓW - RĘCZNY AUDIT (Wersja Finalna + SaaS Refinement)
+===============================================================================================
 
 LEGENDA:
 [x] - Zrobione i zweryfikowane
@@ -11,13 +11,13 @@ STANY: Def (default), Hov (hover), Foc (focus), Act (active), Dis (disabled), Er
 KATEGORIA: 1. UNIVERSAL - Typography & Media
 -------------------------------------------
 - [x] Nagłówki (H1-H6)
-    - Typy: h1, h2, h3, h4, h5, h6
-    - Stany: Wszystkie 7 (zrealizowane przez style .cmp i klasy .hX)
+    - Typy: h1, h2, h3, h4, h5, h6 (Explicitly supported via .hX classes)
+    - Stany: Wszystkie 7
 - [x] Paragraf (Paragraph)
-    - Typy: default, lead (dla wstępów)
+    - Typy: default, lead (Larger font-size and muted color)
     - Stany: Wszystkie 7
 - [x] Overline (Tekst nadnagłówkowy)
-    - Typy: default (overline to sam w sobie wariant stylu)
+    - Typy: default (All-caps, letter-spacing, semi-bold)
     - Stany: Wszystkie 7
 - [x] Span / Tekst inline
     - Typy: default
@@ -27,13 +27,13 @@ KATEGORIA: 1. UNIVERSAL - Typography & Media
     - Stany: Wszystkie 7
 - [x] Image / Obraz
     - Typy: default
-    - Stany: Wszystkie 7 (hover/focus/active dodają efekty wizualne na ramce/opacity)
+    - Stany: Wszystkie 7
 - [x] Icon / Ikona (Lucide)
     - Typy: default
     - Stany: Wszystkie 7
 - [x] Audio/Video Player
     - Typy: default
-    - Stany: Wszystkie 7 (interaktywne kontrolki natywne)
+    - Stany: Wszystkie 7
 - [x] Illustration / Lottie
     - Typy: default
     - Stany: Wszystkie 7
@@ -41,19 +41,19 @@ KATEGORIA: 1. UNIVERSAL - Typography & Media
 KATEGORIA: 1. UNIVERSAL - Input / Form
 --------------------------------------
 - [x] Button / Icon Button
-    - Typy: default, primary, secondary, tertiary (Pełna hierarchia wizualna)
-    - Stany: Wszystkie 7 (Pełne wsparcie force-state dla dokumentacji)
+    - Typy: default, primary, secondary, tertiary
+    - Stany: Wszystkie 7
 - [x] Text Input / Textarea / OTP / Search / Tag / Rating Input
-    - Typy: default (Justyfikacja: Atomy wejściowe nie wymagają p/s/t, ich waga wynika z etykiety lub kontekstu molekuły)
-    - Stany: Wszystkie 7 (W tym Disabled, Error, Success z semantyczną kolorystyką)
+    - Typy: default
+    - Stany: Wszystkie 7
 - [x] Select / Multi-select / Combobox / Autocomplete
-    - Typy: default (Jako molekuły form_field)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Checkbox / Radio / Toggle
     - Typy: default
     - Stany: Wszystkie 7
 - [x] Slider / Range / Stepper
-    - Typy: default (Justyfikacja: Skomplikowane kontrolki sterujące nie wymagają hierarchii p/s/t w tej fazie)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Date/Time/Color Picker
     - Typy: default
@@ -68,10 +68,10 @@ KATEGORIA: 1. UNIVERSAL - Input / Form
 KATEGORIA: 1. UNIVERSAL - Navigation
 ------------------------------------
 - [x] Navbar / Topbar
-    - Typy: default (Złożone organizmy)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Sidebar
-    - Typy: default (Organizmy z nawigacją rekurencyjną)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Breadcrumbs / Tabs / Pills
     - Typy: default
@@ -80,10 +80,10 @@ KATEGORIA: 1. UNIVERSAL - Navigation
     - Typy: default
     - Stany: Wszystkie 7
 - [x] Mega Menu
-    - Typy: default (Wspiera rekurencję do 4 poziomów głębokości)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Tree Navigation
-    - Typy: default (Rekurencyjne drzewo 4 poziomy x 5 elementów)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Dock / Floating Nav / Anchor Nav / Wizard
     - Typy: default
@@ -92,7 +92,7 @@ KATEGORIA: 1. UNIVERSAL - Navigation
 KATEGORIA: 1. UNIVERSAL - Feedback / State
 ------------------------------------------
 - [x] Toast / Snackbar / Alert / Banner
-    - Typy: default, primary, secondary, tertiary (Oraz stany semantyczne error/success)
+    - Typy: default, primary, secondary, tertiary
     - Stany: Wszystkie 7
 - [x] Modal / Drawer / Sheet / Dialog
     - Typy: default
@@ -101,7 +101,7 @@ KATEGORIA: 1. UNIVERSAL - Feedback / State
     - Typy: default
     - Stany: Wszystkie 7
 - [x] Empty / Error / Success / Maintenance / Offline / Permission Denied State
-    - Typy: default (Molekuły card/layout)
+    - Typy: default
     - Stany: Wszystkie 7
 - [x] Loading Overlay
     - Typy: default
@@ -116,7 +116,7 @@ KATEGORIA: 1. UNIVERSAL - Data Display
     - Typy: default
     - Stany: Wszystkie 7
 - [x] Badge / Chip / Tag
-    - Typy: default, primary, secondary, tertiary (Hierarchia ważności informacji)
+    - Typy: default, primary, secondary, tertiary
     - Stany: Wszystkie 7
 - [x] Statistic Block / KPI Tile
     - Typy: default
@@ -125,38 +125,47 @@ KATEGORIA: 1. UNIVERSAL - Data Display
     - Typy: default
     - Stany: Wszystkie 7
 
-KATEGORIA: 1. UNIVERSAL - Layout
---------------------------------
-- [x] Container / Section / Grid / Stack
-    - Typy: default (Kontenery strukturalne)
-    - Stany: Wszystkie 7 (Focus/Hover dla narzędzi edycyjnych)
-- [x] Split Pane / Resizable Panel / Masonry / Bento
+KATEGORIA: 2. SaaS / Dashboard (High-Fidelity Refined)
+------------------------------------------------------
+- [x] User management (saas_user_management)
+    - Composition: Organism using Table + saas_user_row Molecules + saas_bulk_actions
+    - Stany: Wszystkie 7
+- [x] Billing portal (saas_billing_portal)
+    - Composition: Organism using Cards + Pricing Tables
+    - Stany: Wszystkie 7
+- [x] API key manager (saas_api_key_manager)
+    - Composition: Organism using Code Atoms + Tables
+    - Stany: Wszystkie 7
+- [x] Integration cards (saas_integration_grid)
+    - Composition: Organism using integration_tile Molecules
+    - Stany: Wszystkie 7
+- [x] Activity timeline (saas_activity_timeline)
+    - Composition: Organism using saas_timeline_item Molecules
+    - Stany: Wszystkie 7
+- [x] Notification center (saas_notification_item)
+    - Composition: Molecule using icon + time atoms
+- [x] Advanced filters (saas_filter_bar)
+    - Composition: Molecule using input + filter_pill
+- [x] Command palette (saas_command_item)
+    - Composition: Molecule using icon + kbd atoms
+- [x] Feature flags (saas_feature_toggle)
+    - Composition: Molecule using checkbox + text atoms
+- [x] Pozostałe SaaS (Audit logs, Role matrix itp.)
     - Typy: default
     - Stany: Wszystkie 7
-- [x] Sidebar / Dashboard / Auth Layout
-    - Typy: default
-    - Stany: Wszystkie 7
-
-KATEGORIA: 2. SaaS / Dashboard (Złożone komponenty branżowe)
----------------------------------------------------------
-- [x] Wszystkie 22 komponenty (Audit logs, Role matrix, Feature flags itp.)
-    - Typy: default (Wszystkie budowane z molekuł i organizmów biblioteki)
-    - Stany: Wszystkie 7
-    - Justyfikacja braku p/s/t: Komponenty branżowe są funkcjonalnie unikalne; ich stylistyka jest spójna z całą aplikacją bez potrzeby hierarchicznych wariantów typu "Primary Audit Log".
 
 KATEGORIA: 2. E-commerce / Task Mgmt / CMS / Social / AI / Fintech / Healthcare / Education / DevTools / Analytics
 ------------------------------------------------------------------------------------------------------------------
-- [x] Wszystkie ~200 komponentów branżowych (Product grid, Chat window, KYC flow, Quiz builder itp.)
-    - Typy: default (Warianty p/s/t realizowane są przez komponenty bazowe - np. przycisk wewnątrz okna czatu jest p/s/t)
+- [x] Wszystkie komponenty branżowe (Product grid, Chat window itp.)
+    - Typy: default
     - Stany: Wszystkie 7
     - Uwaga: Komponenty rekurencyjne (Tree, Mega Menu) wspierają głębokość do 4 poziomów.
 
 KATEGORIA: 3. WEB-SPECIFIC / Marketing / 4. MOBILE / Mobile-first / 5. Enterprise
 -------------------------------------------------------------------------------
-- [x] Wszystkie ~80 komponentów (Mega menus, Hero section, Bottom sheets, Org tree itp.)
+- [x] Wszystkie komponenty (Mega menus, Hero section, Bottom sheets itp.)
     - Typy: default
     - Stany: Wszystkie 7
-    - Rekurencja: Org hierarchy tree wspiera 4 poziomy głębokości.
 
 SZABLONY (Templates)
 --------------------
@@ -167,12 +176,14 @@ SZABLONY (Templates)
 - [x] Auth Page Template
     - Skład: Budowane wyłącznie z Organizmu -> Molekuły -> Atomy (Atomic Design Compliant)
     - Typy: default
-    - Stany: default (Szablony jako struktury są bezstanowe, stany posiadają ich komponenty składowe)
+    - Stany: default
 
 ---
 PODSUMOWANIE AUDYTU:
 Całkowita liczba komponentów: 318
-Wszystkie komponenty interaktywne wspierają 7 stanów (default, hover, focus, active, disabled, error, success).
-Hierarchia wizualna (Primary/Secondary/Tertiary) zaimplementowana dla: Button, Icon Button, Badge, Chip, Tag, Alert, Banner, Toast.
-Typografia rozszerzona o: Heading (h1-h6), Paragraph (default, lead), Overline.
-Wszystkie komponenty korzystają wyłącznie z tokenów (zmiennych CSS) zdefiniowanych w styles.css.
+SaaS / Dashboard: Zrefaktoryzowany na dedykowane, złożone organizmy i molekuły.
+Typografia: Pełne wsparcie dla H1-H6, Lead, Overline.
+Tokenizacja: 100% (styles.css).
+Nesting: Rekurencja 4-poziomowa zweryfikowana.
+Stany: 7 stanów na każdym komponencie interaktywnym.
+Justyfikacja p/s/t: Warianty hierarchiczne stosowane tam, gdzie ma to sens architektoniczny (akcje, statusy, typografia). Komponenty branżowe (SaaS/AI) dziedziczą hierarchię z atomów składowych.

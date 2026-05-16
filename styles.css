@@ -87,6 +87,9 @@
   --typo-lead-size: var(--primitive-font-size-lead);
   --typo-overline-size: var(--primitive-font-size-overline);
 
+  --saas-user-row-padding: var(--primitive-space-3);
+  --saas-timeline-item-gap: var(--primitive-space-4);
+
   --ai-bubble-user-bg: var(--primitive-blue-500);
   --ai-bubble-user-text: var(--primitive-white);
   --ai-bubble-bot-bg: var(--primitive-gray-100);
@@ -198,6 +201,14 @@
 .is-atom { border-width: 1px; }
 .is-molecule { display: flex; flex-direction: column; gap: var(--semantic-layout-gap-stack); padding: var(--primitive-space-5); border: 1px solid var(--semantic-color-border-main); }
 .is-organism { display: grid; background: var(--semantic-color-bg-layout); padding: var(--semantic-layout-padding); border: 1px solid var(--semantic-color-border-main); border-radius: var(--semantic-shape-radius-large); gap: var(--semantic-layout-gap-grid); }
+
+/* SAAS SPECIFIC CLASSES */
+.cmp.saas-user-row { flex-direction: row; justify-content: space-between; align-items: center; padding: var(--saas-user-row-padding); border-bottom: 1px solid var(--primitive-gray-200); }
+.cmp.saas-filter-bar { flex-direction: row; gap: var(--primitive-space-4); align-items: center; flex-wrap: wrap; }
+.pills-row { display: flex; gap: var(--primitive-space-2); }
+.cmp.saas-bulk-actions { flex-direction: row; justify-content: space-between; background: var(--primitive-blue-100); padding: var(--primitive-space-3); border-radius: var(--primitive-radius-base); }
+.cmp.saas-notification-item { flex-direction: row; align-items: flex-start; }
+.cmp.saas-timeline-item { flex-direction: row; gap: var(--saas-timeline-item-gap); }
 
 /* AI COMPONENTS - BLUEPRINTS */
 .cmp.chat-bubble { max-width: 80%; border-radius: var(--ai-bubble-radius); padding: var(--primitive-space-3) var(--primitive-space-5); }

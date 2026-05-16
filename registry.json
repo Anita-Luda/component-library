@@ -58,12 +58,7 @@
       "success"
     ],
     "types": [
-      "h1",
-      "h2",
-      "h3",
-      "h4",
-      "h5",
-      "h6"
+      "default"
     ],
     "profile": "atom"
   },
@@ -82,8 +77,7 @@
       "success"
     ],
     "types": [
-      "default",
-      "lead"
+      "default"
     ],
     "profile": "atom"
   },
@@ -1985,7 +1979,12 @@
       "success"
     ],
     "types": [
-      "default"
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6"
     ],
     "profile": "atom"
   },
@@ -2004,7 +2003,8 @@
       "success"
     ],
     "types": [
-      "default"
+      "default",
+      "lead"
     ],
     "profile": "atom"
   },
@@ -2259,7 +2259,7 @@
     "id": "2.-saas---dashboard-user-team-management",
     "name": "User/team management",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "organisms.saas_user_management",
     "states": [
       "default",
       "hover",
@@ -2272,7 +2272,7 @@
     "types": [
       "default"
     ],
-    "profile": "molecule"
+    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-role-permission-matrix",
@@ -2449,7 +2449,7 @@
     "id": "2.-saas---dashboard-billing-portal",
     "name": "Billing portal",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "organisms.saas_billing_portal",
     "states": [
       "default",
       "hover",
@@ -2462,7 +2462,7 @@
     "types": [
       "default"
     ],
-    "profile": "molecule"
+    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-subscription-management",
@@ -2506,7 +2506,7 @@
     "id": "2.-saas---dashboard-api-key-manager",
     "name": "API key manager",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "organisms.saas_api_key_manager",
     "states": [
       "default",
       "hover",
@@ -2519,13 +2519,13 @@
     "types": [
       "default"
     ],
-    "profile": "molecule"
+    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-integration-cards",
     "name": "Integration cards",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "organisms.saas_integration_grid",
     "states": [
       "default",
       "hover",
@@ -2538,7 +2538,7 @@
     "types": [
       "default"
     ],
-    "profile": "molecule"
+    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-webhook-manager",
@@ -2601,7 +2601,7 @@
     "id": "2.-saas---dashboard-activity-timeline",
     "name": "Activity timeline",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "organisms.saas_activity_timeline",
     "states": [
       "default",
       "hover",
@@ -2614,7 +2614,7 @@
     "types": [
       "default"
     ],
-    "profile": "molecule"
+    "profile": "organism"
   },
   {
     "id": "2.-e-commerce-product-grid",
