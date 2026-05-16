@@ -76,5 +76,18 @@
       "default"
     ],
     "profile": "template"
+  },
+  {
+    "id": "template-task-dashboard",
+    "name": "Task Dashboard Template",
+    "category": "Templates",
+    "blueprint": "templates.task_dashboard",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "template"
   }
 ]

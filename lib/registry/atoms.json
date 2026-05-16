@@ -89,13 +89,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.overline",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -222,13 +216,7 @@
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.avatar",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -241,19 +229,16 @@
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.badge",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default",
       "primary",
       "secondary",
-      "tertiary"
+      "tertiary",
+      "success",
+      "error",
+      "warning"
     ],
     "profile": "atom"
   },
@@ -263,13 +248,7 @@
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.badge",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default",
@@ -285,13 +264,7 @@
     "category": "1. UNIVERSAL - Data Display",
     "blueprint": "atoms.badge",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default",
@@ -307,13 +280,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.heading",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "h1",
@@ -331,13 +298,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.paragraph",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default",
@@ -351,13 +312,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.image",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -370,13 +325,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.icon",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -389,13 +338,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.illustration",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -408,13 +351,7 @@
     "category": "1. UNIVERSAL - Typography & Media",
     "blueprint": "atoms.lottie",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"

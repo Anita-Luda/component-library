@@ -218,10 +218,22 @@
   border-color: var(--semantic-color-status-error-border);
 }
 
-.cmp.state-success, .cmp.force-success {
+.cmp.state-success, .cmp.force-success, .cmp.type-success {
   background-color: var(--semantic-color-status-success-bg);
   color: var(--semantic-color-status-success-text);
   border-color: var(--semantic-color-status-success-border);
+}
+
+.cmp.type-error, .cmp.type-danger {
+  background-color: var(--semantic-color-status-error-bg);
+  color: var(--semantic-color-status-error-text);
+  border-color: var(--semantic-color-status-error-border);
+}
+
+.cmp.type-warning {
+  background-color: var(--primitive-orange-50);
+  color: var(--primitive-orange-700);
+  border-color: var(--primitive-orange-500);
 }
 
 .cmp.state-disabled, .cmp:disabled {
@@ -279,6 +291,16 @@
 .cmp.checkout-steps { flex-direction: row; justify-content: center; gap: var(--primitive-space-3); background: var(--primitive-gray-50); }
 .cmp.checkout-steps .step.is-active { font-weight: 800; color: var(--primitive-blue-600); }
 .cmp.checkout-steps .sep { color: var(--primitive-gray-400); }
+
+/* TASK MANAGEMENT SPECIFIC CLASSES */
+.cmp.task-card { background: #fff; border: 1px solid var(--primitive-gray-200); padding: var(--primitive-space-4); border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); gap: var(--primitive-space-3); }
+.task-meta { display: flex; justify-content: space-between; align-items: center; margin-top: var(--primitive-space-2); }
+.cmp.task-card .assignee { width: 24px; height: 24px; }
+
+.column-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--primitive-space-4); }
+.task-list { display: flex; flex-direction: column; gap: var(--primitive-space-3); }
+
+.cmp.status-pill { flex-direction: row; gap: var(--primitive-space-2); padding: var(--primitive-space-1) var(--primitive-space-3); border-radius: 100px; border: 1px solid var(--primitive-gray-200); }
 
 /* AI COMPONENTS - BLUEPRINTS */
 .cmp.chat-bubble { max-width: 80%; border-radius: var(--ai-bubble-radius); padding: var(--primitive-space-3) var(--primitive-space-5); }

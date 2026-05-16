@@ -5026,5 +5026,18 @@
       "default"
     ],
     "profile": "molecule"
+  },
+  {
+    "id": "2.-task-management-task-card",
+    "name": "Task Card",
+    "category": "2. Task Management",
+    "blueprint": "molecules.task_card",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "molecule"
   }
 ]

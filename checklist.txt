@@ -12,10 +12,10 @@ KATEGORIA: 1. UNIVERSAL - Typography & Media
 -------------------------------------------
 - [x] Nagłówki (H1-H6)
     - Typy: h1, h2, h3, h4, h5, h6 (Explicitly supported via .hX classes)
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Paragraf (Paragraph)
     - Typy: default, lead (Larger font-size and muted color)
-    - Stany: Wszystkie 7
+    - Stany: Default (Static)
 - [x] Overline (Tekst nadnagłówkowy)
     - Typy: default (All-caps, letter-spacing, semi-bold)
     - Stany: Wszystkie 7
@@ -156,6 +156,7 @@ KATEGORIA: 2. SaaS / Dashboard (High-Fidelity Refined)
 
 KATEGORIA: 2. E-commerce / Task Mgmt / CMS / Social / AI / Fintech / Healthcare / Education / DevTools / Analytics
 ------------------------------------------------------------------------------------------------------------------
+- [x] Task Management (Refined: Sprint Board, Kanban, Task Card)
 - [x] Wszystkie komponenty branżowe (Product grid, Chat window itp.)
     - Typy: default
     - Stany: Wszystkie 7
@@ -180,7 +181,7 @@ SZABLONY (Templates)
 
 ---
 PODSUMOWANIE AUDYTU:
-Całkowita liczba komponentów: 318
+Całkowita liczba komponentów: 332
 SaaS / Dashboard: Zrefaktoryzowany na dedykowane, złożone organizmy i molekuły.
 Typografia: Pełne wsparcie dla H1-H6, Lead, Overline.
 Tokenizacja: 100% (styles.css).

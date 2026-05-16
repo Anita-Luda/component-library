@@ -423,5 +423,18 @@
       "default"
     ],
     "profile": "organism"
+  },
+  {
+    "id": "2.-task-management-sprint-board",
+    "name": "Sprint Board",
+    "category": "2. Task Management",
+    "blueprint": "organisms.sprint_board",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
   }
 ]
