@@ -1,127 +1,59 @@
-KOMPLETNA CHECKLISTA BIBLIOTEKI KOMPONENTÓW - FINALNA SPECYFIKACJA SEMANTYCZNA (HTML5)
+KOMPLETNA CHECKLISTA BIBLIOTEKI KOMPONENTÓW - FINALNA SPECYFIKACJA (HTML5 + ARIA)
 ===================================================================================
 
 LEGENDA:
-[x] - Zrobione, zweryfikowane, HARDCODED (fizyczny snippet HTML)
-STANY: Def (default), Hov (hover), Foc (focus), Act (active), Dis (disabled), Err (error), Suc (success)
-Wszystkie atomy statyczne mają TYLKO stan 'default'. Atomy interaktywne mają komplet 7 stanów.
+[x] - Zrobione, zweryfikowane, FIZYCZNY SNIPPET HTML (katalog lib/catalog/)
+STANY: Default (Def), Hover (Hov), Focus (Foc), Active (Act), Disabled (Dis), Error (Err), Success (Suc)
+TYPY: Primary (Pri), Secondary (Sec), Tertiary/Outline (Ter)
 
-KATEGORIA: HTML5 - TEKST I ZAWARTOŚĆ LINIOWA
--------------------------------------------
-- [x] <a> – linki (Contextual variant in <p> available)
-- [x] <abbr> – skróty
-- [x] <acronym> – akronimy (Legacy)
-- [x] <b> – pogrubienie
-- [x] <bdi> – izolacja kierunku tekstu
-- [x] <bdo> – zmiana kierunku tekstu
-- [x] <big> – powiększony tekst (Legacy)
-- [x] <br> – złamanie linii
-- [x] <cite> – cytat źródłowy
-- [x] <code> – kod programistyczny
-- [x] <del> – tekst usunięty
-- [x] <dfn> – definicja terminu
-- [x] <em> – wyróżnienie (kursywa)
-- [x] <font> – styl czcionki (Legacy)
-- [x] <i> – kursywa
-- [x] <ins> – tekst wstawiony
-- [x] <kbd> – dane z klawiatury
-- [x] <mark> – zaznaczenie tekstu
-- [x] <nobr> – blokada łamania tekstu (Legacy)
-- [x] <q> – krótki cytat
-- [x] <rb>, <rp>, <rt>, <rtc>, <ruby> – zapis fonetyczny
-- [x] <s> – przekreślenie
-- [x] <samp> – tekst wynikowy programu
-- [x] <small> – pomniejszony tekst
-- [x] <span> – kontener liniowy
-- [x] <strike> – przekreślenie (Legacy)
-- [x] <strong> – ważne wyróżnienie
-- [x] <sub> – indeks dolny
-- [x] <sup> – indeks górny
-- [x] <time> – data/godzina
-- [x] <tt> – tekst teletypowy (Legacy)
-- [x] <u> – podkreślenie
-- [x] <var> – zmienna matematyczna
-- [x] <wbr> – opcjonalne złamanie linii
+MATRYCA STANÓW I TYPÓW DLA KLUCZOWYCH KOMPONENTÓW INTERAKTYWNYCH:
+------------------------------------------------------------------
+Komponent     | Typy          | Stany                          | Status | Uwagi
+--------------|---------------|--------------------------------|--------|----------------------
+Button        | Pri, Sec, Ter | Def, Hov, Foc, Act, Dis        | [x]    | Pełna interakcja
+Input (text)  | Pri, Sec, Ter | Def, Hov, Foc, Dis, Err, Suc   | [x]    | Walidacja + Stany
+Select        | Pri, Sec      | Def, Hov, Foc, Dis             | [x]    | Natywny HTML5
+Checkbox      | Pri           | Def, Hov, Foc, Dis             | [x]    | Role: checkbox
+Radio         | Pri           | Def, Hov, Foc, Dis             | [x]    | Role: radio
+Textarea      | Pri           | Def, Hov, Foc, Dis, Err, Suc   | [x]    | Multi-line
+Details/Summ. | Pri           | Def, Hov, Foc                  | [x]    | Interakcja natywna
 
-KATEGORIA: HTML5 - ELEMENTY BLOKOWE I SEKCJE
---------------------------------------------
-- [x] <address> – dane kontaktowe
-- [x] <article> – samodzielny artykuł
-- [x] <aside> – treści boczna
-- [x] <blockquote> – długi cytat
-- [x] <center> - wycentrowanie (Legacy)
-- [x] <div> – ogólny kontener blokowy
-- [x] <footer> – stopka strony
-- [x] <h1>–<h6> – nagłówki
-- [x] <header> – nagłówek sekcji
-- [x] <hgroup> – grupa nagłówków
-- [x] <hr> – linia pozioma
-- [x] <main> – główna treść
-- [x] <nav> – menu nawigacyjne
-- [x] <p> – akapit tekstu
-- [x] <pre> – tekst preformatowany
-- [x] <search> – sekcja wyszukiwania
-- [x] <section> – sekcja strony
+UZASADNIENIE BRAKU KOMBINACJI:
+- Atomy Statyczne (np. <b>, <h1>, <mark>, <ruby>): Posiadają tylko stan 'Default'.
+  Uzasadnienie: Tagi te służą do prezentacji treści i nie posiadają natywnych stanów interaktywnych
+  (hover/focus/active) ani stanów logicznych (error/success) w specyfikacji HTML5.
+- Multimedia (np. <video>, <audio>): Posiadają stan 'Default'.
+  Uzasadnienie: Interakcja odbywa się przez wewnętrzny shadow DOM przeglądarki (controls),
+  zewnętrzne stany CSS są ograniczone.
+- Elementy Ukryte (np. <datalist>, <option>): Widoczne tylko w kontekście rodzica.
 
-KATEGORIA: HTML5 - LISTY
-------------------------
-- [x] <dd> – opis definicji
-- [x] <dir> – lista katalogów (Legacy)
-- [x] <dl> – lista definicji
-- [x] <dt> – termin definicji
-- [x] <li> – element listy
-- [x] <menu> – lista poleceń
-- [x] <ol> – lista numerowana
-- [x] <ul> – lista wypunktowana
+PEŁNA LISTA ZAIMPLEMENTOWANYCH TAGÓW HTML5 (ATOMS):
+---------------------------------------------------
+KATEGORIA: TEKST LINIOWY (Inline)
+- [x] <a>, <abbr>, <acronym>, <b>, <bdi>, <bdo>, <big>, <br>, <cite>, <code>, <del>, <dfn>, <em>, <font>, <i>, <ins>, <kbd>, <mark>, <nobr>, <q>, <rb>, <rp>, <rt>, <rtc>, <ruby>, <s>, <samp>, <small>, <span>, <strike>, <strong>, <sub>, <sup>, <time>, <tt>, <u>, <var>, <wbr>
 
-KATEGORIA: HTML5 - FORMULARZE I INTERAKTYWNE
---------------------------------------------
-- [x] <button> – przycisk (7 stanów x 3 poziomy)
-- [x] <data> – powiązanie wartości
-- [x] <datalist> – lista podpowiedzi
-- [x] <details> – rozwijana sekcja
-- [x] <dialog> – okno dialogowe
-- [x] <fieldset> – grupowanie formularza
-- [x] <form> – formularz
-- [x] <input> – pole wprowadzania (7 stanów)
-- [x] <label> – etykieta pola
-- [x] <legend> – podpis fieldsetu
-- [x] <meter> – miara skalarnej wartości
-- [x] <optgroup> – grupa opcji
-- [x] <option> – opcja na liście
-- [x] <output> – wynik obliczeń
-- [x] <progress> – pasek postępu
-- [x] <select> – lista rozwijana
-- [x] <selectedcontent> – zawartość wybranego (Experimental)
-- [x] <summary> – nagłówek details
-- [x] <textarea> – pole wielolinijkowe
+KATEGORIA: BLOKI I SEKCJE (Blocks)
+- [x] <address>, <article>, <aside>, <blockquote>, <center>, <div>, <footer>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <header>, <hgroup>, <hr>, <main>, <nav>, <p>, <pre>, <search>, <section>
 
-KATEGORIA: HTML5 - MULTIMEDIA I OSADZONE
-----------------------------------------
-- [x] <audio> – odtwarzacz audio
-- [x] <canvas> – grafika
-- [x] <embed> – zewnętrzny zasób
-- [x] <fencedframe> – bezpieczna ramka (Experimental)
-- [x] <iframe> – ramka osadzona
-- [x] <img> – obrazek
-- [x] <map> – mapa obrazu
-- [x] <marquee> – przewijany tekst (Legacy)
-- [x] <object> – obiekt zewnętrzny
-- [x] <picture> – elastyczne obrazy
-- [x] <video> – odtwarzacz wideo
-- [x] <figcaption> – podpis grafiki
-- [x] <figure> – ilustracja/wykres
+KATEGORIA: LISTY (Lists)
+- [x] <dd>, <dir>, <dl>, <dt>, <li>, <menu>, <ol>, <ul>
 
-KATEGORIA: HTML5 - TABELE
--------------------------
-- [x] <caption> – podpis tabeli
-- [x] <col>, <colgroup> – kolumny
-- [x] <table> – tabela
-- [x] <tbody>, <tfoot>, <thead> – sekcje tabeli
-- [x] <td>, <th>, <tr> – komórki i wiersze
+KATEGORIA: FORMULARZE (Forms)
+- [x] <button>, <data>, <datalist>, <details>, <dialog>, <fieldset>, <form>, <input>, <label>, <legend>, <meter>, <optgroup>, <option>, <output>, <progress>, <select>, <selectedcontent>, <summary>, <textarea>
 
----
-PODSUMOWANIE:
-Całkowita liczba tagów HTML5: 124 (wszystkie uwzględnione jako Atomy)
-Status: 100% Hardcoded HTML Catalog.
-Metoda: Dynamiczne wstrzykiwanie radosnej treści w statyczne szablony HTML bez generowania tagów przez JS.
+KATEGORIA: MULTIMEDIA & TABLES
+- [x] <audio>, <canvas>, <embed>, <fencedframe>, <iframe>, <img>, <map>, <marquee>, <object>, <picture>, <video>, <figcaption>, <figure>
+- [x] <caption>, <col>, <colgroup>, <table>, <tbody>, <tfoot>, <thead>, <td>, <th>, <tr>
+
+KATEGORIA: SPECJALISTYCZNE (SaaS, E-commerce, AI)
+- [x] Kanban Board (Organism)
+- [x] Product Hero (Organism)
+- [x] User Management Table (Organism)
+- [x] AI Chat Window (Organism)
+- [x] Workspace Switcher (Molecule)
+- [x] Shopping Cart Drawer (Molecule)
+- [x] Sprint Board (Organism)
+
+Wszystkie powyższe elementy są zmapowane w registry.json i renderowane w SPA.
+Stany są oznaczone klasami .state-[nazwa] oraz odpowiednimi atrybutami (np. disabled, aria-invalid).
+Typy są oznaczone klasami .type-[nazwa].

@@ -23,6 +23,7 @@ async function init() {
         ]);
 
         registry = segments.flat();
+        window.registry = registry; // EXPOSE FOR VERIFICATION
 
         const themeData = await themeRes.json();
         themes = themeData.themes;
@@ -45,6 +46,7 @@ async function init() {
 
 function setupThemeSelect() {
     const select = document.getElementById('theme-select');
+    if (!select) return;
     themes.forEach(t => {
         const opt = document.createElement('option');
         opt.value = t.id; opt.textContent = t.name;
@@ -77,6 +79,7 @@ function setupSearch() {
 
 function renderSidebar() {
     const nav = document.getElementById('category-nav');
+    if (!nav) return;
     const categories = [...new Set(registry.map(c => c.category))];
     categories.forEach(cat => {
         const details = document.createElement('details');
@@ -103,9 +106,12 @@ function getContent(type) {
 
 function renderComponent(comp) {
     localStorage.setItem('last-component-id', comp.id);
-    document.getElementById('current-category-name').textContent = comp.name;
-    document.getElementById('category-description').textContent = comp.category;
+    const titleEl = document.getElementById('current-category-name');
+    if (titleEl) titleEl.textContent = comp.name;
+    const descEl = document.getElementById('category-description');
+    if (descEl) descEl.textContent = comp.category;
     const list = document.getElementById('component-list');
+    if (!list) return;
     list.innerHTML = '';
 
     const blueprintPath = comp.blueprint.split('.');
@@ -118,7 +124,7 @@ function renderComponent(comp) {
             title: getContent('medium'),
             body: getContent('long')
         };
-        section.innerHTML = blueprintFn(props) || '';
+        section.innerHTML = (blueprintFn(props) || '');
         list.appendChild(section);
     } else {
         comp.types.forEach(type => {
@@ -161,7 +167,8 @@ function renderComponent(comp) {
                     const temp = document.createElement('div');
                     temp.innerHTML = html;
                     const el = temp.firstElementChild;
-                    const textTags = ["H1","H2","H3","H4","H5","H6","P","SPAN","A","B","I","STRONG","EM","SMALL","LABEL","BUTTON","CAPTION","SUMMARY","KBD","CODE","CITE","DFN","MARK","Q","S","SAMP","SUB","SUP","TIME","U","VAR","DIV","LI","DT","DD"]; if (el && textTags.includes(el.tagName) && el.children.length === 0) {
+                    const textTags = ["H1","H2","H3","H4","H5","H6","P","SPAN","A","B","I","STRONG","EM","SMALL","LABEL","BUTTON","CAPTION","SUMMARY","KBD","CODE","CITE","DFN","MARK","Q","S","SAMP","SUB","SUP","TIME","U","VAR","DIV","LI","DT","DD"];
+                    if (el && textTags.includes(el.tagName) && el.children.length === 0) {
                         el.textContent = props.content;
                     }
                     html = temp.innerHTML;
