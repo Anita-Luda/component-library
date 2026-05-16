@@ -46,7 +46,7 @@ KATEGORIA: 1. UNIVERSAL - Input / Form
 - [x] Text Input / Textarea / OTP / Search / Tag / Rating Input
     - Typy: default
     - Stany: Wszystkie 7
-- [x] Select / Multi-select / Combobox / Autocomplete
+- [x] Select (Native HTML5)/ Multi-select / Combobox / Autocomplete
     - Typy: default
     - Stany: Wszystkie 7
 - [x] Checkbox / Radio / Toggle
@@ -187,3 +187,12 @@ Tokenizacja: 100% (styles.css).
 Nesting: Rekurencja 4-poziomowa zweryfikowana.
 Stany: 7 stanów na każdym komponencie interaktywnym.
 Justyfikacja p/s/t: Warianty hierarchiczne stosowane tam, gdzie ma to sens architektoniczny (akcje, statusy, typografia). Komponenty branżowe (SaaS/AI) dziedziczą hierarchię z atomów składowych.
+
+---
+DODATKOWY AUDIT - ATOMY (16.05.2024):
+- [x] Button/Icon Button (Native HTML5)
+- [x] Text Input/Textarea (Native HTML5)
+- [x] Select (Native HTML5)
+- [x] Toggle Switch (Semantic checkbox + CSS)
+- [x] Range/Slider (Native HTML5)
+- [x] Code/Kbd/Time (Semantic inline tags)

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "1.-universal---navigation-navbar",
+    "name": "Navbar",
+    "category": "1. UNIVERSAL - Navigation",
+    "blueprint": "organisms.navbar",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "1.-universal---navigation-sidebar",
+    "name": "Sidebar",
+    "category": "1. UNIVERSAL - Navigation",
+    "blueprint": "organisms.sidebar",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "1.-universal---navigation-topbar",
+    "name": "Topbar",
+    "category": "1. UNIVERSAL - Navigation",
+    "blueprint": "organisms.navbar",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "1.-universal---navigation-mega-menu",
+    "name": "Mega menu",
+    "category": "1. UNIVERSAL - Navigation",
+    "blueprint": "organisms.mega_menu",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "1.-universal---layout-sidebar-layout",
+    "name": "Sidebar layout",
+    "category": "1. UNIVERSAL - Layout",
+    "blueprint": "organisms.sidebar",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "1.-universal---layout-dashboard-layout",
+    "name": "Dashboard layout",
+    "category": "1. UNIVERSAL - Layout",
+    "blueprint": "organisms.dashboard_layout",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-sidebar-navigation",
+    "name": "Sidebar navigation",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.sidebar",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-user-team-management",
+    "name": "User/team management",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.saas_user_management",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-analytics-cards",
+    "name": "Analytics cards",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.analytics_grid",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-settings-panel",
+    "name": "Settings panel",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.settings_panel",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-billing-portal",
+    "name": "Billing portal",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.saas_billing_portal",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-api-key-manager",
+    "name": "API key manager",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.saas_api_key_manager",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-integration-cards",
+    "name": "Integration cards",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.saas_integration_grid",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-saas---dashboard-activity-timeline",
+    "name": "Activity timeline",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "organisms.saas_activity_timeline",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-e-commerce-product-grid",
+    "name": "Product grid",
+    "category": "2. E-commerce",
+    "blueprint": "organisms.product_grid",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-e-commerce-checkout-steps",
+    "name": "Checkout steps",
+    "category": "2. E-commerce",
+    "blueprint": "organisms.checkout_steps",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-ai---llm-apps-chat-window",
+    "name": "Chat window",
+    "category": "2. AI / LLM Apps",
+    "blueprint": "organisms.chat_window",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-ai---llm-apps-ai-playground",
+    "name": "AI playground",
+    "category": "2. AI / LLM Apps",
+    "blueprint": "organisms.ai_playground",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-social-media-dm-chat",
+    "name": "DM/chat",
+    "category": "2. Social Media",
+    "blueprint": "organisms.chat_window",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-education-code-playground",
+    "name": "Code playground",
+    "category": "2. Education",
+    "blueprint": "organisms.ai_playground",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "3.-web-specific-mega-menus",
+    "name": "Mega menus",
+    "category": "3. WEB-SPECIFIC",
+    "blueprint": "organisms.mega_menu",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-e-commerce-product-hero",
+    "name": "Product Details Hero",
+    "category": "2. E-commerce",
+    "blueprint": "organisms.product_details_hero",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-e-commerce-checkout-summary",
+    "name": "Checkout Summary",
+    "category": "2. E-commerce",
+    "blueprint": "organisms.checkout_summary",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  }
+]

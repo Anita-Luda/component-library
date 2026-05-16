@@ -115,11 +115,60 @@
 }
 
 /* TYPOGRAPHY OVERRIDES */
-.cmp.heading, .cmp.paragraph, .cmp.overline {
+.cmp.heading, .cmp.paragraph, .cmp.overline, .cmp.span {
     display: block;
     padding: 0;
     border: none;
-    background: transparent;
+    background: none;
+}
+
+.cmp.label {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: var(--primitive-space-1);
+}
+
+.cmp.input-raw, .cmp.textarea-raw, .cmp.select-raw {
+    display: flex;
+    width: 100%;
+}
+
+.cmp.checkbox, .cmp.radio, .cmp.toggle-raw {
+    padding: 0;
+    width: auto;
+    cursor: pointer;
+}
+
+/* Toggle Switch specific styling */
+.cmp.toggle-raw {
+    appearance: none;
+    width: 2.5rem;
+    height: 1.25rem;
+    background: var(--primitive-gray-300);
+    border-radius: 1rem;
+    position: relative;
+    border: none;
+}
+.cmp.toggle-raw::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.cmp.toggle-raw:checked {
+    background: var(--primitive-blue-500);
+}
+.cmp.toggle-raw:checked::after {
+    left: calc(100% - 1.25rem + 2px);
 }
 
 .cmp.heading.h1 { font-size: var(--typo-h1-size); font-weight: 800; }
@@ -209,6 +258,27 @@
 .cmp.saas-bulk-actions { flex-direction: row; justify-content: space-between; background: var(--primitive-blue-100); padding: var(--primitive-space-3); border-radius: var(--primitive-radius-base); }
 .cmp.saas-notification-item { flex-direction: row; align-items: flex-start; }
 .cmp.saas-timeline-item { flex-direction: row; gap: var(--saas-timeline-item-gap); }
+
+/* E-COMMERCE SPECIFIC CLASSES */
+.cmp.cart-item { flex-direction: row; align-items: center; gap: var(--primitive-space-4); border-bottom: 1px solid var(--primitive-gray-200); padding-bottom: var(--primitive-space-3); }
+.cmp.cart-item .item-thumb { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; }
+.cmp.cart-item .item-qty { width: 60px; }
+.cmp.cart-item .item-price { font-weight: 700; margin-left: auto; }
+
+.cmp.variant-grid { display: flex; gap: var(--primitive-space-2); flex-wrap: wrap; }
+.cmp.variant-btn { min-width: 3rem; }
+
+.cmp.price-tag { flex-direction: row; align-items: baseline; gap: var(--primitive-space-2); border: none; background: none; padding: 0; }
+.price-current { font-size: 1.5rem; font-weight: 800; color: var(--primitive-blue-700); }
+.price-old { text-decoration: line-through; color: var(--primitive-gray-500); font-size: 1rem; }
+
+.cmp.product-hero { grid-template-columns: 1fr 1fr; align-items: start; }
+.hero-info { display: flex; flex-direction: column; gap: var(--primitive-space-4); }
+.hero-info .actions { display: flex; gap: var(--primitive-space-3); margin-top: var(--primitive-space-4); }
+
+.cmp.checkout-steps { flex-direction: row; justify-content: center; gap: var(--primitive-space-3); background: var(--primitive-gray-50); }
+.cmp.checkout-steps .step.is-active { font-weight: 800; color: var(--primitive-blue-600); }
+.cmp.checkout-steps .sep { color: var(--primitive-gray-400); }
 
 /* AI COMPONENTS - BLUEPRINTS */
 .cmp.chat-bubble { max-width: 80%; border-radius: var(--ai-bubble-radius); padding: var(--primitive-space-3) var(--primitive-space-5); }

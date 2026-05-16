@@ -1,106 +1,5 @@
 [
   {
-    "id": "1.-universal---input---form-button",
-    "name": "Button",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.button",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---input---form-icon-button",
-    "name": "Icon button",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.button",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---input---form-text-input",
-    "name": "Text input",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---input---form-textarea",
-    "name": "Textarea",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.textarea_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---typography-&-media-overline",
-    "name": "Overline",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.overline",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "1.-universal---input---form-select",
     "name": "Select",
     "category": "1. UNIVERSAL - Input / Form",
@@ -386,82 +285,6 @@
     "profile": "molecule"
   },
   {
-    "id": "1.-universal---input---form-otp-input",
-    "name": "OTP input",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---input---form-search-input",
-    "name": "Search input",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---input---form-tag-input",
-    "name": "Tag input",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---input---form-rating-input",
-    "name": "Rating input",
-    "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "1.-universal---input---form-signature-pad",
     "name": "Signature pad",
     "category": "1. UNIVERSAL - Input / Form",
@@ -517,63 +340,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "1.-universal---navigation-navbar",
-    "name": "Navbar",
-    "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "organisms.navbar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "1.-universal---navigation-sidebar",
-    "name": "Sidebar",
-    "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "organisms.sidebar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "1.-universal---navigation-topbar",
-    "name": "Topbar",
-    "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "organisms.navbar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "1.-universal---navigation-bottom-navigation",
@@ -688,25 +454,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "1.-universal---navigation-mega-menu",
-    "name": "Mega menu",
-    "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "organisms.mega_menu",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "1.-universal---navigation-hamburger-menu",
@@ -1063,25 +810,6 @@
     "profile": "molecule"
   },
   {
-    "id": "1.-universal---feedback---state-progress-bar",
-    "name": "Progress bar",
-    "category": "1. UNIVERSAL - Feedback / State",
-    "blueprint": "atoms.progress",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "1.-universal---feedback---state-skeleton-loader",
     "name": "Skeleton loader",
     "category": "1. UNIVERSAL - Feedback / State",
@@ -1099,25 +827,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "1.-universal---feedback---state-spinner",
-    "name": "Spinner",
-    "category": "1. UNIVERSAL - Feedback / State",
-    "blueprint": "atoms.streaming_dots",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
   },
   {
     "id": "1.-universal---feedback---state-empty-state",
@@ -1500,91 +1209,6 @@
     "profile": "molecule"
   },
   {
-    "id": "1.-universal---data-display-avatar",
-    "name": "Avatar",
-    "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "atoms.avatar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---data-display-badge",
-    "name": "Badge",
-    "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "atoms.badge",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---data-display-chip",
-    "name": "Chip",
-    "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "atoms.badge",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---data-display-tag",
-    "name": "Tag",
-    "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "atoms.badge",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "1.-universal---data-display-statistic-block",
     "name": "Statistic block",
     "category": "1. UNIVERSAL - Data Display",
@@ -1870,44 +1494,6 @@
     "profile": "molecule"
   },
   {
-    "id": "1.-universal---layout-sidebar-layout",
-    "name": "Sidebar layout",
-    "category": "1. UNIVERSAL - Layout",
-    "blueprint": "organisms.sidebar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "1.-universal---layout-dashboard-layout",
-    "name": "Dashboard layout",
-    "category": "1. UNIVERSAL - Layout",
-    "blueprint": "organisms.dashboard_layout",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
     "id": "1.-universal---layout-centered-auth-layout",
     "name": "Centered auth layout",
     "category": "1. UNIVERSAL - Layout",
@@ -1963,50 +1549,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "1.-universal---typography-&-media-heading",
-    "name": "Heading",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.heading",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "h1",
-      "h2",
-      "h3",
-      "h4",
-      "h5",
-      "h6"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---typography-&-media-paragraph",
-    "name": "Paragraph",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.paragraph",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "lead"
-    ],
-    "profile": "atom"
   },
   {
     "id": "1.-universal---typography-&-media-caption",
@@ -2085,25 +1627,6 @@
     "profile": "molecule"
   },
   {
-    "id": "1.-universal---typography-&-media-image",
-    "name": "Image",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.image",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "1.-universal---typography-&-media-video-player",
     "name": "Video player",
     "category": "1. UNIVERSAL - Typography & Media",
@@ -2140,82 +1663,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "1.-universal---typography-&-media-icon",
-    "name": "Icon",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.icon",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---typography-&-media-illustration",
-    "name": "Illustration",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.illustration",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "1.-universal---typography-&-media-lottie-animation",
-    "name": "Lottie animation",
-    "category": "1. UNIVERSAL - Typography & Media",
-    "blueprint": "atoms.lottie",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "2.-saas---dashboard-sidebar-navigation",
-    "name": "Sidebar navigation",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.sidebar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-workspace-switcher",
@@ -2256,25 +1703,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-saas---dashboard-user-team-management",
-    "name": "User/team management",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.saas_user_management",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
     "id": "2.-saas---dashboard-role-permission-matrix",
     "name": "Role permission matrix",
     "category": "2. SaaS / Dashboard",
@@ -2311,25 +1739,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-saas---dashboard-analytics-cards",
-    "name": "Analytics cards",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.analytics_grid",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-advanced-filters",
@@ -2427,44 +1836,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-saas---dashboard-settings-panel",
-    "name": "Settings panel",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.settings_panel",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "2.-saas---dashboard-billing-portal",
-    "name": "Billing portal",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.saas_billing_portal",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
     "id": "2.-saas---dashboard-subscription-management",
     "name": "Subscription management",
     "category": "2. SaaS / Dashboard",
@@ -2482,63 +1853,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-saas---dashboard-usage-meter",
-    "name": "Usage meter",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "atoms.progress",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "2.-saas---dashboard-api-key-manager",
-    "name": "API key manager",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.saas_api_key_manager",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "2.-saas---dashboard-integration-cards",
-    "name": "Integration cards",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.saas_integration_grid",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-saas---dashboard-webhook-manager",
@@ -2596,44 +1910,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-saas---dashboard-activity-timeline",
-    "name": "Activity timeline",
-    "category": "2. SaaS / Dashboard",
-    "blueprint": "organisms.saas_activity_timeline",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "2.-e-commerce-product-grid",
-    "name": "Product grid",
-    "category": "2. E-commerce",
-    "blueprint": "organisms.product_grid",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-e-commerce-product-card",
@@ -2788,25 +2064,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-e-commerce-zoom-image",
-    "name": "Zoom image",
-    "category": "2. E-commerce",
-    "blueprint": "atoms.image",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "2.-e-commerce-recently-viewed",
     "name": "Recently viewed",
     "category": "2. E-commerce",
@@ -2843,25 +2100,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-e-commerce-checkout-steps",
-    "name": "Checkout steps",
-    "category": "2. E-commerce",
-    "blueprint": "organisms.checkout_steps",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-e-commerce-address-form",
@@ -2919,25 +2157,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-e-commerce-coupon-input",
-    "name": "Coupon input",
-    "category": "2. E-commerce",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
   },
   {
     "id": "2.-e-commerce-order-summary",
@@ -3073,28 +2292,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-e-commerce-stock-urgency-badge",
-    "name": "Stock urgency badge",
-    "category": "2. E-commerce",
-    "blueprint": "atoms.badge",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "2.-e-commerce-social-proof-popup",
     "name": "Social proof popup",
     "category": "2. E-commerce",
@@ -3112,63 +2309,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-ai---llm-apps-chat-window",
-    "name": "Chat window",
-    "category": "2. AI / LLM Apps",
-    "blueprint": "organisms.chat_window",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "2.-ai---llm-apps-prompt-input",
-    "name": "Prompt input",
-    "category": "2. AI / LLM Apps",
-    "blueprint": "atoms.input_raw",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "2.-ai---llm-apps-streaming-response",
-    "name": "Streaming response",
-    "category": "2. AI / LLM Apps",
-    "blueprint": "atoms.streaming_dots",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
   },
   {
     "id": "2.-ai---llm-apps-typing-indicator",
@@ -3266,25 +2406,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-ai---llm-apps-ai-agent-status",
-    "name": "AI agent status",
-    "category": "2. AI / LLM Apps",
-    "blueprint": "atoms.status_dot",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "2.-ai---llm-apps-tool-execution-logs",
     "name": "Tool execution logs",
     "category": "2. AI / LLM Apps",
@@ -3378,25 +2499,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-ai---llm-apps-ai-playground",
-    "name": "AI playground",
-    "category": "2. AI / LLM Apps",
-    "blueprint": "organisms.ai_playground",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-ai---llm-apps-node-workflows",
@@ -3969,25 +3071,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-cms---blog-reading-progress",
-    "name": "Reading progress",
-    "category": "2. CMS / Blog",
-    "blueprint": "atoms.progress",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "2.-cms---blog-content-blocks",
     "name": "Content blocks",
     "category": "2. CMS / Blog",
@@ -4140,47 +3223,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-social-media-follow-button",
-    "name": "Follow button",
-    "category": "2. Social Media",
-    "blueprint": "atoms.button",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "2.-social-media-dm-chat",
-    "name": "DM/chat",
-    "category": "2. Social Media",
-    "blueprint": "organisms.chat_window",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
     "id": "2.-social-media-live-room",
     "name": "Live room",
     "category": "2. Social Media",
@@ -4198,25 +3240,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-social-media-typing-status",
-    "name": "Typing status",
-    "category": "2. Social Media",
-    "blueprint": "atoms.status_dot",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
   },
   {
     "id": "2.-social-media-online-presence",
@@ -4716,47 +3739,6 @@
     "profile": "molecule"
   },
   {
-    "id": "2.-education-progress-tracker",
-    "name": "Progress tracker",
-    "category": "2. Education",
-    "blueprint": "atoms.progress",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
-  },
-  {
-    "id": "2.-education-achievement-badges",
-    "name": "Achievement badges",
-    "category": "2. Education",
-    "blueprint": "atoms.badge",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "2.-education-lesson-navigation",
     "name": "Lesson navigation",
     "category": "2. Education",
@@ -4774,25 +3756,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-education-code-playground",
-    "name": "Code playground",
-    "category": "2. Education",
-    "blueprint": "organisms.ai_playground",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "2.-education-assignment-submission",
@@ -4907,25 +3870,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "2.-developer-tools-deployment-status",
-    "name": "Deployment status",
-    "category": "2. Developer Tools",
-    "blueprint": "atoms.status_dot",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "atom"
   },
   {
     "id": "2.-developer-tools-ci-cd-pipeline-viewer",
@@ -5154,25 +4098,6 @@
       "default"
     ],
     "profile": "molecule"
-  },
-  {
-    "id": "3.-web-specific-mega-menus",
-    "name": "Mega menus",
-    "category": "3. WEB-SPECIFIC",
-    "blueprint": "organisms.mega_menu",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
   },
   {
     "id": "3.-web-specific-multi-column-layouts",
@@ -5656,28 +4581,6 @@
     "profile": "molecule"
   },
   {
-    "id": "4.-mobile-specific-floating-action-button",
-    "name": "Floating action button",
-    "category": "4. MOBILE-SPECIFIC",
-    "blueprint": "atoms.button",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "4.-mobile-specific-pull-to-refresh",
     "name": "Pull to refresh",
     "category": "4. MOBILE-SPECIFIC",
@@ -5925,28 +4828,6 @@
     "profile": "molecule"
   },
   {
-    "id": "4.-mobile-first-ux-floating-compose-button",
-    "name": "Floating compose button",
-    "category": "4. Mobile-first UX",
-    "blueprint": "atoms.button",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "profile": "atom"
-  },
-  {
     "id": "4.-mobile-first-ux-story-reel-ui",
     "name": "Story/reel UI",
     "category": "4. Mobile-first UX",
@@ -6121,68 +5002,29 @@
     "profile": "molecule"
   },
   {
-    "id": "templates-dashboard-template",
-    "name": "Dashboard Template",
-    "category": "Templates",
-    "blueprint": "templates.dashboard",
+    "id": "2.-e-commerce-cart-item",
+    "name": "Cart Item",
+    "category": "2. E-commerce",
+    "blueprint": "molecules.cart_item",
     "states": [
       "default"
     ],
     "types": [
       "default"
     ],
-    "profile": "template"
+    "profile": "molecule"
   },
   {
-    "id": "templates-landing-page-template",
-    "name": "Landing Page Template",
-    "category": "Templates",
-    "blueprint": "templates.landing_page",
+    "id": "2.-e-commerce-price-tag",
+    "name": "Price Tag",
+    "category": "2. E-commerce",
+    "blueprint": "molecules.ecommerce_price_tag",
     "states": [
       "default"
     ],
     "types": [
       "default"
     ],
-    "profile": "template"
-  },
-  {
-    "id": "templates-product-page-template",
-    "name": "Product Page Template",
-    "category": "Templates",
-    "blueprint": "templates.product_page",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "template"
-  },
-  {
-    "id": "templates-article-page-template",
-    "name": "Article Page Template",
-    "category": "Templates",
-    "blueprint": "templates.article_page",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "template"
-  },
-  {
-    "id": "templates-auth-page-template",
-    "name": "Auth Page Template",
-    "category": "Templates",
-    "blueprint": "templates.auth_page",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "template"
+    "profile": "molecule"
   }
 ]

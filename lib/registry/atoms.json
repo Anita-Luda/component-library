@@ -1,0 +1,781 @@
+[
+  {
+    "id": "1.-universal---input---form-button",
+    "name": "Button",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.button",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-icon-button",
+    "name": "Icon button",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.button",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-text-input",
+    "name": "Text input",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-textarea",
+    "name": "Textarea",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.textarea_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-overline",
+    "name": "Overline",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.overline",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-otp-input",
+    "name": "OTP input",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-search-input",
+    "name": "Search input",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-tag-input",
+    "name": "Tag input",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-rating-input",
+    "name": "Rating input",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---feedback---state-progress-bar",
+    "name": "Progress bar",
+    "category": "1. UNIVERSAL - Feedback / State",
+    "blueprint": "atoms.progress",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---feedback---state-spinner",
+    "name": "Spinner",
+    "category": "1. UNIVERSAL - Feedback / State",
+    "blueprint": "atoms.streaming_dots",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---data-display-avatar",
+    "name": "Avatar",
+    "category": "1. UNIVERSAL - Data Display",
+    "blueprint": "atoms.avatar",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---data-display-badge",
+    "name": "Badge",
+    "category": "1. UNIVERSAL - Data Display",
+    "blueprint": "atoms.badge",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---data-display-chip",
+    "name": "Chip",
+    "category": "1. UNIVERSAL - Data Display",
+    "blueprint": "atoms.badge",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---data-display-tag",
+    "name": "Tag",
+    "category": "1. UNIVERSAL - Data Display",
+    "blueprint": "atoms.badge",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-heading",
+    "name": "Heading",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.heading",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-paragraph",
+    "name": "Paragraph",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.paragraph",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "lead"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-image",
+    "name": "Image",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.image",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-icon",
+    "name": "Icon",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.icon",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-illustration",
+    "name": "Illustration",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.illustration",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---typography-&-media-lottie-animation",
+    "name": "Lottie animation",
+    "category": "1. UNIVERSAL - Typography & Media",
+    "blueprint": "atoms.lottie",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-saas---dashboard-usage-meter",
+    "name": "Usage meter",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "atoms.progress",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-e-commerce-zoom-image",
+    "name": "Zoom image",
+    "category": "2. E-commerce",
+    "blueprint": "atoms.image",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-e-commerce-coupon-input",
+    "name": "Coupon input",
+    "category": "2. E-commerce",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-e-commerce-stock-urgency-badge",
+    "name": "Stock urgency badge",
+    "category": "2. E-commerce",
+    "blueprint": "atoms.badge",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-ai---llm-apps-prompt-input",
+    "name": "Prompt input",
+    "category": "2. AI / LLM Apps",
+    "blueprint": "atoms.input_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-ai---llm-apps-streaming-response",
+    "name": "Streaming response",
+    "category": "2. AI / LLM Apps",
+    "blueprint": "atoms.streaming_dots",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-ai---llm-apps-ai-agent-status",
+    "name": "AI agent status",
+    "category": "2. AI / LLM Apps",
+    "blueprint": "atoms.status_dot",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-cms---blog-reading-progress",
+    "name": "Reading progress",
+    "category": "2. CMS / Blog",
+    "blueprint": "atoms.progress",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-social-media-follow-button",
+    "name": "Follow button",
+    "category": "2. Social Media",
+    "blueprint": "atoms.button",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-social-media-typing-status",
+    "name": "Typing status",
+    "category": "2. Social Media",
+    "blueprint": "atoms.status_dot",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-education-progress-tracker",
+    "name": "Progress tracker",
+    "category": "2. Education",
+    "blueprint": "atoms.progress",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-education-achievement-badges",
+    "name": "Achievement badges",
+    "category": "2. Education",
+    "blueprint": "atoms.badge",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "2.-developer-tools-deployment-status",
+    "name": "Deployment status",
+    "category": "2. Developer Tools",
+    "blueprint": "atoms.status_dot",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "4.-mobile-specific-floating-action-button",
+    "name": "Floating action button",
+    "category": "4. MOBILE-SPECIFIC",
+    "blueprint": "atoms.button",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "4.-mobile-first-ux-floating-compose-button",
+    "name": "Floating compose button",
+    "category": "4. Mobile-first UX",
+    "blueprint": "atoms.button",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default",
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-select",
+    "name": "Select",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.select_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-toggle",
+    "name": "Toggle",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.toggle_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  },
+  {
+    "id": "1.-universal---input---form-range",
+    "name": "Range",
+    "category": "1. UNIVERSAL - Input / Form",
+    "blueprint": "atoms.range_raw",
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "error",
+      "success"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "atom"
+  }
+]

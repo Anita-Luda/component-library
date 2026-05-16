@@ -4,11 +4,23 @@ let currentTheme = null;
 
 async function init() {
     try {
-        const [regRes, themeRes] = await Promise.all([
-            fetch('registry.json'),
+        const [regAtoms, regMols, regOrgs, regTemps, themeRes] = await Promise.all([
+            fetch('lib/registry/atoms.json'),
+            fetch('lib/registry/molecules.json'),
+            fetch('lib/registry/organisms.json'),
+            fetch('lib/registry/templates.json'),
             fetch('joy_themes.json')
         ]);
-        registry = await regRes.json();
+
+        const segments = await Promise.all([
+            regAtoms.json(),
+            regMols.json(),
+            regOrgs.json(),
+            regTemps.json()
+        ]);
+
+        registry = segments.flat();
+
         const themeData = await themeRes.json();
         themes = themeData.themes;
 
