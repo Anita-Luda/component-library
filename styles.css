@@ -1,5 +1,5 @@
 /*
-   3-TIER DESIGN TOKENS ARCHITECTURE - AI & CORE REFINED
+   3-TIER DESIGN TOKENS ARCHITECTURE - REFINED
 */
 
 :root {
@@ -13,7 +13,9 @@
   --primitive-gray-100: #f0f2f5;
   --primitive-white: #ffffff;
   --primitive-red-500: #dc3545;
+  --primitive-red-100: rgba(220, 53, 69, 0.1);
   --primitive-green-500: #28a745;
+  --primitive-green-100: rgba(40, 167, 69, 0.1);
 
   --primitive-radius-md: 8px;
   --primitive-radius-sm: 4px;
@@ -29,9 +31,12 @@
   --primitive-space-8: 32px;
 
   /* --- TIER 2: SEMANTIC --- */
-  --semantic-color-action-primary: var(--primitive-blue-500);
-  --semantic-color-action-secondary: var(--primitive-gray-500);
-  --semantic-color-action-tertiary: var(--primitive-gray-100);
+  --semantic-color-action-primary-bg: var(--primitive-blue-500);
+  --semantic-color-action-primary-text: var(--primitive-white);
+  --semantic-color-action-secondary-bg: var(--primitive-gray-500);
+  --semantic-color-action-secondary-text: var(--primitive-white);
+  --semantic-color-action-tertiary-bg: var(--primitive-gray-100);
+  --semantic-color-action-tertiary-text: var(--primitive-gray-900);
 
   --semantic-color-text-main: var(--primitive-gray-900);
   --semantic-color-text-muted: var(--primitive-gray-500);
@@ -42,8 +47,16 @@
   --semantic-color-bg-layout: var(--primitive-gray-100);
   --semantic-color-border-main: #ccd0d5;
 
-  --semantic-color-status-error: var(--primitive-red-500);
-  --semantic-color-status-success: var(--primitive-green-500);
+  --semantic-color-status-error-bg: var(--primitive-red-100);
+  --semantic-color-status-error-text: var(--primitive-red-500);
+  --semantic-color-status-error-border: var(--primitive-red-500);
+
+  --semantic-color-status-success-bg: var(--primitive-green-100);
+  --semantic-color-status-success-text: var(--primitive-green-500);
+  --semantic-color-status-success-border: var(--primitive-green-500);
+
+  --semantic-color-disabled-bg: var(--primitive-gray-100);
+  --semantic-color-disabled-text: var(--primitive-gray-500);
 
   --semantic-shape-radius: var(--primitive-radius-md);
   --semantic-shape-radius-large: var(--primitive-radius-lg);
@@ -70,13 +83,67 @@
   align-items: center;
   gap: var(--primitive-space-2);
   padding: var(--primitive-space-3) var(--primitive-space-5);
-  background: var(--cmp-bg);
-  color: var(--cmp-text);
-  border: 1px solid var(--cmp-border-color);
-  border-radius: var(--cmp-radius);
+  background: var(--semantic-color-bg-main);
+  color: var(--semantic-color-text-main);
+  border: 1px solid var(--semantic-color-border-main);
+  border-radius: var(--semantic-shape-radius);
   transition: all 0.2s ease;
   font-family: inherit;
   font-size: 1rem;
+}
+
+/* TYPES */
+.cmp.type-primary {
+  background-color: var(--semantic-color-action-primary-bg);
+  color: var(--semantic-color-action-primary-text);
+  border-color: var(--semantic-color-action-primary-bg);
+}
+
+.cmp.type-secondary {
+  background-color: var(--semantic-color-action-secondary-bg);
+  color: var(--semantic-color-action-secondary-text);
+  border-color: var(--semantic-color-action-secondary-bg);
+}
+
+.cmp.type-tertiary {
+  background-color: var(--semantic-color-action-tertiary-bg);
+  color: var(--semantic-color-action-tertiary-text);
+  border-color: var(--semantic-color-border-main);
+}
+
+/* STATES */
+.cmp.state-error, .cmp.force-error {
+  background-color: var(--semantic-color-status-error-bg);
+  color: var(--semantic-color-status-error-text);
+  border-color: var(--semantic-color-status-error-border);
+}
+
+.cmp.state-success, .cmp.force-success {
+  background-color: var(--semantic-color-status-success-bg);
+  color: var(--semantic-color-status-success-text);
+  border-color: var(--semantic-color-status-success-border);
+}
+
+.cmp.state-disabled, .cmp:disabled {
+  background-color: var(--semantic-color-disabled-bg);
+  color: var(--semantic-color-disabled-text);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* HOVER / FOCUS / ACTIVE */
+.cmp:hover, .cmp.force-hover {
+  filter: brightness(0.95);
+}
+
+.cmp:focus, .cmp.force-focus {
+  box-shadow: var(--semantic-focus-ring);
+  outline: none;
+}
+
+.cmp:active, .cmp.force-active {
+  filter: contrast(1.2);
+  transform: scale(0.98);
 }
 
 /* ATOMIC DESIGN CLASSES */
@@ -89,22 +156,17 @@
 .cmp.chat-bubble.user { align-self: flex-end; background: var(--ai-bubble-user-bg); color: var(--ai-bubble-user-text); border-bottom-right-radius: 4px; }
 .cmp.chat-bubble.bot { align-self: flex-start; background: var(--ai-bubble-bot-bg); color: var(--ai-bubble-bot-text); border-bottom-left-radius: 4px; }
 
-.cmp.streaming-dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; animation: ai-stream var(--ai-streaming-animation-speed) infinite; opacity: 0.3; }
-.cmp.streaming-dot:nth-child(2) { animation-delay: 0.2s; }
-.cmp.streaming-dot:nth-child(3) { animation-delay: 0.4s; }
+.cmp.streaming-dots span { animation: ai-stream var(--ai-streaming-animation-speed) infinite; opacity: 0.3; display: inline-block; }
+.cmp.streaming-dots span:nth-child(2) { animation-delay: 0.2s; }
+.cmp.streaming-dots span:nth-child(3) { animation-delay: 0.4s; }
 
 @keyframes ai-stream { 0%, 100% { opacity: 0.3; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-4px); } }
-
-/* STATE FORCING */
-.cmp.force-hover { background-color: var(--primitive-gray-100); filter: brightness(0.95); }
-.cmp.force-focus { box-shadow: var(--semantic-focus-ring); outline: none; }
-.cmp.force-active { filter: contrast(1.2); transform: scale(0.98); }
 
 /* LAYOUT REFINEMENTS */
 section.cmp, header.cmp, footer.cmp, main.cmp, nav.cmp { display: flex; }
 div.cmp.stack { flex-direction: column; gap: var(--semantic-layout-gap-stack); }
 div.cmp.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--semantic-layout-gap-grid); }
-.cmp.spinner { width: var(--primitive-space-6); height: var(--primitive-space-6); border-radius: 50%; border-top-color: var(--semantic-color-action-primary); animation: spin 1s linear infinite; }
+.cmp.spinner { width: var(--primitive-space-6); height: var(--primitive-space-6); border-radius: 50%; border-top-color: var(--semantic-color-action-primary-bg); animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* TEMPLATE STYLES */
