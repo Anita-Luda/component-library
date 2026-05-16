@@ -6,10 +6,7 @@ LEGENDA:
 TYPY: default, primary, secondary, tertiary
 STANY: default, hover, focus, active, disabled, error, success
 
-UWAGA: Wszystkie komponenty wspierają pełne 7 stanów.
-Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentów:
- - Dla komponentów czysto strukturalnych (np. Grid, Section) lub danych (np. Tabela),
-   wariacje wizualne są sterowane tokenami motywu, a nie typem przycisku.
+UWAGA: Wszystkie komponenty wspierają pełne 7 stanów (poza szablonami).
 
 
 ## KATEGORIA: 1. UNIVERSAL - Input / Form
@@ -31,168 +28,168 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Textarea
     - Profil: Atom
     - Blueprint: atoms.textarea_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Select
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Multi-select
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Combobox
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Autocomplete
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Checkbox
     - Profil: Molecule
     - Blueprint: molecules.choice_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Radio
     - Profil: Molecule
     - Blueprint: molecules.choice_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Toggle / switch
     - Profil: Molecule
     - Blueprint: molecules.choice_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Slider
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Range slider
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Stepper
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Date picker
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Time picker
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Color picker
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: File upload
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Drag & drop upload
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: OTP input
     - Profil: Atom
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Search input
     - Profil: Atom
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tag input
     - Profil: Atom
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Rating input
     - Profil: Atom
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Signature pad
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Rich text editor
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Markdown editor
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Input / Form nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 1. UNIVERSAL - Navigation
 
@@ -201,126 +198,126 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: organisms.navbar
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sidebar
     - Profil: Organism
     - Blueprint: organisms.sidebar
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Topbar
     - Profil: Organism
     - Blueprint: organisms.navbar
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Bottom navigation
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Breadcrumbs
     - Profil: Molecule
     - Blueprint: molecules.breadcrumb
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tabs
     - Profil: Molecule
     - Blueprint: molecules.tabs
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Pills
     - Profil: Molecule
     - Blueprint: molecules.tabs
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Pagination
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Pagination infinite scroll
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Mega menu
     - Profil: Organism
     - Blueprint: organisms.mega_menu
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Hamburger menu
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Context menu
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Command palette
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tree navigation
     - Profil: Molecule
     - Blueprint: molecules.tree_item
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Dock navigation
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Floating nav
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Anchor navigation
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Wizard / step navigation
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Navigation nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 1. UNIVERSAL - Feedback / State
 
@@ -353,112 +350,112 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Modal
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Drawer
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sheet
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tooltip
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Popover
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Progress bar
     - Profil: Atom
     - Blueprint: atoms.progress
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Skeleton loader
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Spinner
     - Profil: Atom
     - Blueprint: atoms.streaming_dots
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Empty state
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Error state
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Success state
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Maintenance state
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Offline state
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Permission denied state
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Loading overlay
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Feedback / State nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 1. UNIVERSAL - Data Display
 
@@ -467,98 +464,98 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Table
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Data grid
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: List
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Accordion
     - Profil: Molecule
     - Blueprint: molecules.accordion
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Timeline
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Carousel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Gallery
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Chart
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Heatmap
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Kanban board
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Calendar
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tree view
     - Profil: Molecule
     - Blueprint: molecules.tree_item
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Avatar
     - Profil: Atom
     - Blueprint: atoms.avatar
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Badge
     - Profil: Atom
@@ -583,49 +580,49 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.statistic
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: KPI tile
     - Profil: Molecule
     - Blueprint: molecules.statistic
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Activity feed
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Log viewer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: JSON viewer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Code block
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Terminal block
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Data Display nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 1. UNIVERSAL - Layout
 
@@ -634,91 +631,91 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Section
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Grid
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Stack
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Split pane
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Resizable panel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Masonry
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Bento grid
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sidebar layout
     - Profil: Organism
     - Blueprint: organisms.sidebar
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Dashboard layout
     - Profil: Organism
     - Blueprint: organisms.dashboard_layout
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Centered auth layout
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sticky footer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sticky header
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Layout nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 1. UNIVERSAL - Typography & Media
 
@@ -727,84 +724,84 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: atoms.heading
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Paragraph
     - Profil: Atom
     - Blueprint: atoms.paragraph
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Caption
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Link
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Blockquote
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Code inline
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Image
     - Profil: Atom
     - Blueprint: atoms.image
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Video player
     - Profil: Molecule
     - Blueprint: molecules.media_block
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Audio player
     - Profil: Molecule
     - Blueprint: molecules.media_block
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Icon
     - Profil: Atom
     - Blueprint: atoms.icon
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Illustration
     - Profil: Atom
     - Blueprint: atoms.illustration
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Lottie animation
     - Profil: Atom
     - Blueprint: atoms.lottie
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 1. UNIVERSAL - Typography & Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. SaaS / Dashboard
 
@@ -813,154 +810,154 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: organisms.sidebar
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Workspace switcher
     - Profil: Molecule
     - Blueprint: molecules.choice_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Organization switcher
     - Profil: Molecule
     - Blueprint: molecules.choice_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: User/team management
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Role permission matrix
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Audit logs
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Analytics cards
     - Profil: Organism
     - Blueprint: organisms.analytics_grid
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Advanced filters
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Saved views
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Data tables
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Bulk actions
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Command palette
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Settings panel
     - Profil: Organism
     - Blueprint: organisms.settings_panel
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Billing portal
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Subscription management
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Usage meter
     - Profil: Atom
     - Blueprint: atoms.progress
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: API key manager
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Integration cards
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Webhook manager
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Feature flags
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Notification center
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Activity timeline
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. SaaS / Dashboard nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. E-commerce
 
@@ -969,168 +966,168 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: organisms.product_grid
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Product card
     - Profil: Molecule
     - Blueprint: molecules.product_card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Quick preview
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Wishlist
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Compare products
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Variant selector
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Size picker
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Color swatches
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Product media gallery
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Zoom image
     - Profil: Atom
     - Blueprint: atoms.image
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Recently viewed
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Cart drawer
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Checkout steps
     - Profil: Organism
     - Blueprint: organisms.checkout_steps
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Address form
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Shipping selector
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Payment selector
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Coupon input
     - Profil: Atom
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Order summary
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Order tracking
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Returns panel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Upsell modal
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Cross-sell carousel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Recommended products
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Flash sale timer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Stock urgency badge
     - Profil: Atom
@@ -1143,7 +1140,7 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. E-commerce nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. AI / LLM Apps
 
@@ -1152,147 +1149,147 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: organisms.chat_window
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Prompt input
     - Profil: Atom
     - Blueprint: atoms.input_raw
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Streaming response
     - Profil: Atom
     - Blueprint: atoms.streaming_dots
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Typing indicator
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Token counter
     - Profil: Molecule
     - Blueprint: molecules.token_display
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Model selector
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Context window indicator
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Conversation history
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: AI agent status
     - Profil: Atom
     - Blueprint: atoms.status_dot
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tool execution logs
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Chain-of-thought visualizer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: AI citations
     - Profil: Molecule
     - Blueprint: molecules.ai_citation
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Multi-agent panel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Prompt templates
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: AI playground
     - Profil: Organism
     - Blueprint: organisms.ai_playground
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Node workflows
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Memory manager
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Retrieval source viewer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Confidence indicator
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Human handoff
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: AI approval flow
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. AI / LLM Apps nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Task Management
 
@@ -1301,105 +1298,105 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Calendar
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Timeline
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Gantt chart
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Task card
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Nested subtasks
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Assignee selector
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Rich comments
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Activity history
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Time tracking
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sprint board
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Roadmap
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Whiteboard
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Collaboration cursors
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Presence indicators
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Task Management nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. CMS / Blog
 
@@ -1408,91 +1405,91 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Slash command editor
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Media library
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Draft/publish workflow
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: SEO preview
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Table of contents
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Version history
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Comments
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Inline annotations
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Reading progress
     - Profil: Atom
     - Blueprint: atoms.progress
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Content blocks
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: MDX editor
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: AI writing assistant
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. CMS / Blog nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Social Media
 
@@ -1501,35 +1498,35 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Stories
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Reactions
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Comments
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Share sheet
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Follow button
     - Profil: Atom
@@ -1542,49 +1539,49 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: organisms.chat_window
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Live room
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Typing status
     - Profil: Atom
     - Blueprint: atoms.status_dot
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Online presence
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Notification feed
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Infinite scroll feed
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Creator dashboard
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Social Media nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Fintech
 
@@ -1593,63 +1590,63 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Balance cards
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Spending chart
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Portfolio chart
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Trading view
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Watchlist
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Risk indicators
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: KYC flow
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Identity verification
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Fraud alert
     - Profil: Molecule
@@ -1662,14 +1659,14 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Transfer wizard
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Fintech nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Healthcare
 
@@ -1678,49 +1675,49 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Medical records viewer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Prescription panel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Symptoms intake
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: HIPAA consent forms
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Video consultation
     - Profil: Molecule
     - Blueprint: molecules.media_block
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Insurance verification
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Healthcare nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Education
 
@@ -1729,28 +1726,28 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Quiz builder
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Flashcards
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Progress tracker
     - Profil: Atom
     - Blueprint: atoms.progress
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Achievement badges
     - Profil: Atom
@@ -1763,21 +1760,21 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Code playground
     - Profil: Organism
     - Blueprint: organisms.ai_playground
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Assignment submission
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Education nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Developer Tools
 
@@ -1786,63 +1783,63 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Code editor
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Terminal
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Diff viewer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Logs
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Deployment status
     - Profil: Atom
     - Blueprint: atoms.status_dot
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze atom nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: CI/CD pipeline viewer
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Environment selector
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: DB table explorer
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Developer Tools nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 2. Analytics / BI
 
@@ -1851,56 +1848,56 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Drill-down charts
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Pivot tables
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Segmentation builder
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Funnel charts
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Cohort analysis
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Report builder
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Dashboard widgets
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 2. Analytics / BI nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 3. WEB-SPECIFIC
 
@@ -1909,98 +1906,98 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Mega menus
     - Profil: Organism
     - Blueprint: organisms.mega_menu
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze organism nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Multi-column layouts
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Resizable panels
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Right-click context menus
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Multi-window layouts
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Keyboard shortcut overlays
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Drag-and-drop desktop style
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Data-dense tables
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Sticky columns
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Browser tabs UI
     - Profil: Molecule
     - Blueprint: molecules.tabs
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Floating toolbars
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Advanced search filters
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Multi-select with keyboard support
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. WEB-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 3. Marketing Website
 
@@ -2009,56 +2006,56 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: CTA blocks
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Testimonials
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Pricing tables
     - Profil: Molecule
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: FAQ accordion
     - Profil: Molecule
     - Blueprint: molecules.accordion
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Logo cloud
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Feature comparison
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Newsletter form
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Cookie banner
     - Profil: Molecule
@@ -2077,14 +2074,14 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Exit intent popup
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 3. Marketing Website nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 4. MOBILE-SPECIFIC
 
@@ -2093,7 +2090,7 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Floating action button
     - Profil: Atom
@@ -2106,84 +2103,84 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Swipe actions
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Bottom sheet
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Native picker wheel
     - Profil: Molecule
     - Blueprint: molecules.form_field
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Swipeable cards
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Gesture navigation
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Haptic feedback UI
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Camera capture UI
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Mobile keyboard accessory bar
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Biometric auth prompt
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Native share sheet
     - Profil: Molecule
     - Blueprint: molecules.modal
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Deep link handoff
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. MOBILE-SPECIFIC nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 ## KATEGORIA: 4. Mobile-first UX
 
@@ -2192,7 +2189,7 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. Mobile-first UX nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Floating compose button
     - Profil: Atom
@@ -2205,35 +2202,35 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. Mobile-first UX nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Vertical swipe feed
     - Profil: Molecule
     - Blueprint: molecules.list
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. Mobile-first UX nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Snap carousel
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. Mobile-first UX nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Tap-and-hold menus
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. Mobile-first UX nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Mobile onboarding slides
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 4. Mobile-first UX nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Install app banners
     - Profil: Molecule
@@ -2248,18 +2245,50 @@ Uzasadnienie braku typów primary/secondary/tertiary dla niektórych komponentó
     - Blueprint: molecules.table
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 5. Enterprise nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Org hierarchy tree
     - Profil: Molecule
     - Blueprint: molecules.tree_item
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 5. Enterprise nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
 
 - [x] KOMPONENT: Compliance dashboard
     - Profil: Molecule
     - Blueprint: molecules.card
     - Stany [7/7]: [x] default, [x] hover, [x] focus, [x] active, [x] disabled, [x] error, [x] success
     - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
-    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule / 5. Enterprise nie wymaga wariantów hierarchicznych (priorytetów wizualnych) na poziomie struktury HTML. Stylizacja odbywa się globalnie przez design tokens.
+    - Uzasadnienie braku (primary, secondary, tertiary): Komponent o charakterze molecule nie wymaga wariantów hierarchicznych.
+
+## KATEGORIA: Templates
+
+- [x] KOMPONENT: Dashboard Template
+    - Profil: Template
+    - Blueprint: templates.dashboard
+    - Stany [1/1]: [x] default (Szablony są bezstanowe)
+    - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
+
+- [x] KOMPONENT: Landing Page Template
+    - Profil: Template
+    - Blueprint: templates.landing_page
+    - Stany [1/1]: [x] default (Szablony są bezstanowe)
+    - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
+
+- [x] KOMPONENT: Product Page Template
+    - Profil: Template
+    - Blueprint: templates.product_page
+    - Stany [1/1]: [x] default (Szablony są bezstanowe)
+    - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
+
+- [x] KOMPONENT: Article Page Template
+    - Profil: Template
+    - Blueprint: templates.article_page
+    - Stany [1/1]: [x] default (Szablony są bezstanowe)
+    - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary
+
+- [x] KOMPONENT: Auth Page Template
+    - Profil: Template
+    - Blueprint: templates.auth_page
+    - Stany [1/1]: [x] default (Szablony są bezstanowe)
+    - Typy: [x] default, [ ] primary, [ ] secondary, [ ] tertiary

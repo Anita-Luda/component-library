@@ -6094,5 +6094,70 @@
       "default"
     ],
     "profile": "molecule"
+  },
+  {
+    "id": "templates-dashboard-template",
+    "name": "Dashboard Template",
+    "category": "Templates",
+    "blueprint": "templates.dashboard",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "template"
+  },
+  {
+    "id": "templates-landing-page-template",
+    "name": "Landing Page Template",
+    "category": "Templates",
+    "blueprint": "templates.landing_page",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "template"
+  },
+  {
+    "id": "templates-product-page-template",
+    "name": "Product Page Template",
+    "category": "Templates",
+    "blueprint": "templates.product_page",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "template"
+  },
+  {
+    "id": "templates-article-page-template",
+    "name": "Article Page Template",
+    "category": "Templates",
+    "blueprint": "templates.article_page",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "template"
+  },
+  {
+    "id": "templates-auth-page-template",
+    "name": "Auth Page Template",
+    "category": "Templates",
+    "blueprint": "templates.auth_page",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "template"
   }
 ]

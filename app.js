@@ -96,46 +96,57 @@ function renderComponent(comp) {
     const blueprintPath = comp.blueprint.split('.');
     const blueprintFn = Library[blueprintPath[0]][blueprintPath[1]];
 
-    comp.types.forEach(type => {
+    if (comp.profile === 'template') {
         const section = document.createElement('section');
-        section.innerHTML = `<h2>Typ: ${type}</h2>`;
-        const grid = document.createElement('div');
-        grid.className = 'variants-grid';
-
-        comp.states.forEach(state => {
-            const variantBox = document.createElement('article');
-            variantBox.className = 'variant-box';
-            variantBox.innerHTML = `<header><span class="state-label">${state}</span></header>`;
-
-            const isVideo = comp.id.includes('video');
-            const isAudio = comp.id.includes('audio');
-
-            const props = {
-                type, state,
-                content: getContent(comp.profile === 'atom' ? 'short' : 'medium'),
-                level: 2,
-                src: `https://picsum.photos/seed/${comp.id}/100/100`,
-                alt: 'Asset',
-                placeholder: getContent('short'),
-                headers: ['Kolumna 1', 'Kolumna 2'],
-                rows: [[getContent('tiny'), getContent('short')]],
-                items: [getContent('short'), getContent('short')],
-                title: getContent('medium'),
-                label: getContent('short'),
-                value: 42,
-                body: getContent('long'),
-                caption: getContent('medium'),
-                isVideo, isAudio,
-                footer: Atoms.badge({ content: getContent('tiny'), type: 'primary' })
-            };
-
-            variantBox.innerHTML += blueprintFn(props);
-            grid.appendChild(variantBox);
-        });
-
-        section.appendChild(grid);
+        section.className = 'template-showcase';
+        const props = {
+            title: getContent('medium'),
+            body: getContent('long')
+        };
+        section.innerHTML = blueprintFn(props);
         list.appendChild(section);
-    });
+    } else {
+        comp.types.forEach(type => {
+            const section = document.createElement('section');
+            section.innerHTML = `<h2>Typ: ${type}</h2>`;
+            const grid = document.createElement('div');
+            grid.className = 'variants-grid';
+
+            comp.states.forEach(state => {
+                const variantBox = document.createElement('article');
+                variantBox.className = 'variant-box';
+                variantBox.innerHTML = `<header><span class="state-label">${state}</span></header>`;
+
+                const isVideo = comp.id.includes('video');
+                const isAudio = comp.id.includes('audio');
+
+                const props = {
+                    type, state,
+                    content: getContent(comp.profile === 'atom' ? 'short' : 'medium'),
+                    level: 2,
+                    src: `https://picsum.photos/seed/${comp.id}/100/100`,
+                    alt: 'Asset',
+                    placeholder: getContent('short'),
+                    headers: ['Kolumna 1', 'Kolumna 2'],
+                    rows: [[getContent('tiny'), getContent('short')]],
+                    items: [getContent('short'), getContent('short')],
+                    title: getContent('medium'),
+                    label: getContent('short'),
+                    value: 42,
+                    body: getContent('long'),
+                    caption: getContent('medium'),
+                    isVideo, isAudio,
+                    footer: Atoms.badge({ content: getContent('tiny'), type: 'primary' })
+                };
+
+                variantBox.innerHTML += blueprintFn(props);
+                grid.appendChild(variantBox);
+            });
+
+            section.appendChild(grid);
+            list.appendChild(section);
+        });
+    }
     if (window.lucide) window.lucide.createIcons();
 }
 
