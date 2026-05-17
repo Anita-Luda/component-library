@@ -1,3 +1,6 @@
+import { Library } from './library.js';
+import { Atoms } from './lib/atoms.js';
+
 let registry = [];
 let themes = [];
 let currentTheme = null;
@@ -5,7 +8,7 @@ let currentTheme = null;
 async function init() {
     try {
         // Load catalog first
-        await Atoms.loadCatalog();
+        await Library.init();
 
         const [regAtoms, regMols, regOrgs, regTemps, themeRes] = await Promise.all([
             fetch('lib/registry/atoms.json'),
@@ -23,7 +26,7 @@ async function init() {
         ]);
 
         registry = segments.flat();
-        window.registry = registry; // EXPOSE FOR VERIFICATION
+        window.registry = registry;
 
         const themeData = await themeRes.json();
         themes = themeData.themes;
@@ -32,11 +35,18 @@ async function init() {
         setupSearch();
         renderSidebar();
 
+        const params = new URLSearchParams(window.location.search);
+        const urlCompId = params.get('component');
         const lastCompId = localStorage.getItem('last-component-id');
-        if (lastCompId) {
-            const comp = registry.find(c => c.id === lastCompId);
-            if (comp) renderComponent(comp);
+
+        let targetComp = null;
+        if (urlCompId) {
+            targetComp = registry.find(c => c.id === urlCompId || c.name === urlCompId);
+        } else if (lastCompId) {
+            targetComp = registry.find(c => c.id === lastCompId);
         }
+
+        if (targetComp) renderComponent(targetComp);
 
         document.body.classList.remove('loading');
     } catch (e) {
@@ -114,9 +124,6 @@ function renderComponent(comp) {
     if (!list) return;
     list.innerHTML = '';
 
-    const blueprintPath = comp.blueprint.split('.');
-    const blueprintFn = Library[blueprintPath[0]][blueprintPath[1]];
-
     if (comp.profile === 'template') {
         const section = document.createElement('section');
         section.className = 'template-showcase';
@@ -124,7 +131,7 @@ function renderComponent(comp) {
             title: getContent('medium'),
             body: getContent('long')
         };
-        section.innerHTML = (blueprintFn(props) || '');
+        section.innerHTML = Library.get(comp.blueprint, props);
         list.appendChild(section);
     } else {
         comp.types.forEach(type => {
@@ -160,20 +167,7 @@ function renderComponent(comp) {
                     footer: Atoms.badge({ content: getContent('tiny'), type: 'primary' })
                 };
 
-                let html = blueprintFn(props);
-
-                // Content injection for hardcoded snippets
-                if (comp.profile === 'atom') {
-                    const temp = document.createElement('div');
-                    temp.innerHTML = html;
-                    const el = temp.firstElementChild;
-                    const textTags = ["H1","H2","H3","H4","H5","H6","P","SPAN","A","B","I","STRONG","EM","SMALL","LABEL","BUTTON","CAPTION","SUMMARY","KBD","CODE","CITE","DFN","MARK","Q","S","SAMP","SUB","SUP","TIME","U","VAR","DIV","LI","DT","DD"];
-                    if (el && textTags.includes(el.tagName) && el.children.length === 0) {
-                        el.textContent = props.content;
-                    }
-                    html = temp.innerHTML;
-                }
-
+                let html = Library.get(comp.blueprint, props);
                 variantBox.innerHTML += (html || '');
                 grid.appendChild(variantBox);
             });

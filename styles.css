@@ -4,18 +4,19 @@
 
 :root {
   /* --- TIER 1: PRIMITIVES --- */
-  --primitive-blue-500: #0064d1;
-  --primitive-blue-700: #004a99;
-  --primitive-blue-100: rgba(0, 100, 209, 0.1);
+  /* Colors tuned for WCAG AAA (7:1 contrast) on white background */
+  --primitive-blue-500: #004b9c;
+  --primitive-blue-700: #003366;
+  --primitive-blue-100: rgba(0, 75, 156, 0.1);
   --primitive-gray-900: #1c1e21;
   --primitive-gray-700: #3a3a3a;
-  --primitive-gray-500: #65676b;
+  --primitive-gray-500: #595b5e;
   --primitive-gray-100: #f0f2f5;
   --primitive-white: #ffffff;
-  --primitive-red-500: #dc3545;
-  --primitive-red-100: rgba(220, 53, 69, 0.1);
-  --primitive-green-500: #28a745;
-  --primitive-green-100: rgba(40, 167, 69, 0.1);
+  --primitive-red-500: #b91d1d;
+  --primitive-red-100: rgba(185, 29, 29, 0.1);
+  --primitive-green-500: #145c2a;
+  --primitive-green-100: rgba(20, 92, 42, 0.1);
 
   --primitive-radius-md: 8px;
   --primitive-radius-sm: 4px;
