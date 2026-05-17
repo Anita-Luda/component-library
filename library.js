@@ -22,14 +22,19 @@ export const Library = {
             templates: Templates
         }[layer];
 
-        if (!repo || !repo[component]) {
-            console.warn(`Library component not found: ${path}`);
-            return `<div class="lib-error">Missing: ${path}</div>`;
+        if (!repo) {
+            console.warn(`Library layer not found: ${layer}`);
+            return `<div class="lib-error">Layer Missing: ${layer}</div>`;
         }
 
-        // Auto-wrap non-interactable HTML5 tags from atoms
-        if (layer === 'atoms' && !repo[component] && component.startsWith('html5')) {
-             return repo.html5(component, props);
+        // Atoms layer uses specialized get to handle physical catalog fallbacks
+        if (layer === 'atoms') {
+            return repo.get(component, props);
+        }
+
+        if (!repo[component]) {
+            console.warn(`Library component not found: ${path}`);
+            return `<div class="lib-error">Missing: ${path}</div>`;
         }
 
         return repo[component](props);
