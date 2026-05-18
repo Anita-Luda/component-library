@@ -1,0 +1,31 @@
+<div class="showcase-page">
+    <section class="showcase-section">
+        <h2>Prywatność i Powiadomienia</h2>
+        <div class="alert-stack">
+            {{molecules.alert}}
+            {{molecules.toast}}
+        </div>
+    </section>
+
+    <section class="showcase-section">
+        <h2>Wskaźniki Postępu</h2>
+        <div class="flex-row gap-xl">
+            <div class="showcase-col">
+                <h3>Progress Bar</h3>
+                {{atoms.progress.default.default}}
+            </div>
+            <div class="showcase-col">
+                <h3>Spinner / Loader</h3>
+                {{atoms.streaming_dots.default.default}}
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase-section">
+        <h2>Stany Puste i Błędy</h2>
+        <div class="grid-2">
+            {{molecules.card}}
+            {{molecules.card}}
+        </div>
+    </section>
+</div>

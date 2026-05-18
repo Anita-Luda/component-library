@@ -1,0 +1,86 @@
+<div class="showcase-page">
+    <section class="showcase-section">
+        <h2>Przyciski (Buttons)</h2>
+        <p>Prezentacja różnych typów i stanów przycisków w naturalnym układzie.</p>
+
+        <div class="showcase-group">
+            <h3>Typ: Primary</h3>
+            <div class="flex-row">
+                <div class="showcase-item">
+                    <span class="state-label">Default</span>
+                    {{atoms.button.primary.default}}
+                </div>
+                <div class="showcase-item">
+                    <span class="state-label">Hover</span>
+                    {{atoms.button.primary.hover}}
+                </div>
+                <div class="showcase-item">
+                    <span class="state-label">Focus</span>
+                    {{atoms.button.primary.focus}}
+                </div>
+                <div class="showcase-item">
+                    <span class="state-label">Active</span>
+                    {{atoms.button.primary.active}}
+                </div>
+                <div class="showcase-item">
+                    <span class="state-label">Disabled</span>
+                    {{atoms.button.primary.disabled}}
+                </div>
+            </div>
+        </div>
+
+        <div class="showcase-group">
+            <h3>Typ: Secondary</h3>
+            <div class="flex-row">
+                {{atoms.button.secondary.default}}
+                {{atoms.button.secondary.hover}}
+                {{atoms.button.secondary.focus}}
+                {{atoms.button.secondary.disabled}}
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase-section">
+        <h2>Pola Tekstowe (Inputs)</h2>
+        <div class="form-vertical">
+            <div class="showcase-item-full">
+                <label>Domyślne pole tekstowe</label>
+                {{atoms.input_raw.default.default}}
+                <small>Podpowiedź do pola</small>
+            </div>
+
+            <div class="showcase-item-full state-error">
+                <label>Pole z błędem</label>
+                {{atoms.input_raw.default.error}}
+                <small class="error-msg">To pole zawiera błąd logiczny.</small>
+            </div>
+
+            <div class="showcase-item-full state-success">
+                <label>Pole poprawne</label>
+                {{atoms.input_raw.default.success}}
+                <small class="success-msg">Wszystko gra!</small>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase-section">
+        <h2>Wybór (Selection)</h2>
+        <div class="flex-row gap-xl">
+            <div class="showcase-col">
+                <h3>Checkboxy</h3>
+                <label class="choice-item">{{atoms.checkbox.default.default}} <span>Opcja 1</span></label>
+                <label class="choice-item">{{atoms.checkbox.default.default}} <span>Opcja 2</span></label>
+                <label class="choice-item">{{atoms.checkbox.default.disabled}} <span>Opcja wyłączona</span></label>
+            </div>
+            <div class="showcase-col">
+                <h3>Radio</h3>
+                <label class="choice-item">{{atoms.radio.default.default}} <span>Opcja A</span></label>
+                <label class="choice-item">{{atoms.radio.default.default}} <span>Opcja B</span></label>
+            </div>
+            <div class="showcase-col">
+                <h3>Toggle</h3>
+                {{atoms.toggle_raw.default.default}}
+            </div>
+        </div>
+    </section>
+</div>

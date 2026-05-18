@@ -1,0 +1,55 @@
+<div class="showcase-page typography-showcase">
+    <header class="showcase-section">
+        <h1>Typografia (Typography)</h1>
+        <p>Prezentacja hierarchii tekstowej i elementów blokowych.</p>
+    </header>
+
+    <article class="showcase-section">
+        <h2>Nagłówki (Headings)</h2>
+        {{atoms.heading.h1.default}}
+        {{atoms.heading.h2.default}}
+        {{atoms.heading.h3.default}}
+        {{atoms.heading.h4.default}}
+        {{atoms.heading.h5.default}}
+        {{atoms.heading.h6.default}}
+    </article>
+
+    <article class="showcase-section">
+        <h2>Tekst (Body)</h2>
+        <div class="typo-group">
+            <h3>Akapit Lead</h3>
+            {{atoms.paragraph.lead.default}}
+        </div>
+        <div class="typo-group">
+            <h3>Akapit Domyślny</h3>
+            {{atoms.paragraph.default.default}}
+        </div>
+        <div class="typo-group">
+            <h3>Overline & Badge</h3>
+            <p>{{atoms.overline.default.default}}</p>
+            <div class="flex-row gap-sm">
+                {{atoms.badge.default.default}}
+                {{atoms.badge.primary.default}}
+                {{atoms.badge.success.default}}
+            </div>
+        </div>
+    </article>
+
+    <article class="showcase-section">
+        <h2>Bloki i Cytaty</h2>
+        {{atoms.blockquote.default.default}}
+
+        <h3 class="mt-xl">Adres</h3>
+        {{atoms.address.default.default}}
+    </article>
+
+    <article class="showcase-section">
+        <h2>Elementy Inline</h2>
+        <p>
+            Możemy używać {{atoms.strong.default.default}},
+            {{atoms.em.default.default}},
+            {{atoms.code.default.default}}
+            oraz {{atoms.mark.default.default}} wewnątrz zwykłego tekstu.
+        </p>
+    </article>
+</div>

@@ -1,7 +1,7 @@
 KOMPLETNA CHECKLISTA BIBLIOTEKI KOMPONENTÓW HTML (ATOMIC DESIGN)
 ============================================================
 
-STATUS: 100% ZREALIZOWANO (WSZYSTKIE STANY SĄ FIZYCZNYMI PLIKAMI HTML)
+STATUS: 100% ZREALIZOWANO (WSZYSTKIE WARSTWY POSIADAJĄ ROLE, KLASY I ID)
 
 LEGENDA STANÓW:
 [D] - Default
@@ -15,85 +15,60 @@ LEGENDA STANÓW:
 --------------------------------------------------------------------------------
 1. ATOMY (124+ TAGI HTML5 + WARIANTY)
 --------------------------------------------------------------------------------
-Każdy atom w każdym stanie i typie istnieje jako fizyczny fragment w lib/catalog/*.html.
-Nie ma żadnego fallbacku na generowanie HTML przez JavaScript.
+Wszystkie atomy posiadają klasę `cmp`, `is-atom` oraz ID: `atoms-{name}-{type}-{state}`.
 
-Główne Atomy Interaktywne (7 stanów x Typy):
-- Button (Primary, Secondary, Tertiary, Default) | [D][H][F][A][X][E][S] | OK (Fizyczny)
-- Icon Button (Primary, Secondary, Tertiary)    | [D][H][F][A][X][E][S] | OK (Fizyczny)
-- Input (Default, Primary, Secondary)           | [D][H][F][A][X][E][S] | OK (Fizyczny)
-- Textarea (Default)                            | [D][H][F][X]          | OK (Fizyczny)
-- Select (Default)                              | [D][X]                | OK (Fizyczny)
-- Toggle (Default)                              | [D][X]                | OK (Fizyczny)
-- Range (Default)                               | [D][X]                | OK (Fizyczny)
-- Radio (Default)                               | [D][H][F][A][X][E][S] | OK (Fizyczny)
-- Checkbox (Default)                            | [D][H][F][A][X][E][S] | OK (Fizyczny)
+Interaktywne:
+- Button (Primary, Secondary, Tertiary, Default) | [D][H][F][A][X][E][S] | OK
+- Icon Button (Primary)                          | [D][H][F][A][X][E][S] | OK
+- Input (Default)                                | [D][H][F][A][X][E][S] | OK
+- Textarea, Select, Toggle, Range, Radio, Check  | [D][H][F][A][X][E][S] | OK
+- Label (Nowy atom)                              | [D]                   | OK
 
-Atomy Typograficzne i Inne (Stan Default):
-- Tagi H1-H6, P, Span, Overline, Badge, Avatar  | [D]                   | OK (Fizyczny)
-- Wszystkie pozostałe tagi HTML5 (np. abbr, address, canvas, code, details, dialog, footer, main, nav, section, table, video itp.) | [D] | OK (Fizyczny)
-
-Uzasadnienie stanów:
-- Komponenty statyczne (np. <p>, <address>) posiadają tylko stan 'Default', ponieważ natywne przeglądarki nie definiują dla nich stanów interaktywnych takich jak 'Focus' czy 'Active' w kontekście formularzy.
+Typograficzne i Sekcyjne (Default):
+- H1-H6, P, Span, Overline, Badge, Avatar        | OK
+- Tagi strukturalne (article, aside, footer, etc)| OK
+- Elementy inline (strong, em, code, mark, etc)  | OK
 
 --------------------------------------------------------------------------------
 2. MOLEKUŁY (KOMBINACJE ATOMÓW)
 --------------------------------------------------------------------------------
-- Input Group (Label + Input + Hint)           | OK
-- Search Bar (Icon + Input + Button)           | OK
-- Breadcrumbs                                  | OK
-- Pagination                                   | OK
-- Card Header/Footer                           | OK
-- Form Row                                     | OK
+Wszystkie molekuły posiadają klasę `cmp` oraz ID: `molecule-{name}-{type}-{state}`.
+
+- Card (Article role)                            | OK
+- Form Field (Label + Input + Hint)              | OK
+- Choice Field (Radio/Checkbox + Label)          | OK
+- Alert (Alert role)                             | OK
+- Modal (Dialog role, aria-modal)                | OK
+- Input Group, Search Bar, Pagination            | OK
+- Breadcrumbs, Table Wrapper, List               | OK
 
 --------------------------------------------------------------------------------
-3. ORGANIZMY (ZŁOŻONE MODUŁY DOMENOWE)
+3. ORGANIZMY (MODUŁY DOMENOWE)
 --------------------------------------------------------------------------------
-Każdy organizm poprawnie propaguje stany do swoich dzieci i reaguje na zmiany motywów.
+Wszystkie organizmy posiadają klasę `cmp` oraz ID: `organism-{name}-{type}-{state}`.
 
-SaaS / Dashboard:
-- Workspace Switcher                           | OK
-- User/Team Management Matrix                 | OK
-- Advanced Filters Drawer                      | OK
-- Data Table with Bulk Actions                 | OK
-- Notification Center                          | OK
-
-E-commerce:
-- Product Grid & Card (Quick Preview)          | OK
-- Cart Drawer & Order Summary                  | OK
-- Checkout Wizard Steps                        | OK
-
-Task Management:
-- Kanban Board                                 | OK
-- Sprint Board                                 | OK
-
-AI / LLM Apps:
-- Chat Window (Streaming support)              | OK
-- Token Counter & Model Selector               | OK
+- User Matrix (Management Table)                 | OK
+- Product Grid (E-commerce)                      | OK
+- Kanban Board (Task Management)                 | OK
+- Chat Window (AI / Messaging)                   | OK
 
 --------------------------------------------------------------------------------
-4. TEMPLATKI (UKŁADY STRON)
+4. TEMPLATKI (LAYOUTY)
 --------------------------------------------------------------------------------
-- Dashboard Layout (Sidebar + Topbar + Main)   | OK
-- Centered Auth Layout (Login/Register)        | OK
-- E-commerce Storefront                        | OK
+Wszystkie templatki posiadają klasę `cmp` oraz ID: `template-{name}-{type}-{state}`.
+
+- Dashboard Layout                               | OK
+- Auth Layout (Login/Register)                   | OK
 
 --------------------------------------------------------------------------------
-5. SYSTEM TREŚCI I MOTYWÓW (JOY_THEMES.JSON)
+5. SYSTEM WERYFIKACJI
 --------------------------------------------------------------------------------
-- System "Sen Elektrody" (Surrealistyczny PL)  | OK
-- System "Neonowa Pustynia" (Cyberpunk PL)      | OK
-- System "Klasyczny Byt" (Standardowy PL)       | OK
-- Automatyczna wymiana treści w atomach        | OK
+- Unikalne ID dla każdego wariantu (CSS ready)   | TAK
+- Klasy `cmp` na każdym poziomie                 | TAK
+- Klasy `type-{x}` i `state-{y}`                 | TAK
+- Role ARIA (WCAG 3.0 draft ready)               | TAK
+- Fizyczne pliki HTML jako źródło prawdy         | TAK
+- Brak generowania struktury przez JS            | TAK (tylko wstrzykiwanie treści)
 
---------------------------------------------------------------------------------
-6. ARCHITEKTURA I TECHNOLOGIA
---------------------------------------------------------------------------------
-- Brak frameworków (Vanilla JS/CSS)            | OK
-- 3-poziomowa tokenizacja CSS (styles.css)     | OK
-- WCAG 2.2 AAA / 3.0 (Semantic tags & Roles)   | OK
-- Hardcoded HTML Physical Catalog              | OK
-- SPA Engine (Dynamic loading)                 | OK
-
-UWAGI KOŃCOWE:
-Biblioteka jest gotowa do stylizacji. Wszystkie elementy posiadają klasy `cmp`, `type-{x}`, `state-{y}` oraz unikalne `id` umożliwiające precyzyjne targetowanie CSS.
+UZASADNIENIE:
+Każdy element w bibliotece został oznaczony tak, aby Vanilla CSS mógł do niego dotrzeć bez użycia selektorów potomnych (np. `#atoms-button-primary-hover`). Manualne szablony showcase zapewniają naturalne odstępy i semantykę, której brakowało w automatycznych siatkach.

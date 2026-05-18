@@ -7,7 +7,6 @@ let currentTheme = null;
 
 async function init() {
     try {
-        // Load catalog first
         await Library.init();
 
         const [regAtoms, regMols, regOrgs, regTemps, themeRes] = await Promise.all([
@@ -19,10 +18,7 @@ async function init() {
         ]);
 
         const segments = await Promise.all([
-            regAtoms.json(),
-            regMols.json(),
-            regOrgs.json(),
-            regTemps.json()
+            regAtoms.json(), regMols.json(), regOrgs.json(), regTemps.json()
         ]);
 
         registry = segments.flat();
@@ -114,68 +110,98 @@ function getContent(type) {
     return pool[Math.floor(Math.random() * pool.length)];
 }
 
-function renderComponent(comp) {
+async function renderComponent(comp) {
     localStorage.setItem('last-component-id', comp.id);
-    const titleEl = document.getElementById('current-category-name');
-    if (titleEl) titleEl.textContent = comp.name;
-    const descEl = document.getElementById('category-description');
-    if (descEl) descEl.textContent = comp.category;
+    document.getElementById('current-category-name').textContent = comp.name;
+    document.getElementById('category-description').textContent = comp.category;
     const list = document.getElementById('component-list');
-    if (!list) return;
+    list.innerHTML = '<div class="loading-spinner">Wczytywanie...</div>';
+
+    // Try to load hand-written showcase first
+    const showcaseMap = {
+        '1. UNIVERSAL - Input / Form': 'forms',
+        '1. UNIVERSAL - Typography & Media': 'typography',
+        '1. UNIVERSAL - Data Display': 'data_display',
+        '1. UNIVERSAL - Feedback / State': 'feedback'
+    };
+
+    const showcaseFile = showcaseMap[comp.category];
+    if (showcaseFile) {
+        try {
+            const res = await fetch(`lib/showcase/${showcaseFile}.html`);
+            if (res.ok) {
+                let html = await res.text();
+                html = await parseShowcase(html, comp);
+                list.innerHTML = html;
+                if (window.lucide) window.lucide.createIcons();
+                return;
+            }
+        } catch(e) { console.warn("Showcase not found, falling back to generator"); }
+    }
+
+    // Fallback to generator
+    renderGeneratedShowcase(comp);
+}
+
+async function parseShowcase(html, comp) {
+    // Replace {{atoms.tag.type.state}} with real library calls
+    const regex = /\{\{(atoms|molecules|organisms)\.([a-z0-9_]+)(\.([a-z0-9_]+))?(\.([a-z0-9_]+))?\}\}/g;
+
+    // We use a trick to wait for all replacements
+    const matches = Array.from(html.matchAll(regex));
+    for (const match of matches) {
+        const [full, layer, component, , type, , state] = match;
+        const props = {
+            type: type || 'default',
+            state: state || 'default',
+            content: getContent(layer === 'atoms' ? 'short' : 'medium'),
+            title: getContent('medium'),
+            label: getContent('short'),
+            placeholder: getContent('short'),
+            src: `https://picsum.photos/seed/${component}/100/100`,
+            alt: 'Asset',
+            items: [getContent('short'), getContent('short')],
+            caption: getContent('medium')
+        };
+        const rendered = Library.get(`${layer}.${component}`, props);
+        html = html.replace(full, rendered);
+    }
+    return html;
+}
+
+function renderGeneratedShowcase(comp) {
+    const list = document.getElementById('component-list');
     list.innerHTML = '';
 
-    if (comp.profile === 'template') {
+    const targetProfiles = comp.profile === 'template' ? [comp] : comp.types.map(t => ({...comp, currentType: t}));
+
+    targetProfiles.forEach(profile => {
         const section = document.createElement('section');
-        section.className = 'template-showcase';
-        const props = {
-            title: getContent('medium'),
-            body: getContent('long')
-        };
-        section.innerHTML = Library.get(comp.blueprint, props);
-        list.appendChild(section);
-    } else {
-        comp.types.forEach(type => {
-            const section = document.createElement('section');
-            section.innerHTML = `<h2>Typ: ${type}</h2>`;
-            const grid = document.createElement('div');
-            grid.className = 'variants-grid';
+        section.innerHTML = `<h2>Wariant: ${profile.currentType || profile.name}</h2>`;
+        const grid = document.createElement('div');
+        grid.className = 'variants-grid';
 
-            comp.states.forEach(state => {
-                const variantBox = document.createElement('article');
-                variantBox.className = 'variant-box';
-                variantBox.innerHTML = `<header><span class="state-label">${state}</span></header>`;
+        const states = profile.states || ['default'];
+        states.forEach(state => {
+            const variantBox = document.createElement('article');
+            variantBox.className = 'variant-box';
+            variantBox.innerHTML = `<header><span class="state-label">${state}</span></header>`;
 
-                const isVideo = comp.id.includes('video');
-                const isAudio = comp.id.includes('audio');
+            const props = {
+                type: profile.currentType || 'default',
+                state,
+                content: getContent(comp.profile === 'atom' ? 'short' : 'medium'),
+                title: getContent('medium'),
+                src: `https://picsum.photos/seed/${comp.id}/100/100`,
+                alt: 'Asset'
+            };
 
-                const props = {
-                    type, state,
-                    content: getContent(comp.profile === 'atom' ? 'short' : 'medium'),
-                    level: type.startsWith('h') ? parseInt(type.substring(1)) : 2,
-                    src: `https://picsum.photos/seed/${comp.id}/100/100`,
-                    alt: 'Asset',
-                    placeholder: getContent('short'),
-                    headers: ['Kolumna 1', 'Kolumna 2'],
-                    rows: [[getContent('tiny'), getContent('short')]],
-                    items: [getContent('short'), getContent('short')],
-                    title: getContent('medium'),
-                    label: getContent('short'),
-                    value: 42,
-                    body: getContent('long'),
-                    caption: getContent('medium'),
-                    isVideo, isAudio,
-                    footer: Atoms.badge({ content: getContent('tiny'), type: 'primary' })
-                };
-
-                let html = Library.get(comp.blueprint, props);
-                variantBox.innerHTML += (html || '');
-                grid.appendChild(variantBox);
-            });
-
-            section.appendChild(grid);
-            list.appendChild(section);
+            variantBox.innerHTML += Library.get(comp.blueprint, props);
+            grid.appendChild(variantBox);
         });
-    }
+        section.appendChild(grid);
+        list.appendChild(section);
+    });
     if (window.lucide) window.lucide.createIcons();
 }
 
