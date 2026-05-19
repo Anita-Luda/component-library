@@ -202,6 +202,62 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: relative;
+}
+
+.code-trigger {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: #f0f2f5;
+    border: none;
+    color: var(--admin-text-muted);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.code-trigger:hover {
+    background: var(--admin-accent);
+    color: white;
+}
+
+.code-panel {
+    display: none;
+    background: #1c1e21;
+    color: #e4e6eb;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    max-height: 300px;
+    margin-top: 10px;
+}
+
+.code-panel.active {
+    display: block;
+}
+
+.copy-btn {
+    float: right;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.copy-btn:hover {
+    background: var(--admin-accent);
 }
 
 .state-label {

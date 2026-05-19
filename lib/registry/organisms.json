@@ -138,6 +138,19 @@
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.saas_user_management",
     "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-task-management-sprint-board-org",
+    "name": "Sprint Board Organism",
+    "category": "2. Task Management",
+    "blueprint": "organisms.sprint_board",
+    "states": [
       "default",
       "hover",
       "focus",
@@ -416,19 +429,6 @@
     "name": "Checkout Summary",
     "category": "2. E-commerce",
     "blueprint": "organisms.checkout_summary",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "organism"
-  },
-  {
-    "id": "2.-task-management-sprint-board",
-    "name": "Sprint Board",
-    "category": "2. Task Management",
-    "blueprint": "organisms.sprint_board",
     "states": [
       "default"
     ],

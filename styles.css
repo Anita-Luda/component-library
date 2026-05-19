@@ -6,17 +6,17 @@
   /* --- TIER 1: PRIMITIVES --- */
   /* Colors tuned for WCAG AAA (7:1 contrast) on white background */
   --primitive-blue-500: #004b9c;
-  --primitive-blue-700: #003366;
+  --primitive-blue-700: #002d5e;
   --primitive-blue-100: rgba(0, 75, 156, 0.1);
   --primitive-gray-900: #1c1e21;
   --primitive-gray-700: #3a3a3a;
   --primitive-gray-500: #595b5e;
   --primitive-gray-100: #f0f2f5;
   --primitive-white: #ffffff;
-  --primitive-red-500: #b91d1d;
-  --primitive-red-100: rgba(185, 29, 29, 0.1);
-  --primitive-green-500: #145c2a;
-  --primitive-green-100: rgba(20, 92, 42, 0.1);
+  --primitive-red-500: #9b1c1c;
+  --primitive-red-100: rgba(155, 28, 28, 0.1);
+  --primitive-green-500: #0e4b21;
+  --primitive-green-100: rgba(14, 75, 33, 0.1);
 
   --primitive-radius-md: 8px;
   --primitive-radius-sm: 4px;
@@ -71,6 +71,7 @@
 
   --semantic-shape-radius: var(--primitive-radius-md);
   --semantic-shape-radius-large: var(--primitive-radius-lg);
+  --semantic-shape-border-width: 1px;
 
   --semantic-layout-gap-grid: var(--primitive-space-6);
   --semantic-layout-gap-stack: var(--primitive-space-4);
@@ -99,6 +100,38 @@
   --ai-streaming-animation-speed: 1.4s;
 }
 
+/* STYLE VARIATIONS (3-TIER: TIER 2 SEMANTIC OVERRIDES) */
+
+/* MODERN STYLE (Default) */
+html[data-style="modern"], :root {
+  --semantic-shape-radius: var(--primitive-radius-md);
+  --semantic-shape-radius-large: var(--primitive-radius-lg);
+  --semantic-shape-border-width: 1px;
+  --semantic-layout-padding: var(--primitive-space-8);
+  --semantic-layout-gap-grid: var(--primitive-space-6);
+}
+
+/* CORPORATE STYLE (Sharp, Compact) */
+html[data-style="corporate"] {
+  --semantic-shape-radius: 0px;
+  --semantic-shape-radius-large: 0px;
+  --semantic-shape-border-width: 2px;
+  --semantic-layout-padding: var(--primitive-space-4);
+  --semantic-layout-gap-grid: var(--primitive-space-4);
+  --primitive-font-size-h1: 2.5rem;
+  --primitive-font-size-h2: 2rem;
+}
+
+/* PLAYFUL STYLE (Round, Large) */
+html[data-style="playful"] {
+  --semantic-shape-radius: var(--primitive-radius-bubble);
+  --semantic-shape-radius-large: 32px;
+  --semantic-shape-border-width: 3px;
+  --semantic-layout-padding: var(--primitive-space-8);
+  --semantic-layout-gap-grid: var(--primitive-space-8);
+  --primitive-blue-500: #6366f1; /* Indigo */
+}
+
 /* BASE RESET */
 .cmp {
   box-sizing: border-box;
@@ -108,7 +141,7 @@
   padding: var(--primitive-space-3) var(--primitive-space-5);
   background: var(--semantic-color-bg-main);
   color: var(--semantic-color-text-main);
-  border: 1px solid var(--semantic-color-border-main);
+  border: var(--semantic-shape-border-width) solid var(--semantic-color-border-main);
   border-radius: var(--semantic-shape-radius);
   transition: all 0.2s ease;
   font-family: inherit;

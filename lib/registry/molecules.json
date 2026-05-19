@@ -19,6 +19,32 @@
     "profile": "molecule"
   },
   {
+    "id": "2.-saas---dashboard-user-row",
+    "name": "User Row",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "molecules.saas_user_row",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "molecule"
+  },
+  {
+    "id": "2.-saas---dashboard-filter-bar",
+    "name": "Filter Bar",
+    "category": "2. SaaS / Dashboard",
+    "blueprint": "molecules.saas_filter_bar",
+    "states": [
+      "default"
+    ],
+    "types": [
+      "default"
+    ],
+    "profile": "molecule"
+  },
+  {
     "id": "1.-universal---input---form-multi-select",
     "name": "Multi-select",
     "category": "1. UNIVERSAL - Input / Form",
