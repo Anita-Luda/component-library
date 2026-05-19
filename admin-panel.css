@@ -189,8 +189,19 @@ ul {
 
 .variants-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 32px;
+  align-items: start;
+}
+
+/* For full-width components like organisms */
+#content.profile-organism .variants-grid,
+#content.profile-template .variants-grid {
+    grid-template-columns: 1fr;
+}
+
+#content.profile-atom .variants-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
 .variant-box {
@@ -203,6 +214,8 @@ ul {
   flex-direction: column;
   gap: 20px;
   position: relative;
+  overflow: visible; /* Allow drop-downs/menus to be visible */
+  min-height: 100px;
 }
 
 .code-trigger {

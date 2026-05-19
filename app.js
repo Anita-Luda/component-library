@@ -135,6 +135,11 @@ async function renderComponent(comp) {
     localStorage.setItem('last-component-id', comp.id);
     document.getElementById('current-category-name').textContent = comp.name;
     document.getElementById('category-description').textContent = comp.category;
+
+    // Set a class on content area for scoped CSS tweaks
+    const contentArea = document.getElementById('content');
+    contentArea.className = `profile-${comp.profile}`;
+
     const list = document.getElementById('component-list');
     list.innerHTML = '<div class="loading-spinner">Wczytywanie...</div>';
 
@@ -185,10 +190,10 @@ async function parseShowcase(html, comp) {
         };
         const rendered = Library.get(`${layer}.${component}`, props);
 
-        // Wrap in code-capable container if it's a showcase item
+        // Showcase items get a lighter wrapping to preserve manual layouts
         const wrapped = `
-            <div class="variant-box">
-                <button class="code-trigger" title="Pokaż kod HTML"><i data-lucide="code"></i></button>
+            <div class="showcase-wrapper" style="position: relative; display: contents;">
+                <button class="code-trigger mini" title="Kod" style="position: absolute; top: -10px; right: -10px; z-index: 5; opacity: 0.3;"><i data-lucide="code" style="width:12px;"></i></button>
                 <div class="code-panel">
                     <button class="copy-btn">Kopiuj</button>
                     <code class="html-content">${escapeHTML(rendered)}</code>
@@ -216,6 +221,7 @@ function renderGeneratedShowcase(comp) {
 
     targetProfiles.forEach(profile => {
         const section = document.createElement('section');
+        section.setAttribute('data-profile', comp.profile);
         section.innerHTML = `<h2>Wariant: ${profile.currentType || profile.name}</h2>`;
         const grid = document.createElement('div');
         grid.className = 'variants-grid';

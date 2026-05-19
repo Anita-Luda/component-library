@@ -132,9 +132,15 @@ html[data-style="playful"] {
   --primitive-blue-500: #6366f1; /* Indigo */
 }
 
-/* BASE RESET */
+/* BASE RESET - Permissive & Atomic */
 .cmp {
   box-sizing: border-box;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+/* Atomic components that are actually "boxes" (buttons, inputs, cards) */
+.cmp.button, .cmp.input, .cmp.textarea, .cmp.select, .cmp.badge, .cmp.avatar, .is-molecule, .is-organism {
   display: inline-flex;
   align-items: center;
   gap: var(--primitive-space-2);
@@ -143,9 +149,20 @@ html[data-style="playful"] {
   color: var(--semantic-color-text-main);
   border: var(--semantic-shape-border-width) solid var(--semantic-color-border-main);
   border-radius: var(--semantic-shape-radius);
-  transition: all 0.2s ease;
-  font-family: inherit;
-  font-size: 1rem;
+}
+
+.is-molecule, .is-organism {
+    display: flex; /* Override inline-flex for layouts */
+}
+
+/* Typography components should be clean */
+.cmp.heading, .cmp.paragraph, .cmp.overline, .cmp.span, .cmp.p, .cmp.h1, .cmp.h2, .cmp.h3, .cmp.h4, .cmp.h5, .cmp.h6 {
+    display: block;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    color: var(--semantic-color-text-main);
 }
 
 /* SHOWCASE LAYOUTS - NATURAL SPACE */
