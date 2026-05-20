@@ -28,6 +28,7 @@ async function init() {
         themes = themeData.themes;
 
         setupThemeSelect();
+        setupStyleSelect();
         setupSearch();
         renderSidebar();
 
@@ -66,9 +67,29 @@ function setupThemeSelect() {
     select.addEventListener('change', (e) => {
         currentTheme = themes.find(t => t.id === e.target.value);
         localStorage.setItem('current-theme-id', currentTheme.id);
-        const lastCompId = localStorage.getItem('last-component-id');
-        if (lastCompId) renderComponent(registry.find(c => c.id === lastCompId));
+        refreshCurrentComponent();
     });
+}
+
+function setupStyleSelect() {
+    const select = document.getElementById('style-select');
+    if (!select) return;
+
+    const savedStyle = localStorage.getItem('current-style') || 'modern';
+    select.value = savedStyle;
+    document.documentElement.setAttribute('data-style', savedStyle);
+
+    select.addEventListener('change', (e) => {
+        const style = e.target.value;
+        document.documentElement.setAttribute('data-style', style);
+        localStorage.setItem('current-style', style);
+        refreshCurrentComponent();
+    });
+}
+
+function refreshCurrentComponent() {
+    const lastCompId = localStorage.getItem('last-component-id');
+    if (lastCompId) renderComponent(registry.find(c => c.id === lastCompId));
 }
 
 function setupSearch() {
@@ -114,6 +135,11 @@ async function renderComponent(comp) {
     localStorage.setItem('last-component-id', comp.id);
     document.getElementById('current-category-name').textContent = comp.name;
     document.getElementById('category-description').textContent = comp.category;
+
+    // Set a class on content area for scoped CSS tweaks
+    const contentArea = document.getElementById('content');
+    contentArea.className = `profile-${comp.profile}`;
+
     const list = document.getElementById('component-list');
     list.innerHTML = '<div class="loading-spinner">Wczytywanie...</div>';
 
@@ -147,7 +173,6 @@ async function parseShowcase(html, comp) {
     // Replace {{atoms.tag.type.state}} with real library calls
     const regex = /\{\{(atoms|molecules|organisms)\.([a-z0-9_]+)(\.([a-z0-9_]+))?(\.([a-z0-9_]+))?\}\}/g;
 
-    // We use a trick to wait for all replacements
     const matches = Array.from(html.matchAll(regex));
     for (const match of matches) {
         const [full, layer, component, , type, , state] = match;
@@ -164,9 +189,28 @@ async function parseShowcase(html, comp) {
             caption: getContent('medium')
         };
         const rendered = Library.get(`${layer}.${component}`, props);
-        html = html.replace(full, rendered);
+
+        // Showcase items get a lighter wrapping to preserve manual layouts
+        const wrapped = `
+            <div class="showcase-wrapper" style="position: relative; display: contents;">
+                <button class="code-trigger mini" title="Kod" style="position: absolute; top: -10px; right: -10px; z-index: 5; opacity: 0.3;"><i data-lucide="code" style="width:12px;"></i></button>
+                <div class="code-panel">
+                    <button class="copy-btn">Kopiuj</button>
+                    <code class="html-content">${escapeHTML(rendered)}</code>
+                </div>
+                ${rendered}
+            </div>
+        `;
+
+        html = html.replace(full, wrapped);
     }
     return html;
+}
+
+function escapeHTML(str) {
+    return str.replace(/[&<>"']/g, m => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[m]));
 }
 
 function renderGeneratedShowcase(comp) {
@@ -177,6 +221,7 @@ function renderGeneratedShowcase(comp) {
 
     targetProfiles.forEach(profile => {
         const section = document.createElement('section');
+        section.setAttribute('data-profile', comp.profile);
         section.innerHTML = `<h2>Wariant: ${profile.currentType || profile.name}</h2>`;
         const grid = document.createElement('div');
         grid.className = 'variants-grid';
@@ -185,7 +230,6 @@ function renderGeneratedShowcase(comp) {
         states.forEach(state => {
             const variantBox = document.createElement('article');
             variantBox.className = 'variant-box';
-            variantBox.innerHTML = `<header><span class="state-label">${state}</span></header>`;
 
             const props = {
                 type: profile.currentType || 'default',
@@ -196,13 +240,49 @@ function renderGeneratedShowcase(comp) {
                 alt: 'Asset'
             };
 
-            variantBox.innerHTML += Library.get(comp.blueprint, props);
+            const rendered = Library.get(comp.blueprint, props);
+
+            variantBox.innerHTML = `
+                <header class="flex-between" style="width:100%">
+                    <span class="state-label">${state}</span>
+                    <button class="code-trigger" title="Pokaż kod HTML"><i data-lucide="code"></i></button>
+                </header>
+                <div class="code-panel">
+                    <button class="copy-btn">Kopiuj</button>
+                    <code class="html-content">${escapeHTML(rendered)}</code>
+                </div>
+                ${rendered}
+            `;
             grid.appendChild(variantBox);
         });
         section.appendChild(grid);
         list.appendChild(section);
     });
     if (window.lucide) window.lucide.createIcons();
+    attachCodeEvents();
+}
+
+function attachCodeEvents() {
+    document.querySelectorAll('.code-trigger').forEach(btn => {
+        btn.onclick = () => {
+            const panel = btn.parentElement.querySelector('.code-panel');
+            panel.classList.toggle('active');
+        };
+    });
+
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+        btn.onclick = () => {
+            const code = btn.parentElement.querySelector('.html-content').textContent;
+            navigator.clipboard.writeText(code);
+            const originalText = btn.textContent;
+            btn.textContent = 'Skopiowano!';
+            btn.style.background = '#145c2a';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '#444';
+            }, 2000);
+        };
+    });
 }
 
 window.addEventListener('DOMContentLoaded', init);

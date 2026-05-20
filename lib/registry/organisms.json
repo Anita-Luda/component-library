@@ -4,18 +4,8 @@
     "name": "Navbar",
     "category": "1. UNIVERSAL - Navigation",
     "blueprint": "organisms.navbar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -23,18 +13,8 @@
     "name": "Sidebar",
     "category": "1. UNIVERSAL - Navigation",
     "blueprint": "organisms.sidebar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -42,18 +22,8 @@
     "name": "Topbar",
     "category": "1. UNIVERSAL - Navigation",
     "blueprint": "organisms.navbar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -61,18 +31,8 @@
     "name": "Mega menu",
     "category": "1. UNIVERSAL - Navigation",
     "blueprint": "organisms.mega_menu",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -80,18 +40,8 @@
     "name": "Sidebar layout",
     "category": "1. UNIVERSAL - Layout",
     "blueprint": "organisms.sidebar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -99,18 +49,8 @@
     "name": "Dashboard layout",
     "category": "1. UNIVERSAL - Layout",
     "blueprint": "organisms.dashboard_layout",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -118,18 +58,8 @@
     "name": "Sidebar navigation",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.sidebar",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -137,18 +67,17 @@
     "name": "User/team management",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.saas_user_management",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-task-management-sprint-board-org",
+    "name": "Sprint Board Organism",
+    "category": "2. Task Management",
+    "blueprint": "organisms.sprint_board",
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -156,18 +85,8 @@
     "name": "Analytics cards",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.analytics_grid",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -175,18 +94,8 @@
     "name": "Settings panel",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.settings_panel",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -194,18 +103,8 @@
     "name": "Billing portal",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.saas_billing_portal",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -213,18 +112,8 @@
     "name": "API key manager",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.saas_api_key_manager",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -232,18 +121,8 @@
     "name": "Integration cards",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.saas_integration_grid",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -251,18 +130,8 @@
     "name": "Activity timeline",
     "category": "2. SaaS / Dashboard",
     "blueprint": "organisms.saas_activity_timeline",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -270,18 +139,8 @@
     "name": "Product grid",
     "category": "2. E-commerce",
     "blueprint": "organisms.product_grid",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -289,18 +148,8 @@
     "name": "Checkout steps",
     "category": "2. E-commerce",
     "blueprint": "organisms.checkout_steps",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -308,18 +157,8 @@
     "name": "Chat window",
     "category": "2. AI / LLM Apps",
     "blueprint": "organisms.chat_window",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -327,18 +166,8 @@
     "name": "AI playground",
     "category": "2. AI / LLM Apps",
     "blueprint": "organisms.ai_playground",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -346,18 +175,8 @@
     "name": "DM/chat",
     "category": "2. Social Media",
     "blueprint": "organisms.chat_window",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -365,18 +184,8 @@
     "name": "Code playground",
     "category": "2. Education",
     "blueprint": "organisms.ai_playground",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -384,18 +193,8 @@
     "name": "Mega menus",
     "category": "3. WEB-SPECIFIC",
     "blueprint": "organisms.mega_menu",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -403,12 +202,8 @@
     "name": "Product Details Hero",
     "category": "2. E-commerce",
     "blueprint": "organisms.product_details_hero",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
@@ -416,25 +211,44 @@
     "name": "Checkout Summary",
     "category": "2. E-commerce",
     "blueprint": "organisms.checkout_summary",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   },
   {
-    "id": "2.-task-management-sprint-board",
-    "name": "Sprint Board",
-    "category": "2. Task Management",
-    "blueprint": "organisms.sprint_board",
-    "states": [
-      "default"
-    ],
-    "types": [
-      "default"
-    ],
+    "id": "5.-enterprise-permission-matrix",
+    "name": "Permission matrix",
+    "category": "5. Enterprise",
+    "blueprint": "organisms.permission_matrix",
+    "states": ["default"],
+    "types": ["default"],
+    "profile": "organism"
+  },
+  {
+    "id": "5.-enterprise-org-hierarchy",
+    "name": "Org hierarchy tree",
+    "category": "5. Enterprise",
+    "blueprint": "organisms.org_hierarchy",
+    "states": ["default"],
+    "types": ["default"],
+    "profile": "organism"
+  },
+  {
+    "id": "5.-enterprise-compliance-dashboard",
+    "name": "Compliance dashboard",
+    "category": "5. Enterprise",
+    "blueprint": "organisms.compliance_dashboard",
+    "states": ["default"],
+    "types": ["default"],
+    "profile": "organism"
+  },
+  {
+    "id": "2.-social-media-feed",
+    "name": "Activity Feed",
+    "category": "2. Social Media",
+    "blueprint": "organisms.activity_feed",
+    "states": ["default"],
+    "types": ["default"],
     "profile": "organism"
   }
 ]

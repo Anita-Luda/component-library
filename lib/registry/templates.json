@@ -55,7 +55,7 @@
     "id": "templates-auth-page-template",
     "name": "Auth Page Template",
     "category": "Templates",
-    "blueprint": "templates.auth_page",
+    "blueprint": "templates.auth",
     "states": [
       "default"
     ],

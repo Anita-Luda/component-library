@@ -1,0 +1,267 @@
+Select
+User Row
+Filter Bar
+Multi-select
+Combobox
+Autocomplete
+Checkbox
+Radio
+Toggle / switch
+Slider
+Range slider
+Stepper
+Date picker
+Time picker
+Color picker
+File upload
+Drag & drop upload
+Signature pad
+Rich text editor
+Markdown editor
+Bottom navigation
+Breadcrumbs
+Tabs
+Pills
+Pagination
+Pagination infinite scroll
+Hamburger menu
+Context menu
+Command palette
+Tree navigation
+Dock navigation
+Floating nav
+Anchor navigation
+Wizard / step navigation
+Toast
+Snackbar
+Alert
+Banner
+Confirmation dialog
+Modal
+Drawer
+Sheet
+Tooltip
+Popover
+Skeleton loader
+Empty state
+Error state
+Success state
+Maintenance state
+Offline state
+Permission denied state
+Loading overlay
+Card
+Table
+Data grid
+List
+Accordion
+Timeline
+Carousel
+Gallery
+Chart
+Heatmap
+Kanban board
+Calendar
+Tree view
+Statistic block
+KPI tile
+Activity feed
+Log viewer
+JSON viewer
+Code block
+Terminal block
+Container
+Section
+Grid
+Stack
+Split pane
+Resizable panel
+Masonry
+Bento grid
+Centered auth layout
+Sticky footer
+Sticky header
+Caption
+Link
+Blockquote
+Code inline
+Video player
+Audio player
+Workspace switcher
+Organization switcher
+Role permission matrix
+Audit logs
+Advanced filters
+Saved views
+Data tables
+Bulk actions
+Command palette
+Subscription management
+Webhook manager
+Feature flags
+Notification center
+Product card
+Quick preview
+Wishlist
+Compare products
+Variant selector
+Size picker
+Color swatches
+Product media gallery
+Recently viewed
+Cart drawer
+Address form
+Shipping selector
+Payment selector
+Order summary
+Order tracking
+Returns panel
+Upsell modal
+Cross-sell carousel
+Recommended products
+Flash sale timer
+Social proof popup
+Typing indicator
+Token counter
+Model selector
+Context window indicator
+Conversation history
+Tool execution logs
+Chain-of-thought visualizer
+AI citations
+Multi-agent panel
+Prompt templates
+Node workflows
+Memory manager
+Retrieval source viewer
+Confidence indicator
+Human handoff
+AI approval flow
+Kanban
+Calendar
+Timeline
+Gantt chart
+Task card
+Nested subtasks
+Assignee selector
+Rich comments
+Activity history
+Time tracking
+Sprint board
+Roadmap
+Whiteboard
+Collaboration cursors
+Presence indicators
+Rich text editor
+Slash command editor
+Media library
+Draft/publish workflow
+SEO preview
+Table of contents
+Version history
+Comments
+Inline annotations
+Content blocks
+MDX editor
+AI writing assistant
+Feed
+Stories
+Reactions
+Comments
+Share sheet
+Live room
+Online presence
+Notification feed
+Infinite scroll feed
+Creator dashboard
+Transaction table
+Balance cards
+Spending chart
+Portfolio chart
+Trading view
+Watchlist
+Risk indicators
+KYC flow
+Identity verification
+Fraud alert
+Payment success flow
+Transfer wizard
+Appointment scheduler
+Medical records viewer
+Prescription panel
+Symptoms intake
+HIPAA consent forms
+Video consultation
+Insurance verification
+Course player
+Quiz builder
+Flashcards
+Lesson navigation
+Assignment submission
+API explorer
+Code editor
+Terminal
+Diff viewer
+Logs
+CI/CD pipeline viewer
+Environment selector
+DB table explorer
+Data visualization
+Drill-down charts
+Pivot tables
+Segmentation builder
+Funnel charts
+Cohort analysis
+Report builder
+Dashboard widgets
+Hover cards
+Multi-column layouts
+Resizable panels
+Right-click context menus
+Multi-window layouts
+Keyboard shortcut overlays
+Drag-and-drop desktop style
+Data-dense tables
+Sticky columns
+Browser tabs UI
+Floating toolbars
+Advanced search filters
+Multi-select with keyboard support
+Hero section
+CTA blocks
+Testimonials
+Pricing tables
+FAQ accordion
+Logo cloud
+Feature comparison
+Newsletter form
+Cookie banner
+Announcement banner
+Sticky CTA
+Exit intent popup
+Bottom tab bar
+Pull to refresh
+Swipe actions
+Bottom sheet
+Native picker wheel
+Swipeable cards
+Gesture navigation
+Haptic feedback UI
+Camera capture UI
+Mobile keyboard accessory bar
+Biometric auth prompt
+Native share sheet
+Deep link handoff
+Thumb-zone navigation
+Story/reel UI
+Vertical swipe feed
+Snap carousel
+Tap-and-hold menus
+Mobile onboarding slides
+Install app banners
+Permission matrix
+Org hierarchy tree
+Compliance dashboard
+Cart Item
+Price Tag
+Task Card
