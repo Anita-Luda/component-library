@@ -3,7 +3,7 @@
     "id": "1.-universal---input---form-select",
     "name": "Select",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.select",
     "states": [
       "default",
       "hover",
@@ -48,7 +48,7 @@
     "id": "1.-universal---input---form-multi-select",
     "name": "Multi-select",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.multi_select",
     "states": [
       "default",
       "hover",
@@ -67,7 +67,7 @@
     "id": "1.-universal---input---form-combobox",
     "name": "Combobox",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.combobox",
     "states": [
       "default",
       "hover",
@@ -86,7 +86,7 @@
     "id": "1.-universal---input---form-autocomplete",
     "name": "Autocomplete",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.combobox",
     "states": [
       "default",
       "hover",
@@ -162,7 +162,7 @@
     "id": "1.-universal---input---form-slider",
     "name": "Slider",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.slider",
     "states": [
       "default",
       "hover",
@@ -181,7 +181,7 @@
     "id": "1.-universal---input---form-range-slider",
     "name": "Range slider",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.slider",
     "states": [
       "default",
       "hover",
@@ -200,7 +200,7 @@
     "id": "1.-universal---input---form-stepper",
     "name": "Stepper",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.stepper",
     "states": [
       "default",
       "hover",
@@ -219,7 +219,7 @@
     "id": "1.-universal---input---form-date-picker",
     "name": "Date picker",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.date_picker",
     "states": [
       "default",
       "hover",
@@ -238,7 +238,7 @@
     "id": "1.-universal---input---form-time-picker",
     "name": "Time picker",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.time_picker",
     "states": [
       "default",
       "hover",
@@ -257,7 +257,7 @@
     "id": "1.-universal---input---form-color-picker",
     "name": "Color picker",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.color_picker",
     "states": [
       "default",
       "hover",
@@ -276,7 +276,7 @@
     "id": "1.-universal---input---form-file-upload",
     "name": "File upload",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.file_upload",
     "states": [
       "default",
       "hover",
@@ -295,7 +295,7 @@
     "id": "1.-universal---input---form-drag-&-drop-upload",
     "name": "Drag & drop upload",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.file_upload",
     "states": [
       "default",
       "hover",
@@ -314,7 +314,7 @@
     "id": "1.-universal---input---form-signature-pad",
     "name": "Signature pad",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.signature_pad",
     "states": [
       "default",
       "hover",
@@ -333,15 +333,9 @@
     "id": "1.-universal---input---form-rich-text-editor",
     "name": "Rich text editor",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.rich_text_editor",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -352,15 +346,9 @@
     "id": "1.-universal---input---form-markdown-editor",
     "name": "Markdown editor",
     "category": "1. UNIVERSAL - Input / Form",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.rich_text_editor",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -371,7 +359,7 @@
     "id": "1.-universal---navigation-bottom-navigation",
     "name": "Bottom navigation",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.bottom_nav",
     "states": [
       "default",
       "hover",
@@ -428,7 +416,7 @@
     "id": "1.-universal---navigation-pills",
     "name": "Pills",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.tabs",
+    "blueprint": "molecules.pills",
     "states": [
       "default",
       "hover",
@@ -447,7 +435,7 @@
     "id": "1.-universal---navigation-pagination",
     "name": "Pagination",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.pagination",
     "states": [
       "default",
       "hover",
@@ -466,7 +454,7 @@
     "id": "1.-universal---navigation-pagination-infinite-scroll",
     "name": "Pagination infinite scroll",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.pagination",
     "states": [
       "default",
       "hover",
@@ -485,7 +473,7 @@
     "id": "1.-universal---navigation-hamburger-menu",
     "name": "Hamburger menu",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.hamburger_menu",
     "states": [
       "default",
       "hover",
@@ -504,7 +492,7 @@
     "id": "1.-universal---navigation-context-menu",
     "name": "Context menu",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.context_menu",
     "states": [
       "default",
       "hover",
@@ -523,7 +511,7 @@
     "id": "1.-universal---navigation-command-palette",
     "name": "Command palette",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.command_palette",
     "states": [
       "default",
       "hover",
@@ -561,7 +549,7 @@
     "id": "1.-universal---navigation-dock-navigation",
     "name": "Dock navigation",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.dock",
     "states": [
       "default",
       "hover",
@@ -580,7 +568,7 @@
     "id": "1.-universal---navigation-floating-nav",
     "name": "Floating nav",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.dock",
     "states": [
       "default",
       "hover",
@@ -618,7 +606,7 @@
     "id": "1.-universal---navigation-wizard---step-navigation",
     "name": "Wizard / step navigation",
     "category": "1. UNIVERSAL - Navigation",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.stepper",
     "states": [
       "default",
       "hover",
@@ -801,7 +789,7 @@
     "id": "1.-universal---feedback---state-tooltip",
     "name": "Tooltip",
     "category": "1. UNIVERSAL - Feedback / State",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.tooltip",
     "states": [
       "default",
       "hover",
@@ -820,7 +808,7 @@
     "id": "1.-universal---feedback---state-popover",
     "name": "Popover",
     "category": "1. UNIVERSAL - Feedback / State",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.popover",
     "states": [
       "default",
       "hover",
@@ -839,15 +827,9 @@
     "id": "1.-universal---feedback---state-skeleton-loader",
     "name": "Skeleton loader",
     "category": "1. UNIVERSAL - Feedback / State",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.skeleton_loader",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -858,15 +840,9 @@
     "id": "1.-universal---feedback---state-empty-state",
     "name": "Empty state",
     "category": "1. UNIVERSAL - Feedback / State",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.empty_state",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1029,7 +1005,7 @@
     "id": "1.-universal---data-display-data-grid",
     "name": "Data grid",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.table",
     "states": [
       "default",
       "hover",
@@ -1105,7 +1081,7 @@
     "id": "1.-universal---data-display-carousel",
     "name": "Carousel",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.carousel",
     "states": [
       "default",
       "hover",
@@ -1124,15 +1100,9 @@
     "id": "1.-universal---data-display-gallery",
     "name": "Gallery",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.grid_layout",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1143,7 +1113,7 @@
     "id": "1.-universal---data-display-chart",
     "name": "Chart",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -1162,15 +1132,9 @@
     "id": "1.-universal---data-display-heatmap",
     "name": "Heatmap",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.grid_layout",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1181,15 +1145,9 @@
     "id": "1.-universal---data-display-kanban-board",
     "name": "Kanban board",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.grid_layout",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1257,7 +1215,7 @@
     "id": "1.-universal---data-display-kpi-tile",
     "name": "KPI tile",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.statistic",
+    "blueprint": "molecules.kpi_tile",
     "states": [
       "default",
       "hover",
@@ -1276,15 +1234,9 @@
     "id": "1.-universal---data-display-activity-feed",
     "name": "Activity feed",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.list",
+    "blueprint": "molecules.activity_item",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1295,7 +1247,7 @@
     "id": "1.-universal---data-display-log-viewer",
     "name": "Log viewer",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.timeline",
     "states": [
       "default",
       "hover",
@@ -1314,7 +1266,7 @@
     "id": "1.-universal---data-display-json-viewer",
     "name": "JSON viewer",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -1333,7 +1285,7 @@
     "id": "1.-universal---data-display-code-block",
     "name": "Code block",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -1352,7 +1304,7 @@
     "id": "1.-universal---data-display-terminal-block",
     "name": "Terminal block",
     "category": "1. UNIVERSAL - Data Display",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.terminal_block",
     "states": [
       "default",
       "hover",
@@ -1485,15 +1437,9 @@
     "id": "1.-universal---layout-masonry",
     "name": "Masonry",
     "category": "1. UNIVERSAL - Layout",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.masonry_layout",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1504,15 +1450,9 @@
     "id": "1.-universal---layout-bento-grid",
     "name": "Bento grid",
     "category": "1. UNIVERSAL - Layout",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.bento_grid",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1770,15 +1710,9 @@
     "id": "2.-saas---dashboard-advanced-filters",
     "name": "Advanced filters",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.saas_filter_bar",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1789,15 +1723,9 @@
     "id": "2.-saas---dashboard-saved-views",
     "name": "Saved views",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.pills",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1865,18 +1793,13 @@
     "id": "2.-saas---dashboard-subscription-management",
     "name": "Subscription management",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.saas_billing_plan",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
-      "default"
+      "default",
+      "primary"
     ],
     "profile": "molecule"
   },
@@ -1884,15 +1807,9 @@
     "id": "2.-saas---dashboard-webhook-manager",
     "name": "Webhook manager",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.saas_webhook_item",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1903,15 +1820,9 @@
     "id": "2.-saas---dashboard-feature-flags",
     "name": "Feature flags",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.saas_feature_flag",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -1922,15 +1833,9 @@
     "id": "2.-saas---dashboard-notification-center",
     "name": "Notification center",
     "category": "2. SaaS / Dashboard",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.activity_item",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2017,7 +1922,7 @@
     "id": "2.-e-commerce-variant-selector",
     "name": "Variant selector",
     "category": "2. E-commerce",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.ecommerce_variant_selector",
     "states": [
       "default",
       "hover",
@@ -2036,7 +1941,7 @@
     "id": "2.-e-commerce-size-picker",
     "name": "Size picker",
     "category": "2. E-commerce",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.ecommerce_variant_selector",
     "states": [
       "default",
       "hover",
@@ -2055,7 +1960,7 @@
     "id": "2.-e-commerce-color-swatches",
     "name": "Color swatches",
     "category": "2. E-commerce",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.ecommerce_variant_selector",
     "states": [
       "default",
       "hover",
@@ -2150,7 +2055,7 @@
     "id": "2.-e-commerce-shipping-selector",
     "name": "Shipping selector",
     "category": "2. E-commerce",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.card",
     "states": [
       "default",
       "hover",
@@ -2169,7 +2074,7 @@
     "id": "2.-e-commerce-payment-selector",
     "name": "Payment selector",
     "category": "2. E-commerce",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.ecommerce_payment_selector",
     "states": [
       "default",
       "hover",
@@ -2188,7 +2093,7 @@
     "id": "2.-e-commerce-order-summary",
     "name": "Order summary",
     "category": "2. E-commerce",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.ecommerce_order_summary",
     "states": [
       "default",
       "hover",
@@ -2340,15 +2245,9 @@
     "id": "2.-ai---llm-apps-typing-indicator",
     "name": "Typing indicator",
     "category": "2. AI / LLM Apps",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.ai_typing_indicator",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2361,13 +2260,7 @@
     "category": "2. AI / LLM Apps",
     "blueprint": "molecules.token_display",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2378,15 +2271,9 @@
     "id": "2.-ai---llm-apps-model-selector",
     "name": "Model selector",
     "category": "2. AI / LLM Apps",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.ai_model_selector",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2397,15 +2284,9 @@
     "id": "2.-ai---llm-apps-context-window-indicator",
     "name": "Context window indicator",
     "category": "2. AI / LLM Apps",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.ai_context_indicator",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2475,13 +2356,7 @@
     "category": "2. AI / LLM Apps",
     "blueprint": "molecules.ai_citation",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2511,15 +2386,9 @@
     "id": "2.-ai---llm-apps-prompt-templates",
     "name": "Prompt templates",
     "category": "2. AI / LLM Apps",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.ai_prompt_template",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2701,26 +2570,7 @@
     "id": "2.-task-management-gantt-chart",
     "name": "Gantt chart",
     "category": "2. Task Management",
-    "blueprint": "molecules.card",
-    "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
-    ],
-    "types": [
-      "default"
-    ],
-    "profile": "molecule"
-  },
-  {
-    "id": "2.-task-management-task-card",
-    "name": "Task card",
-    "category": "2. Task Management",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -2739,15 +2589,9 @@
     "id": "2.-task-management-nested-subtasks",
     "name": "Nested subtasks",
     "category": "2. Task Management",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.task_subtask_item",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2758,7 +2602,7 @@
     "id": "2.-task-management-assignee-selector",
     "name": "Assignee selector",
     "category": "2. Task Management",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.card",
     "states": [
       "default",
       "hover",
@@ -2815,15 +2659,9 @@
     "id": "2.-task-management-time-tracking",
     "name": "Time tracking",
     "category": "2. Task Management",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.task_time_tracker",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -2929,7 +2767,7 @@
     "id": "2.-cms---blog-rich-text-editor",
     "name": "Rich text editor",
     "category": "2. CMS / Blog",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.rich_text_editor",
     "states": [
       "default",
       "hover",
@@ -3176,7 +3014,7 @@
     "id": "2.-social-media-stories",
     "name": "Stories",
     "category": "2. Social Media",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.media_block",
     "states": [
       "default",
       "hover",
@@ -3195,15 +3033,9 @@
     "id": "2.-social-media-reactions",
     "name": "Reactions",
     "category": "2. Social Media",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.social_reactions",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -3214,15 +3046,9 @@
     "id": "2.-social-media-comments",
     "name": "Comments",
     "category": "2. Social Media",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.activity_item",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -3349,13 +3175,7 @@
     "category": "2. Fintech",
     "blueprint": "molecules.table",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
       "default"
@@ -3366,7 +3186,7 @@
     "id": "2.-fintech-balance-cards",
     "name": "Balance cards",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3385,7 +3205,7 @@
     "id": "2.-fintech-spending-chart",
     "name": "Spending chart",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3404,7 +3224,7 @@
     "id": "2.-fintech-portfolio-chart",
     "name": "Portfolio chart",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3423,7 +3243,7 @@
     "id": "2.-fintech-trading-view",
     "name": "Trading view",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3461,7 +3281,7 @@
     "id": "2.-fintech-risk-indicators",
     "name": "Risk indicators",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3480,7 +3300,7 @@
     "id": "2.-fintech-kyc-flow",
     "name": "KYC flow",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3499,7 +3319,7 @@
     "id": "2.-fintech-identity-verification",
     "name": "Identity verification",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3540,7 +3360,7 @@
     "id": "2.-fintech-payment-success-flow",
     "name": "Payment success flow",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3559,7 +3379,7 @@
     "id": "2.-fintech-transfer-wizard",
     "name": "Transfer wizard",
     "category": "2. Fintech",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3578,7 +3398,7 @@
     "id": "2.-healthcare-appointment-scheduler",
     "name": "Appointment scheduler",
     "category": "2. Healthcare",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.list",
     "states": [
       "default",
       "hover",
@@ -3597,7 +3417,7 @@
     "id": "2.-healthcare-medical-records-viewer",
     "name": "Medical records viewer",
     "category": "2. Healthcare",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.list",
     "states": [
       "default",
       "hover",
@@ -3616,7 +3436,7 @@
     "id": "2.-healthcare-prescription-panel",
     "name": "Prescription panel",
     "category": "2. Healthcare",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.list",
     "states": [
       "default",
       "hover",
@@ -3635,7 +3455,7 @@
     "id": "2.-healthcare-symptoms-intake",
     "name": "Symptoms intake",
     "category": "2. Healthcare",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.list",
     "states": [
       "default",
       "hover",
@@ -3654,7 +3474,7 @@
     "id": "2.-healthcare-hipaa-consent-forms",
     "name": "HIPAA consent forms",
     "category": "2. Healthcare",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.list",
     "states": [
       "default",
       "hover",
@@ -3692,7 +3512,7 @@
     "id": "2.-healthcare-insurance-verification",
     "name": "Insurance verification",
     "category": "2. Healthcare",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.list",
     "states": [
       "default",
       "hover",
@@ -3806,7 +3626,7 @@
     "id": "2.-developer-tools-api-explorer",
     "name": "API explorer",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -3825,7 +3645,7 @@
     "id": "2.-developer-tools-code-editor",
     "name": "Code editor",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -3844,7 +3664,7 @@
     "id": "2.-developer-tools-terminal",
     "name": "Terminal",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -3863,7 +3683,7 @@
     "id": "2.-developer-tools-diff-viewer",
     "name": "Diff viewer",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -3901,7 +3721,7 @@
     "id": "2.-developer-tools-ci-cd-pipeline-viewer",
     "name": "CI/CD pipeline viewer",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -3920,7 +3740,7 @@
     "id": "2.-developer-tools-environment-selector",
     "name": "Environment selector",
     "category": "2. Developer Tools",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.code_block",
     "states": [
       "default",
       "hover",
@@ -3958,7 +3778,7 @@
     "id": "2.-analytics---bi-data-visualization",
     "name": "Data visualization",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -3977,7 +3797,7 @@
     "id": "2.-analytics---bi-drill-down-charts",
     "name": "Drill-down charts",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -4015,7 +3835,7 @@
     "id": "2.-analytics---bi-segmentation-builder",
     "name": "Segmentation builder",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -4034,7 +3854,7 @@
     "id": "2.-analytics---bi-funnel-charts",
     "name": "Funnel charts",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -4053,7 +3873,7 @@
     "id": "2.-analytics---bi-cohort-analysis",
     "name": "Cohort analysis",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -4072,7 +3892,7 @@
     "id": "2.-analytics---bi-report-builder",
     "name": "Report builder",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -4091,7 +3911,7 @@
     "id": "2.-analytics---bi-dashboard-widgets",
     "name": "Dashboard widgets",
     "category": "2. Analytics / BI",
-    "blueprint": "molecules.card",
+    "blueprint": "molecules.statistic",
     "states": [
       "default",
       "hover",
@@ -4338,7 +4158,7 @@
     "id": "3.-web-specific-multi-select-with-keyboard-support",
     "name": "Multi-select with keyboard support",
     "category": "3. WEB-SPECIFIC",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.card",
     "states": [
       "default",
       "hover",
@@ -4414,18 +4234,13 @@
     "id": "3.-marketing-website-pricing-tables",
     "name": "Pricing tables",
     "category": "3. Marketing Website",
-    "blueprint": "molecules.table",
+    "blueprint": "molecules.saas_billing_plan",
     "states": [
-      "default",
-      "hover",
-      "focus",
-      "active",
-      "disabled",
-      "error",
-      "success"
+      "default"
     ],
     "types": [
-      "default"
+      "default",
+      "primary"
     ],
     "profile": "molecule"
   },
@@ -4667,7 +4482,7 @@
     "id": "4.-mobile-specific-native-picker-wheel",
     "name": "Native picker wheel",
     "category": "4. MOBILE-SPECIFIC",
-    "blueprint": "molecules.form_field",
+    "blueprint": "molecules.card",
     "states": [
       "default",
       "hover",

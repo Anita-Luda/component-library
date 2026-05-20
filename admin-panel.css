@@ -188,20 +188,25 @@ ul {
 }
 
 .variants-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   align-items: start;
 }
 
-/* For full-width components like organisms */
+/* For full-width components like organisms and templates */
 #content.profile-organism .variants-grid,
 #content.profile-template .variants-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
 }
 
-#content.profile-atom .variants-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+#content.profile-organism .variant-box,
+#content.profile-template .variant-box {
+    width: 100%;
+    max-width: 1200px;
 }
 
 .variant-box {
@@ -214,8 +219,15 @@ ul {
   flex-direction: column;
   gap: 20px;
   position: relative;
-  overflow: visible; /* Allow drop-downs/menus to be visible */
-  min-height: 100px;
+  /* Natural growth based on content */
+  width: fit-content;
+  min-width: 200px;
+  max-width: 100%;
+}
+
+/* For small atoms, we can use a grid or flex */
+#content.profile-atom .variant-box {
+    min-width: 150px;
 }
 
 .code-trigger {

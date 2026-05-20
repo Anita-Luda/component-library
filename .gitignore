@@ -1,0 +1,4 @@
+node_modules/
+*.log
+final_*.png
+verify_final.js
